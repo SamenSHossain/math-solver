@@ -1,0 +1,7 @@
+# Prove2Me credentials (API key + access token) — never commit
+credentials.json
+# Lean build artifacts and the Mathlib checkout
+.lake/
+# Python
+__pycache__/
+*.pyc
