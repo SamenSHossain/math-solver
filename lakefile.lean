@@ -12,3 +12,7 @@ lean_lib «Definitions» where
 lean_lib «Theorems» where
 @[default_target]
 lean_lib «Solutions» where
+
+/-- Reusable, locally verified lemma library (not submitted directly). -/
+lean_lib «Prep» where
+  globs := #[.submodules `Prep]

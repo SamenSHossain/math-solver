@@ -14,6 +14,7 @@ Usage:
   python tools/p2m.py verify <theorem_id> Solutions/Sol_x.lean [--disprove]
                              [--explanation-file FILE] [--wait]
   python tools/p2m.py poll <submission_id> [--wait]
+  python tools/p2m.py scout <mission_id> [--mirror] [--out DIR]
 
 Security: the key and token are only ever sent to https://prove2.me.
 """
@@ -128,6 +129,60 @@ def mirror_theorem(c, theorem_id):
     return t, path
 
 
+def _safe(c, path):
+    try:
+        return c.get(path)
+    except Exception as e:  # keep scouting even if one endpoint fails
+        return {"_error": str(e)}
+
+
+def scout_mission(c, mission_id, mirror=False, out=None):
+    """One-shot reconnaissance of a mission: detail, milestones (+history), frontier,
+    decompositions of the root, discussion, and submissions of every open leaf.
+    Optionally mirrors every frontier theorem into Theorems/ and writes a JSON dump."""
+    missions = _safe(c, "/missions?limit=100&offset=0")
+    mission = None
+    if isinstance(missions, dict):
+        total = missions.get("total", 0)
+        found = [m for m in missions.get("missions", []) if m.get("id") == mission_id]
+        offset = 100
+        while not found and offset < total:
+            page = _safe(c, f"/missions?limit=100&offset={offset}")
+            found = [m for m in page.get("missions", []) if m.get("id") == mission_id]
+            offset += 100
+        mission = found[0] if found else None
+    report = {"mission": mission}
+    root = (mission or {}).get("main_theorem", {}).get("theorem_id")
+    report["milestones"] = _safe(c, f"/missions/{mission_id}/milestones?limit=100")
+    for m in (report["milestones"] or {}).get("milestones", []) or []:
+        m["history"] = _safe(c, f"/milestones/{m['id']}/history?limit=20")
+        if m.get("theorem"):
+            m["theorem_detail"] = _safe(c, f"/theorems/{m['theorem']['id']}")
+    report["comments"] = _safe(c, f"/missions/{mission_id}/comments?limit=100")
+    if root:
+        report["root"] = _safe(c, f"/theorems/{root}")
+        report["open_leaves"] = _safe(c, f"/theorems/{root}/open-leaves?limit=100")
+        report["decompositions"] = _safe(c, f"/theorems/{root}/decompositions")
+        report["graph"] = _safe(c, f"/theorems/{root}/graph")
+        leaves = (report["open_leaves"] or {}).get("open_leaves", []) or []
+        report["leaves"] = []
+        for leaf in leaves:
+            tid = leaf["theorem_id"]
+            d = _safe(c, f"/theorems/{tid}")
+            d["submissions"] = _safe(c, f"/theorems/{tid}/submissions")
+            d["mentions"] = _safe(c, f"/theorems/{tid}/mentions")
+            d["decompositions"] = _safe(c, f"/theorems/{tid}/decompositions")
+            report["leaves"].append(d)
+            if mirror and "theorem_name" in d:
+                path = ROOT / "Theorems" / f"Thm_{slug(d['theorem_name'])}.lean"
+                path.write_text((d.get("preamble") or "").rstrip() + "\n\n" + d["formal_statement"].rstrip() + "\n")
+                print(f"mirrored {path.relative_to(ROOT)}", file=sys.stderr)
+    if out:
+        Path(out).write_text(json.dumps(report, indent=2, ensure_ascii=False))
+        print(f"wrote {out}", file=sys.stderr)
+    return report
+
+
 def main(argv=None):
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = p.add_subparsers(dest="cmd", required=True)
@@ -140,6 +195,8 @@ def main(argv=None):
     v.add_argument("--disprove", action="store_true"); v.add_argument("--explanation-file")
     v.add_argument("--wait", action="store_true")
     pl = sub.add_parser("poll"); pl.add_argument("submission_id"); pl.add_argument("--wait", action="store_true")
+    sc = sub.add_parser("scout"); sc.add_argument("mission_id"); sc.add_argument("--mirror", action="store_true")
+    sc.add_argument("--out")
     a = p.parse_args(argv)
 
     c = Client()
@@ -163,6 +220,8 @@ def main(argv=None):
             out = c.poll(out["submission_id"], wait=True)
     elif a.cmd == "poll":
         out = c.poll(a.submission_id, wait=a.wait)
+    elif a.cmd == "scout":
+        out = scout_mission(c, a.mission_id, mirror=a.mirror, out=a.out)
     print(json.dumps(out, indent=2, ensure_ascii=False))
 
 
