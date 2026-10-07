@@ -30,3 +30,14 @@ The decomposition follows the paper's three-sentence proof and the mission's thr
 2. `elite_biasedFitness_lt_one` — direct proof. An individual among the `nbElit` best has `BF(J) ≤ (nbElit−1)/(n−1) + 1 − nbElit/(n−1) = 1 − 1/(n−1) < 1`.
 3. `removalStep_keeps_elite` — reduction importing 1 and 2. One removal step spares `J ∉ X`: if `X = ∅` the removed `I` satisfies `BF(I) ≥ BF(W) ≥ 1 > BF(J)`; if `X ≠ ∅` then `I ∈ X` while `J ∉ X`.
 4. `elite_not_removed` (the target) — reduction importing 3. Induction on the run: each step keeps `J`, and the hypotheses (`J ∉ X`, `J` elite, `nbElit + remaining ≤ |P|`) are inherited by the shrunken population.
+
+## Server verdicts (2026-10-07)
+
+| Theorem | Submission | Verdict | Theorem status |
+|---------|------------|---------|----------------|
+| `VidalHGS.Elitism.worst_biasedFitness_ge_one` | `79420795-9676-4b66-af12-a55ad31dbae4` | ACCEPTED | Proved |
+| `VidalHGS.Elitism.elite_biasedFitness_lt_one` | `16076ea0-9f5a-46f7-939e-30051f5c28ee` | ACCEPTED | Proved |
+| `VidalHGS.Elitism.removalStep_keeps_elite` | `9863b4c9-e3cd-491f-96ec-f3be6841b683` | ACCEPTED | Proved |
+| `VidalHGS.Elitism.elite_not_removed` | `1fe0e4df-f3f1-4f2d-9fad-91035b900358` | ACCEPTED | Proved |
+
+All three mission milestones are marked completed.
