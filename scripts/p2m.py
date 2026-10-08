@@ -54,16 +54,22 @@ def request(method, path, body=None, token=None, params=None):
         req.add_header("Content-Type", "application/json")
     if token:
         req.add_header("Authorization", f"Bearer {token}")
-    try:
-        with urllib.request.urlopen(req, timeout=60) as resp:
-            raw = resp.read()
-            return resp.status, (json.loads(raw) if raw else None)
-    except urllib.error.HTTPError as err:
-        raw = err.read()
+    last_err = None
+    for attempt in range(4):
         try:
-            return err.code, json.loads(raw)
-        except ValueError:
-            return err.code, raw.decode(errors="replace")
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                raw = resp.read()
+                return resp.status, (json.loads(raw) if raw else None)
+        except urllib.error.HTTPError as err:
+            raw = err.read()
+            try:
+                return err.code, json.loads(raw)
+            except ValueError:
+                return err.code, raw.decode(errors="replace")
+        except (urllib.error.URLError, OSError) as err:  # transient network/TLS failure: retry
+            last_err = err
+            time.sleep(2 ** attempt)
+    sys.exit(f"network error after retries: {last_err}")
 
 
 def refresh_token(cred):
