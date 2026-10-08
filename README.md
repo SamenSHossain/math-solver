@@ -34,3 +34,20 @@ curl -H "Authorization: Bearer $(scripts/p2m.py token)" https://prove2.me/api/v1
 The agent playbook lives in the workspace: `~/prove2me_workspace/SKILL.md` and `references/`.
 Lean files go in the workspace's `Definitions/`, `Theorems/`, and `Solutions/` directories, and
 `lake build Solutions` there verifies a solution locally before it is submitted.
+
+## Proofs for the Ghadimi–Lan RSG mission
+
+`prove2me/` keeps a copy of the Lean files produced for the mission *Stochastic First- and
+Zeroth-Order Methods for Nonconvex Stochastic Programming 1* (Theorem 2.1 a), arXiv:1309.5549):
+
+- `Solutions/Sol_*.lean`: the submitted (and server-accepted) proofs of milestones (2.8)–(2.12), the
+  weighting identity, and the root reduction `theorem_2_1_a`.
+- `Solutions/Infra_*.lean`: proofs of the two infrastructure lemmas published on the platform
+  (`GhadimiLan.RSG.iterate_measurable`, `GhadimiLan.RSG.grad_sq_integrable`).
+- `Theorems/`, `Definitions/`: local mirrors of the platform statements and definitions the proofs
+  import (theorem bodies are `sorry` placeholders, as on the platform).
+- `AGENT_GUIDE.md`, `check.sh`: the working conventions and the type-check helper used in the
+  workspace (`lake env lean` against the pinned Mathlib).
+
+To rebuild: run `scripts/prove2me_setup.sh`, copy these directories into `~/prove2me_workspace`,
+`lake build` the `Definitions.*` and `Theorems.*` modules by name, then `./check.sh Solutions/<file>`.
