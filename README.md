@@ -63,3 +63,10 @@ Self-Dual Connections Minimize Yang-Mills* (Proposition 3.1.1, box version):
   `curvature_isAntisymm_isSuNValued` and `boundaryChernSimons_eq_of_eq_on_boundary`.
 - `Theorems/`, `Definitions/`: local mirrors of the platform statements and definitions.
 - `AGENT_GUIDE_UHL.md`: the conventions used by the proof agents.
+
+## Proofs for the Onsager reciprocal relations mission
+
+`prove2me/onsager/` holds the Lean files for the mission *Onsager Reciprocal Relations: Symmetry of
+Kinetic Coefficients*: the root reduction `onsager_reciprocal_relations`, all five milestones, and the
+published lemma `integrable_norm_pow_mul_fluctuationWeight` (finite polynomial moments of the Gaussian
+fluctuation weight), with local statement mirrors and the agent guide.
