@@ -51,3 +51,15 @@ Zeroth-Order Methods for Nonconvex Stochastic Programming 1* (Theorem 2.1 a), ar
 
 To rebuild: run `scripts/prove2me_setup.sh`, copy these directories into `~/prove2me_workspace`,
 `lake build` the `Definitions.*` and `Theorems.*` modules by name, then `./check.sh Solutions/<file>`.
+
+## Proofs for the Uhlenbeck gauge-theory mission
+
+`prove2me/uhlenbeck/` holds the Lean files for the mission *Uhlenbeck, Equations of Gauge Theory I:
+Self-Dual Connections Minimize Yang-Mills* (Proposition 3.1.1, box version):
+
+- `Solutions/`: server-accepted proofs of the root theorem `selfDual_absolute_minimizer` (a
+  reduction), the two milestones `yangMills_ge_boundaryChernSimons` and
+  `yangMills_eq_boundaryChernSimons_iff`, and the two published lemmas
+  `curvature_isAntisymm_isSuNValued` and `boundaryChernSimons_eq_of_eq_on_boundary`.
+- `Theorems/`, `Definitions/`: local mirrors of the platform statements and definitions.
+- `AGENT_GUIDE_UHL.md`: the conventions used by the proof agents.
