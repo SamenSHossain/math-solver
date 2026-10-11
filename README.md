@@ -104,3 +104,12 @@ inequality and permutation moments* (github.com/openai/math, Apache-2.0). The Le
 independently from a blueprint of that argument (`AGENT_GUIDE_FR.md`); the upstream repository has its
 own formalization. `critical_exponent.py` numerically locates the critical exponent for the uniform law,
 about 1.7448, where a permutation matrix becomes extremal.
+
+## Disproof of the robust-VaR comonotonic risk-sharing theorem (as formalized)
+
+`prove2me/robustvar/` holds an accepted disproof of `TailRiskSharing.RobustVaR.theorem6_robust_var_comonotonic`.
+The formal definition of comonotonic allocations only asks each component to be comonotone with the
+total loss X. For constant X this is vacuous, so the allocation (Z, −Z) is admissible. With two agents,
+radius 1, level 3/4 and X = 0, it gives an inf-convolution of at most 0, while the claimed value is at
+least 4/3. The paper's Theorem 6 uses pairwise comonotonic allocations and is not affected; the defect is
+in the formal definition. The `Def_*.lean` files are the platform definitions the disproof builds on.
