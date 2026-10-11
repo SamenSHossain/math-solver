@@ -77,3 +77,20 @@ fluctuation weight), with local statement mirrors and the agent guide.
 0.00012612978530233 (Jain round eight)*: Jain round seven ⇐ round eight, community PR #62 ⇐ round
 seven, and Jain round six ⇐ PR #62, each by monotonicity of `KappaBound` in κ. Together with the
 existing community links they connect every milestone of the mission to its root.
+
+## No-hair mission: Kerr–Newman solves Einstein–Maxwell
+
+`prove2me/nohair/` holds the work on milestone `NoHair.kerrNewman_einsteinMaxwell` of the mission
+*No-Hair Conjecture: Uniqueness of Stationary Kerr–Newman Black Holes*. The milestone is reduced to its
+three conjuncts (`Sol_NoHair_kerrNewman_einsteinMaxwell.lean`, accepted as a sketch). Proved children:
+
+- `kerrNewman_field_closed`: the Bianchi identity dF = 0, from smoothness of the potential and
+  symmetry of second derivatives.
+- `kerrNewman_maxwell`: the curved Maxwell equation, reduced to flat Maxwell using det g = −1, the
+  explicit inverse metric, and alignment of the null vector k with F.
+- `kerrNewman_flat_maxwell`: flat-space Maxwell for the Kerr–Newman potential, via ΔH = 0 and
+  curl A = ∇ψ for the real and imaginary parts of Appell's potential.
+
+The Einstein-equation child `kerrNewman_einstein` is still open. `ein_num.py` and `mx_num.py` are the
+numerical sympy checks of the Einstein and Maxwell equations at a sample point. The `Thm_*.lean` files
+are local statement mirrors.
