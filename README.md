@@ -113,3 +113,12 @@ total loss X. For constant X this is vacuous, so the allocation (Z, −Z) is adm
 radius 1, level 3/4 and X = 0, it gives an inf-convolution of at most 0, while the claimed value is at
 least 4/3. The paper's Theorem 6 uses pairwise comonotonic allocations and is not affected; the defect is
 in the formal definition. The `Def_*.lean` files are the platform definitions the disproof builds on.
+
+## C^r stability conjecture (Palis–Smale) mission
+
+`prove2me/stability/` holds the work on the mission *C^r Stability Conjecture (Palis–Smale)*. Two new
+lemmas are proved: structural stability implies Ω-stability (a conjugacy maps nonwandering sets onto
+nonwandering sets), and when Ω(f) is hyperbolic every periodic point is hyperbolic. Accepted sketches
+reduce Mañé's C¹ theorem to Palis's C¹ Ω-stability theorem, the Franks and periodic-density milestones to
+Mañé's theorem, and the goal to Mañé's theorem (r = 1) plus a new child for r ≥ 2. The mission frontier is
+now exactly Palis's theorem and the open case r ≥ 2.
