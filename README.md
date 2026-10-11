@@ -122,3 +122,12 @@ nonwandering sets), and when Ω(f) is hyperbolic every periodic point is hyperbo
 reduce Mañé's C¹ theorem to Palis's C¹ Ω-stability theorem, the Franks and periodic-density milestones to
 Mañé's theorem, and the goal to Mañé's theorem (r = 1) plus a new child for r ≥ 2. The mission frontier is
 now exactly Palis's theorem and the open case r ≥ 2.
+
+## Rural hospitals theorem mission
+
+`prove2me/rural/` holds a complete Lean proof of the rural hospitals theorem (Roth 1984/1986;
+McVitie–Wilson 1970) for many-to-one markets with strict preferences, and its four milestones. The proof
+is a direct counting argument, with no deferred acceptance. Doctors who strictly prefer one stable
+matching sit at hospitals that are full in the other, and counting the doctors at those hospitals shows
+nothing changes. Every other hospital keeps exactly the same doctors. The milestones follow from the
+main theorem; the one-to-one cases do not need their capacity-one hypothesis.
