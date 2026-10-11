@@ -70,3 +70,10 @@ Self-Dual Connections Minimize Yang-Mills* (Proposition 3.1.1, box version):
 Kinetic Coefficients*: the root reduction `onsager_reciprocal_relations`, all five milestones, and the
 published lemma `integrable_norm_pow_mul_fluctuationWeight` (finite polynomial moments of the Gaussian
 fluctuation weight), with local statement mirrors and the agent guide.
+
+## Integer multiplication campaign links
+
+`prove2me/intmul/` holds three reductions for the mission *Integer multiplication: κ =
+0.00012612978530233 (Jain round eight)*: Jain round seven ⇐ round eight, community PR #62 ⇐ round
+seven, and Jain round six ⇐ PR #62, each by monotonicity of `KappaBound` in κ. Together with the
+existing community links they connect every milestone of the mission to its root.
