@@ -94,3 +94,13 @@ three conjuncts (`Sol_NoHair_kerrNewman_einsteinMaxwell.lean`, accepted as a ske
 The Einstein-equation child `kerrNewman_einstein` is still open. `ein_num.py` and `mx_num.py` are the
 numerical sympy checks of the Einstein and Maxwell equations at a sample point. The `Thm_*.lean` files
 are local statement mirrors.
+
+## Robust four-row permanent inequality
+
+`prove2me/fourrow/` holds a proof of `OAI.FourRow.robust_permanent`, accepted on Prove2Me. Laws on S₄
+within total variation 1/25000 of uniform, with exactly uniform marginals, satisfy the permanent bound
+with exponent p₀ = 2 − 1/2000. The argument follows OpenAI's preprint *A strict four-row permanent
+inequality and permutation moments* (github.com/openai/math, Apache-2.0). The Lean proof was written
+independently from a blueprint of that argument (`AGENT_GUIDE_FR.md`); the upstream repository has its
+own formalization. `critical_exponent.py` numerically locates the critical exponent for the uniform law,
+about 1.7448, where a permutation matrix becomes extremal.
