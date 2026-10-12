@@ -159,3 +159,12 @@ path-connected. The goal is reduced (accepted sketch) to its classical isotopy f
 jointly smooth isotopies through diffeomorphisms of Dⁿ rel boundary are continuous paths in the platform's
 C^∞ topology. The same lemma and the straight-line isotopy prove `diffDisk_one_pathConnected`, that
 Diff(D¹ rel ∂) is path-connected.
+
+## Exact quantum factoring over a fixed finite gate set (OpenAI comparator challenge)
+
+`prove2me/quantum_factoring/` holds an accepted sketch of `OAI.ExactQuantumFactoring.exact_quantum_factoring`. Exact
+success, a correct-output probability of exactly 1, is reduced to zero amplitude on wrong outputs:
+- `zero_amplitude_core` is still open; it is the construction of OpenAI's manuscript;
+- `outputState_normSq_sum` is proved independently: every circuit over the fixed 20-gate alphabet is unitary and
+  preserves total probability.
+OpenAI's repository has a complete formal proof, about 54,000 lines in 546 modules; it was not used.
