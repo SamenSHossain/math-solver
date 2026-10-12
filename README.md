@@ -131,3 +131,16 @@ is a direct counting argument, with no deferred acceptance. Doctors who strictly
 matching sit at hospitals that are full in the other, and counting the doctors at those hospitals shows
 nothing changes. Every other hospital keeps exactly the same doctors. The milestones follow from the
 main theorem; the one-to-one cases do not need their capacity-one hypothesis.
+
+## Computation under rapidly vanishing Navier–Stokes forcing (OpenAI comparator challenge)
+
+`prove2me/alternating_ns/` holds a proof sketch of `OAI.AlternatingNS.alternating` and full proofs of five
+of its six children. The theorem reduces to a core construction (`velocity_construction`, the
+research content of OpenAI's manuscript, still open on the platform) and five general results, all
+proved independently in Lean:
+- `trajectory_flow`: particle trajectories exist globally and are unique (Picard–Lindelöf and Gronwall);
+- `residual_regular`: the force inherits smoothness, compact support and rapid decay;
+- `zero_pressure_solution`: zero-pressure Navier–Stokes and the energy class;
+- `energy_uniqueness`: weak–strong uniqueness by the energy method;
+- `force_compiler`: a computable compiler from velocity programs to force programs.
+OpenAI's repository contains its own complete formal proof; it was not used here.
