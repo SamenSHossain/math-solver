@@ -238,3 +238,14 @@ Solutions for the later milestones and the goal import the earlier milestone the
   `pEqualsNP_of_exists_absoluteAdditiveAlgorithm` and `exists_optimal_algorithm_of_pEqualsNP`; the iff in clause 3 is derived in
   the sketch. Upstream proves them with about 146,000 lines (PCP theorem, Cook–Levin), too large to port under the
   platform's limits.
+
+## Directional transience implies ballisticity (OpenAI comparator challenge)
+
+`prove2me/directional_transience/` holds an accepted reduction (SKETCH_ACCEPTED) of the supporting theorem
+`positive_probability_transience_velocity_hemisphere` (d ≥ 3) to two open platform theorems:
+- `ballistic_of_almost_sure_transience`: the main theorem for a unit direction, in the VelocityHemisphere vocabulary;
+- `uniformElliptic_directional_zero_one`: the d ≥ 3 zero-one law.
+
+The reduction itself proves the measurability, the uniqueness of the velocity, escape from a positive velocity and the
+hemisphere characterization. The goal and both children are research-level, and upstream proves them with about 98,000
+lines, too large to port under the platform's limits.
