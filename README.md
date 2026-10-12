@@ -162,17 +162,17 @@ Diff(D¹ rel ∂) is path-connected.
 
 ## Exact quantum factoring over a fixed finite gate set (OpenAI comparator challenge)
 
-`prove2me/quantum_factoring/` holds the proof of `OAI.ExactQuantumFactoring.exact_quantum_factoring`. The accepted
-sketch reduces exact success, a correct-output probability of exactly 1, to zero amplitude on wrong outputs:
+`prove2me/quantum_factoring/` holds an accepted sketch of `OAI.ExactQuantumFactoring.exact_quantum_factoring`. Exact
+success, a correct-output probability of exactly 1, is reduced to zero amplitude on wrong outputs:
 - `outputState_normSq_sum` is proved independently: every circuit over the fixed 20-gate alphabet is unitary and
   preserves total probability;
-- `zero_amplitude_core` is the construction of OpenAI's manuscript. Its proof
-  (`Sol_OAI_ExactQuantumFactoring_zero_amplitude_core.lean`) uses a port of OpenAI's own formalization, published as
-  38 platform definitions (`port/Def_OAI_QuantumFactoring_Part01..38.lean`, about 54,000 lines from 544 modules, split
-  only to fit the 300 s verification limit). The source is openai/math, commit adc7f12,
-  lean/OAI/Computability/QuantumFactoring, (c) OpenAI, Apache License 2.0. The ported portions keep that license, and
-  each part header lists the modifications. Modules are concatenated in order, the platform definition
-  `ExactQuantumFactoring` (identical to upstream Basic.lean) is used, and Main.lean is omitted. There are also small
-  compatibility edits for Lean 4.33.1 and Mathlib 0df444a: renamed lemmas, `↓reduceIte` for `ite_true`, and
-  step-count goals closed after `convert`. The final step derives zero amplitude from probability one and total
-  probability one.
+- `zero_amplitude_core`, the construction of OpenAI's manuscript, is still open on the platform. A proof
+  (`Sol_OAI_ExactQuantumFactoring_zero_amplitude_core.lean`) checks locally on top of a port of OpenAI's own
+  formalization: 38 definition parts (`port/Def_OAI_QuantumFactoring_Part01..38.lean`), about 54,000 lines from 544
+  modules. The source is openai/math, commit adc7f12, lean/OAI/Computability/QuantumFactoring, (c) OpenAI, Apache
+  License 2.0. The ported portions keep that license, and each part header lists the modifications: modules
+  concatenated in order, the platform definition `ExactQuantumFactoring` (identical to upstream Basic.lean) used,
+  Main.lean omitted, and small compatibility edits for Lean 4.33.1 and Mathlib 0df444a.
+- Only parts 1–17 are published. Server jobs recompile the uncached parts of the import chain, so from part 18 on
+  even a probe that only imports the chain hits the 300 s limit. Finishing needs the platform's
+  definitions-plus-theorem-nodes layout (references/upload_full_project.md).
