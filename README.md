@@ -227,7 +227,7 @@ Solutions for the later milestones and the goal import the earlier milestone the
 
 ## Additive hardness and unbounded configuration gaps in bin packing (OpenAI comparator challenge)
 
-`prove2me/bin_packing/` holds a proof sketch of `OAI.BinPackingGap.main_results`.
+`prove2me/bin_packing/` holds an accepted proof sketch (SKETCH_ACCEPTED) of `OAI.BinPackingGap.main_results`.
 - **Clause 1 (proved):** the structural additive gap. For every c there is an instance with 5B items in (1/6, 1), both
   configuration LPs equal to B, and OPT > B + c. It is a port of OpenAI's own formalization, published as 10 platform
   definitions (`port/Def_OAI_BinPackingGap_Part01..10.lean`, 43 modules, about 15,300 lines). The source is openai/math,
