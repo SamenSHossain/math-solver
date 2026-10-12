@@ -176,3 +176,13 @@ success, a correct-output probability of exactly 1, is reduced to zero amplitude
 - Only parts 1–17 are published. Server jobs recompile the uncached parts of the import chain, so from part 18 on
   even a probe that only imports the chain hits the 300 s limit. Finishing needs the platform's
   definitions-plus-theorem-nodes layout (references/upload_full_project.md).
+
+## F_d versus F_{d+1}: fixed-depth separation of bounded-depth Frege
+
+`prove2me/frege/` holds the proofs of the mission's first two milestones, both Proved:
+- `depth_frege_sound`: every formula with an $F_d$-proof is a tautology. The proof uses De Morgan for `dual` and shows each
+  rule preserves validity of sequents, by strong induction over proof lines.
+- `depth_frege_complete`: every tautology of depth ≤ d has an $F_d$-proof. The proof is a cut-free proof search by
+  strong induction on total sequent size; only subformulas occur, so all lines have depth ≤ d.
+The remaining milestones (the exponential PHP lower bound and Krajíček's depth-dependent separation) and the goal are
+still open.
