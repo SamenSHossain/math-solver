@@ -203,3 +203,14 @@ that library:
 - group strategy-proofness and truthfulness for men, via the Gale–Sotomayor blocking lemma, proved from the round history;
 - the 3×3 examples, including two manipulation instances found with `gs_sim.py`;
 - the distributive lattice of stable matchings (Conway/Knuth).
+
+## Secretary Problem: the 37% Rule
+
+`prove2me/secretary/` holds Lean proofs of the mission goal `ClassicalSecretary.tendsto_optimalProb` (V_n → 1/e) and of all
+eight milestones. The files are as follows:
+- `SecCore_library.lean` encodes interview orders by their relative ranks (the Lehmer code), a bijection onto ∏_j {0..j}. In
+  that form the observed ranks are independent, so it derives exact counting identities for arbitrary stopping rules, the
+  cutoff-rule formula, and optimality of cutoff rules by backward induction.
+- `SecAnalysis_library.lean` proves harmonic-sum bounds g((r−1)/n) ≤ P_n(r) ≤ g((r−1)/n) + 1/n, where g(x) = −x log x, and
+  derives the limit statements, V_n ≥ 1/e, and r_n/n → 1/e.
+Solutions for the later milestones and the goal import the earlier milestone theorems as platform dependencies.
