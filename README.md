@@ -150,3 +150,12 @@ the source is openai/math,
 commit adc7f12, lean/OAI/MathematicalPhysics/AlternatingFlow, (c) OpenAI, Apache License 2.0. The ported
 portions keep that license, and each part header lists the modifications: modules concatenated in order,
 platform definitions used, force/uniqueness/assembly modules omitted, and small compatibility fixes.
+
+## Smale's question: the homotopy type of Diff(S⁴)
+
+`prove2me/smale_s4/` holds the work on the mission whose goal is the open question whether Diff(D⁴) is
+path-connected. The goal is reduced (accepted sketch) to its classical isotopy form,
+`diffDisk_four_smoothlyIsotopic_id` (still open), and to the proved lemma `continuous_of_smoothIsotopy`:
+jointly smooth isotopies through diffeomorphisms of Dⁿ rel boundary are continuous paths in the platform's
+C^∞ topology. The same lemma and the straight-line isotopy prove `diffDisk_one_pathConnected`, that
+Diff(D¹ rel ∂) is path-connected.
