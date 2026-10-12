@@ -1,0 +1,15 @@
+{
+ "Packing.PackingScalar": {
+  "note": "two `norm_num` calls whose remaining enum-constructor `if`s are no longer decided by `simp` are finished with `decide`",
+  "edits": [
+   [
+    "      primaryBound, Fin.sum_univ_succ]\n",
+    "      primaryBound, Fin.sum_univ_succ] <;> decide\n"
+   ],
+   [
+    "    norm_num [Role.sum_univ, patternSubclass, primaryCoeff, subclassIndicator,\n      Subclass.role]\n",
+    "    norm_num [Role.sum_univ, patternSubclass, primaryCoeff, subclassIndicator,\n      Subclass.role] <;> decide\n"
+   ]
+  ]
+ }
+}

@@ -224,3 +224,17 @@ Solutions for the later milestones and the goal import the earlier milestone the
   per ordering; `ag_lp_check.py` checks all 24 orderings by LP). It is combined with measurability of meeting times for continuous
   random paths.
 - **Still open:** the goal R = 17/4 and the Han–Du–Vera–Zuluaga milestones (reduction and numerical bounds).
+
+## Additive hardness and unbounded configuration gaps in bin packing (OpenAI comparator challenge)
+
+`prove2me/bin_packing/` holds a proof sketch of `OAI.BinPackingGap.main_results`.
+- **Clause 1 (proved):** the structural additive gap. For every c there is an instance with 5B items in (1/6, 1), both
+  configuration LPs equal to B, and OPT > B + c. It is a port of OpenAI's own formalization, published as 10 platform
+  definitions (`port/Def_OAI_BinPackingGap_Part01..10.lean`, 43 modules, about 15,300 lines). The source is openai/math,
+  commit adc7f12, lean/OAI/Computability/BinPacking, (c) OpenAI, Apache License 2.0. The ported portions keep that license, and
+  each part header lists the modifications: modules concatenated in order, the platform definition `BinPackingGap` used, one
+  `decide` fix, and a raised heartbeat limit on parts 6–10.
+- **Clauses 2–4:** reduced to three open platform theorems with upstream's statements. These are `packingGapNPHard`,
+  `pEqualsNP_of_exists_absoluteAdditiveAlgorithm` and `exists_optimal_algorithm_of_pEqualsNP`; the iff in clause 3 is derived in
+  the sketch. Upstream proves them with about 146,000 lines (PCP theorem, Cook–Levin), too large to port under the
+  platform's limits.
