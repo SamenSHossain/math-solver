@@ -249,3 +249,19 @@ Solutions for the later milestones and the goal import the earlier milestone the
 The reduction itself proves the measurability, the uniqueness of the velocity, escape from a positive velocity and the
 hemisphere characterization. The goal and both children are research-level, and upstream proves them with about 98,000
 lines, too large to port under the platform's limits.
+
+## Metric TSP vs the Held–Karp LP (4/3 conjecture)
+
+`prove2me/metric_tsp/` holds Lean proofs that typecheck locally against the platform definitions `MetricTSP_model`. Nothing in
+this section is published on Prove2Me yet. The three new statements (n ≤ 5, 2(1 − 1/n) and 3/2) would need to be published
+first, and the 4/3 sketch also needs its n ≥ 5 child published. All proofs use only propext, Classical.choice and Quot.sound,
+except the 4/3 sketch.
+- `tspOpt_le_hkValue_of_le_four` / `..._of_le_five`: OPT = LP for 3 ≤ n ≤ 5. For n = 3 every LP weight is forced to 1; for n = 4 a
+  feasible point is a convex combination of the three tours; n = 5 has its own argument.
+- `four_thirds_conjecture` (sketch): the cases n ≤ 4 are proved, and n ≥ 5 is left to the open child
+  `four_thirds_conjecture_of_five_le`, i.e. the conjecture itself.
+- `tspOpt_le_two_mul_hkValue`: OPT ≤ 2(1 − 1/n)·LP. The proof uses a Prim order, an insertion tour, and threshold counting
+  against z = (1 − 1/n)x.
+- `tspOpt_le_three_halves_hkValue`: Wolsey's bound OPT ≤ (3/2)·LP, 2,844 lines. It includes a proof of Edmonds' perfect
+  matching polytope theorem in cost form (strong induction with tight-odd-cut contraction), used for the T-join part of
+  Christofides' analysis.
