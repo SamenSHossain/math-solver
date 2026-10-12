@@ -186,3 +186,20 @@ success, a correct-output probability of exactly 1, is reduced to zero amplitude
   strong induction on total sequent size; only subformulas occur, so all lines have depth ≤ d.
 The remaining milestones (the exponential PHP lower bound and Krajíček's depth-dependent separation) and the goal are
 still open.
+
+## Stable Matching Problem (Wikipedia) I: The Gale–Shapley Algorithm
+
+`prove2me/gale_shapley/` holds proofs of the mission goal `StableMatching.galeShapley_stable` and of all ten milestones.
+`GSCore_library.lean` is the shared library of algorithm invariants:
+- fiancés are injective;
+- an engaged man's `next` is his fiancée's rank plus 1;
+- every woman a man has proposed to holds someone at least as good;
+- an unengaged man has a woman left to propose to.
+
+From these it proves termination within n² rounds (by a potential argument), the bijectivity of the outcome, and stability. On top of
+that library:
+- man-optimality: no man is rejected by a stable partner;
+- woman-pessimality;
+- group strategy-proofness and truthfulness for men, via the Gale–Sotomayor blocking lemma, proved from the round history;
+- the 3×3 examples, including two manipulation instances found with `gs_sim.py`;
+- the distributive lattice of stable matchings (Conway/Knuth).
