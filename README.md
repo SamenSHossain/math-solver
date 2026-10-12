@@ -214,3 +214,13 @@ eight milestones. The files are as follows:
 - `SecAnalysis_library.lean` proves harmonic-sum bounds g((r−1)/n) ≤ P_n(r) ≤ g((r−1)/n) + 1/n, where g(x) = −x log x, and
   derives the limit statements, V_n ≥ 1/e, and r_n/n → 1/e.
 Solutions for the later milestones and the goal import the earlier milestone theorems as platform dependencies.
+
+## Symmetric Rendezvous on the Line
+
+`prove2me/rendezvous/` holds the proof of milestone [AG1], the Alpern–Gal theorem that the asymmetric rendezvous value is 13/4
+(Proved). The proof has three parts:
+- **Upper bound:** the explicit paths 2 − |t − 2| and max(1 − |t − 1|, 2 − |t − 4|), whose four meeting times are 1, 2, 4 and 6.
+- **Lower bound:** a deterministic inequality, that the four orientation meeting times sum to at least 13 (one linear certificate
+  per ordering; `ag_lp_check.py` checks all 24 orderings by LP). It is combined with measurability of meeting times for continuous
+  random paths.
+- **Still open:** the goal R = 17/4 and the Han–Du–Vera–Zuluaga milestones (reduction and numerical bounds).
