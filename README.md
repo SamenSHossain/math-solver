@@ -143,8 +143,10 @@ proved independently in Lean:
 - `zero_pressure_solution`: zero-pressure Navier–Stokes and the energy class;
 - `energy_uniqueness`: weak–strong uniqueness by the energy method;
 - `force_compiler`: a computable compiler from velocity programs to force programs.
-The five general results were written independently. The core construction
-`Sol_OAI_AlternatingNS_velocity_construction.lean` is a port of OpenAI's own formalization: openai/math,
+The five general results were written independently. The core construction is a port of OpenAI's own
+formalization, published as eleven platform definitions (`port/Def_OAI_AlternatingFlow_Part01..11.lean`,
+split only to fit the 300 s verification limit) and used by `Sol_OAI_AlternatingNS_velocity_construction.lean`;
+the source is openai/math,
 commit adc7f12, lean/OAI/MathematicalPhysics/AlternatingFlow, (c) OpenAI, Apache License 2.0. The ported
-portions keep that license, and the file header lists the modifications: modules merged into one file,
+portions keep that license, and each part header lists the modifications: modules concatenated in order,
 platform definitions used, force/uniqueness/assembly modules omitted, and small compatibility fixes.
