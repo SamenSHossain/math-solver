@@ -1,0 +1,9 @@
+exists_goodVertex ff6c5937-1ed1-4aca-80a3-92bc82508eff
+lemma_2_2 077c2be5-5e89-4eb3-a64c-a5b23b9aa146
+lemma_2_3 eb820c8b-d090-4430-b09a-3e639f43f534
+prop_4_1 4b10b006-8361-4128-a8de-75ca976c22cf
+Pruning.lemma_3_1 ece226be-22b4-4711-bd31-f47df78d3606
+Pruning.lemma_3_2 87028f49-7fad-473b-b24b-f8cf4cf9934b
+Image(def) 3b47b0d2-b661-4801-9501-5bd740960c27
+Pruning.konig a50dea23-9d75-4c05-8d49-991005a52fac
+Pruning.matching_bound 977fabb7-0d11-4afd-9795-8d66ba5a6a5d
