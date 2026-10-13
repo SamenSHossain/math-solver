@@ -191,7 +191,9 @@ The following definitions are verbatim transcriptions of \cref{app:defs}; the Le
   \item Inverse metric (\lean{invMetric}): $g^{\mu\nu}(p) := (g(p))^{-1}_{\mu\nu}$, the matrix inverse.
   \item Christoffel symbols (\lean{christoffel}): $\Gamma^i_{jk} := \tfrac12\sum_l g^{il}\big(\partial_j g_{lk}+\partial_k g_{lj}-\partial_l g_{jk}\big)$.
   \item Riemann tensor (\lean{riemann}): $R^\rho{}_{\sigma\mu\nu} := \partial_\mu\Gamma^\rho_{\nu\sigma}-\partial_\nu\Gamma^\rho_{\mu\sigma}+\sum_\lambda\big(\Gamma^\rho_{\mu\lambda}\Gamma^\lambda_{\nu\sigma}-\Gamma^\rho_{\nu\lambda}\Gamma^\lambda_{\mu\sigma}\big)$.
-  \item Ricci tensor, scalar curvature and Einstein tensor (\lean{ricci}, \lean{scalarCurvature}, \lean{einsteinTensor}): $R_{\sigma\nu}:=\sum_\rho R^\rho{}_{\sigma\rho\nu}$, $R:=\sum_{\sigma,\nu}g^{\sigma\nu}R_{\sigma\nu}$ and $G_{\mu\nu}:=R_{\mu\nu}-\tfrac12 R\,g_{\mu\nu}$.
+  \item Ricci tensor, scalar curvature and Einstein tensor:
+  \[ R_{\sigma\nu}:=\sum_\rho R^\rho{}_{\sigma\rho\nu},\qquad R:=\sum_{\sigma,\nu}g^{\sigma\nu}R_{\sigma\nu},\qquad G_{\mu\nu}:=R_{\mu\nu}-\tfrac12 R\,g_{\mu\nu}. \]
+  In Lean these are \lean{ricci}, \lean{scalarCurvature} and \lean{einsteinTensor}.
   \item Electromagnetic source (\lean{raiseBoth}, \lean{maxwellSource}): $F^{\alpha\beta}:=g^{\alpha\mu}g^{\beta\nu}F_{\mu\nu}$ and
   \[
     S_{\mu\nu} := 2\Big(\sum_{\alpha,\beta}F_{\mu\alpha}\,g^{\alpha\beta}F_{\nu\beta}-\tfrac14\,g_{\mu\nu}\sum_{\alpha,\beta}F_{\alpha\beta}F^{\alpha\beta}\Big).
@@ -427,14 +429,14 @@ theorem trGam_0 (a m e R K1 K2 K3 W : ℝ) (hrel : K1 ^ 2 + K2 ^ 2 + K3 ^ 2 = 1)
       + 2 * R * K3^2 * W^3 * a^2 * m^2 - R * W^3 * e^4
       - K3^2 * W^3 * a^2 * m * e^2) * hrel + (0) * hW
 \end{lstlisting}
-(Exponent annotations \lean{(n : ℕ)} have been dropped for readability.)
+(The exponent annotations \lean{(n : ℕ)} of the source have been dropped for readability.)
 The tactic \lean{linear_combination}~\cite{mathlib_linear_combination} subtracts the given combination of the hypotheses from the goal.
 It then closes the resulting equation with \lean{ring1}, Mathlib's normalizer for commutative rings~\cite{mathlib_ring,gregoire2005}, which produces a proof term checked by the kernel.
 Nothing the computer algebra system computed is trusted.
 A wrong cofactor makes \lean{ring1} fail and cannot produce a false theorem.
 This is the ``skeptical'' combination of a proof assistant with an untrusted oracle~\cite{harrison1998}.
 Mathlib's \lean{polyrith} tactic~\cite{mathlib_polyrith} applied the same idea one goal at a time: it sent the goal to SageMath through a web service and printed the resulting \lean{linear_combination} call. In the Mathlib version we use it is disabled because that service was shut down, which is one reason we compute the cofactors offline.
-Our generators apply it offline and in bulk: the Einstein part contains \NumLCEinstein{} \lean{linear_combination} certificates.
+Our generators apply it offline and in bulk: the Einstein part contains \NumLCEinstein{} calls of \lean{linear_combination}.
 
 \subsection{Why the extra atom \texorpdfstring{$W$}{W}}
 
@@ -585,10 +587,10 @@ Write $F=d(Hk)$.
   \item By antisymmetry, $\ksharp{}^{\!\top}F=-\lambda\,k^{\top}$.
   Using $\eta k=\ksharp$, we get $\eta F\ksharp=\lambda\ksharp$, $\ksharp{}^{\!\top}F\eta=-\lambda\ksharp{}^{\!\top}$ and $\ksharp{}^{\!\top}F\ksharp=0$.
   Hence
-  \[
-    PFP^{\top}=\eta F\eta-f\,\ksharp(\ksharp{}^{\!\top}F\eta)-f\,(\eta F\ksharp)\ksharp{}^{\!\top}+f^2\,\ksharp(\ksharp{}^{\!\top}F\ksharp)\ksharp{}^{\!\top}
-    =\eta F\eta+f\lambda\,\ksharp\ksharp{}^{\!\top}-f\lambda\,\ksharp\ksharp{}^{\!\top}=\eta F\eta.\qedhere
-  \]
+  \begin{align*}
+    PFP^{\top}&=\eta F\eta-f\,\ksharp(\ksharp{}^{\!\top}F\eta)-f\,(\eta F\ksharp)\ksharp{}^{\!\top}+f^2\,\ksharp(\ksharp{}^{\!\top}F\ksharp)\ksharp{}^{\!\top}\\
+    &=\eta F\eta+f\lambda\,\ksharp\ksharp{}^{\!\top}-f\lambda\,\ksharp\ksharp{}^{\!\top}=\eta F\eta.\qedhere
+  \end{align*}
 \end{enumerate}
 \end{proof}
 \noindent Since the identity holds on the open set~$U$, the divergences of both sides agree at every $p\in U$.
@@ -706,7 +708,7 @@ Several low-level choices mattered as much as the overall design.
 
 \paragraph{What is checked.}
 For the final theorem and for the milestone, \lean{#print axioms} reports
-\begin{lstlisting}
+\begin{lstlisting}[basicstyle=\ttfamily\footnotesize]
 'NoHair.kerrNewman_einsteinMaxwell' depends on axioms: [propext, Classical.choice, Quot.sound]
 \end{lstlisting}
 No \lean{sorry}, \lean{admit}, \lean{native_decide} or \lean{axiom} occurs anywhere in the \TotalLines{} lines of proof, and no heartbeat limit is raised.
