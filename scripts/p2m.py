@@ -123,7 +123,10 @@ def main(argv):
     elif cmd in ("post", "patch"):
         if not args:
             sys.exit(f"usage: p2m.py {cmd} PATH [JSON]")
-        payload = json.loads(args[1]) if len(args) > 1 else None
+        if len(args) > 1 and args[1].startswith("@"):
+            payload = json.load(open(args[1][1:], encoding="utf-8"))
+        else:
+            payload = json.loads(args[1]) if len(args) > 1 else None
         status, body = request(cmd.upper(), args[0], body=payload, token=get_token())
     else:
         sys.exit(f"unknown command {cmd!r}; see --help")
