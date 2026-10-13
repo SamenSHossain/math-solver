@@ -1,5 +1,5 @@
 /-
-Kerr–Newman satisfies the Einstein equation (Kerr–Schild coordinates): Assembly (13 of 13).
+Kerr–Newman satisfies the Einstein equation (Kerr–Schild coordinates): block Assembly.
 Assembly: the trace of the Christoffel symbols vanishes, the Ricci tensor and scalar curvature at a point with r > 0, and the Einstein equation G_{μν} = 2 (F_{μα} F_ν^α - ¼ g_{μν} F²).
 The development is split into parts only so that each piece compiles within the platform limits.
 -/
@@ -13,7 +13,10 @@ import Definitions.Def_NoHair_KerrNewmanEinstein_Ricci1
 import Definitions.Def_NoHair_KerrNewmanEinstein_Ricci2
 import Definitions.Def_NoHair_KerrNewmanEinstein_Ricci3
 import Definitions.Def_NoHair_KerrNewmanEinstein_Ricci4
-import Definitions.Def_NoHair_KerrNewmanEinstein_Maxwell
+import Definitions.Def_NoHair_KerrNewmanEinstein_Ricci5
+import Definitions.Def_NoHair_KerrNewmanEinstein_Ricci6
+import Definitions.Def_NoHair_KerrNewmanEinstein_MaxwellF
+import Definitions.Def_NoHair_KerrNewmanEinstein_MaxwellT
 
 set_option autoImplicit false
 set_option linter.all false

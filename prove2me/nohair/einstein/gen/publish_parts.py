@@ -5,7 +5,7 @@ W = '/root/prove2me_workspace/Definitions'
 N = '/tmp/claude-0/-home-user-math-solver/ee9f98fb-9768-5748-b1b3-ebbf1e9b4bc0/scratchpad/nh_ein'
 STATE = f'{N}/publish_state.json'
 state = json.load(open(STATE)) if os.path.exists(STATE) else {}
-meta = json.load(open(f'{N}/parts_meta.json'))
+meta = json.load(open(f'{N}/parts_meta3.json'))
 NP = len(meta)
 
 def p2m(*args):
@@ -36,7 +36,7 @@ for p in meta:
     src = open(f"{W}/Def_{name}.lean").read()
     payload = {
         'definition_name': name,
-        'definition_title': f"Kerr–Newman solves the Einstein equation: {p['key']} (block {p['i']} of {NP})",
+        'definition_title': f"Kerr–Newman solves the Einstein equation: block {p['key']}",
         'definition': src,
         'natural_language_statement': f"**{p['key']}.** {p['desc']}\n\n{COMMON}",
         'source': ("Original formalization for the Prove2Me mission *No-Hair Conjecture: Uniqueness of Stationary "

@@ -1,5 +1,5 @@
 /-
-Kerr–Newman satisfies the Einstein equation (Kerr–Schild coordinates): Div4 (7 of 13).
+Kerr–Newman satisfies the Einstein equation (Kerr–Schild coordinates): block Div4.
 Differentiability and coordinate divergence of the closed-form Christoffel symbols, group 4 of 4.
 The development is split into parts only so that each piece compiles within the platform limits.
 -/
