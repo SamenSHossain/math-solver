@@ -14,6 +14,7 @@
 \usepackage[hidelinks]{hyperref}
 \usepackage[nameinlink,capitalise]{cleveref}
 \usepackage{enumitem}
+\usepackage[numbers,sort&compress]{natbib}
 
 % ---------------------------------------------------------------------------
 % Lean listings (pdflatex-compatible: Unicode via literate replacements)
@@ -156,7 +157,7 @@ The kernel accepts the proof with only the axioms \lean{propext}, \lean{Classica
 \paragraph{Contributions.}
 \begin{itemize}
   \item A complete, kernel-checked proof of \cref{thm:main} in Lean~4 and Mathlib~\cite{mathlib2020} (\cref{sec:einstein,sec:maxwell}).
-  \NoveltySentence
+  To our knowledge, no earlier machine-checked proof shows that Kerr--Newman, Kerr or even Schwarzschild satisfies the Einstein equations with the curvature computed from the metric by the prover's own calculus (\cref{sec:related}).
   \item A method for curvature computations in a proof assistant that keeps the computer algebra system outside the trusted base (\cref{sec:atoms,sec:certificates,sec:hascp}).
   Every quantity is written in a small set of algebraically constrained \emph{atoms} that is closed under differentiation.
   Each identity is then a polynomial ideal-membership problem, certified by Gr\"obner-basis cofactors and replayed by Lean's \lean{linear_combination} tactic.
@@ -233,7 +234,7 @@ The Kerr--Schild covector (\lean{ksNull}), profile (\lean{ksProfile}), metric (\
   F_{\mu\nu}=\partial_\mu A_\nu-\partial_\nu A_\mu.\label{eq:gA}
 \end{gather}
 With $z=r\cos\theta$ we have $r^4+a^2z^2=r^2\Sigma$, where $\Sigma=r^2+a^2\cos^2\theta$.
-Then $f=(2mr-e^2)/\Sigma$ and $A=(er/\Sigma)\,k$, which is the familiar Kerr--Schild form of Kerr--Newman~\cite{debney1969,visser2007}.
+Then $f=(2mr-e^2)/\Sigma$ and $A=(er/\Sigma)\,k$, which is the familiar Kerr--Schild form of Kerr--Newman~\cite{debney1969,visser2009,adamo2014}.
 Setting $e=0$ gives the Kerr metric.
 Setting $a=e=0$ gives Schwarzschild in ingoing Kerr--Schild (Eddington--Finkelstein-type) coordinates.
 
@@ -366,7 +367,7 @@ On~$U$ we have $\eta^{\mu\nu}k_\mu k_\nu=0$, $\det g=-1$ and
 \end{lemma}
 \begin{proof}
 Nullity is \cref{lem:atoms}(a).
-The determinant and the inverse are then checked by direct matrix computation; see~\cite{gurses1975} for the general Kerr--Schild statement.
+The determinant and the inverse are then checked by direct matrix computation; see~\cite{gurses1975,stephani2003} for the general Kerr--Schild statements.
 \end{proof}
 
 Hence every component of $g$, $g^{-1}$ and~$\partial g$ is (the evaluation of) an explicit element of~$\mathcal P$.
@@ -393,7 +394,7 @@ Then $\{p_1,p_2\}$ is a Gr\"obner basis of~$I$.
 \end{lemma}
 \begin{proof}
 The leading monomials are $\LM(p_1)=k_1^2$ and $\LM(p_2)=Wr^2$, which are coprime.
-By Buchberger's first criterion~\cite{buchberger1965,cox2015}, the $S$-polynomial of $p_1$ and $p_2$ reduces to zero.
+By Buchberger's first criterion~\cite{buchberger1965,buchberger1979,cox2015}, the $S$-polynomial of $p_1$ and $p_2$ reduces to zero.
 \end{proof}
 
 Consequently, multivariate division of $L-R$ by $(p_1,p_2)$ returns quotients $c_1,c_2$ and a remainder.
@@ -416,12 +417,12 @@ theorem trGam_0 (a m e R K1 K2 K3 W : ℝ) (hrel : K1 ^ 2 + K2 ^ 2 + K3 ^ 2 = 1)
       - K3^2 * W^3 * a^2 * m * e^2) * hrel + (0) * hW
 \end{lstlisting}
 (Exponent annotations \lean{(n : ℕ)} have been dropped for readability.)
-The tactic \lean{linear_combination}~\cite{mathlib2020} subtracts the given combination of the hypotheses from the goal.
-It then closes the resulting equation with \lean{ring1}, Mathlib's normalizer for commutative rings, which produces a proof term checked by the kernel.
+The tactic \lean{linear_combination}~\cite{mathlib_linear_combination} subtracts the given combination of the hypotheses from the goal.
+It then closes the resulting equation with \lean{ring1}, Mathlib's normalizer for commutative rings~\cite{mathlib_ring,gregoire2005}, which produces a proof term checked by the kernel.
 Nothing the computer algebra system computed is trusted.
 A wrong cofactor makes \lean{ring1} fail and cannot produce a false theorem.
 This is the ``skeptical'' combination of a proof assistant with an untrusted oracle~\cite{harrison1998}.
-Mathlib's \lean{polyrith} tactic~\cite{polyrith} applies the same idea one goal at a time by calling an external algebra system.
+Mathlib's \lean{polyrith} tactic~\cite{mathlib_polyrith} applied the same idea one goal at a time: it sent the goal to SageMath through a web service and printed the resulting \lean{linear_combination} call. In the Mathlib version we use it is disabled because that service was shut down, which is one reason we compute the cofactors offline.
 Our generators apply it offline and in bulk: the Einstein part contains \NumLCEinstein{} \lean{linear_combination} certificates.
 
 \subsection{Why the extra atom \texorpdfstring{$W$}{W}}
@@ -578,6 +579,7 @@ Write $F=d(Hk)$.
 \noindent Since the identity holds on the open set~$U$, the divergences of both sides agree at every $p\in U$.
 The curved Maxwell equation~(ii) is thus equivalent to the flat one, $\partial_\mu(\eta^{\mu\alpha}\eta^{\nu\beta}F_{\alpha\beta})=0$.
 This proof (\lean{kerrNewman_maxwell}, \NumLinesMaxwell{} lines) does not use the atom machinery.
+\Cref{prop:flat} is closely related to the Kerr--Schild double copy~\cite{monteiro2014}, in which the gauge field $\phi k$ built from a stationary Kerr--Schild metric solves the flat Maxwell equations.
 
 \subsection{The flat Maxwell equation}\label{sec:flat}
 
@@ -600,7 +602,7 @@ The pair $(H,\psi)$ is the real and imaginary part of Appell's potential~\cite{a
   H+i\psi=\frac{e\,r}{r^2-iaz}=\frac{e}{r-iaz/r}=\frac{e}{\sqrt{x^2+y^2+(z-ia)^2}} .
 \]
 The last equality uses $(r-iaz/r)^2=x^2+y^2+(z-ia)^2$, which follows from~\eqref{eq:quartic}, and picks the root with positive real part~$r$.
-This is the classical picture of the Kerr--Newman field as the field of a complex-shifted point charge~\cite{newman1965,israel1970,lyndenbell2004}.
+This is the classical picture of the Kerr--Newman field as the field of a complex-shifted point charge~\cite{newman1973,lyndenbell2003,adamo2014}.
 In this picture $\Delta H=0$ is the harmonicity of the real part of a harmonic function.
 The formal proof does not use complex numbers; it verifies~\eqref{eq:flat} directly.
 
@@ -688,12 +690,12 @@ Our pipeline uses SymPy in exactly this role, but only to find certificates that
 \paragraph{Certificates from untrusted oracles.}
 Combining a proof assistant with an external algebra system that supplies checkable witnesses goes back at least to Harrison and Th\'ery~\cite{harrison1998}.
 Later instances include the use of Maple from Coq~\cite{delahaye2005} and certified computer algebra on top of a prover~\cite{kaliszyk2007}.
-Mathlib's \lean{polyrith}~\cite{polyrith} finds \lean{linear_combination} coefficients with an external system.
+Mathlib's \lean{polyrith}~\cite{mathlib_polyrith} found \lean{linear_combination} coefficients with an external system. Gr\"obner-basis certificates have been used for ring identities in Isabelle~\cite{chaieb2007} and HOL~Light~\cite{harrison2007}, and Buchberger's algorithm itself has been verified in Coq~\cite{thery2001}. Coq's \texttt{nsatz} checks certificates produced by external Gr\"obner computations~\cite{pottier2010}. Lean has been connected to Mathematica~\cite{lewis2022}, and recent work develops Gr\"obner-based tactics and Gr\"obner theory in Lean~4~\cite{shen2026tactics,guo2026groebner}.
 Our use of Gr\"obner-basis cofactors as certificates is standard.
 What is specific here is the reduction of an entire curvature computation to ideal membership in a small differential ring of atoms.
 
 \paragraph{Formalized physics and relativity.}
-\RelatedFormalPhysics
+Formal treatments of relativity have so far been mostly axiomatic or kinematic. Stannett and N\'emeti verified results of first-order axiomatic relativity in Isabelle/HOL~\cite{stannett2014}, and Schutz's axioms for Minkowski spacetime have been formalized there as well~\cite{schmoetten2021}. In Lean~4, the HepLean project (now Physlib)~\cite{toobysmith2025heplean,toobysmith2024index,physlib} formalizes parts of high-energy physics, tensor index notation and special relativity. Recent work proves analytic results on a fixed black-hole background~\cite{kehle2026rn}, taking the metric as given. We are not aware of an earlier formal proof that the Schwarzschild, Kerr or Kerr--Newman metric satisfies the Einstein equations with the curvature computed from the metric through the prover's own analysis library. Our searches of the literature and of public code repositories (October 2026) found none.
 
 % ===========================================================================
 \section{Conclusion}\label{sec:conclusion}
@@ -718,7 +720,7 @@ That directory holds all Lean files, the Python generators and the definition bl
 The platform objects are listed in \cref{app:ids} and can be inspected on \url{https://prove2.me}.
 \RepoNote
 
-\bibliographystyle{plain}
+\bibliographystyle{plainnat}
 \bibliography{refs}
 
 % ===========================================================================
