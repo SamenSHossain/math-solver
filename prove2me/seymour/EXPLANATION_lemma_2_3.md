@@ -1,0 +1,11 @@
+**Complete proof (no `sorry`, standard axioms only).** Write $F=$ `fwd r` on $V$ and $G=$ `fwd (blowup r m)` on $V\times\mathrm{Fin}\,m$; for $A\subseteq V\times\mathrm{Fin}\,m$ let $A_v=\{j:(v,j)\in A\}$ be its labels in the block over $v$ (`lab`) and $\mathrm{supp}\,A=\{v:A_v\neq\emptyset\}$ (`supp`); let $f(B)=\{j:\exists i\in B,\ i<j\}$ be the image operator of the transitive tournament on $\mathrm{Fin}\,m$.
+
+*(a) Orientation.* `blowup r m` is loopless because $r$ is and $j<j$ is impossible, and asymmetric by asymmetry and looplessness of $r$ together with the asymmetry of $<$ (`isOriented_blowup`). *(b) Positive indegrees:* an in-neighbor $u$ of $v$ gives $(u,j)\to(v,j)$ (`posIndeg_blowup`).
+
+*(c) Strict expansion.* The key characterization is $(v,j)\in G(U)\iff v\in F(\mathrm{supp}\,U)\ \vee\ j\in f(U_v)$ (`mem_fwd_blowup`). Hence the block of $G(U)$ over $v$ is full when $v\in F(\mathrm{supp}\,U)$ and equals $f(U_v)$ otherwise; and $\mathrm{supp}\,G(U)\subseteq\mathrm{supp}\,U\cup F(\mathrm{supp}\,U)$, so if $v\notin F(S)\cup F^2(S)$ with $S=\mathrm{supp}\,U$, the block of $G^2(U)$ over $v$ is $f(f(U_v))$. Cardinalities are summed block by block (`card_eq_sum_lab`, from `Finset.card_eq_sum_card_fiberwise`). For the transitive tournament, $|B|\le|f(B)|+1$ and $f(f(B))\subsetneq f(B)$ when $f(B)\neq\emptyset$, whence $|B|+|f(f(B))|\le2|f(B)|+1$ (`tourn_ineq`).
+
+Fix a nonempty proper $U$ and set $S=\mathrm{supp}\,U$. If $S=V$ then $F(S)=V$ by positive indegrees, every block of $G(U)$ is full, and $|U|+|G^2(U)|-2|G(U)|\le|U|-m|V|<0$ because $|U|<|V|\,m$. Otherwise $S$ is nonempty and proper, and the per-block bound (`block_bound`), valid for every $v$,
+$$|U_v|+|G^2(U)_v|-2|G(U)_v|\;\le\;m\big([v\in S\cap F(S)]-[v\in F(S)]\big)+[v\in S\setminus F(S)]+m\,[v\in F^2(S)\setminus F(S)]$$
+(three cases: $v\in F(S)$; $v\notin F(S)$, $v\in F^2(S)$; $v\notin F(S)\cup F^2(S)$, where `tourn_ineq` is used) sums to
+$$m\big(|F^2(S)\setminus F(S)|-|F(S)\setminus S|\big)+|S\setminus F(S)|\;\le\;-m+|V|<0,$$
+using the subset deficit for $S$, $|F(S)|=|F(S)\setminus S|+|S\cap F(S)|$, $|S\setminus F(S)|\le|V|$ and $m>|V|$ (`sum_bound`, `strictExpander_blowup`). The summed inequality is exactly $|U|+|G^2(U)|<2|G(U)|$.

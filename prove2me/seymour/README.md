@@ -20,5 +20,21 @@ conjecture* (September 23, 2026, `openai/math` at commit `adc7f124`).
 - `Sol_OAI_SeymourSecondNeighborhood_exists_goodVertex.lean`: accepted **proof sketch** of the main theorem
   from `lemma_2_2`, `lemma_2_3` and `prop_4_1` (strong induction on the order, a minimal all-bad subrelation
   via `Nat.find`, blow-up with m = n + 1).
+- `Sol_OAI_SeymourSecondNeighborhood_lemma_2_2.lean`: **Proved** (minimal counterexample ⇒ positive indegrees
+  and subset deficit; the arc-deletion step of the manuscript, with an induction on the adjoined set).
+- `Sol_OAI_SeymourSecondNeighborhood_lemma_2_3.lean`: **Proved** (blow-up; per-block bound summed over blocks).
+- `Sol_OAI_SeymourSecondNeighborhood_prop_4_1.lean`: accepted **sketch** reducing Proposition 4.1 to the
+  pruning lemma `Pruning.lemma_3_1` (the extremal argument of Section 4).
+- `Sol_OAI_SeymourSecondNeighborhood_Pruning_lemma_3_1.lean`: accepted **sketch** reducing the pruning lemma to
+  two new statements published on the platform: `Pruning.konig` (Kőnig's theorem, vertex-cover form) and
+  `Pruning.matching_bound` (every matching of the augmented bipartite graph Γ has at most |Z| + |H| edges).
+- `Sol_OAI_SeymourSecondNeighborhood_Pruning_konig.lean`: **Proved** (from Hall's theorem in deficiency form).
 - `Sol_OAI_SeymourSecondNeighborhood_Pruning_lemma_3_2.lean`: **Proved** (rank-increase by a single-entry
   perturbation).
+
+## State of the mission
+
+Everything in the manuscript's chain is now machine-checked except `Pruning.matching_bound`, the rank-argument
+core of its Section 3 (open). Proving it would close the whole conjecture on the platform:
+`matching_bound` ⇒ `lemma_3_1` ⇒ `prop_4_1` ⇒ (with `lemma_2_2`, `lemma_2_3`) `exists_goodVertex`.
+`platform_ids.txt` lists the theorem ids.
