@@ -252,19 +252,28 @@ lines, too large to port under the platform's limits.
 
 ## Metric TSP vs the Held–Karp LP (4/3 conjecture)
 
-`prove2me/metric_tsp/` holds Lean proofs that typecheck locally against the platform definitions `MetricTSP_model`. Nothing in
-this section is published on Prove2Me yet. The three new statements (n ≤ 5, 2(1 − 1/n) and 3/2) would need to be published
-first, and the 4/3 sketch also needs its n ≥ 5 child published. All proofs use only propext, Classical.choice and Quot.sound,
-except the 4/3 sketch.
-- `tspOpt_le_hkValue_of_le_four` / `..._of_le_five`: OPT = LP for 3 ≤ n ≤ 5. For n = 3 every LP weight is forced to 1; for n = 4 a
-  feasible point is a convex combination of the three tours; n = 5 has its own argument.
-- `four_thirds_conjecture` (sketch): the cases n ≤ 4 are proved, and n ≥ 5 is left to the open child
-  `four_thirds_conjecture_of_five_le`, i.e. the conjecture itself.
-- `tspOpt_le_two_mul_hkValue`: OPT ≤ 2(1 − 1/n)·LP. The proof uses a Prim order, an insertion tour, and threshold counting
-  against z = (1 − 1/n)x.
-- `tspOpt_le_three_halves_hkValue`: Wolsey's bound OPT ≤ (3/2)·LP, 2,844 lines. It includes a proof of Edmonds' perfect
-  matching polytope theorem in cost form (strong induction with tight-odd-cut contraction), used for the T-join part of
-  Christofides' analysis.
+`prove2me/metric_tsp/` holds Lean proofs against the platform definitions `MetricTSP_model`. All full proofs use only propext,
+Classical.choice and Quot.sound.
+
+Published and accepted on Prove2Me:
+- `MetricTSP.tspOpt_le_hkValue_of_le_five` (new statement, Proved): OPT ≤ LP for 3 ≤ n ≤ 5, so OPT = LP together with
+  `held_karp_le_opt`.
+  - For n = 3 every LP weight is forced to 1.
+  - For n = 4 a feasible point is a convex combination of the three tours.
+  - For n = 5 the 12 tours of K5 form 6 complementary pairs, and an exchange argument (`six_lemma`) finishes the proof.
+- `MetricTSP.four_thirds_conjecture` sketch (SKETCH_ACCEPTED, `Sol_MetricTSP_four_thirds_conjecture_six.lean`): it proves
+  n ≤ 5 and leaves n ≥ 6 to the new open child `MetricTSP.four_thirds_conjecture_of_six_le`, which is equivalent to the
+  conjecture itself.
+
+Not published:
+- `Sol_MetricTSP_tspOpt_le_three_halves_hkValue.lean`, Wolsey's bound OPT ≤ (3/2)·LP (2,844 lines). It includes Edmonds'
+  perfect matching polytope theorem in cost form. The platform already has this statement as `MetricTSP.wolsey_bound` (Proved),
+  and Edmonds' theorem as `MetricTSP.pm_polytope_decomposition` (Proved).
+- `Sol_MetricTSP_tspOpt_le_two_mul_hkValue.lean`, OPT ≤ 2(1 − 1/n)·LP. The proof is a Prim order, an insertion tour, threshold
+  counting and a discrete layer cake. It is not published because it follows from `wolsey_bound` for n ≥ 4 and from the
+  n ≤ 5 result for n = 3. Its mirror is `Thm_MetricTSP_tree_doubling_bound_refined.lean`.
+- `Sol_MetricTSP_four_thirds_conjecture.lean` and `Sol_MetricTSP_tspOpt_le_hkValue_of_le_four.lean`: earlier n ≥ 5 and
+  n ≤ 4 versions, superseded by the files above.
 
 ## Lindelöf hypothesis mission: the growth exponent μ(σ)
 
