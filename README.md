@@ -81,19 +81,41 @@ existing community links they connect every milestone of the mission to its root
 ## No-hair mission: Kerr–Newman solves Einstein–Maxwell
 
 `prove2me/nohair/` holds the work on milestone `NoHair.kerrNewman_einsteinMaxwell` of the mission
-*No-Hair Conjecture: Uniqueness of Stationary Kerr–Newman Black Holes*. The milestone is reduced to its
-three conjuncts (`Sol_NoHair_kerrNewman_einsteinMaxwell.lean`, accepted as a sketch). Proved children:
+*No-Hair Conjecture: Uniqueness of Stationary Kerr–Newman Black Holes*. **The milestone is Proved.**
+It is reduced to its three conjuncts (`Sol_NoHair_kerrNewman_einsteinMaxwell.lean`, accepted as a sketch), and all
+three children are now Proved:
 
 - `kerrNewman_field_closed`: the Bianchi identity dF = 0, from smoothness of the potential and
   symmetry of second derivatives.
 - `kerrNewman_maxwell`: the curved Maxwell equation, reduced to flat Maxwell using det g = −1, the
   explicit inverse metric, and alignment of the null vector k with F.
-- `kerrNewman_flat_maxwell`: flat-space Maxwell for the Kerr–Newman potential, via ΔH = 0 and
-  curl A = ∇ψ for the real and imaginary parts of Appell's potential.
+  - Its child `kerrNewman_flat_maxwell`, flat-space Maxwell for the Kerr–Newman potential, is proved via
+    ΔH = 0 and curl A = ∇ψ for the real and imaginary parts of Appell's potential.
+- `kerrNewman_einstein` (`einstein/`): the Einstein equation G = 8πT in Kerr–Schild coordinates at every point
+  with r > 0.
 
-The Einstein-equation child `kerrNewman_einstein` is still open. `ein_num.py` and `mx_num.py` are the
-numerical sympy checks of the Einstein and Maxwell equations at a sample point. The `Thm_*.lean` files
-are local statement mirrors.
+### How `kerrNewman_einstein` is proved
+
+**Atoms.** The proof works with r, k₁, k₂, k₃ and W = 1/(r² + a²k₃²), which satisfy k₁²+k₂²+k₃² = 1 and
+W(r² + a²k₃²) = 1. Every curvature quantity becomes a polynomial in these atoms, and every identity is closed by
+`linear_combination` with cofactors from Gröbner-basis division in sympy (`gen/ks_atoms.py`, `gen/gen4.py`).
+
+**Platform objects.**
+- **15 definition blocks** `NoHair_KerrNewmanEinstein_{Base, Atoms, Christoffel, Div1–4, Ricci1–6, MaxwellF,
+  MaxwellT}`, holding the closed forms and the heavy lemmas.
+- **8 intermediate theorems** `NoHair.KNE.thm_{christoffel, div_one, div_two, div_three, ricci_a, ricci_b,
+  ricci_c, maxwell}`, all Proved.
+- **The final proof** `Sol_NoHair_kerrNewman_einstein.lean`. It imports Base, Atoms and the 8 theorems.
+  It shows the Christoffel trace vanishes and assembles the Ricci tensor and the zero scalar curvature,
+  then the Maxwell side.
+
+The split follows the platform guidance that definition blocks be light and heavy proofs be separate theorems.
+A single 2,650-line file needed more than 13 GB of memory and more than 300 s to compile.
+
+**Supporting files.**
+- `ein_num.py`, `mx_num.py`: earlier numerical sympy checks.
+- `gen/`: generators and hand-written glue.
+- `Thm_*.lean`: local statement mirrors.
 
 ## Robust four-row permanent inequality
 
