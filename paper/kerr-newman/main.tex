@@ -108,7 +108,7 @@ The atoms are closed under differentiation and satisfy two polynomial relations.
 This turns each step of the curvature computation into an identity in a quotient ring.
 Each identity is certified by cofactors from Gr\"obner-basis division, computed offline with SymPy and checked in Lean by \lean{linear_combination}, so the computer algebra system is never trusted.
 The Maxwell equations are proved conceptually: the Kerr--Schild structure reduces the curved equation to the flat one, which follows from the harmonicity of Appell's complex-shifted Coulomb potential.
-We describe the method, the engineering needed to fit roughly \EinsteinKB~kB of generated Lean into a 300-second per-file checking budget, and the trusted base of the result.
+We describe the method, the engineering needed to fit about one megabyte of mostly generated Lean into a 300-second per-file checking budget, and the trusted base of the result.
 The formalization was produced by an AI coding agent on the Prove2Me platform under the author's direction, and we document that process.
 \end{abstract}
 
@@ -199,7 +199,7 @@ The following definitions are verbatim transcriptions of \cref{app:defs}; the Le
   With $T_{\mu\nu}=\frac1{4\pi}\big(F_{\mu\alpha}F_\nu{}^\alpha-\frac14 g_{\mu\nu}F_{\alpha\beta}F^{\alpha\beta}\big)$ in Gaussian units with $G=c=1$, this is $S_{\mu\nu}=8\pi T_{\mu\nu}$.
   \item The Einstein--Maxwell system at a point (\lean{EinsteinMaxwellAt}) is the conjunction of (i)--(iii) in \cref{thm:main}.
 \end{itemize}
-\ConventionsSentence
+These are the conventions of Misner, Thorne and Wheeler~\cite{mtw1973}: signature $(-,+,+,+)$, Riemann tensor with the sign that gives round spheres positive scalar curvature, and $G_{\mu\nu}=+8\pi T_{\mu\nu}$. Wald~\cite{wald1984} places the indices of the Riemann tensor differently, but his Ricci tensor, and hence $R$ and $G_{\mu\nu}$, agree with the ones here. As a sanity check on the definitions themselves, we evaluated them symbolically on round spheres (positive scalar curvature) and on the Reissner--Nordstr\"om solution with $-g_{tt}=1-2M/r+Q^2/r^2$, which satisfies the platform's Einstein equation exactly with positive energy density.
 
 \begin{remark}[Total functions]\label{rem:junk}
 Lean's mathematical functions are total.
@@ -217,9 +217,9 @@ Every function involved is in any case smooth on the region, so all quantities i
 Write a point of $\R^4$ as $p=(t,x,y,z)$ and let $\rho^2=x^2+y^2+z^2$. (In the Lean code the point itself is called \lean{y} and its coordinates are \lean{y 0}, \ldots, \lean{y 3}.)
 The Kerr--Schild radius (\lean{ksRadius}) is
 \begin{equation}\label{eq:r}
-  r := \sqrt{\tfrac12\Big(\rho^2-a^2+\sqrt{(\rho^2-a^2)^2+4a^2z^2}\Big)}\,,
+  r := \sqrt{\tfrac12\Big(\rho^2-a^2+\sqrt{(\rho^2-a^2)^2+4a^2z^2}\Big)}\,.
 \end{equation}
-For $r>0$ it is the unique positive root of
+It depends on $a$ only through $a^2$. Where $r>0$ it is the unique positive root of
 \begin{equation}\label{eq:quartic}
   \frac{x^2+y^2}{r^2+a^2}+\frac{z^2}{r^2}=1,
   \qquad\text{equivalently}\qquad
@@ -242,8 +242,19 @@ Setting $a=e=0$ gives Schwarzschild in ingoing Kerr--Schild (Eddington--Finkelst
 By~\eqref{eq:r}, $r=0$ exactly when $z=0$ and $x^2+y^2\le a^2$.
 Hence, for $a\neq 0$, $U$ is the complement of $\R\times D$, where $D$ is the closed disc whose boundary is the ring singularity.
 For $a=0$, $U$ is the complement of the world line $x=y=z=0$.
-In either case $U$ is open.
+In either case $U$ is open, and on $U$ the function $r$ is real-analytic.
+Removing the disc is not an artefact of the formalization: $k_3=z/r$ changes sign across the open disc, so for $e\neq0$ the metric is discontinuous there, and for $e=0$, $m\ne0$ it is continuous but not~$C^1$.
 The theorem concerns the $r>0$ sheet of the Kerr--Schild chart; the analytic extension through the disc to $r<0$ is not considered.
+Since nothing is assumed about $(m,a,e)$, $U$ includes the exterior, the ergoregion, the horizons themselves and the region inside the inner horizon.
+For $a\neq0$ and either $e\ne0$ or $m<0$, the region inside the inner horizon contains closed timelike curves, which the pointwise statement does not see.
+
+\paragraph{Orientation and signs.}
+The chart is the ingoing one: for $a=e=0$ it is Schwarzschild in ingoing Eddington--Finkelstein form, $g=\eta+(2m/r)(dt+dr)^2$, regular across the future horizon.
+The angular momentum is $J=+ma\,\hat z$; replacing $a$ by $-a$ amounts to the reflection $y\mapsto-y$.
+With $\partial_t$ future-directed and the usual identification $E_i=F_{i0}$, the electric field is $\vec E=\nabla H\approx -e\,\vec x/r^3$ at large distance, so the physical charge is $-e$; the magnetic moment is $-ea\,\hat z$, giving gyromagnetic ratio~$2$.
+Since the metric depends on $e$ only through $e^2$ and the equations are invariant under $F\mapsto-F$, we simply call $e$ the charge parameter.
+Charges are in Gaussian geometrized units: $\Delta=r^2-2mr+a^2+e^2$ in Boyer--Lindquist form, and $e^2$ corresponds to $GQ^2/(4\pi\varepsilon_0c^4)$ in SI units.
+Under the standard transformation to Boyer--Lindquist coordinates the metric becomes the textbook Kerr--Newman metric and $A\simeq(er/\Sigma)(dt-a\sin^2\theta\,d\phi)$; we verified this symbolically.
 
 \subsection{The Lean statement}
 
@@ -405,7 +416,7 @@ The generator stops with an error if the remainder is nonzero.
 \subsection{Replay in Lean}
 
 In Lean the relations are hypotheses
-\lean{hrel : K1^2 + K2^2 + K3^2 = 1} and \lean{hW : W * (R^2 + a^2*K3^2) = 1}.
+$\mathtt{hrel}:K_1^2+K_2^2+K_3^2=1$ and $\mathtt{hW}:W\,(R^2+a^2K_3^2)=1$ (Lean names \lean{R}, \lean{K1}, \ldots, \lean{W} for the atoms).
 Each identity is closed by a single call such as
 \begin{lstlisting}
 theorem trGam_0 (a m e R K1 K2 K3 W : ℝ) (hrel : K1 ^ 2 + K2 ^ 2 + K3 ^ 2 = 1)
@@ -436,7 +447,10 @@ A few base lemmas still use \lean{field_simp} on small expressions, namely the d
 
 Each closed form stored in a definition block is chosen, among a few equivalent representatives modulo~$p_1$, to have the fewest monomials (\lean{best} in the generator).
 It is written in a canonical expanded form.
-\ClosedFormStats
+The Base block holds 120 such definitions: 40 Christoffel symbols with up to 23 monomials each, 30 divergence terms $\partial_\rho\Gamma^\rho_{\nu\sigma}$ with up to 101 monomials, 10 Ricci components with up to 13 monomials, the field components and the invariant.
+There are \NumCert{} certificates of the form $c_1\cdot\mathtt{hrel}+c_2\cdot\mathtt{hW}$ in the Einstein part.
+Twenty-one of them, in the base lemmas, have rational cofactors and are normalized by \lean{field_simp}; 23 are trivial (both cofactors zero, so \lean{ring} alone would do); the remaining 118 have polynomial cofactors with a median of 32 monomials.
+The largest certificate, for the $(1,2)$ component of the Ricci tensor, has 356 monomials, total degree 24, and occupies 28~kB of source.
 
 % ===========================================================================
 \section{Derivatives: a small calculus of coordinate partials}\label{sec:hascp}
@@ -473,6 +487,7 @@ The term follows the same syntax tree that was used to print~$P$: a balanced bin
 Lean therefore accepts the term by unfolding definitions, with no rewriting.
 The derivative it produces is the chain-rule expansion, which \lean{congr_d} together with one certificate identifies with the stored closed form of the divergence term.
 The Lean statement is \lean{dG112}, for instance, which gives both differentiability and the value of $\partial_1$ of the component $\Gamma^1_{12}$.
+The thirty-four generated derivations contain 5{,}286 applications of the closure rules in total; the largest single term is about 4~kB.
 
 \begin{lemma}[\lean{cp_time}]\label{lem:time}
 For any $\Phi:\R^4\to\R$, the function $p\mapsto\Phi(r(p),k_1(p),k_2(p),k_3(p))$ has $\partial_0=0$ everywhere.
@@ -484,7 +499,7 @@ If not, the Fr\'echet derivative is~$0$ by convention.
 \end{proof}
 
 \paragraph{From local identities to derivatives.}
-The proof shows that \lean{christoffel (kerrNewmanMetric m a e) z i j k} equals the closed form \lean{Gam} evaluated at the atoms of~$z$ for every \lean{z} in $U$.
+The proof shows that the platform's Christoffel symbols equal the closed form \lean{Gam} evaluated at the atoms, at every point of $U$ (\lean{thm_christoffel}).
 Because $U$ is open, the two functions agree near any $p\in U$, so their derivatives at~$p$ agree (\lean{Filter.EventuallyEq.fderiv_eq}).
 This is how derivatives of the platform's \lean{christoffel} reduce to derivatives of closed forms.
 
@@ -572,7 +587,7 @@ Write $F=d(Hk)$.
   Hence
   \[
     PFP^{\top}=\eta F\eta-f\,\ksharp(\ksharp{}^{\!\top}F\eta)-f\,(\eta F\ksharp)\ksharp{}^{\!\top}+f^2\,\ksharp(\ksharp{}^{\!\top}F\ksharp)\ksharp{}^{\!\top}
-    =\eta F\eta+f\lambda\,\ksharp\ksharp{}^{\!\top}-f\lambda\,\ksharp\ksharp{}^{\!\top}=\eta F\eta.\qquad\qedhere
+    =\eta F\eta+f\lambda\,\ksharp\ksharp{}^{\!\top}-f\lambda\,\ksharp\ksharp{}^{\!\top}=\eta F\eta.\qedhere
   \]
 \end{enumerate}
 \end{proof}
@@ -619,7 +634,7 @@ A proof may import a theorem's statement and use it as an axiom-free reduction t
 That theorem's own proof is checked separately.
 
 Our first complete proof of the Einstein equation was a single file of about 2{,}650 lines.
-It needed more than 13~GB of memory and more than 300~seconds.
+It needed more than 13~GB of memory and more than 300~seconds on our machine, and the platform ran out of memory while rebuilding its dependencies.
 The final development (\cref{tab:blocks}) splits the work along the natural stages of the computation.
 \begin{itemize}
   \item Fifteen definition blocks hold the closed forms, the \lean{HasCP} base lemmas and the heavy certified lemmas.
@@ -627,8 +642,45 @@ The final development (\cref{tab:blocks}) splits the work along the natural stag
   Their proofs are a few lines that \lean{exact} lemmas from the blocks.
   \item A final file of \NumLinesFinal{} lines imports only the two light blocks and the eight theorem statements, and assembles the result.
 \end{itemize}
+The heaviest block now checks in 76~seconds, and the whole Einstein part in about ten minutes of elaboration time. Generating the Lean source takes about four and a half minutes of SymPy time, the bulk of it in the symbolic curvature computation that doubles as an independent check. The generated fragments are 94\% of the Einstein part by volume; the rest is hand-written glue.
 
-\StatsTable
+\begin{table}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{@{}llrrrrr@{}}
+\toprule
+File & Content & Lines & kB & Lemmas & Certif. & Check (s) \\
+\midrule
+\multicolumn{7}{@{}l}{\emph{Definition blocks}}\\
+Base & atoms, \lean{HasCP} calculus, 120 closed forms & 798 & 245 & 51 & -- & 28 \\
+Atoms & \lean{HasCP} for $r,k_i,W,f,H$; $g$, $g^{-1}$, $\Gamma$ & 256 & 20 & 12 & 28 & 26 \\
+Christoffel & 40 identities $\Gamma^i_{jk}=$ closed form & 310 & 96 & 46 & 40 & 74 \\
+Div1 & $\partial_0$ differentiability; $\partial_1\Gamma^1_{0\sigma}$ & 142 & 36 & 8 & 4 & 20 \\
+Div2 & $\partial_1\Gamma^1_{\nu\sigma}$, $1\le\nu\le\sigma$ & 150 & 82 & 6 & 6 & 73 \\
+Div3 & $\partial_2\Gamma^2_{\nu\sigma}$ & 238 & 85 & 10 & 10 & 76 \\
+Div4 & $\partial_3\Gamma^3_{\nu\sigma}$ & 238 & 63 & 10 & 10 & 49 \\
+Ricci1--6 & 10 identities $R_{\sigma\nu}=$ closed form & 168 & 232 & 10 & 10 & 205 \\
+MaxwellF & $F$, $F^{\alpha\beta}$, $F_{\alpha\beta}F^{\alpha\beta}$ in closed form & 223 & 19 & 35 & 33 & 18 \\
+MaxwellT & 16 identities $S_{\mu\nu}=$ closed form & 118 & 70 & 17 & 16 & 41 \\
+\midrule
+\multicolumn{7}{@{}l}{\emph{Theorems}}\\
+\texttt{KNE.thm\_*} (8) & restatements over the blocks & 193 & 10 & 8 & -- & $<1$ \\
+\texttt{kerrNewman\_einstein} & assembly (\cref{sec:einstein}) & 251 & 17 & 28 & 5 & 3 \\
+\texttt{kerrNewman\_field\_closed} & $dF=0$ & 88 & 4 & 7 & -- & 1 \\
+\texttt{kerrNewman\_flat\_maxwell} & flat Maxwell (\cref{sec:flat}) & 720 & 35 & 79 & -- & 8 \\
+\texttt{kerrNewman\_maxwell} & reduction to flat (\cref{sec:curved-to-flat}) & 460 & 23 & 48 & -- & 16 \\
+\texttt{kerrNewman\_einsteinMaxwell} & milestone & 15 & 1 & 1 & -- & $<1$ \\
+\midrule
+Total & & \TotalLines & \TotalKB & 376 & \NumCert & 639 \\
+\bottomrule
+\end{tabular}
+\caption{The files of the formal proof.
+``Lemmas'' counts top-level theorems and lemmas; ``Certif.'' counts \lean{linear_combination} certificates of the form $c_1\cdot\mathtt{hrel}+c_2\cdot\mathtt{hW}$ (the Ricci and Maxwell rows also contain a few hand-written ones).
+``Check'' is the wall-clock time to re-elaborate the file against compiled imports, net of the 7.6~s needed to load Mathlib, minimum of two runs on a 4-core 2.1~GHz machine with 15~GB of memory.
+Peak memory was 6.4--8.4~GB per file, almost all of it the memory-mapped Mathlib library.}
+\label{tab:blocks}
+\end{table}
 
 \subsection{Lessons}
 
@@ -654,10 +706,12 @@ Several low-level choices mattered as much as the overall design.
 
 \paragraph{What is checked.}
 For the final theorem and for the milestone, \lean{#print axioms} reports
-\AxiomsOutput
-No \lean{sorry}, no \lean{native_decide} and no additional axioms occur anywhere in the dependency chain.
+\begin{lstlisting}
+'NoHair.kerrNewman_einsteinMaxwell' depends on axioms: [propext, Classical.choice, Quot.sound]
+\end{lstlisting}
+No \lean{sorry}, \lean{admit}, \lean{native_decide} or \lean{axiom} occurs anywhere in the \TotalLines{} lines of proof, and no heartbeat limit is raised.
 Every file was checked by the Prove2Me server with the platform's toolchain.
-\LocalCheckSentence
+On the platform each theorem is checked against \lean{sorry}-stubs of the theorems it imports, so the platform's verdict is compositional. We also rebuilt the whole chain locally in a single Lean environment, with every stub replaced by its accepted proof under the platform name, and ran \lean{#print axioms} on the milestone and on each of its three conjuncts; all four report exactly the three axioms above. The scripts for this check are in the repository.
 
 \paragraph{What must be trusted.}
 To believe \cref{thm:main} one must trust the Lean kernel and the Mathlib definitions involved: \lean{fderiv}, matrix inverse and determinant, \lean{Real.sqrt}.
@@ -715,10 +769,11 @@ All formal claims were checked by the Lean kernel.
 The author takes responsibility for the content of this paper.
 
 \section*{Data availability}
-The complete development is publicly available at \url{https://github.com/SamenSHossain/math-solver} under \texttt{prove2me/nohair/}.
-That directory holds all Lean files, the Python generators and the definition blocks.
+The complete development is publicly available in the repository
+\begin{center}\url{https://github.com/SamenSHossain/math-solver}\end{center}
+in the directory \texttt{prove2me/nohair/}, which holds all Lean files, the Python generators and the definition blocks.
 The platform objects are listed in \cref{app:ids} and can be inspected on \url{https://prove2.me}.
-\RepoNote
+The directory \texttt{paper/kerr-newman/} contains the source of this paper, the scripts that reproduce the statistics and the single-environment axiom check, and the audit scripts for the conventions of \cref{sec:defs}. The Lean toolchain was version 4.33.1 with Mathlib commit \texttt{0df444a3}.
 
 \bibliographystyle{plainnat}
 \bibliography{refs}
@@ -823,6 +878,6 @@ Platform theorem (all status \emph{Proved}) & Identifier \\
 \bottomrule
 \end{tabular}
 \end{center}
-The fifteen definition blocks are published as \texttt{NoHair\_KerrNewmanEinstein\_\{Base, Atoms, Christoffel, Div1, Div2, Div3, Div4, Ricci1, \ldots, Ricci6, MaxwellF, MaxwellT\}}.
+The fifteen definition blocks are published as \texttt{NoHair\_KerrNewmanEinstein\_}$X$ for $X$ one of Base, Atoms, Christoffel, Div1--Div4, Ricci1--Ricci6, MaxwellF and MaxwellT.
 
 \end{document}
