@@ -99,17 +99,6 @@ theorem congr_d (h : HasCP f z df) (hd : ∀ k, df k = dg k) : HasCP f z dg :=
 
 end HasCP
 
-/-- Build a `HasCP` derivation of an explicit expression from atom facts in the context. -/
-macro "hascp" : tactic => `(tactic| (repeat' (first
-  | assumption
-  | exact HasCP.cst _ _
-  | apply HasCP.add
-  | apply HasCP.sub
-  | apply HasCP.neg
-  | apply HasCP.mul
-  | apply HasCP.pow
-  | apply HasCP.div)))
-
 theorem hasCP_coord (z : E4) (j : Fin 4) : HasCP (fun w => w j) z (fun k => coordBasis k j) :=
   ⟨by fun_prop, fun k => by simpa [line_apply] using hasDerivAt_line_coord z (coordBasis k) j⟩
 

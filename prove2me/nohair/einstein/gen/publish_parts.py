@@ -49,7 +49,9 @@ for p in meta:
         break
     for attempt in range(1, 7):
         if 'job' not in state.get(name, {}):
-            r = p2m('post', 'submit-definition', json.dumps(payload))
+            pf = f'{N}/payload_{name}.json'
+            json.dump(payload, open(pf, 'w', encoding='utf-8'), ensure_ascii=False)
+            r = p2m('post', 'submit-definition', '@' + pf)
             job = r.get('job_id') or (r.get('jobs') or [{}])[0].get('job_id')
             if not job:
                 print(name, 'SUBMIT FAILED', str(r)[:500], flush=True)
