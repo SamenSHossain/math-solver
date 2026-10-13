@@ -265,3 +265,19 @@ except the 4/3 sketch.
 - `tspOpt_le_three_halves_hkValue`: Wolsey's bound OPT ≤ (3/2)·LP, 2,844 lines. It includes a proof of Edmonds' perfect
   matching polytope theorem in cost form (strong induction with tight-odd-cut contraction), used for the T-join part of
   Christofides' analysis.
+
+## Lindelöf hypothesis mission: the growth exponent μ(σ)
+
+`prove2me/lindelof/` holds four ACCEPTED proofs of milestones of the mission. They use the definitions
+`LindelofHypothesis_GrowthAndZeroCounts` (`mu σ`, the EReal infimum of the exponents a with ζ(σ+iT) = O(T^a)) and
+`RiemannVonMangoldt_ZeroCounts`. All four use only propext, Classical.choice and Quot.sound. The goal `lindelof_hypothesis`
+itself is still open.
+- `mu_eq_zero_of_one_lt`: μ(σ) = 0 for σ > 1. The upper bound is ‖ζ‖ ≤ Σ n^{-σ}; the lower bound is ‖ζ(s)‖ ≥ 1/ζ(σ), from
+  ζ·L(μ_Möbius) = 1.
+- `lindelof_iff_isLittleO`: in LH, the O(t^ε) and o(t^ε) forms are equivalent.
+- `lindelof_iff_mu_half_eq_zero`: LH ⇔ μ(1/2) = 0. The proof shows μ(1/2) ≥ 0 by Phragmén–Lindelöf on 1/2 ≤ Re s ≤ 5/2 for
+  ζ(s)(s−1)/(s+1). It uses an auxiliary exp(−(p+qs)·log(−i(s−c))) weight to equalize the boundary exponents, a Mellin
+  representation giving polynomial growth for Re s > 0, and the lower bound at Re s = 3/2.
+- `mu_convex`: μ is a finite convex function of σ. Polynomial bounds on every vertical line come from the functional equation
+  `riemannZeta_one_sub` together with Γ bounds from reflection and |Γ(1/2+it)|² cosh(πt) = π. The convexity inequality comes from
+  Mathlib's `PhragmenLindelof.vertical_strip` with a weight exp(−(α+βs)·log(K−s²)/2).
