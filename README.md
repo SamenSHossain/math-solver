@@ -109,8 +109,12 @@ W(r² + a²k₃²) = 1. Every curvature quantity becomes a polynomial in these a
   It shows the Christoffel trace vanishes and assembles the Ricci tensor and the zero scalar curvature,
   then the Maxwell side.
 
-The split follows the platform guidance that definition blocks be light and heavy proofs be separate theorems.
+The heavy certified lemmas live in the definition blocks, which the platform compiles once and caches, so that each
+theorem's own proof stays light.
 A single 2,650-line file needed more than 13 GB of memory and more than 300 s to compile.
+
+**Paper.** `paper/kerr-newman/` holds a write-up of this formalization (LaTeX source, PDF, verified bibliography,
+the scripts behind its statistics and an end-to-end axiom check).
 
 **Supporting files.**
 - `ein_num.py`, `mx_num.py`: earlier numerical sympy checks.
