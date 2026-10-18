@@ -1,0 +1,6 @@
+**Complete proof (no `sorry`, standard axioms only).** Let $D$ be supported on $T$ with maximum rank among all real matrices supported on $T$, let $Dx=0$, $D^{\mathsf T}y=0$ and $(s,j)\in T$. Suppose $x_jy_s\neq0$, so $x_j\neq0$ and $y_s\neq0$. Let $E$ be the matrix with a single entry $1$ at $(s,j)$ (`unitMat s j`, defined as $e_s e_j^{\mathsf T}$) and $D'=D+E$. Since $(s,j)\in T$, $D'$ is still supported on $T$ (`unitMat_apply_of_not_mem`). The identity $E w = w_j\,e_s$ (`unitMat_mulVec`) gives:
+- $D'x = x_j e_s$, so $e_s=D'((x_j)^{-1}x)\in\operatorname{im}D'$;
+- for every $w$, $Dw = D'(w - (w_j/x_j)\,x)$, so $\operatorname{im}D\subseteq\operatorname{im}D'$;
+- $e_s\notin\operatorname{im}D$: for every $w$, $y\cdot Dw=(D^{\mathsf T}y)\cdot w=0$, while $y\cdot e_s=y_s\neq0$.
+
+Hence $\operatorname{im}D\subsetneq\operatorname{im}D'$ as submodules (`range_lt`), and `Submodule.finrank_lt_finrank_of_lt` gives $\operatorname{rank}D<\operatorname{rank}D'$ (`rank_lt`; `Matrix.rank` is the finrank of the range of `mulVecLin`). This contradicts the maximality hypothesis applied to $D'$. The computations use `Matrix.add_mulVec`, `Matrix.mulVec_sub`, `Matrix.mulVec_smul`, `Matrix.dotProduct_mulVec` and `Matrix.mulVec_transpose`.

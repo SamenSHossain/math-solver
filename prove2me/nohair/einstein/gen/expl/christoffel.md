@@ -1,0 +1,3 @@
+Direct application of `NoHair.KNE.chr_closed` from the definition block `NoHair_KerrNewmanEinstein_Christoffel`.
+
+That lemma works on $r>0$. It rewrites `invMetric` with the explicit inverse $g^{-1}=\eta-f\,k^\sharp k^{\sharp T}$, which is valid because $k$ is null. It also rewrites the metric partials $\partial_j g_{lk}=\partial_jf\,k_lk_k+f(\partial_jk_l\,k_k+k_l\,\partial_jk_k)$, obtained from the coordinate-partial calculus `HasCP` with closed-form partials of the atoms. Then each of the 40 independent entries of `chrS` equals `Gam` by `linear_combination` modulo $k_1^2+k_2^2+k_3^2=1$ and $W(r^2+a^2k_3^2)=1$; the cofactors come from Gröbner-basis division.
