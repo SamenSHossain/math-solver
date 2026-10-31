@@ -20,6 +20,17 @@ Two theorems from the same series were still OPEN on the platform and are proved
 | `StrategicPolicy.StochasticOpt.strategic_beats_nonstrategic` | u_NS(1,γ) < u(π*,γ) and u(1,γ) < u(π*,γ) (§3, p. 5, last sentence) | `Solutions/Sol_StrategicPolicy_StochasticOpt_strategic_beats_nonstrategic.lean` |
 
 The second proof imports the first as a lemma (a tracked reduction on the platform).
+
+Both were submitted on 2026-10-31 and verified server-side:
+
+| Theorem | Submission id | Verdict |
+|---|---|---|
+| `induced_transport` | `16e195c2-adb7-4b63-9c28-4e17e0fcec46` | ACCEPTED |
+| `strategic_beats_nonstrategic` | `fd96616e-ecdd-4249-ade3-523f0231aa7b` | ACCEPTED |
+
+These were milestones 3 and 4 of mission "Optimal Decision Making Under Strategic Behavior 2: A Three-Value
+Instance with Outcome Monotonic Costs Whose Optimal Policies Are All Stochastic" (mission id
+`14325a0c-1498-4c00-b8b9-792b7a4e5f1d`); with them, all four of that mission's milestones are complete.
 `Definitions/` and `Theorems/` are verbatim mirrors of the platform declarations the proofs import
 (theorem files end in `by sorry` on purpose, exactly as the platform stores them).
 `explanations/` holds the human-readable write-ups attached to each submission.
