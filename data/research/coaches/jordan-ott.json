@@ -1,0 +1,352 @@
+{
+  "coach": "Jordan Ott",
+  "slug": "jordan-ott",
+  "team": "PHX",
+  "team_name": "Phoenix Suns",
+  "head_coach_since": "2025-26",
+  "age": 41,
+  "background": "Career assistant hired by Phoenix in June 2025 as a first-time head coach after Mike Budenholzer's one-season flop. Rose from video coordinator roots: Michigan State (under Tom Izzo, where he overlapped with future Suns GM Brian Gregory), Atlanta Hawks video/player development (2013-16 under Budenholzer), Brooklyn Nets assistant (2016-22 under Kenny Atkinson, then Steve Nash), Los Angeles Lakers assistant (2022-24 under Darvin Ham) and Cleveland Cavaliers assistant on Atkinson's 64-18 staff (2024-25). Pitched at hiring as a detail-obsessed, development-minded 'culture reset' coach who would make the Suns play harder, faster and more connected after the Durant/Beal era. Was ranked 30th of 30 head coaches by Bleacher Report before the 2025-26 season, yet the post-Durant Suns were widely cited as one of the league's biggest overachievers in 2025-26 behind Devin Booker, a hard-playing wing group (Dillon Brooks, Ryan Dunn, Royce O'Neale, Grayson Allen) and a possession-battle identity built on offensive rebounding, forced turnovers and tempo. Exact 2025-26 record and postseason result were not verifiable in this session.",
+  "prior_head_coaching": [],
+  "record_last5": [
+    {
+      "season": "2021-22",
+      "team": "BKN",
+      "wins": null,
+      "losses": null,
+      "playoffs": null,
+      "notes": "assistant coach under Steve Nash (team 44-38, lost R1)"
+    },
+    {
+      "season": "2022-23",
+      "team": "LAL",
+      "wins": null,
+      "losses": null,
+      "playoffs": null,
+      "notes": "assistant coach under Darvin Ham (team 43-39, reached WCF)"
+    },
+    {
+      "season": "2023-24",
+      "team": "LAL",
+      "wins": null,
+      "losses": null,
+      "playoffs": null,
+      "notes": "assistant coach under Darvin Ham (team 47-35, lost R1)"
+    },
+    {
+      "season": "2024-25",
+      "team": "CLE",
+      "wins": null,
+      "losses": null,
+      "playoffs": null,
+      "notes": "assistant coach under Kenny Atkinson (team 64-18, lost R2); hired by Phoenix June 2025"
+    },
+    {
+      "season": "2025-26",
+      "team": "PHX",
+      "wins": null,
+      "losses": null,
+      "playoffs": null,
+      "notes": "First season as HC. Record and postseason result NOT verified in this session (web-search budget exhausted). Contemporaneous CBS Coach of the Year coverage listed the Suns among the league's overachievers; Phoenix handed the 62-win Spurs their first loss of the season in Nov 2025 (Wembanyama held to 9 points)"
+    },
+    {
+      "season": "2026-27",
+      "team": "PHX",
+      "wins": null,
+      "losses": null,
+      "playoffs": null,
+      "notes": "Record through 2026-11-02 not verified in this session"
+    }
+  ],
+  "defense_scheme_tags": [
+    "switch",
+    "aggressive-help",
+    "drop",
+    "blitz"
+  ],
+  "offense_scheme_tags": [
+    "pace-and-space",
+    "transition",
+    "five-out",
+    "motion",
+    "dribble-handoff"
+  ],
+  "scores": {
+    "rotation": {
+      "depth": {
+        "score": 62,
+        "confidence": 0.3,
+        "evidence": [
+          "Post-Durant roster lacked a second star, so Ott spread minutes across ~10 players (Booker, Green, Brooks, Allen, O'Neale, Dunn, Gillespie, M. Williams, Ighodaro, Maluach) in 2025-26 per recollection of beat coverage; not verified this session"
+        ],
+        "sources": []
+      },
+      "star_minutes_load": {
+        "score": 68,
+        "confidence": 0.3,
+        "evidence": [
+          "Booker carried very heavy usage and roughly 35-36 mpg as the lone star in 2025-26 (recollection; unverified)"
+        ],
+        "sources": []
+      },
+      "consistency": {
+        "score": 50,
+        "confidence": 0.25,
+        "evidence": [
+          "Starting lineup shifted with Jalen Green's hamstring injuries and the emergence of Collin Gillespie at point guard (2025-26); otherwise roles were fairly defined (recollection; unverified)"
+        ],
+        "sources": []
+      },
+      "youth_trust": {
+        "score": 58,
+        "confidence": 0.3,
+        "evidence": [
+          "Gave second-year wing Ryan Dunn and undrafted Collin Gillespie major roles; rookie center Khaman Maluach and Rasheer Fleming were eased in rather than thrown in (2025-26, recollection)"
+        ],
+        "sources": []
+      },
+      "load_management": {
+        "score": 40,
+        "confidence": 0.25,
+        "evidence": [
+          "No reporting found; Booker played a near-full schedule when healthy (estimate)"
+        ],
+        "sources": []
+      },
+      "closing_flexibility": {
+        "score": 55,
+        "confidence": 0.25,
+        "evidence": [
+          "Closers varied by matchup among Brooks/Dunn/O'Neale/Allen around Booker, with Williams or small-ball depending on opponent (recollection; unverified)"
+        ],
+        "sources": []
+      }
+    },
+    "offense": {
+      "pace": {
+        "score": 66,
+        "confidence": 0.3,
+        "evidence": [
+          "Ott's stated identity at hiring and in 2025-26 was playing faster and winning the possession battle; Phoenix was an upper-third pace team (recollection; unverified)"
+        ],
+        "sources": []
+      },
+      "three_point_emphasis": {
+        "score": 62,
+        "confidence": 0.3,
+        "evidence": [
+          "Atkinson-school spacing with Booker, Allen, O'Neale, Gillespie and Brooks produced above-average 3PA volume (2025-26, recollection; unverified)"
+        ],
+        "sources": []
+      },
+      "ball_movement": {
+        "score": 55,
+        "confidence": 0.3,
+        "evidence": [
+          "Booker-centric but with Atkinson/Cavaliers-style drive-and-kick and handoffs; more egalitarian than the Durant/Beal era (recollection; unverified)"
+        ],
+        "sources": []
+      },
+      "transition_emphasis": {
+        "score": 68,
+        "confidence": 0.3,
+        "evidence": [
+          "Turnover-forcing defense fed a run-out game; 'possession battle' emphasis on early offense (2025-26, recollection; unverified)"
+        ],
+        "sources": []
+      },
+      "offensive_rebounding": {
+        "score": 75,
+        "confidence": 0.3,
+        "evidence": [
+          "Suns crashed the offensive glass aggressively under Ott (Mark Williams, Ighodaro, Dunn, Brooks) and ranked near the top of the league in offensive-rebound rate in 2025-26 (recollection; unverified)"
+        ],
+        "sources": []
+      },
+      "paint_post_emphasis": {
+        "score": 45,
+        "confidence": 0.25,
+        "evidence": [
+          "Perimeter-oriented creation with Williams/Maluach as lob/putback threats; few post-ups (estimate)"
+        ],
+        "sources": []
+      },
+      "playcalling_ato_quality": {
+        "score": 55,
+        "confidence": 0.25,
+        "evidence": [
+          "Film-room/video-coordinator pedigree and years under Atkinson and Budenholzer; players in Cleveland and Brooklyn praised his preparation; no direct ATO data found (estimate)"
+        ],
+        "sources": []
+      }
+    },
+    "defense": {
+      "aggressiveness": {
+        "score": 72,
+        "confidence": 0.35,
+        "evidence": [
+          "Suns' 2025-26 identity was point-of-attack pressure and turnover creation via Brooks, Dunn and O'Neale; Phoenix held Wembanyama to 9 points in handing San Antonio its first loss ('They were expecting everything') in Nov 2025"
+        ],
+        "sources": [
+          "https://www.eurohoops.net/en/nba-news/1889208/victor-wembanyama-scores-9-points-spurs-lose-to-suns-nba/amp/"
+        ]
+      },
+      "perimeter_priority": {
+        "score": 62,
+        "confidence": 0.3,
+        "evidence": [
+          "Wing-heavy roster switched and pressured the ball; Williams played drop behind it (2025-26, recollection; unverified)"
+        ],
+        "sources": []
+      },
+      "foul_discipline": {
+        "score": 40,
+        "confidence": 0.25,
+        "evidence": [
+          "Physical, high-pressure style with Brooks implies an above-average opponent free-throw rate (estimate)"
+        ],
+        "sources": []
+      },
+      "zone_usage": {
+        "score": 35,
+        "confidence": 0.2,
+        "evidence": [
+          "No reporting found of regular zone; assumed occasional at most"
+        ],
+        "sources": []
+      },
+      "scheme_adaptability": {
+        "score": 58,
+        "confidence": 0.3,
+        "evidence": [
+          "Game-plan-specific prep (the Spurs 'were expecting everything') suggests matchup-tailored coverages (Nov 2025)"
+        ],
+        "sources": [
+          "https://www.eurohoops.net/en/nba-news/1889208/victor-wembanyama-scores-9-points-spurs-lose-to-suns-nba/amp/"
+        ]
+      }
+    },
+    "endgame": {
+      "timeout_aggressiveness": {
+        "score": 50,
+        "confidence": 0.2,
+        "evidence": [
+          "No reporting found; league-average assumed"
+        ],
+        "sources": []
+      },
+      "foul_up_three": {
+        "score": 50,
+        "confidence": 0.2,
+        "evidence": [
+          "No reporting found; league-average assumed"
+        ],
+        "sources": []
+      },
+      "late_lineup_shrink": {
+        "score": 55,
+        "confidence": 0.2,
+        "evidence": [
+          "No reporting found; typical shrink to 7-8 assumed"
+        ],
+        "sources": []
+      },
+      "challenge_quality": {
+        "score": 50,
+        "confidence": 0.2,
+        "evidence": [
+          "No reporting found; league-average assumed"
+        ],
+        "sources": []
+      },
+      "two_for_one_awareness": {
+        "score": 55,
+        "confidence": 0.2,
+        "evidence": [
+          "Possession-battle emphasis suggests attentiveness to end-of-quarter math (estimate)"
+        ],
+        "sources": []
+      },
+      "risk_appetite": {
+        "score": 52,
+        "confidence": 0.2,
+        "evidence": [
+          "No reporting found; league-average assumed"
+        ],
+        "sources": []
+      },
+      "clutch_reputation": {
+        "score": 52,
+        "confidence": 0.25,
+        "evidence": [
+          "Suns' 2025-26 overachievement included winning many close games behind Booker; no consensus criticism or praise of Ott's late-game management found"
+        ],
+        "sources": [
+          "https://scoutfly.cbsistatic.com/nba/news/nba-coach-of-the-year-rankings-odds-jb-bickerstaff-joe-mazzulla"
+        ]
+      }
+    },
+    "overall": {
+      "adaptability": {
+        "score": 55,
+        "confidence": 0.25,
+        "evidence": [
+          "Reshaped identity around Booker after the Durant trade and kept the team competitive through Jalen Green's absences (2025-26, recollection; unverified)"
+        ],
+        "sources": []
+      },
+      "player_development": {
+        "score": 65,
+        "confidence": 0.3,
+        "evidence": [
+          "Player-development pedigree (Hawks, Nets, Cavaliers); Ryan Dunn and Collin Gillespie made leaps in 2025-26 (recollection; unverified)"
+        ],
+        "sources": []
+      },
+      "analytics_adoption": {
+        "score": 65,
+        "confidence": 0.3,
+        "evidence": [
+          "Possession-battle framing (offensive boards, turnovers, pace, threes) and Atkinson lineage point to a data-friendly approach (estimate)"
+        ],
+        "sources": []
+      },
+      "reputation": {
+        "score": 55,
+        "confidence": 0.35,
+        "evidence": [
+          "Ranked No. 30 of 30 by Bleacher Report before 2025-26 as an unknown first-timer",
+          "By 2026 CBS listed the Suns among the season's overachievers in Coach of the Year coverage, lifting his standing"
+        ],
+        "sources": [
+          "https://bleacherreport.com/articles/25257198-2025-26-nba-season-power-rankings-all-30-head-coaches",
+          "https://scoutfly.cbsistatic.com/nba/news/nba-coach-of-the-year-rankings-odds-jb-bickerstaff-joe-mazzulla"
+        ]
+      }
+    }
+  },
+  "notable_quotes": [
+    {
+      "quote": "They were expecting everything.",
+      "speaker": "Victor Wembanyama",
+      "context": "Nov 2025 after Phoenix handed the Spurs their first loss of 2025-26, on the Suns' defensive preparation",
+      "source": "https://www.eurohoops.net/en/nba-news/1889208/victor-wembanyama-scores-9-points-spurs-lose-to-suns-nba/amp/"
+    }
+  ],
+  "key_criticisms": [
+    "Entered the job with no head-coaching experience; ranked last among 30 coaches in preseason 2025-26 rankings",
+    "Heavy reliance on Devin Booker's usage and minutes with limited secondary creation",
+    "Physical, pressure-based defense can be foul-prone (unverified)"
+  ],
+  "key_strengths": [
+    "Turned a post-Durant roster into one of 2025-26's overachievers through a clear possession-battle identity (offensive rebounding, forced turnovers, pace)",
+    "Elite game-planning/prep reputation from video-coordinator roots and the Atkinson/Budenholzer coaching trees",
+    "Development wins with young/undrafted role players (Dunn, Gillespie) and strong buy-in from Booker"
+  ],
+  "sources": [
+    "https://bleacherreport.com/articles/25257198-2025-26-nba-season-power-rankings-all-30-head-coaches",
+    "https://scoutfly.cbsistatic.com/nba/news/nba-coach-of-the-year-rankings-odds-jb-bickerstaff-joe-mazzulla",
+    "https://www.eurohoops.net/en/nba-news/1889208/victor-wembanyama-scores-9-points-spurs-lose-to-suns-nba/amp/"
+  ],
+  "research_notes": "LOW-COVERAGE PROFILE. The shared web-search budget was exhausted before any Ott-specific query ran, so no Suns record, playoff result, scheme breakdown, rotation data or quotes from Ott himself were retrieved. The only retrieved evidence is incidental: Bleacher Report's preseason 2025-26 ranking (No. 30), CBS's 2026 COY piece naming the Suns as overachievers, and a Eurohoops recap of Phoenix beating San Antonio. Background, scheme tags and most scores rest on the researcher's prior knowledge of Ott's hiring and the 2025-26 Suns' identity (possession battle, offensive rebounding, ball pressure, Booker-centric offense) and should be treated as hypotheses with confidence <= 0.35 pending a follow-up search. 2025-26 and 2026-27 win-loss totals deliberately left null rather than guessed. Age assumes a 1985 birth year (reported as 40 at hiring in June 2025).",
+  "researched_at": "2026-11-02"
+}

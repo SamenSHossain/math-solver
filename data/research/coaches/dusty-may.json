@@ -1,0 +1,488 @@
+{
+  "coach": "Dusty May",
+  "slug": "dusty-may",
+  "team": "DAL",
+  "team_name": "Dallas Mavericks",
+  "head_coach_since": "2026-27",
+  "age": 49,
+  "background": "Indiana native who began as a student manager under Bob Knight at Indiana, then spent nearly two decades as a college assistant (USC Upstate, Murray State, Eastern Michigan, UAB, Louisiana Tech, Florida under Mike White). Head coach at Florida Atlantic 2018-24 (126-69), including the 2023 Final Four run (35-4) and a 2024 NCAA bid. Hired by Michigan in March 2024; went 27-10 with a Big Ten Tournament title and Sweet 16 in 2024-25, then 37-3 with a Big Ten regular-season title (record 19-1), Big Ten Coach of the Year and the 2026 NCAA championship (beat UConn 69-63). Hired by the Mavericks on June 23, 2026 (reported June 22), two weeks after Masai Ujiri took over basketball operations and Jason Kidd departed; his first NBA job of any kind. Known for up-tempo, free-flowing, analytics-informed offense built around rim pressure and 3-point volume, switch-heavy defense, two-big lineups and an empowering, 'teacher' style rather than in-game micromanagement.",
+  "prior_head_coaching": [
+    {
+      "team": "Michigan (NCAA)",
+      "seasons": "2024-25 to 2025-26",
+      "record": "64-13",
+      "notes": "2025 Big Ten Tournament champion + Sweet 16; 2026 Big Ten regular-season champion (19-1), national champion (37-3), Big Ten Coach of the Year."
+    },
+    {
+      "team": "Florida Atlantic (NCAA)",
+      "seasons": "2018-19 to 2023-24",
+      "record": "126-69",
+      "notes": "2023 Final Four (35-4, lost to San Diego State on a buzzer-beater); 2024 NCAA first-round OT loss to Northwestern; developed Johnell Davis, Alijah Martin, Vlad Goldin."
+    }
+  ],
+  "record_last5": [
+    {
+      "season": "2021-22",
+      "team": "FAU",
+      "wins": 19,
+      "losses": 15,
+      "playoffs": "",
+      "notes": "college; no NCAA bid"
+    },
+    {
+      "season": "2022-23",
+      "team": "FAU",
+      "wins": 35,
+      "losses": 4,
+      "playoffs": "NCAA Final Four (lost to San Diego State)",
+      "notes": "college; C-USA regular season and tournament champion"
+    },
+    {
+      "season": "2023-24",
+      "team": "FAU",
+      "wins": 25,
+      "losses": 9,
+      "playoffs": "NCAA R1 loss to Northwestern (OT)",
+      "notes": "college; No. 8 seed"
+    },
+    {
+      "season": "2024-25",
+      "team": "Michigan",
+      "wins": 27,
+      "losses": 10,
+      "playoffs": "NCAA Sweet 16 (lost to Auburn); Big Ten Tournament champion",
+      "notes": "college; year-one turnaround from 8-24"
+    },
+    {
+      "season": "2025-26",
+      "team": "Michigan",
+      "wins": 37,
+      "losses": 3,
+      "playoffs": "NCAA champion (beat UConn 69-63); Big Ten Tournament final loss to Purdue (reported)",
+      "notes": "college; 19-1 Big Ten (record); Big Ten COY. One outlet reported 34-3; 37-3 is the figure in Wikipedia/NBC."
+    }
+  ],
+  "defense_scheme_tags": [
+    "switch",
+    "drop",
+    "aggressive-help",
+    "no-middle"
+  ],
+  "offense_scheme_tags": [
+    "pace-and-space",
+    "motion",
+    "five-out",
+    "two-big",
+    "transition",
+    "dribble-handoff"
+  ],
+  "scores": {
+    "rotation": {
+      "depth": {
+        "score": 62,
+        "confidence": 0.4,
+        "evidence": [
+          "May said in 2024 that playing uptempo with many possessions makes it hard for players to log 32-35 minutes, implying a deeper rotation (Rivals, Oct 2024).",
+          "Michigan 2025-26 rotated 9-10 players with no one near 35 mpg (national-title roster coverage).",
+          "NBA translation untested; Mavericks preseason featured heavy lineup experimentation (Mavs Pulse, Oct 2026)."
+        ],
+        "sources": [
+          "https://michigan.rivals.com/news/michigan-basketball-season-preview-storylines-for-2024-25-season",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Michigan_Wolverines_men%27s_basketball_team",
+          "https://roundtable.io/sports/nba/mavericks/news/mavs-pulse-podcast-mavericks-preseason-lineup-experiments-cooper-flagg-s-point-guard-role-highlight-episode"
+        ]
+      },
+      "star_minutes_load": {
+        "score": 38,
+        "confidence": 0.4,
+        "evidence": [
+          "Explicitly skeptical of 32-35 minute loads in his system (2024 quote).",
+          "College teams had balanced minutes; Flagg likely in the 33-35 range rather than 37+ (inferred)."
+        ],
+        "sources": [
+          "https://michigan.rivals.com/news/michigan-basketball-season-preview-storylines-for-2024-25-season"
+        ]
+      },
+      "consistency": {
+        "score": 45,
+        "confidence": 0.3,
+        "evidence": [
+          "Preseason 2026 coverage centered on 'lineup experiments' and Flagg's point-guard role (Mavs Pulse, Oct 2026).",
+          "At Michigan he adjusted roles fluidly within a 'free-flowing' system and was willing to change starters (2024-26 coverage)."
+        ],
+        "sources": [
+          "https://roundtable.io/sports/nba/mavericks/news/mavs-pulse-podcast-mavericks-preseason-lineup-experiments-cooper-flagg-s-point-guard-role-highlight-episode",
+          "https://michigan.rivals.com/news/dusty-may-michigan-not-even-close-to-reaching-full-potential-offensively"
+        ]
+      },
+      "youth_trust": {
+        "score": 72,
+        "confidence": 0.45,
+        "evidence": [
+          "Career spent developing 18-22-year-olds; Mavericks' franchise centerpiece Cooper Flagg (reigning ROY) is 19-20 and May issued a 'bold stat prediction' for his growth (Roundtable, 2026).",
+          "Michigan title team leaned on transfers and sophomores rather than seniors (2025-26)."
+        ],
+        "sources": [
+          "https://roundtable.io/sports/nba/mavericks/news/whats-cooper-flaggs-ceiling-new-mavs-coach-issues-bold-stat-prediction",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Michigan_Wolverines_men%27s_basketball_team"
+        ]
+      },
+      "load_management": {
+        "score": 50,
+        "confidence": 0.2,
+        "evidence": [
+          "No NBA evidence; college coaches do not manage rest days. Mavericks' veteran core (Davis, Irving, Thompson) with injury histories will likely dictate rest (inferred)."
+        ],
+        "sources": []
+      },
+      "closing_flexibility": {
+        "score": 55,
+        "confidence": 0.3,
+        "evidence": [
+          "At Michigan he closed with matchup-driven groups (two bigs vs size, smaller vs pace) and empowered players to read rather than call sets (umhoops, Oct 2024).",
+          "No NBA sample yet (inferred)."
+        ],
+        "sources": [
+          "https://umhoops.com/2024/10/10/dusty-101-giving-up-complete-control/",
+          "https://umhoops.com/2024/10/07/dusty-101-offensive-philosophy/"
+        ]
+      }
+    },
+    "offense": {
+      "pace": {
+        "score": 72,
+        "confidence": 0.55,
+        "evidence": [
+          "Core principle: never let the defense get set; 'pressure on the defense and at the rim' (umhoops, Oct 2024).",
+          "FAU and Michigan played an up-tempo brand; May wants Mavericks to be 'more entertaining' and Dallas already ranked 4th in pace in 2025-26 (Yardbarker, 2026 preview)."
+        ],
+        "sources": [
+          "https://umhoops.com/2024/10/07/dusty-101-offensive-philosophy/",
+          "https://www.yardbarker.com/nba/articles/dallas_mavericks_2026_27_nba_preseason_preview/s1_17659_44365143",
+          "https://www.on3.com/teams/michigan-wolverines/news/dusty-may-dishes-on-plans-for-program-watching-michigan-basketball-will-be-enjoyable/"
+        ]
+      },
+      "three_point_emphasis": {
+        "score": 68,
+        "confidence": 0.5,
+        "evidence": [
+          "May acknowledged 'we shoot probably too many threes' in 2024; FAU teams were high-volume 3-point shooting teams (2022-23).",
+          "Mavericks' 2026-27 preview calls 3-point shooting the biggest roster question, and May's college teams leaned on 3s and rebounding."
+        ],
+        "sources": [
+          "https://umhoops.com/2024/10/07/dusty-101-offensive-philosophy/",
+          "https://www.yardbarker.com/nba/articles/dallas_mavericks_2026_27_nba_preseason_preview/s1_17659_44365143"
+        ]
+      },
+      "ball_movement": {
+        "score": 72,
+        "confidence": 0.55,
+        "evidence": [
+          "Players described the offense as 'pretty free-flowing', with sets used mainly to create movement rather than shots (2026).",
+          "umhoops 'Dusty 101: Giving up complete control' (Oct 2024) describes a read-based, player-empowered offense rather than heliocentric playcalling."
+        ],
+        "sources": [
+          "https://michigan.rivals.com/news/dusty-may-michigan-not-even-close-to-reaching-full-potential-offensively",
+          "https://umhoops.com/2024/10/10/dusty-101-giving-up-complete-control/",
+          "https://aquicktimeout.substack.com/p/coach-basketball-like-dusty-may"
+        ]
+      },
+      "transition_emphasis": {
+        "score": 70,
+        "confidence": 0.5,
+        "evidence": [
+          "Offense built on attacking before the defense sets (2024 philosophy pieces).",
+          "FAU's 2023 Final Four team pushed off makes and misses; Michigan 2024-25 led the Big Ten in fast-break scoring stretches (inferred from style coverage)."
+        ],
+        "sources": [
+          "https://umhoops.com/2024/10/07/dusty-101-offensive-philosophy/",
+          "https://aquicktimeout.substack.com/p/coach-basketball-like-dusty-may"
+        ]
+      },
+      "offensive_rebounding": {
+        "score": 62,
+        "confidence": 0.4,
+        "evidence": [
+          "Michigan's two 7-footers (Wolf, Goldin) averaged 26 pts/16 reb in 2024-25; May's teams 'leaned on 3-point shooting and rebounding' (2026 preview).",
+          "Two-big lineups with Mara/Johnson/Lendeborg in 2025-26 crashed the glass (title-team coverage)."
+        ],
+        "sources": [
+          "https://michigan.rivals.com/news/michigan-basketball-season-preview-storylines-for-2024-25-season",
+          "https://www.yardbarker.com/nba/articles/dallas_mavericks_2026_27_nba_preseason_preview/s1_17659_44365143",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Michigan_Wolverines_men%27s_basketball_team"
+        ]
+      },
+      "paint_post_emphasis": {
+        "score": 58,
+        "confidence": 0.45,
+        "evidence": [
+          "Started two 7-footers at Michigan (Wolf as a point-center, Goldin as a post scorer) in 2024-25; 'finishes at the rim' is a stated priority.",
+          "Aday Mara used as a hub/facilitator in 2025-26."
+        ],
+        "sources": [
+          "https://michigan.rivals.com/news/michigan-basketball-season-preview-storylines-for-2024-25-season",
+          "https://umhoops.com/2024/10/07/dusty-101-offensive-philosophy/",
+          "https://www.cbsnews.com/detroit/news/michigans-rebuild-dusty-mays-new-school-approach"
+        ]
+      },
+      "playcalling_ato_quality": {
+        "score": 55,
+        "confidence": 0.3,
+        "evidence": [
+          "Reputation as a teacher/system builder more than an in-game micromanager (A Quick Timeout, 2024); Michigan went 11-2-ish in one-possession games in 2024-25 and won the 2026 title game by 6.",
+          "No NBA ATO sample; college ATO reputation solid but not elite (inferred)."
+        ],
+        "sources": [
+          "https://aquicktimeout.substack.com/p/coach-basketball-like-dusty-may",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Michigan_Wolverines_men%27s_basketball_team"
+        ]
+      }
+    },
+    "defense": {
+      "aggressiveness": {
+        "score": 50,
+        "confidence": 0.3,
+        "evidence": [
+          "Michigan scheme described as switch-heavy and communication-dependent (2024); not a trapping/gambling defense.",
+          "Title team's defense was anchored by rim protection (Mara, Johnson) rather than turnover creation (2025-26)."
+        ],
+        "sources": [
+          "https://michigan.rivals.com/news/michigan-basketball-season-preview-storylines-for-2024-25-season",
+          "https://www.cbsnews.com/detroit/news/michigans-rebuild-dusty-mays-new-school-approach"
+        ]
+      },
+      "perimeter_priority": {
+        "score": 55,
+        "confidence": 0.35,
+        "evidence": [
+          "Switch-heavy base (2024) implies perimeter containment, but two-big lineups and elite rim protectors in 2025-26 pulled the scheme toward protecting the paint (mixed).",
+          "Synergy had Michigan 6th nationally in defensive shot quality in 2024-25."
+        ],
+        "sources": [
+          "https://michigan.rivals.com/news/michigan-basketball-season-preview-storylines-for-2024-25-season",
+          "https://www.cbsnews.com/detroit/news/michigans-rebuild-dusty-mays-new-school-approach"
+        ]
+      },
+      "foul_discipline": {
+        "score": 55,
+        "confidence": 0.3,
+        "evidence": [
+          "Switch-and-contain scheme is not foul-heavy; Michigan's 2025-26 defense ranked near the top nationally in efficiency (inferred from style)."
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Michigan_Wolverines_men%27s_basketball_team"
+        ]
+      },
+      "zone_usage": {
+        "score": 25,
+        "confidence": 0.25,
+        "evidence": [
+          "No reporting of meaningful zone usage at FAU or Michigan; man-to-man switching is the identity (inferred)."
+        ],
+        "sources": [
+          "https://michigan.rivals.com/news/michigan-basketball-season-preview-storylines-for-2024-25-season"
+        ]
+      },
+      "scheme_adaptability": {
+        "score": 60,
+        "confidence": 0.35,
+        "evidence": [
+          "Moved between switch-everything (2024-25 with Wolf/Goldin) and drop/rim-protect looks (2025-26 with Mara/Johnson) by personnel.",
+          "Says approach is 'centered around what your best players do well' (2024)."
+        ],
+        "sources": [
+          "https://michigan.rivals.com/news/michigan-basketball-season-preview-storylines-for-2024-25-season",
+          "https://umhoops.com/2024/10/07/dusty-101-offensive-philosophy/",
+          "https://www.cbsnews.com/detroit/news/michigans-rebuild-dusty-mays-new-school-approach"
+        ]
+      }
+    },
+    "endgame": {
+      "timeout_aggressiveness": {
+        "score": 50,
+        "confidence": 0.2,
+        "evidence": [
+          "No NBA data; college coaches have more timeouts and he was not noted as unusually quick or slow with them (inferred)."
+        ],
+        "sources": []
+      },
+      "foul_up_three": {
+        "score": 50,
+        "confidence": 0.15,
+        "evidence": [
+          "No evidence found (inferred)."
+        ],
+        "sources": []
+      },
+      "late_lineup_shrink": {
+        "score": 55,
+        "confidence": 0.25,
+        "evidence": [
+          "College closing groups were tight (6-7 players) as is typical; expected to carry over (inferred)."
+        ],
+        "sources": []
+      },
+      "challenge_quality": {
+        "score": 45,
+        "confidence": 0.15,
+        "evidence": [
+          "Never had coach's challenges in college (NCAA has none); first-year NBA coaches generally grade below average (inferred)."
+        ],
+        "sources": []
+      },
+      "two_for_one_awareness": {
+        "score": 60,
+        "confidence": 0.25,
+        "evidence": [
+          "Analytics-embracing coach ('we do use analytics and the metrics', 2024) with tempo focus; likely 2-for-1 aware (inferred)."
+        ],
+        "sources": [
+          "https://umhoops.com/2024/10/07/dusty-101-offensive-philosophy/"
+        ]
+      },
+      "risk_appetite": {
+        "score": 55,
+        "confidence": 0.25,
+        "evidence": [
+          "Encourages early, open 3s and rim attacks in flow rather than slowing down late (2024 philosophy); no NBA evidence."
+        ],
+        "sources": [
+          "https://umhoops.com/2024/10/07/dusty-101-offensive-philosophy/",
+          "https://aquicktimeout.substack.com/p/coach-basketball-like-dusty-may"
+        ]
+      },
+      "clutch_reputation": {
+        "score": 55,
+        "confidence": 0.3,
+        "evidence": [
+          "Michigan won an unusual share of one-possession games in 2024-25 (Big Ten Tournament title run) and closed the 2026 title game 69-63; Sweet 16 loss to Auburn (2025) was not a late-game failure.",
+          "Blown late lead reputation absent; sample is college-only."
+        ],
+        "sources": [
+          "https://www.aol.com/good-basketball-team-ive-seen-063034276.html",
+          "https://www.si.com/college/michigan/basketball/takeaways-michigan-loss-auburn-sweet-sixteen-ncaa-tournament",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Michigan_Wolverines_men%27s_basketball_team"
+        ]
+      }
+    },
+    "overall": {
+      "adaptability": {
+        "score": 62,
+        "confidence": 0.4,
+        "evidence": [
+          "Rebuilt rosters via the portal each year and changed structural identity (two 7-footers in 2024-25, different frontcourt in 2025-26) while winning (2024-26).",
+          "Said he will build around what his best players do well (2024)."
+        ],
+        "sources": [
+          "https://www.aol.com/good-basketball-team-ive-seen-063034276.html",
+          "https://www.thescore.com/ncaab/news/3492301",
+          "https://umhoops.com/2024/10/07/dusty-101-offensive-philosophy/"
+        ]
+      },
+      "player_development": {
+        "score": 72,
+        "confidence": 0.5,
+        "evidence": [
+          "FAU: developed Johnell Davis, Alijah Martin and Vlad Goldin from unheralded recruits into stars (2023 Final Four).",
+          "Michigan: Danny Wolf became a first-round pick, Goldin an All-Big Ten center (2024-25); Flagg's growth is the stated 2026-27 priority."
+        ],
+        "sources": [
+          "https://www.thescore.com/ncaab/news/3492301",
+          "https://roundtable.io/sports/nba/mavericks/news/whats-cooper-flaggs-ceiling-new-mavs-coach-issues-bold-stat-prediction",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Michigan_Wolverines_men%27s_basketball_team"
+        ]
+      },
+      "analytics_adoption": {
+        "score": 70,
+        "confidence": 0.5,
+        "evidence": [
+          "'We do use analytics and the metrics' but centered on best players' strengths (May, 2024).",
+          "Shot-profile talk (3s and rim, 'too many threes'), Synergy shot-quality tracking cited by his program (2024-25)."
+        ],
+        "sources": [
+          "https://umhoops.com/2024/10/07/dusty-101-offensive-philosophy/",
+          "https://www.cbsnews.com/detroit/news/michigans-rebuild-dusty-mays-new-school-approach"
+        ]
+      },
+      "reputation": {
+        "score": 52,
+        "confidence": 0.4,
+        "evidence": [
+          "Reigning national champion and Big Ten Coach of the Year (2026), hired by Masai Ujiri over NBA-experienced options.",
+          "Zero NBA experience as a head coach or assistant; a Macao preseason loss to Houston by 18 and loss to New Orleans (Oct 2026) offer no verdict yet."
+        ],
+        "sources": [
+          "https://www.nbcchicago.com/nba/the-dallas-mavericks-hired-reigning-national-champion-head-coach-dusty-may-from-michigan/",
+          "https://www.yardbarker.com/nba/articles/cooper_flagg_credits_kevin_durant_for_offensive_growth/s1_17031_44411796",
+          "https://roundtable.io/sports/nba/pelicans/news/jeremiah-fears-leads-new-orleans-pelicans-to-win-over-mavericks-on-his-birthday"
+        ]
+      }
+    }
+  },
+  "notable_quotes": [
+    {
+      "quote": "We do use analytics and the metrics, but ... [the approach is] centered around what do your best players do well.",
+      "speaker": "Dusty May",
+      "context": "Michigan preseason 'Dusty 101' interview series, Oct 2024",
+      "source": "https://umhoops.com/2024/10/07/dusty-101-offensive-philosophy/"
+    },
+    {
+      "quote": "We shoot probably too many threes.",
+      "speaker": "Dusty May",
+      "context": "Michigan 2024-25 season (umhoops/on3)",
+      "source": "https://umhoops.com/2024/10/07/dusty-101-offensive-philosophy/"
+    },
+    {
+      "quote": "Watching Michigan basketball will be enjoyable.",
+      "speaker": "Dusty May",
+      "context": "Michigan introductory remarks, March 2024",
+      "source": "https://www.on3.com/teams/michigan-wolverines/news/dusty-may-dishes-on-plans-for-program-watching-michigan-basketball-will-be-enjoyable/"
+    },
+    {
+      "quote": "Playing uptempo with many possessions makes it hard for players to log 32 to 35 minutes.",
+      "speaker": "Dusty May (paraphrased)",
+      "context": "Michigan 2024-25 preseason, on starting two 7-footers in a fast system",
+      "source": "https://michigan.rivals.com/news/michigan-basketball-season-preview-storylines-for-2024-25-season"
+    }
+  ],
+  "key_criticisms": [
+    "No NBA experience at any level; untested in managing veteran stars, 82-game load management, challenges and NBA late-game rules.",
+    "Early tension between his two-big preferences and his up-tempo identity (2024).",
+    "Mavericks' 3-point shooting personnel is a question for a coach whose system depends on volume (2026 preview).",
+    "Analyst framing of him as a teacher rather than an in-game tactician raises ATO/clutch uncertainty."
+  ],
+  "key_strengths": [
+    "Elite program builder: Final Four at FAU (2023) and a national title in year two at Michigan (2026).",
+    "Modern, analytics-informed offense: pace, rim pressure, 3-point volume, read-based ball movement.",
+    "Player development and empowerment culture; strong fit with a young franchise star (Flagg).",
+    "Adapts scheme to personnel (switch vs rim-protect; two-big vs five-out)."
+  ],
+  "sources": [
+    "https://www.nbcchicago.com/nba/the-dallas-mavericks-hired-reigning-national-champion-head-coach-dusty-may-from-michigan/",
+    "https://www.newstribune.com/news/2026/jun/24/mavericks-announce-may-as-next-head-coach/",
+    "https://www.nba.com/news/mavs-hire-dusty-may-coach",
+    "https://en.wikipedia.org/wiki/2025%E2%80%9326_Michigan_Wolverines_men%27s_basketball_team",
+    "https://www.aol.com/good-basketball-team-ive-seen-063034276.html",
+    "https://www.si.com/college/michigan/basketball/takeaways-michigan-loss-auburn-sweet-sixteen-ncaa-tournament",
+    "https://www.wxyz.com/sports/dusty-may-leaving-michigan-to-take-head-coaching-job-with-dallas-mavericks-per-reports",
+    "https://umhoops.com/2024/10/07/dusty-101-offensive-philosophy/",
+    "https://umhoops.com/2024/10/10/dusty-101-giving-up-complete-control/",
+    "https://aquicktimeout.substack.com/p/coach-basketball-like-dusty-may",
+    "https://www.on3.com/teams/michigan-wolverines/news/michigan-dusty-may-philosophy-in-his-own-words-recruiting-offensive-emphasis/",
+    "https://michigan.rivals.com/news/michigan-basketball-season-preview-storylines-for-2024-25-season",
+    "https://michigan.rivals.com/news/dusty-may-michigan-not-even-close-to-reaching-full-potential-offensively",
+    "https://www.thescore.com/ncaab/news/3492301",
+    "https://www.yardbarker.com/nba/articles/dallas_mavericks_2026_27_nba_preseason_preview/s1_17659_44365143",
+    "https://roundtable.io/sports/nba/mavericks/news/whats-cooper-flaggs-ceiling-new-mavs-coach-issues-bold-stat-prediction",
+    "https://www.yardbarker.com/nba/articles/cooper_flagg_credits_kevin_durant_for_offensive_growth/s1_17031_44411796",
+    "https://roundtable.io/sports/nba/pelicans/news/jeremiah-fears-leads-new-orleans-pelicans-to-win-over-mavericks-on-his-birthday",
+    "https://www.d210.tv/2026/07/03/how-dusty-may-and-cooper-flagg-will-shape-the-mavericks-next-championship-push/",
+    "https://www.cbsnews.com/detroit/news/michigans-rebuild-dusty-mays-new-school-approach",
+    "https://www.on3.com/teams/michigan-wolverines/news/dusty-may-dishes-on-plans-for-program-watching-michigan-basketball-will-be-enjoyable/",
+    "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Dusty_May",
+    "https://roundtable.io/sports/nba/mavericks/news/mavs-pulse-podcast-mavericks-preseason-lineup-experiments-cooper-flagg-s-point-guard-role-highlight-episode",
+    "https://foxsportsmarquette.com/?p=669410"
+  ],
+  "research_notes": "The session's web-search budget was exhausted before planned queries on (a) May's Mavericks introductory press conference quotes (June 2026), (b) Dallas's 2026-27 regular-season results, starting lineup and minutes through Nov 1, (c) KenPom tempo/3PA-rate rankings for FAU and Michigan, and (d) FAU season-by-season verification. FAU records (19-15, 35-4, 25-9) and Michigan 2024-25 (27-10) are from prior knowledge, not verified in this pass; Michigan 2025-26 is 37-3 per Wikipedia/NBC though one outlet said 34-3; the Big Ten Tournament final result (loss to Purdue) is reported but inconsistently. 2026-27 Mavericks record is unknown and therefore omitted from record_last5. Nearly all endgame scores are inferred (confidence <= 0.3). Most philosophy evidence is from 2024 Michigan coverage, so NBA translation is an assumption.",
+  "researched_at": "2026-11-02"
+}

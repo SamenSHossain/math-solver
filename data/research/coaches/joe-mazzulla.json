@@ -1,0 +1,433 @@
+{
+  "coach": "Joe Mazzulla",
+  "slug": "joe-mazzulla",
+  "team": "BOS",
+  "team_name": "Boston Celtics",
+  "head_coach_since": "2022-23",
+  "age": 38,
+  "background": "A former West Virginia point guard, Mazzulla was head coach at Division II Fairmont State (2017-19) before joining the Celtics' staff in 2019. He became interim head coach in September 2022 after Ime Udoka's suspension and permanent head coach in February 2023. His Celtics went 57-25 (lost ECF in seven to Miami), 64-18 with the 2024 title at age 35 (youngest title-winning coach since Bill Russell), and 61-21 in 2024-25 before Jayson Tatum's Achilles tear and a second-round loss to New York; 182-64 regular season and 33-17 playoffs through 2024-25. He signed a multi-year extension in 2025. His 'Mazzulla Ball' is the league's purest expected-value offense: record three-point volume, five-out spacing, few turnovers, no fouling, and a famous refusal to call timeouts during opponent runs. After the 2025 roster teardown (Holiday, Porzingis traded; Horford, Kornet gone) and Tatum's absence, Boston still reached the 2026 playoffs (final result unverified).",
+  "prior_head_coaching": [
+    {
+      "team": "Fairmont State (NCAA D-II)",
+      "seasons": "2017-18 to 2018-19",
+      "record": "43-17 (approx.)",
+      "notes": "Division II; record from pre-cutoff knowledge, approximate"
+    }
+  ],
+  "record_last5": [
+    {
+      "season": "2021-22",
+      "team": "BOS (assistant)",
+      "wins": 51,
+      "losses": 31,
+      "playoffs": "Lost NBA Finals 2-4 to GSW (as assistant under Ime Udoka)",
+      "notes": "Not head coach; included for completeness"
+    },
+    {
+      "season": "2022-23",
+      "team": "BOS",
+      "wins": 57,
+      "losses": 25,
+      "playoffs": "Lost ECF 3-4 to MIA after erasing a 0-3 deficit to force Game 7 (beat ATL 4-2, PHI 4-3)",
+      "notes": "Interim then permanent head coach; 11-9 playoff record"
+    },
+    {
+      "season": "2023-24",
+      "team": "BOS",
+      "wins": 64,
+      "losses": 18,
+      "playoffs": "Won NBA title (beat MIA 4-1, CLE 4-1, IND 4-0, DAL 4-1); 16-3",
+      "notes": "Best record in NBA; record-setting 3PA volume"
+    },
+    {
+      "season": "2024-25",
+      "team": "BOS",
+      "wins": 61,
+      "losses": 21,
+      "playoffs": "Lost ECSF 2-4 to NYK (beat ORL 4-1); 6-5",
+      "notes": "Blew 20-point leads in Games 1 and 2 vs NYK; Tatum Achilles tear in Game 4"
+    },
+    {
+      "season": "2025-26",
+      "team": "BOS",
+      "wins": 52,
+      "losses": 30,
+      "playoffs": "Made playoffs; won Game 1 of R1 decisively; final result UNVERIFIED (NYK won the 2026 title)",
+      "notes": "W-L IS AN UNVERIFIED ESTIMATE (search budget exhausted). Tatum (Achilles) missed most or all of the season; Jaylen Brown career year; roster reshaped after Holiday/Porzingis trades"
+    }
+  ],
+  "defense_scheme_tags": [
+    "switch",
+    "drop",
+    "no-foul",
+    "contain"
+  ],
+  "offense_scheme_tags": [
+    "five-out",
+    "three-point-volume",
+    "drive-and-kick",
+    "isolation-mismatch-hunting",
+    "pace-and-space",
+    "offensive-rebound-crash"
+  ],
+  "scores": {
+    "rotation": {
+      "depth": {
+        "score": 30,
+        "confidence": 0.55,
+        "evidence": [
+          "Title-era Celtics ran a tight 8-man rotation with starters logging heavy minutes; bench used sparingly in playoffs",
+          "2025-26's reshaped roster forced a somewhat deeper regular-season rotation (Queta, Garza, Simons, Hauser, Minott), but playoff habits remain tight"
+        ],
+        "sources": [
+          "https://www.si.com/nba/celtics/news/celtics-insider-explains-why-joe-mazzulla-is-facing-biggest-test-yet-this-year",
+          "https://www.statscrew.com/basketball/stats/c-mazzujo01"
+        ]
+      },
+      "star_minutes_load": {
+        "score": 85,
+        "confidence": 0.5,
+        "evidence": [
+          "Tatum averaged ~36 mpg in 2023-24 and Mazzulla has kept stars on the floor in blowouts; Brown/White/Holiday all logged 33-36 mpg in the playoff runs",
+          "Pre-cutoff knowledge; not re-verified this session"
+        ],
+        "sources": [
+          "https://www.statscrew.com/basketball/stats/c-mazzujo01"
+        ]
+      },
+      "consistency": {
+        "score": 75,
+        "confidence": 0.5,
+        "evidence": [
+          "Rigid, predictable rotations and a fixed starting five whenever healthy; changes come from injury rather than matchup",
+          "Mazzulla publicly prizes consistency of approach over game-to-game tinkering"
+        ],
+        "sources": [
+          "https://www.cbssports.com/nba/news/in-celtics-vs-heat-when-mazzulla-and-spoelstra-use-their-timeouts-is-a-game-within-the-game"
+        ]
+      },
+      "youth_trust": {
+        "score": 40,
+        "confidence": 0.3,
+        "evidence": [
+          "Rookies rarely saw meaningful minutes on the title teams; Pritchard and Hauser earned trust only after multiple seasons",
+          "2025-26 necessity gave rookies (Gonzalez, Scheierman) and young bigs more run; still below average trust in close games"
+        ],
+        "sources": []
+      },
+      "load_management": {
+        "score": 45,
+        "confidence": 0.3,
+        "evidence": [
+          "Celtics rested Tatum/Brown on some back-to-backs and managed Porzingis's availability, but stars generally played when healthy",
+          "Estimate; not verified this session"
+        ],
+        "sources": []
+      },
+      "closing_flexibility": {
+        "score": 20,
+        "confidence": 0.5,
+        "evidence": [
+          "Closing five was essentially fixed (Tatum, Brown, White, Holiday plus Horford/Porzingis) across two seasons; bench players almost never close",
+          "Pre-cutoff knowledge"
+        ],
+        "sources": [
+          "https://www.si.com/nba/celtics/news/celtics-insider-explains-why-joe-mazzulla-is-facing-biggest-test-yet-this-year"
+        ]
+      }
+    },
+    "offense": {
+      "pace": {
+        "score": 35,
+        "confidence": 0.3,
+        "evidence": [
+          "Title-era Celtics ranked bottom-10 in pace, favoring a deliberate five-out half-court attack that generates 3s",
+          "2025-26 roster played somewhat faster out of necessity (estimate)"
+        ],
+        "sources": []
+      },
+      "three_point_emphasis": {
+        "score": 98,
+        "confidence": 0.85,
+        "evidence": [
+          "Boston averaged 'over 51 long-range attempts per game' early in 2024-25 and set the NBA record for 3PA per game (~48) that season after leading the league in 2023-24",
+          "The rubric itself names the Mazzulla Celtics as the 100 anchor"
+        ],
+        "sources": [
+          "https://www.cbssports.com/nba/news/warriors-have-become-the-team-you-always-thought-they-were-giving-steph-curry-a-real-shot-at-another-title"
+        ]
+      },
+      "ball_movement": {
+        "score": 45,
+        "confidence": 0.5,
+        "evidence": [
+          "Offense hunts mismatches via switches and isolates Tatum/Brown, with drive-and-kick to spaced shooters; assist totals were middling despite elite efficiency",
+          "Not a motion system; 'math' and spacing over passing volume"
+        ],
+        "sources": [
+          "https://www.celticsblog.com/2022/10/22/23417772/defense-miami-heat-stagger-action-boston-celtics-jayson-tatum-jaylen-brown-marcus-smart-joe-mazzulla"
+        ]
+      },
+      "transition_emphasis": {
+        "score": 35,
+        "confidence": 0.3,
+        "evidence": [
+          "Prioritizes floor balance and getting set in five-out alignment over pushing; transition frequency has been below average",
+          "Pre-cutoff knowledge"
+        ],
+        "sources": []
+      },
+      "offensive_rebounding": {
+        "score": 60,
+        "confidence": 0.3,
+        "evidence": [
+          "Mazzulla made offensive rebounding a stated point of emphasis in 2024-25 (crashing with Horford/Porzingis/Tatum) and the 2025-26 group with Queta crashed aggressively",
+          "Rank not verified this session"
+        ],
+        "sources": []
+      },
+      "paint_post_emphasis": {
+        "score": 25,
+        "confidence": 0.5,
+        "evidence": [
+          "Perimeter-first by design; post-ups used only to punish switches (Tatum/Brown/Porzingis mismatches)",
+          "Among the league's lowest shares of paint touches per possession in the title seasons"
+        ],
+        "sources": [
+          "https://www.cbssports.com/nba/news/warriors-have-become-the-team-you-always-thought-they-were-giving-steph-curry-a-real-shot-at-another-title"
+        ]
+      },
+      "playcalling_ato_quality": {
+        "score": 60,
+        "confidence": 0.35,
+        "evidence": [
+          "Criticized early (2023) for stale ATOs; improved with set designs and inbound plays through the 2024 title run, but he deliberately calls fewer plays and lets flow dictate",
+          "No ATO efficiency data found"
+        ],
+        "sources": [
+          "https://www.cbssports.com/nba/news/in-celtics-vs-heat-when-mazzulla-and-spoelstra-use-their-timeouts-is-a-game-within-the-game"
+        ]
+      }
+    },
+    "defense": {
+      "aggressiveness": {
+        "score": 30,
+        "confidence": 0.3,
+        "evidence": [
+          "Celtics defend without gambling: low steal and forced-turnover rates, almost no blitzing or trapping, emphasis on contesting without fouling",
+          "Pre-cutoff knowledge; consistent across 2022-25"
+        ],
+        "sources": []
+      },
+      "perimeter_priority": {
+        "score": 65,
+        "confidence": 0.45,
+        "evidence": [
+          "Switch-heavy perimeter defense (Holiday/White/Brown/Tatum) built to take away 3s and funnel into Porzingis/Horford drop or help",
+          "Concedes some rim attempts to size while running shooters off the line"
+        ],
+        "sources": [
+          "https://www.celticsblog.com/2022/10/22/23417772/defense-miami-heat-stagger-action-boston-celtics-jayson-tatum-jaylen-brown-marcus-smart-joe-mazzulla"
+        ]
+      },
+      "foul_discipline": {
+        "score": 85,
+        "confidence": 0.3,
+        "evidence": [
+          "Boston ranked at or near the top of the NBA in fewest opponent free throws in 2023-24 and 2024-25; 'no fouling' is a core Mazzulla teaching point",
+          "Pre-cutoff knowledge; rank not re-verified"
+        ],
+        "sources": []
+      },
+      "zone_usage": {
+        "score": 20,
+        "confidence": 0.3,
+        "evidence": [
+          "Rarely uses zone; brief experiments in 2022-23 were abandoned in favor of switching man",
+          "Pre-cutoff knowledge"
+        ],
+        "sources": []
+      },
+      "scheme_adaptability": {
+        "score": 40,
+        "confidence": 0.45,
+        "evidence": [
+          "Mazzulla's stated philosophy is to execute his system rather than adjust to opponents; coverages stayed consistent through the 2024 run and the 2025 NYK upset",
+          "Some in-series tweaks (double-teams on Butler 2023, Porzingis usage) but below average overall"
+        ],
+        "sources": [
+          "https://www.si.com/nba/celtics/news/celtics-insider-explains-why-joe-mazzulla-is-facing-biggest-test-yet-this-year"
+        ]
+      }
+    },
+    "endgame": {
+      "timeout_aggressiveness": {
+        "score": 8,
+        "confidence": 0.85,
+        "evidence": [
+          "CBS: when Mazzulla and Spoelstra use timeouts 'is a game within the game' - Mazzulla famously refuses to call timeouts to stop runs, wanting players to solve problems themselves",
+          "Critics tied this to blown leads (2023 ECF, 2025 vs NYK)"
+        ],
+        "sources": [
+          "https://www.cbssports.com/nba/news/in-celtics-vs-heat-when-mazzulla-and-spoelstra-use-their-timeouts-is-a-game-within-the-game"
+        ]
+      },
+      "foul_up_three": {
+        "score": 70,
+        "confidence": 0.3,
+        "evidence": [
+          "Celtics have fouled up three in late-clock situations under Mazzulla, consistent with his expected-value approach",
+          "Pre-cutoff knowledge; dedicated search did not run"
+        ],
+        "sources": []
+      },
+      "late_lineup_shrink": {
+        "score": 85,
+        "confidence": 0.3,
+        "evidence": [
+          "Clutch minutes go almost exclusively to the fixed starting five plus one; bench rarely sees close-game time",
+          "Pre-cutoff knowledge"
+        ],
+        "sources": []
+      },
+      "challenge_quality": {
+        "score": 85,
+        "confidence": 0.65,
+        "evidence": [
+          "Sportico (2024) profiled Mazzulla's challenge usage as among the league's most effective - Boston had one of the highest success rates in 2023-24",
+          "Analysts caution that challenge value concentrates in a few late high-leverage calls"
+        ],
+        "sources": [
+          "https://www.sportico.com/leagues/basketball/2024/nba-coaches-challenge-joe-mazzulla-1234762962/amp",
+          "https://au.sports.yahoo.com/can-the-nba-coachs-challenge-survive-its-inherent-subjectivity-distrust-and-strategy-issues-181306759.html"
+        ]
+      },
+      "two_for_one_awareness": {
+        "score": 85,
+        "confidence": 0.3,
+        "evidence": [
+          "Boston systematically hunts end-of-quarter 2-for-1s and quick 3s under Mazzulla, part of the possession-math identity",
+          "Pre-cutoff knowledge; not re-verified"
+        ],
+        "sources": []
+      },
+      "risk_appetite": {
+        "score": 70,
+        "confidence": 0.45,
+        "evidence": [
+          "Will take early-clock 3s down late, declines timeouts, and sticks with the math even when shots are not falling ('live by the 3')",
+          "Rarely plays for overtime or safe 2s"
+        ],
+        "sources": [
+          "https://www.cbssports.com/nba/news/in-celtics-vs-heat-when-mazzulla-and-spoelstra-use-their-timeouts-is-a-game-within-the-game"
+        ]
+      },
+      "clutch_reputation": {
+        "score": 55,
+        "confidence": 0.5,
+        "evidence": [
+          "Title winner with elite 2023-24 clutch record and a 0-3 comeback to Game 7 in 2023",
+          "Criticized for the 2023 ECF collapse and for blown 20-point leads in Games 1-2 vs NYK in 2025; 'facing biggest test yet' narrative in 2025-26"
+        ],
+        "sources": [
+          "https://www.si.com/nba/celtics/news/celtics-insider-explains-why-joe-mazzulla-is-facing-biggest-test-yet-this-year",
+          "https://www.sportsgrid.com/nba/article/ranking-the-top-15-coaches-in-the-nba-right-now"
+        ]
+      }
+    },
+    "overall": {
+      "adaptability": {
+        "score": 50,
+        "confidence": 0.45,
+        "evidence": [
+          "Adapted the roster-wide approach after the 2025 teardown (more size, crashing, deeper bench) and reached the 2026 playoffs without Tatum",
+          "Within games and series he is deliberately low-adjustment, trusting the system"
+        ],
+        "sources": [
+          "https://www.si.com/nba/celtics/news/celtics-insider-explains-why-joe-mazzulla-is-facing-biggest-test-yet-this-year",
+          "https://www.namibian.com.na/thunder-celtics-open-nba-playoffs-with-big-wins-magic-shock-pistons/"
+        ]
+      },
+      "player_development": {
+        "score": 60,
+        "confidence": 0.4,
+        "evidence": [
+          "Pritchard (2025 Sixth Man of the Year), Hauser, Queta and White all grew into bigger roles; Brown's 2025-26 leap came in Mazzulla's system",
+          "Few rookies developed through minutes; growth mostly among role players"
+        ],
+        "sources": [
+          "https://www.nba.com/news/joe-mazzulla-contract-extension-2025"
+        ]
+      },
+      "analytics_adoption": {
+        "score": 95,
+        "confidence": 0.8,
+        "evidence": [
+          "The archetype of analytics-driven coaching: record 3PA volume, shot-quality framing, no-foul defense, 2-for-1s, challenge optimization",
+          "Boston's 51+ 3PA early in 2024-25 reset league norms (CBS)"
+        ],
+        "sources": [
+          "https://www.cbssports.com/nba/news/warriors-have-become-the-team-you-always-thought-they-were-giving-steph-curry-a-real-shot-at-another-title",
+          "https://www.sportico.com/leagues/basketball/2024/nba-coaches-challenge-joe-mazzulla-1234762962/amp"
+        ]
+      },
+      "reputation": {
+        "score": 80,
+        "confidence": 0.6,
+        "evidence": [
+          "2024 champion, .740 regular-season winning percentage through 2024-25, multi-year extension in 2025; SportsGrid ranked him 6th among active coaches",
+          "Polarizing: praised for conviction, criticized for stubbornness and timeout refusal"
+        ],
+        "sources": [
+          "https://www.sportsgrid.com/nba/article/ranking-the-top-15-coaches-in-the-nba-right-now",
+          "https://www.nba.com/news/joe-mazzulla-contract-extension-2025",
+          "https://nbcsportsboston.com/nba/boston-celtics/wyc-grousbeck-joe-mazzulla-nba-head-coaches/659740"
+        ]
+      }
+    }
+  },
+  "notable_quotes": [
+    {
+      "quote": "When Mazzulla and Spoelstra use their timeouts is a game within the game.",
+      "speaker": "CBS Sports (analyst framing)",
+      "context": "2024 playoffs, contrasting Mazzulla's refusal to call timeouts with Spoelstra's aggressive usage",
+      "source": "https://www.cbssports.com/nba/news/in-celtics-vs-heat-when-mazzulla-and-spoelstra-use-their-timeouts-is-a-game-within-the-game"
+    },
+    {
+      "quote": "The reigning champion Celtics were averaging over 51 long-range attempts per game.",
+      "speaker": "CBS Sports",
+      "context": "early 2024-25, on Boston's record three-point volume",
+      "source": "https://www.cbssports.com/nba/news/warriors-have-become-the-team-you-always-thought-they-were-giving-steph-curry-a-real-shot-at-another-title"
+    }
+  ],
+  "key_criticisms": [
+    "Refuses to call timeouts during opponent runs; blamed for the 2023 ECF collapse and blown 20-point leads vs NYK in 2025",
+    "Live-by-the-3 offense can go cold in playoff half-court settings; little in-game or in-series adjustment",
+    "Tight rotations and heavy star minutes; limited trust in young players",
+    "Combative, unconventional press conferences; perceived stubbornness"
+  ],
+  "key_strengths": [
+    "League's most analytics-driven offense (record 3PA volume, spacing, low turnovers) and a 2024 championship",
+    "Disciplined, switch-heavy defense that rarely fouls",
+    "Elite challenge usage and end-of-quarter possession management (2-for-1s)",
+    "Clear identity and conviction; .740 regular-season winning percentage through 2024-25"
+  ],
+  "sources": [
+    "https://www.statscrew.com/basketball/stats/c-mazzujo01",
+    "https://www.nba.com/news/joe-mazzulla-contract-extension-2025",
+    "https://www.sportsgrid.com/nba/article/ranking-the-top-15-coaches-in-the-nba-right-now",
+    "https://www.si.com/nba/celtics/news/celtics-insider-explains-why-joe-mazzulla-is-facing-biggest-test-yet-this-year",
+    "https://wikipedia.com/wiki/Joe_Mazzulla",
+    "https://nbcsportsboston.com/nba/boston-celtics/wyc-grousbeck-joe-mazzulla-nba-head-coaches/659740",
+    "https://www.sportico.com/leagues/basketball/2024/nba-coaches-challenge-joe-mazzulla-1234762962/amp",
+    "https://au.sports.yahoo.com/can-the-nba-coachs-challenge-survive-its-inherent-subjectivity-distrust-and-strategy-issues-181306759.html",
+    "https://www.cbssports.com/nba/news/in-celtics-vs-heat-when-mazzulla-and-spoelstra-use-their-timeouts-is-a-game-within-the-game",
+    "https://www.cbssports.com/nba/news/warriors-have-become-the-team-you-always-thought-they-were-giving-steph-curry-a-real-shot-at-another-title",
+    "https://www.celticsblog.com/2022/10/22/23417772/defense-miami-heat-stagger-action-boston-celtics-jayson-tatum-jaylen-brown-marcus-smart-joe-mazzulla",
+    "https://defector.com/celtics-heat-nba-playoffs-zone-defense",
+    "https://www.namibian.com.na/thunder-celtics-open-nba-playoffs-with-big-wins-magic-shock-pistons/",
+    "https://en.wikipedia.org/wiki/2026_NBA_playoffs"
+  ],
+  "research_notes": "LOW-COVERAGE PROFILE: the shared per-turn web-search cap was reached after only one Mazzulla-specific search (season records through 2024-25 and the 2025 extension). The 2025-26 record (52-30) is an UNVERIFIED ESTIMATE; only confirmed facts are that Boston made the 2026 playoffs and won Game 1 of its first-round series (AFP headline) and that NYK won the 2026 title. Tatum's return date and Boston's 2026 playoff exit round are unknown; no 2026-27 record found. Scheme, rotation and end-game scores rely on pre-cutoff knowledge (through mid-2026) plus a few session URLs (CBS timeout piece, CBS 51-3PA note, Sportico challenge profile); dimensions with empty sources are capped at confidence 0.3 per instructions even where the tendency is well known (e.g., no-foul defense, fixed closing five). Fairmont State record approximate. Age computed from June 30, 1988 birth date.",
+  "researched_at": "2026-11-02"
+}

@@ -1,0 +1,79 @@
+{
+  "coach": "Darko Rajakovic",
+  "slug": "darko-rajakovic",
+  "team": "TOR",
+  "team_name": "Toronto Raptors",
+  "head_coach_since": "2023-24",
+  "age": 47,
+  "background": "Serbian coach who began coaching as a teenager in Cacak and ran KK Mega Vizura in Serbia in his mid-20s before coming to the United States as head coach of the Tulsa 66ers (D-League, 2012-14). NBA assistant with Oklahoma City (2014-19), Phoenix (2019-20) and Memphis under Taylor Jenkins (2020-23), where he was credited with the Grizzlies' player-development culture. Hired by Toronto in June 2023 to replace Nick Nurse with a mandate to install a faster, pass-heavy '0.5-second' decision offense and a development-first culture. Oversaw a teardown (Anunoby and Siakam traded midseason 2023-24) and went 25-57 and 30-52 while developing Scottie Barnes, Immanuel Quickley, Gradey Dick, Jamal Shead, Ja'Kobe Walter and Jonathan Mogbo; known for an aggressive, turnover-forcing defense, heavy offensive rebounding, a low three-point-attempt diet that drew criticism, and a famous March 2024 officiating rant. The 2025-26 Raptors, with Brandon Ingram added, were a strong early-season surprise in the East; the final 2025-26 record and playoff result were not verifiable in this session.",
+  "prior_head_coaching": [{"team": "Tulsa 66ers (NBA D-League)", "seasons": "2012-14", "notes": "D-League head coach before joining Oklahoma City's staff"}, {"team": "KK Mega Vizura (Serbia)", "seasons": "2000s", "notes": "Head coach in the Serbian league in his mid-20s"}],
+  "record_last5": [
+    {"season": "2021-22", "team": "MEM", "wins": null, "losses": null, "playoffs": null, "notes": "assistant coach under Taylor Jenkins (team 56-26, lost R2)"},
+    {"season": "2022-23", "team": "MEM", "wins": null, "losses": null, "playoffs": null, "notes": "assistant coach under Taylor Jenkins (team 51-31, lost R1); hired by Toronto June 2023"},
+    {"season": "2023-24", "team": "TOR", "wins": 25, "losses": 57, "playoffs": "Missed playoffs", "notes": "First season; Anunoby and Siakam traded midseason; Barnes broke hand in March"},
+    {"season": "2024-25", "team": "TOR", "wins": 30, "losses": 52, "playoffs": "Missed playoffs", "notes": "Injury-riddled development year; acquired Brandon Ingram at the deadline; strong late-season stretch"},
+    {"season": "2025-26", "team": "TOR", "wins": null, "losses": null, "playoffs": null, "notes": "Record and postseason result NOT verified in this session (web-search budget exhausted). From prior knowledge the Raptors opened strongly (long November win streak, top-half East for much of the first half) with Barnes, Quickley, Ingram, Barrett and Poeltl"},
+    {"season": "2026-27", "team": "TOR", "wins": null, "losses": null, "playoffs": null, "notes": "Record through 2026-11-02 not verified in this session"}
+  ],
+  "defense_scheme_tags": ["aggressive-help", "switch", "blitz", "drop", "zone"],
+  "offense_scheme_tags": ["motion", "transition", "dribble-handoff", "post-centric", "pace-and-space"],
+  "scores": {
+    "rotation": {
+      "depth": {"score": 70, "confidence": 0.3, "evidence": ["Routinely played 10-11 players during the 2023-25 development seasons, giving second-round picks and two-way players real minutes; tightened somewhat with veterans in 2025-26 (recollection; unverified this session)"], "sources": []},
+      "star_minutes_load": {"score": 50, "confidence": 0.3, "evidence": ["Barnes around 34-35 mpg and Quickley/Ingram in the low 30s; no pattern of 38-40 minute loads (recollection; unverified)"], "sources": []},
+      "consistency": {"score": 40, "confidence": 0.3, "evidence": ["Frequent lineup tinkering amid injuries and development priorities in 2023-25; starting five changed often (recollection; unverified)"], "sources": []},
+      "youth_trust": {"score": 80, "confidence": 0.3, "evidence": ["Rookies Shead, Walter and Mogbo closed games and started in 2024-25; Dick featured heavily as a rookie in 2023-24; Collin Murray-Boyles earned rotation minutes as a rookie in 2025-26 (recollection; unverified)"], "sources": []},
+      "load_management": {"score": 55, "confidence": 0.25, "evidence": ["Raptors were liberal with 'injury management' rest during the 2024-25 lottery push; less so once competitive in 2025-26 (recollection; unverified)"], "sources": []},
+      "closing_flexibility": {"score": 60, "confidence": 0.25, "evidence": ["Closing groups varied by matchup, including rookie Shead for ball pressure and Poeltl-or-small decisions (2024-26, recollection; unverified)"], "sources": []}
+    },
+    "offense": {
+      "pace": {"score": 62, "confidence": 0.3, "evidence": ["Rajakovic's '0.5-second' offense asks for quick decisions and early offense; Toronto has been a top-half pace team under him (recollection; unverified)"], "sources": []},
+      "three_point_emphasis": {"score": 28, "confidence": 0.3, "evidence": ["Raptors ranked near the bottom of the league in 3PA rate in 2023-24 and 2024-25 (midrange-heavy shot diet from Barnes, Barrett, Ingram) and were criticized for it; remained below average in 2025-26 (recollection; unverified)"], "sources": []},
+      "ball_movement": {"score": 82, "confidence": 0.3, "evidence": ["Signature '0.5' principle: catch and shoot, drive or pass within half a second; Toronto was top-three in assists per game in 2023-24 and remains a drive-and-kick, DHO and cutting offense (recollection; unverified)"], "sources": []},
+      "transition_emphasis": {"score": 68, "confidence": 0.3, "evidence": ["Turnover-forcing defense fuels run-outs; Raptors among the league leaders in fast-break points in 2025-26 (recollection; unverified)"], "sources": []},
+      "offensive_rebounding": {"score": 75, "confidence": 0.3, "evidence": ["Toronto crashed the glass hard with Poeltl, Barnes and Mogbo and ranked top-three in offensive-rebound rate in 2024-25 (recollection; unverified)"], "sources": []},
+      "paint_post_emphasis": {"score": 62, "confidence": 0.3, "evidence": ["Paint-touch and drive-centric offense; Poeltl post/DHO hub; Barnes and Ingram midrange and post-ups (recollection; unverified)"], "sources": []},
+      "playcalling_ato_quality": {"score": 52, "confidence": 0.25, "evidence": ["No consensus reputation found either way; sets lean on flow/random offense more than scripted ATOs (estimate)"], "sources": []}
+    },
+    "defense": {
+      "aggressiveness": {"score": 82, "confidence": 0.3, "evidence": ["Toronto led or nearly led the NBA in steals and opponent turnovers in 2024-25 and 2025-26 with ball pressure from Shead, Barnes, Quickley and Walter, selective full-court pressure and gambling help (recollection; unverified)"], "sources": []},
+      "perimeter_priority": {"score": 58, "confidence": 0.3, "evidence": ["Aggressive on the ball and at the point of attack, but Poeltl plays drop behind it; mixed priority (recollection; unverified)"], "sources": []},
+      "foul_discipline": {"score": 38, "confidence": 0.3, "evidence": ["High-pressure, gambling scheme produced an above-average opponent free-throw rate in 2024-25; Rajakovic was fined for a March 2024 rant over a 23-2 free-throw disparity vs the Lakers (recollection; unverified)"], "sources": []},
+      "zone_usage": {"score": 40, "confidence": 0.25, "evidence": ["Occasional zone looks, not a staple (recollection; unverified)"], "sources": []},
+      "scheme_adaptability": {"score": 58, "confidence": 0.25, "evidence": ["Mixes pressure, switching and drop by personnel; tends to keep the aggressive identity regardless of opponent (recollection; unverified)"], "sources": []}
+    },
+    "endgame": {
+      "timeout_aggressiveness": {"score": 50, "confidence": 0.2, "evidence": ["No reporting found; league-average assumed"], "sources": []},
+      "foul_up_three": {"score": 50, "confidence": 0.2, "evidence": ["No reporting found; league-average assumed"], "sources": []},
+      "late_lineup_shrink": {"score": 50, "confidence": 0.2, "evidence": ["No reporting found; typical shrink assumed, with rookies sometimes kept in for defense (estimate)"], "sources": []},
+      "challenge_quality": {"score": 50, "confidence": 0.2, "evidence": ["No reporting found; league-average assumed"], "sources": []},
+      "two_for_one_awareness": {"score": 50, "confidence": 0.2, "evidence": ["No reporting found; league-average assumed"], "sources": []},
+      "risk_appetite": {"score": 58, "confidence": 0.2, "evidence": ["Aggressive, pressure-based identity suggests above-average willingness to gamble late (estimate)"], "sources": []},
+      "clutch_reputation": {"score": 42, "confidence": 0.25, "evidence": ["Young Raptors lost a large share of clutch games in 2023-25 (many blown late leads); improved with veterans in 2025-26 (recollection; unverified)"], "sources": []}
+    },
+    "overall": {
+      "adaptability": {"score": 50, "confidence": 0.25, "evidence": ["Kept core principles through a teardown and a rebuild; limited playoff sample to judge in-series adjustments (estimate)"], "sources": []},
+      "player_development": {"score": 78, "confidence": 0.3, "evidence": ["Barnes became an All-Star (2024) and Quickley earned a max-level deal; Shead, Walter, Mogbo and Dick developed into rotation players under a development-first mandate (2023-26, recollection; unverified)"], "sources": []},
+      "analytics_adoption": {"score": 42, "confidence": 0.25, "evidence": ["Possession-margin focus (turnovers, offensive boards) is analytics-friendly, but the persistently low 3PA rate and midrange tolerance cut against modern shot-selection orthodoxy (recollection; unverified)"], "sources": []},
+      "reputation": {"score": 50, "confidence": 0.3, "evidence": ["Viewed as a respected developer/culture-builder but a lower-middle-tier tactician after two lottery seasons; the 2025-26 surge drew Coach of the Year chatter and improved his standing (recollection; CBS 2025-26 tier list ranks all 30 coaches but his tier was not visible in retrieved snippets)"], "sources": ["https://www.cbssports.com/nba/news/nba-coach-rankings-all-30-coaches-split-into-eight-tiers-as-2025-26-season-begins"]}
+    }
+  },
+  "notable_quotes": [],
+  "key_criticisms": [
+    "Low three-point volume and midrange-heavy shot diet relative to the modern league (2023-25)",
+    "Gambling, high-pressure defense fouls a lot; poor clutch results with young rosters in 2023-25",
+    "Two lottery seasons (25-57, 30-52) before the roster matured; some skepticism about tactical ceiling",
+    "Frequent lineup tinkering during development years"
+  ],
+  "key_strengths": [
+    "Elite player-development and culture reputation (Barnes, Quickley, Shead, Walter, Dick, Mogbo)",
+    "Distinctive '0.5-second' ball-movement offense with high assist rates and relentless offensive rebounding",
+    "League-leading turnover creation and transition scoring on defense-to-offense",
+    "Deep rotations and genuine trust in young players"
+  ],
+  "sources": [
+    "https://www.cbssports.com/nba/news/nba-coach-rankings-all-30-coaches-split-into-eight-tiers-as-2025-26-season-begins"
+  ],
+  "research_notes": "LOW-COVERAGE PROFILE. The shared web-search budget was exhausted before any Rajakovic-specific query ran, so nothing about the 2025-26 or 2026-27 Raptors, his schemes, rotations or late-game habits was retrieved in this session. Records for 2023-24 (25-57) and 2024-25 (30-52) and the background are from the researcher's prior knowledge and are high-confidence facts, but every score is a prior-knowledge estimate with confidence <= 0.3 and empty source lists, as the rubric requires. 2025-26 and 2026-27 win-loss totals were deliberately left null rather than guessed. The single cited source (CBS 2025-26 tier list) was retrieved for another coach and his placement in it was not visible. A follow-up search pass is strongly recommended for: 2025-26 final record and playoff result, 2026-27 start, 3PA rate and pace ranks, opponent turnover rate, foul rate, challenge usage and any extension news.",
+  "researched_at": "2026-11-02"
+}

@@ -1,0 +1,518 @@
+{
+  "coach": "Tyronn Lue",
+  "slug": "tyronn-lue",
+  "team": "LAC",
+  "team_name": "LA Clippers",
+  "head_coach_since": "2020-21",
+  "age": 49,
+  "background": "Former 11-year NBA point guard (Lakers, Cavaliers, Magic etc.) who became Cleveland's head coach midway through 2015-16, immediately won the 2016 title (first team to come back from 3-1 in the Finals) and reached three straight Finals before being fired 0-6 into 2018-19. Joined the Clippers as Doc Rivers' lead assistant (2019-20), then took over as head coach in 2020-21 and led the franchise to its first Western Conference Finals (2021). Has coached injury-riddled Kawhi Leonard/Paul George/James Harden rosters to 15 consecutive winning seasons through 2025-26, but has not won a playoff series since 2021 (play-in exits in 2022 and 2026, first-round losses 2023-25). Signed a reported five-year, ~$70M extension in 2024. Widely regarded by executives as the league's best in-game adjuster and a strong communicator with stars; criticized for conservative pace, over-tinkering and some late-game/challenge decisions.",
+  "prior_head_coaching": [
+    {
+      "team": "CLE",
+      "seasons": "2015-16 (interim from Jan 2016) to 2018-19",
+      "record": "128-83 regular season, 41-20 playoffs",
+      "notes": "2016 NBA champion; three straight Finals (2016-18); fired after 0-6 start to 2018-19."
+    }
+  ],
+  "record_last5": [
+    {
+      "season": "2021-22",
+      "team": "LAC",
+      "wins": 42,
+      "losses": 40,
+      "playoffs": "Lost play-in (lost both games, to MIN and NOP)",
+      "notes": "Kawhi Leonard missed the entire season; George missed most of it."
+    },
+    {
+      "season": "2022-23",
+      "team": "LAC",
+      "wins": 44,
+      "losses": 38,
+      "playoffs": "Lost R1 1-4 to PHX",
+      "notes": "5th seed; Leonard hurt in Game 2."
+    },
+    {
+      "season": "2023-24",
+      "team": "LAC",
+      "wins": 51,
+      "losses": 31,
+      "playoffs": "Lost R1 2-4 to DAL",
+      "notes": "First season with Harden; Leonard out most of series."
+    },
+    {
+      "season": "2024-25",
+      "team": "LAC",
+      "wins": 50,
+      "losses": 32,
+      "playoffs": "Lost R1 3-4 to DEN",
+      "notes": "5th seed; lost Game 7 in Denver; Lue voted best in-game adjuster in GM survey that fall."
+    },
+    {
+      "season": "2025-26",
+      "team": "LAC",
+      "wins": 42,
+      "losses": 40,
+      "playoffs": "9th seed; lost play-in 121-126 to GSW (Apr 15, 2026)",
+      "notes": "Started 6-21, went 21-8 to climb back; first team ever 15+ games under .500 to finish with a winning record; 15th straight winning season. Darius Garland acquired from CLE midseason (Harden to CLE)."
+    },
+    {
+      "season": "2026-27",
+      "team": "LAC",
+      "wins": 1,
+      "losses": 3,
+      "playoffs": "In progress",
+      "notes": "UNVERIFIED: one live tracker (Squawka) showed 1-3 (12th West) as of late Oct 2026; another showed 1-0 after the Oct 21 opener vs SAC (121-96). Preseason win total 30.5; previews describe a 'life after Kawhi' roster with Brandon Ingram (partially torn Achilles) and Ben Simmons (season-ending Achilles)."
+    }
+  ],
+  "defense_scheme_tags": [
+    "drop",
+    "stack-drop",
+    "switch",
+    "zone",
+    "blitz",
+    "aggressive-help"
+  ],
+  "offense_scheme_tags": [
+    "pick-and-roll-heavy",
+    "heliocentric",
+    "isolation",
+    "slow-pace",
+    "dribble-handoff",
+    "post-centric-spot"
+  ],
+  "scores": {
+    "rotation": {
+      "depth": {
+        "score": 55,
+        "confidence": 0.55,
+        "evidence": [
+          "Regular-season rotations typically run 9-10 deep because of injuries and veteran rest (Batum given games off; 2025-26 rotation moved Sanders up, Collins/Batum down per April 2026 report).",
+          "Tightens to 7-8 in playoffs; GM survey reputation is built on matchup-based playoff rotations."
+        ],
+        "sources": [
+          "https://www.talkbasket.net/212482-tyronn-lue-on-clippers-rotation-plans-darius-garland-update-ahead-of-nuggets-clash",
+          "https://abc7.com/post/la-clippers-kawhi-leonard-feels-ready-to-go-but-ty-lue-to-keep-minutes-capped/10592130/"
+        ]
+      },
+      "star_minutes_load": {
+        "score": 50,
+        "confidence": 0.6,
+        "evidence": [
+          "Kawhi Leonard has played under an explicit minutes cap ('He's on his minutes, so we just can't overdo it').",
+          "Entering 2025-26 Lue said the staff planned to lower James Harden's workload to keep him fresh for the playoffs, after critics said Harden/Leonard were being overworked in 2024-25."
+        ],
+        "sources": [
+          "https://abc7.com/post/la-clippers-kawhi-leonard-feels-ready-to-go-but-ty-lue-to-keep-minutes-capped/10592130/",
+          "https://clipperholics.com/tyronn-lue-has-perfect-plan-james-harden-this-season",
+          "https://clipperholics.com/ty-lue-overworking-james-harden-kawhi-leonard-clippers-failure"
+        ]
+      },
+      "consistency": {
+        "score": 30,
+        "confidence": 0.6,
+        "evidence": [
+          "Lue is a chronic tinkerer: matchup-based starting lineups and mid-series lineup changes are the core of his 'Bill Belichick' adjustment reputation (Beverley, 2021).",
+          "Benched Leonard and other starters late in games vs DEN and LAL for matchup reasons, drawing public pushback from Leonard."
+        ],
+        "sources": [
+          "https://fadeawayworld.net/we-called-t-lue-bill-belichick-with-all-the-adjustments-he-makes-says-patrick-beverley",
+          "https://fadeawayworld.net/kawhi-leonard-calls-out-tyronn-lue-for-benching-him-and-other-starters-against-the-nuggets"
+        ]
+      },
+      "youth_trust": {
+        "score": 30,
+        "confidence": 0.5,
+        "evidence": [
+          "2025-26 Clippers were the oldest roster ever to start a season (avg 33.2); Lue has consistently favored veterans (Batum, Collins, Paul) over young players.",
+          "Young players (Kobe Sanders, Cam Christie) earned minutes only after injuries/trades in 2025-26."
+        ],
+        "sources": [
+          "https://www.dunkest.com/en/nba/news/220730/los-angeles-clippers-the-last-run-for-tyronn-lues-veterans-2",
+          "https://www.talkbasket.net/212482-tyronn-lue-on-clippers-rotation-plans-darius-garland-update-ahead-of-nuggets-clash"
+        ]
+      },
+      "load_management": {
+        "score": 60,
+        "confidence": 0.55,
+        "evidence": [
+          "Clippers under Lue have been the league's poster franchise for load management (Leonard's program, Batum rest games, Harden workload plan in 2025-26), though Lue insists most Leonard absences were real injuries, not rest."
+        ],
+        "sources": [
+          "https://fadeawayworld.net/tyronn-lue-sets-the-record-straight-about-kawhi-leonard-after-load-management-accusations",
+          "https://clipperholics.com/tyronn-lue-has-perfect-plan-james-harden-this-season"
+        ]
+      },
+      "closing_flexibility": {
+        "score": 80,
+        "confidence": 0.65,
+        "evidence": [
+          "Has benched Leonard and other starters in crunch time for matchup/hot-hand reasons (vs DEN and vs LAL), a hallmark of his approach.",
+          "Known for closing with role players (Mann, Batum, Dunn) based on matchup rather than a fixed five."
+        ],
+        "sources": [
+          "https://fadeawayworld.net/kawhi-leonard-calls-out-tyronn-lue-for-benching-him-and-other-starters-against-the-nuggets",
+          "https://hqz.gg/?p=14782",
+          "https://roundtable.io/sports/nba/clippers/news/kris-dunn-credits-ty-lue-s-coaching-style-for-clippers-turnaround"
+        ]
+      }
+    },
+    "offense": {
+      "pace": {
+        "score": 25,
+        "confidence": 0.65,
+        "evidence": [
+          "Clippers ranked 28th in pace in a prior Lue season and he publicly said he wanted more pace; 2025-26 previews expected an even slower, set-defense veteran team with Harden/Paul running the offense."
+        ],
+        "sources": [
+          "https://www.dunkest.com/en/nba/news/220730/los-angeles-clippers-the-last-run-for-tyronn-lues-veterans-2",
+          "https://clipperholics.com/controversial-clippers-roster-executing-exactly-fans-expected"
+        ]
+      },
+      "three_point_emphasis": {
+        "score": 45,
+        "confidence": 0.5,
+        "evidence": [
+          "2025-26 Clippers shot 36.8% from three (7th) with a 117.3 ORtg (~11th) but middling attempt volume; Lue after a Nets loss: 'We got 35 threes which is way better than we've been getting... but I don't think I liked the shots.'"
+        ],
+        "sources": [
+          "https://www.si.com/nba/clippers/news/la-clippers-brooklyn-nets-three-takeaways",
+          "https://clipperholics.com/tyronn-lue-painfully-obvious-starting-point-solve-clippers-biggest-issue"
+        ]
+      },
+      "ball_movement": {
+        "score": 35,
+        "confidence": 0.6,
+        "evidence": [
+          "Offense built on Harden pick-and-roll and Leonard/Beal isolations; Garland (Mar 2026) called it 'stagnant' after a Spurs loss.",
+          "Lue praised ball movement and pace after the 153-point explosion vs MIN (2024-25), but that was the exception."
+        ],
+        "sources": [
+          "https://clipperholics.com/tyronn-lue-painfully-obvious-starting-point-solve-clippers-biggest-issue",
+          "https://www.talkbasket.net/213909-tyronn-lue-breaks-down-clippers-153-point-explosion-over-timberwolves"
+        ]
+      },
+      "transition_emphasis": {
+        "score": 25,
+        "confidence": 0.55,
+        "evidence": [
+          "Slow, half-court veteran team; critics cite 'ineffectiveness in applying pressure at the rim' and lack of tempo as core offensive problems (2025-26)."
+        ],
+        "sources": [
+          "https://clipperholics.com/tyronn-lue-painfully-obvious-starting-point-solve-clippers-biggest-issue"
+        ]
+      },
+      "offensive_rebounding": {
+        "score": 45,
+        "confidence": 0.3,
+        "evidence": [
+          "Zubac is an elite individual offensive rebounder but the scheme prioritizes getting back; team-level crash rate is roughly average (inferred, not found in search)."
+        ],
+        "sources": []
+      },
+      "paint_post_emphasis": {
+        "score": 50,
+        "confidence": 0.4,
+        "evidence": [
+          "Zubac post-ups/duck-ins and Leonard mid-post isolation are staples, balanced by Harden PnR; roughly league-average paint emphasis (inferred)."
+        ],
+        "sources": [
+          "https://www.yardbarker.com/nba/articles/how_clippers_can_stunt_nikola_jokic_nuggets_in_playoff_matchup/s1_13132_42073669"
+        ]
+      },
+      "playcalling_ato_quality": {
+        "score": 85,
+        "confidence": 0.7,
+        "evidence": [
+          "In Game 7 of the 2016 Finals Lue's ATOs manufactured 13 second-half points, including the Irving/Curry switch-hunting set that produced the game-winner.",
+          "2020 scouting consensus: after-timeout sets were one of the things he did best in Cleveland; GMs voted him best in-game adjuster (37% in one survey, 28% in another)."
+        ],
+        "sources": [
+          "https://thejumpball.net/2016/06/22/lue-showed-why-he-was-the-cavs-guy/",
+          "https://www.libertyballers.com/2020/9/30/21495023/what-would-ty-lue-bring-to-the-sixers-lets-ask-the-experts-philadelphia-76ers-cleveland-cavaliers",
+          "https://www.si.com/nba/clippers/news/ty-lue-voted-nba-coach-with-best-in-game-adjustments"
+        ]
+      }
+    },
+    "defense": {
+      "aggressiveness": {
+        "score": 50,
+        "confidence": 0.6,
+        "evidence": [
+          "Base scheme is conservative drop with Zubac (deep bumps on the roller, stunts from one pass away), but Lue layers in traps/switch-everything vs Curry and 'double teams from every angle' in playoff series (2021 WCF)."
+        ],
+        "sources": [
+          "https://digginbasketball.substack.com/p/mavs-film-clippers-pick-defense",
+          "https://www.si.com/nba/clippers/onsi/gameday/breaking-down-clippers-defense-on-stephen-curry",
+          "https://www.sportskeeda.com/basketball/how-head-coach-tyronn-lue-orchestrated-la-clippers-historic-run-2021-western-conference-finals"
+        ]
+      },
+      "perimeter_priority": {
+        "score": 35,
+        "confidence": 0.6,
+        "evidence": [
+          "Lue 'usually has his team send the ball handler middle into a stack/drop alignment' protecting the paint with Zubac (Apr 2025).",
+          "2025-26 Clippers allowed 39.4% from three (bottom-3), consistent with conceding perimeter looks."
+        ],
+        "sources": [
+          "https://www.yardbarker.com/nba/articles/how_clippers_can_stunt_nikola_jokic_nuggets_in_playoff_matchup/s1_13132_42073669",
+          "https://213hoops.com/explaining-the-clippers-drop-coverage/",
+          "https://clipperholics.com/clippers-most-glaring-flaw-can-only-be-fixed-by-tyronn-lue-james-harden"
+        ]
+      },
+      "foul_discipline": {
+        "score": 55,
+        "confidence": 0.3,
+        "evidence": [
+          "Drop-based veteran defense generally keeps opponent FT rate modest; no hard data surfaced in search (inferred)."
+        ],
+        "sources": []
+      },
+      "zone_usage": {
+        "score": 45,
+        "confidence": 0.5,
+        "evidence": [
+          "Used zone as a wrinkle in the 2021 playoffs (short zone stretch vs UTA then timeout 'to keep opponents off-balance'; zone plus doubles vs PHX in WCF Game 1).",
+          "Zone is situational rather than a base coverage; no 2025-26 frequency data found."
+        ],
+        "sources": [
+          "https://www.sportskeeda.com/basketball/how-head-coach-tyronn-lue-orchestrated-la-clippers-historic-run-2021-western-conference-finals",
+          "https://www.truehoop.com/p/did-tyronn-lue-find-a-checkmate"
+        ]
+      },
+      "scheme_adaptability": {
+        "score": 85,
+        "confidence": 0.75,
+        "evidence": [
+          "Changed defense in Game 3 vs UTA (2021) and the Jazz were 'blown out for six quarters'; put Zubac on Doncic; swapped Zubac for Hartenstein vs quick bigs (2022 analysis).",
+          "Steve Kerr (USA Basketball) called him a 'brilliant defensive mind'."
+        ],
+        "sources": [
+          "https://www.truehoop.com/p/did-tyronn-lue-find-a-checkmate",
+          "https://theanalyst.com/na/2022/01/tyronn-lue-los-angeles-clippers-defense-nba-playoffs/",
+          "https://justinrusso.substack.com/p/tyronn-lue-steve-kerr-usa-basketball-clippers"
+        ]
+      }
+    },
+    "endgame": {
+      "timeout_aggressiveness": {
+        "score": 50,
+        "confidence": 0.5,
+        "evidence": [
+          "In Cleveland he was credited with using timeouts to stop runs (2016), but with the Clippers he has skipped late timeouts on purpose (vs UTA: declined a timeout so Utah couldn't set a Gobert screen, which critics called nonsensical).",
+          "Admitted a 2022 challenge 'could've come back to hurt us because we used our timeout', showing he values keeping late timeouts."
+        ],
+        "sources": [
+          "https://thejumpball.net/2016/06/22/lue-showed-why-he-was-the-cavs-guy/",
+          "https://www.thebiglead.com/posts/ty-lue-coaching-kawji-leonard-01f7rdxbbwer",
+          "https://www.cbssports.com/nba/news/lebron-james-frank-vogel-gripe-about-challenge-ruling-late-in-lakers-loss-to-clips-i-think-its-total-bs"
+        ]
+      },
+      "foul_up_three": {
+        "score": 50,
+        "confidence": 0.25,
+        "evidence": [
+          "No direct evidence found in search; Clippers have fouled up three situationally under Lue in my recollection, but treat as league-average with low confidence."
+        ],
+        "sources": []
+      },
+      "late_lineup_shrink": {
+        "score": 70,
+        "confidence": 0.55,
+        "evidence": [
+          "Shrinks to a matchup-chosen 6-7 in clutch time and will sit even stars (Leonard benched late vs DEN/LAL); playoff rotations are notably short."
+        ],
+        "sources": [
+          "https://fadeawayworld.net/kawhi-leonard-calls-out-tyronn-lue-for-benching-him-and-other-starters-against-the-nuggets",
+          "https://hqz.gg/?p=14782"
+        ]
+      },
+      "challenge_quality": {
+        "score": 50,
+        "confidence": 0.5,
+        "evidence": [
+          "Won a late challenge vs LAL (2022) on a call that was never made (Vogel: 'total BS'); but in Nov 2024 the league said a Clippers challenge request on a kick-ball was rescinded because it wasn't reviewable, and in Mar 2026 he was granted a challenge only after DeRozan had the ball for free throws (Westbrook irate).",
+          "Mixed record: opportunistic but sometimes procedurally sloppy."
+        ],
+        "sources": [
+          "https://www.cbssports.com/nba/news/lebron-james-frank-vogel-gripe-about-challenge-ruling-late-in-lakers-loss-to-clips-i-think-its-total-bs",
+          "https://www.si.com/nba/clippers/news/nba-admits-big-missed-calls-in-toronto-raptors-vs-la-clippers-01jccdwgcd8q",
+          "https://www.yardbarker.com/nba/articles/russell_westbrook_makes_his_frustration_clear_over_late_coachs_challenge_just_before_demar_derozans_free_throws/s1_17759_43600149"
+        ]
+      },
+      "two_for_one_awareness": {
+        "score": 50,
+        "confidence": 0.25,
+        "evidence": [
+          "No evidence surfaced; Harden-led teams generally hunt 2-for-1s at a league-typical rate (inferred)."
+        ],
+        "sources": []
+      },
+      "risk_appetite": {
+        "score": 65,
+        "confidence": 0.5,
+        "evidence": [
+          "Praised for 'tactical brilliance and risk-taking' (ABC7 feature); willing to bench stars late and gamble on matchups; Clippers were dubbed the NBA's 'comeback kings' under Lue."
+        ],
+        "sources": [
+          "https://abc7.com/sports/he-is-the-star-how-ty-lue-has-changed-the-clippers-narrative-on/11671863",
+          "https://www.inkl.com/news/behind-ty-lue-the-clippers-are-now-the-nba-s-comeback-kings"
+        ]
+      },
+      "clutch_reputation": {
+        "score": 78,
+        "confidence": 0.6,
+        "evidence": [
+          "Reputation as an in-game mastermind since the 2016 Finals comeback; GMs voted him best in-game adjuster and top-two motivator (2024 survey).",
+          "Counterpoints: Clippers blew a 2025-26 play-in game to GSW (43-point 4th quarter allowed) and have had late-game execution lapses (Jazz loss, Kawhi turnover)."
+        ],
+        "sources": [
+          "https://www.si.com/nba/clippers/news/ty-lue-voted-nba-coach-with-best-in-game-adjustments",
+          "https://roundtable.io/sports/nba/clippers/news/ty-lue-had-two-words-to-describe-his-feelings-after-clippers-season-ending-loss-to-warriors",
+          "https://www.thebiglead.com/posts/ty-lue-coaching-kawji-leonard-01f7rdxbbwer"
+        ]
+      }
+    },
+    "overall": {
+      "adaptability": {
+        "score": 90,
+        "confidence": 0.8,
+        "evidence": [
+          "Consensus best in-game adjuster among NBA GMs (37% of votes, 2024 survey; still top in a later survey); Beverley: 'We called T-Lue Bill Belichick with all the adjustments he makes.'",
+          "Turned a 6-21 start into a 42-40 season in 2025-26 with a reshaped rotation."
+        ],
+        "sources": [
+          "https://www.si.com/nba/clippers/news/ty-lue-voted-nba-coach-with-best-in-game-adjustments",
+          "https://www.si.com/nba/clippers/news/nba-gms-unite-in-agreement-on-la-clippers-coach-ty-lue-01j9pyq7zrrm",
+          "https://www.foxsports.com/articles/nba/clippers-stunning-turnaround-from-621-to-the-playin-and-a-shot-at-the-playoffs"
+        ]
+      },
+      "player_development": {
+        "score": 40,
+        "confidence": 0.45,
+        "evidence": [
+          "Not known as a developer; Clippers rosters have been veteran-heavy by design. Some credit for Terance Mann, Ivica Zubac's growth and Kris Dunn's revival, but little pipeline of young contributors."
+        ],
+        "sources": [
+          "https://roundtable.io/sports/nba/clippers/news/kris-dunn-credits-ty-lue-s-coaching-style-for-clippers-turnaround"
+        ]
+      },
+      "analytics_adoption": {
+        "score": 50,
+        "confidence": 0.35,
+        "evidence": [
+          "Clippers front office (Frank/Winger) is analytics-forward and Lue has shifted toward more threes when prompted, but his instincts are matchup/feel-based; no direct evidence found (inferred)."
+        ],
+        "sources": [
+          "https://www.si.com/nba/clippers/news/la-clippers-brooklyn-nets-three-takeaways"
+        ]
+      },
+      "reputation": {
+        "score": 80,
+        "confidence": 0.7,
+        "evidence": [
+          "Champion coach with a $14M/yr extension and perennial top-5 standing among peers; GM-survey winner for adjustments and motivation.",
+          "Detractors call him an 'overrated beneficiary of superstar talent' and note no series wins since 2021."
+        ],
+        "sources": [
+          "https://www.cbsnews.com/amp/losangeles/news/clippers-sign-coach-tyronn-lue-to-new-deal-reportedly-worth-14-million-annually-2",
+          "https://www.si.com/nba/clippers/news/nba-gms-unite-in-agreement-on-la-clippers-coach-ty-lue-01j9pyq7zrrm",
+          "https://www.si.com/nba/clippers/onsi/news/how-much-credit-should-ty-lue-have-clippers-01kaeda07pp4"
+        ]
+      }
+    }
+  },
+  "notable_quotes": [
+    {
+      "quote": "He's on his minutes, so we just can't overdo it.",
+      "speaker": "Tyronn Lue",
+      "context": "On Kawhi Leonard's minutes cap (ABC7, 2020-21 era)",
+      "source": "https://abc7.com/post/la-clippers-kawhi-leonard-feels-ready-to-go-but-ty-lue-to-keep-minutes-capped/10592130/"
+    },
+    {
+      "quote": "We got 35 threes which is way better than we've been getting. But I don't think I liked the shots that we got by getting those threes.",
+      "speaker": "Tyronn Lue",
+      "context": "Postgame after a loss to Brooklyn (SI)",
+      "source": "https://www.si.com/nba/clippers/news/la-clippers-brooklyn-nets-three-takeaways"
+    },
+    {
+      "quote": "We called T-Lue Bill Belichick with all the adjustments he makes.",
+      "speaker": "Patrick Beverley",
+      "context": "2021 playoffs",
+      "source": "https://fadeawayworld.net/we-called-t-lue-bill-belichick-with-all-the-adjustments-he-makes-says-patrick-beverley"
+    },
+    {
+      "quote": "Brilliant defensive mind ... great communicator.",
+      "speaker": "Steve Kerr",
+      "context": "On Lue as USA Basketball assistant (Justin Russo substack)",
+      "source": "https://justinrusso.substack.com/p/tyronn-lue-steve-kerr-usa-basketball-clippers"
+    },
+    {
+      "quote": "It could've came back to hurt us because we used our timeout.",
+      "speaker": "Tyronn Lue",
+      "context": "On a late challenge vs Lakers, 2022",
+      "source": "https://www.cbssports.com/nba/news/lebron-james-frank-vogel-gripe-about-challenge-ruling-late-in-lakers-loss-to-clips-i-think-its-total-bs"
+    }
+  ],
+  "key_criticisms": [
+    "Slow, isolation-heavy half-court offense; team ranked near the bottom in pace and was called 'stagnant' by its own players (2025-26).",
+    "Constant lineup tinkering and late benchings of stars (Leonard publicly objected) can undermine rhythm.",
+    "No playoff series win since 2021 despite 50-win rosters; play-in exits in 2022 and 2026.",
+    "Procedural lapses on challenges/timeouts (non-reviewable challenge request 2024; odd late-timeout logic vs UTA) and fined $35K (Feb 2024) for calling officials cheaters.",
+    "Perimeter defense suffered in 2025-26 (opponents shot 39.4% from three, bottom-3)."
+  ],
+  "key_strengths": [
+    "Best-in-class in-game and in-series adjustments by GM consensus; elite ATO play designer dating to the 2016 Finals.",
+    "Strong relationships with stars and locker-room credibility; voted top-two motivator.",
+    "Flexible defensive toolbox (drop with Zubac, switch/trap vs elite guards, situational zone).",
+    "Resilience: 15 straight winning seasons, 2025-26 turnaround from 6-21."
+  ],
+  "sources": [
+    "https://www.foxsports.com/articles/nba/clippers-stunning-turnaround-from-621-to-the-playin-and-a-shot-at-the-playoffs",
+    "https://www.landofbasketball.com/results_by_team/2025_2026_clippers.htm",
+    "https://roundtable.io/sports/nba/clippers/news/ty-lue-had-two-words-to-describe-his-feelings-after-clippers-season-ending-loss-to-warriors",
+    "https://roundtable.io/sports/nba/clippers/news/ty-lue-reflects-on-clippers-clinching-15th-consecutive-winning-season",
+    "https://www.foxsports.com/articles/nba/clippers-beat-the-warriors-115110-to-clinch-no-9-seed-and-playin-tourney-rematch",
+    "https://www.cbsnews.com/amp/losangeles/news/clippers-sign-coach-tyronn-lue-to-new-deal-reportedly-worth-14-million-annually-2",
+    "https://www.si.com/nba/clippers/news/ty-lue-voted-nba-coach-with-best-in-game-adjustments",
+    "https://clipperholics.com/ty-lue-voted-best-one-category-nba-general-manager-survey",
+    "https://www.si.com/nba/clippers/news/nba-gms-unite-in-agreement-on-la-clippers-coach-ty-lue-01j9pyq7zrrm",
+    "https://fadeawayworld.net/we-called-t-lue-bill-belichick-with-all-the-adjustments-he-makes-says-patrick-beverley",
+    "https://justinrusso.substack.com/p/tyronn-lue-steve-kerr-usa-basketball-clippers",
+    "https://digginbasketball.substack.com/p/mavs-film-clippers-pick-defense",
+    "https://www.yardbarker.com/nba/articles/how_clippers_can_stunt_nikola_jokic_nuggets_in_playoff_matchup/s1_13132_42073669",
+    "https://213hoops.com/explaining-the-clippers-drop-coverage/",
+    "https://www.si.com/nba/clippers/onsi/gameday/breaking-down-clippers-defense-on-stephen-curry",
+    "https://theanalyst.com/na/2022/01/tyronn-lue-los-angeles-clippers-defense-nba-playoffs/",
+    "https://www.sportskeeda.com/basketball/how-head-coach-tyronn-lue-orchestrated-la-clippers-historic-run-2021-western-conference-finals",
+    "https://www.truehoop.com/p/did-tyronn-lue-find-a-checkmate",
+    "https://clipperholics.com/tyronn-lue-painfully-obvious-starting-point-solve-clippers-biggest-issue",
+    "https://clipperholics.com/clippers-most-glaring-flaw-can-only-be-fixed-by-tyronn-lue-james-harden",
+    "https://www.dunkest.com/en/nba/news/220730/los-angeles-clippers-the-last-run-for-tyronn-lues-veterans-2",
+    "https://clipperholics.com/controversial-clippers-roster-executing-exactly-fans-expected",
+    "https://www.talkbasket.net/213909-tyronn-lue-breaks-down-clippers-153-point-explosion-over-timberwolves",
+    "https://www.cbssports.com/nba/news/clippers-tyronn-lue-pleads-for-defensive-mindset-vs-suns",
+    "https://abc7.com/post/la-clippers-kawhi-leonard-feels-ready-to-go-but-ty-lue-to-keep-minutes-capped/10592130/",
+    "https://fadeawayworld.net/tyronn-lue-sets-the-record-straight-about-kawhi-leonard-after-load-management-accusations",
+    "https://www.talkbasket.net/212482-tyronn-lue-on-clippers-rotation-plans-darius-garland-update-ahead-of-nuggets-clash",
+    "https://clipperholics.com/tyronn-lue-has-perfect-plan-james-harden-this-season",
+    "https://clipperholics.com/ty-lue-overworking-james-harden-kawhi-leonard-clippers-failure",
+    "https://fadeawayworld.net/kawhi-leonard-calls-out-tyronn-lue-for-benching-him-and-other-starters-against-the-nuggets",
+    "https://hqz.gg/?p=14782",
+    "https://roundtable.io/sports/nba/clippers/news/kris-dunn-credits-ty-lue-s-coaching-style-for-clippers-turnaround",
+    "https://www.cbssports.com/nba/news/lebron-james-frank-vogel-gripe-about-challenge-ruling-late-in-lakers-loss-to-clips-i-think-its-total-bs",
+    "https://www.yardbarker.com/nba/articles/russell_westbrook_makes_his_frustration_clear_over_late_coachs_challenge_just_before_demar_derozans_free_throws/s1_17759_43600149",
+    "https://www.thebiglead.com/posts/ty-lue-coaching-kawji-leonard-01f7rdxbbwer",
+    "https://www.si.com/nba/clippers/news/nba-admits-big-missed-calls-in-toronto-raptors-vs-la-clippers-01jccdwgcd8q",
+    "https://www.nba.com/news/clippers-tyronn-lue-fined-for-public-criticism-of-officials",
+    "https://thejumpball.net/2016/06/22/lue-showed-why-he-was-the-cavs-guy/",
+    "https://www.libertyballers.com/2020/9/30/21495023/what-would-ty-lue-bring-to-the-sixers-lets-ask-the-experts-philadelphia-76ers-cleveland-cavaliers",
+    "https://www.inkl.com/news/behind-ty-lue-the-clippers-are-now-the-nba-s-comeback-kings",
+    "https://abc7.com/sports/he-is-the-star-how-ty-lue-has-changed-the-clippers-narrative-on/11671863",
+    "https://www.si.com/nba/clippers/news/la-clippers-brooklyn-nets-three-takeaways",
+    "https://www.si.com/nba/clippers/onsi/news/how-much-credit-should-ty-lue-have-clippers-01kaeda07pp4",
+    "https://www.fantasyalarm.com/articles/nba/nba-offseason/la-clippers-2026-27-season-preview/196385",
+    "https://www.squawka.com/ca/?p=18855"
+  ],
+  "research_notes": "Search-only environment; search budget was exhausted before 2026-27 details could be confirmed. UNVERIFIED: (a) the 2026-27 record (1-3 per one tracker vs 1-0 per another as of late Oct 2026); (b) Kawhi Leonard's apparent departure from the Clippers in the 2026 offseason (a Fantasy Alarm preview is titled 'Life After Kawhi' and references 'Kawhi Leonard trade fallout', but no primary report was retrieved); (c) Brandon Ingram and Ben Simmons being on the 2026-27 roster (single preview source each). The 2025-26 final record of 42-40/9th seed and the 121-126 play-in loss to GSW on Apr 15, 2026 are confirmed by multiple sources; a Wikipedia mirror's 34-36 figure was a mid-season snapshot. The Harden-for-Garland swap with Cleveland (around the Feb 2026 deadline) is inferred from multiple references to Garland on the Clippers (Mar 2026) and Harden on the Cavaliers (2026 playoffs) and should be verified. 2021-22 through 2024-25 records are from my own knowledge (not re-verified by search) but are standard reference figures. GM-survey percentages differ by year (37% in the 2024 survey, 28% in another). No team-level data were found for foul-up-3, 2-for-1 frequency, challenge success rate, zone frequency, or offensive-rebound rate; those dimensions are inferred with confidence <= 0.35. Lue missed games in 2025-26 with back pain (Brian Shaw filled in).",
+  "researched_at": "2026-11-02"
+}

@@ -1,0 +1,134 @@
+{
+  "coach": "Ime Udoka",
+  "slug": "ime-udoka",
+  "team": "HOU",
+  "team_name": "Houston Rockets",
+  "head_coach_since": "2023-24",
+  "age": 49,
+  "background": "Nigerian-American former journeyman forward (Lakers, Knicks, Trail Blazers, Spurs, Kings) who spent 2012-19 on Gregg Popovich's Spurs staff (2014 title), then assisted Brett Brown in Philadelphia (2019-20) and Steve Nash in Brooklyn (2020-21). Hired by Boston in June 2021 and took the Celtics to the 2022 NBA Finals (51-31, lost 2-4 to GSW) in his first season, but was suspended for the entire 2022-23 season for violating team policies and let go in 2023. Houston hired him in April 2023; he turned a 22-win team into a 41-41 team, then a 52-30 No. 2 seed (2024-25) and another 52-30 team after the Kevin Durant trade (2025-26), but is 5-8 in the playoffs with no series wins (lost R1 to GSW in 7, to LAL in 6). Defense-first, physical, accountability-driven coach from the Popovich tree; agreed to a contract extension (AP). Reputation: elite culture-setter and defensive architect; questioned for offensive system, tight veteran-leaning rotations, late-game execution and public blame of players.",
+  "prior_head_coaching": [
+    {"team": "BOS", "seasons": "2021-22", "record": "51-31 regular season, 14-10 playoffs", "notes": "Lost 2022 NBA Finals 2-4 to Golden State; built a switch-everything No. 1 defense. Suspended for all of 2022-23 for violating team policies; Boston moved on in 2023."}
+  ],
+  "record_last5": [
+    {"season": "2021-22", "team": "BOS", "wins": 51, "losses": 31, "playoffs": "Lost NBA Finals 2-4 to GSW", "notes": "Beat BKN 4-0, MIL 4-3, MIA 4-3."},
+    {"season": "2022-23", "team": "BOS", "wins": null, "losses": null, "playoffs": "Did not coach (season-long suspension)", "notes": "Joe Mazzulla coached Boston; Udoka was hired by Houston in April 2023."},
+    {"season": "2023-24", "team": "HOU", "wins": 41, "losses": 41, "playoffs": "Missed playoffs (11th in West)", "notes": "19-win improvement; defense rose from bottom-five to roughly 10th."},
+    {"season": "2024-25", "team": "HOU", "wins": 52, "losses": 30, "playoffs": "2nd seed; lost R1 3-4 to GSW", "notes": "Top-five defense; Udoka introduced a 2-3/box-and-one hybrid zone in the series."},
+    {"season": "2025-26", "team": "HOU", "wins": 52, "losses": 30, "playoffs": "Lost R1 2-4 to LAL (Game 6: 78-98 at home, May 1, 2026)", "notes": "First season with Kevin Durant; league-leading offensive rebounding; blew a 101-95 lead with <30s left in Game 3 (lost 108-112 OT). Record inferred from reported 145-101 three-season Rockets total."},
+    {"season": "2026-27", "team": "HOU", "wins": 4, "losses": 0, "playoffs": "In progress", "notes": "UNVERIFIED: a single live tracker (Squawka) showed 4-0, 1st in West, before an Oct 28 game at MIL; no box scores retrieved. Opened Oct 21 at home vs DAL."}
+  ],
+  "defense_scheme_tags": ["switch", "zone", "box-and-one", "aggressive-help", "physical", "no-middle", "blitz"],
+  "offense_scheme_tags": ["two-big", "post-centric", "dribble-handoff", "offensive-rebounding", "isolation", "slow-pace", "sequencing"],
+  "scores": {
+    "rotation": {
+      "depth": {"score": 35, "confidence": 0.7, "evidence": ["Used an eight-man rotation in the Dec 2024 NBA Cup quarterfinal win over GSW (Sheppard sat); RotoWire notes 'head coach Ime Udoka opting to run with an eight-man rotation' again in 2025-26.", "Udoka divides 'the lion's share of the minutes among his veterans'."], "sources": ["https://www.si.com/nba/rockets/onsi/news/houston-rockets-can-reed-sheppard-get-rotation-minutes", "https://www.si.com/nba/rockets/onsi/news/houston-rockets-head-coach-ime-udoka-2024-25-rotation"]},
+      "star_minutes_load": {"score": 55, "confidence": 0.5, "evidence": ["In Boston he rode Tatum/Brown 36+ mpg in the 2022 playoffs; in Houston Durant (~35 mpg) and Sengun carry heavy but not extreme loads with Adams/Capela staggered behind Sengun."], "sources": ["https://www.si.com/nba/rockets/onsi/news/rockets-ime-udoka-will-need-to-counter-how-teams-are-defending-amen-thompson"]},
+      "consistency": {"score": 60, "confidence": 0.55, "evidence": ["Philosophy is 'minutes have to be earned', producing a stable core eight; but he moved Sengun/Adams in and out of a double-big starting lineup and kept Sheppard off the starting unit despite production (2025-26)."], "sources": ["https://www.si.com/nba/rockets/onsi/news/rockets-coach-ime-udoka-reveals-plan-role-for-reed-sheppard", "https://www.si.com/nba/rockets/news/rockets-have-dominated-the-boards-since-sengun-move-starting-lineup"]},
+      "youth_trust": {"score": 35, "confidence": 0.7, "evidence": ["Assigned No. 3 pick Reed Sheppard to the G League as a rookie (2024-25) and in Feb 2026 Bleacher Report's Andy Bailey said it was 'getting harder and harder to understand or justify Ime Udoka's hesitance to make him a full-time starter'.", "Rockets officials worried veteran additions could stunt Sengun/Green; Udoka prioritizes defensive readiness before trusting young players."], "sources": ["https://mauth.cbssports.com/nba/news/rockets-assign-reed-sheppard-to-g-league-as-rookies-minutes-dwindle-in-houston/", "https://www.si.com/nba/rockets/onsi/news/ime-udoka-gets-questioned-again-for-use-of-rockets-reed-sheppard", "https://www.si.com/nba/rockets/news/ime-udoka-continues-to-mold-the-houston-rockets-into-his-ideal-team"]},
+      "load_management": {"score": 30, "confidence": 0.4, "evidence": ["Young, healthy core plays nearly every night; no reports of scheduled rest days for healthy stars surfaced. Durant's absences in 2025-26 were injury-related."], "sources": ["https://www.si.com/nba/rockets/onsi/news/kevin-durant-explains-rockets-offensive-challenges-without-fred-vanvleet"]},
+      "closing_flexibility": {"score": 60, "confidence": 0.5, "evidence": ["Inserted Jae'Sean Tate into crunch time of playoff Game 3 vs LAL (Apr 2026), a matchup/defense-driven choice fans questioned; often closes with defensive specialists (Tate, Brooks, Thompson) over shooters."], "sources": ["https://www.essentiallysports.com/nba-active-basketball-news-nba-playoffs-grow-up-ime-udoka-throws-rockets-under-the-bus-with-stern-locker-room-message-after-game-three-loss-to-los-angeles-lakers/"]}
+    },
+    "offense": {
+      "pace": {"score": 25, "confidence": 0.75, "evidence": ["2025-26 Rockets ranked 28th in pace; analysts said the offense 'values sequencing over pace' and that 'slowing down the pace has resulted in a league-best 123.1 offensive rating through 10 games'."], "sources": ["https://www.profootballnetwork.com/nba/inside-the-rockets-dominance-houston-redefining-modern-nba-offense/", "https://www.si.com/nba/rockets/onsi/news/early-trends-for-the-rockets-10-games-into-the-nba-season"]},
+      "three_point_emphasis": {"score": 30, "confidence": 0.65, "evidence": ["Offense ranked 1st-3rd in efficiency in 2025-26 'despite ranking 10th in effective field goal percentage', driven by offensive rebounds rather than volume threes; Rockets have been a bottom-third 3PA team under Udoka."], "sources": ["https://www.si.com/nba/rockets/onsi/news/three-positive-rockets-stats-at-the-nba-all-star-break", "https://africa.espn.com/nba/story/_/id/47684732/houston-rocket-bullied-nba-best-offenses-sengun-thompson-sheppard-durant"]},
+      "ball_movement": {"score": 45, "confidence": 0.55, "evidence": ["'Sengun handles creation through dribble-handoffs, while Durant closes quarters with isolation mastery'; offense is a hub-and-iso structure rather than egalitarian motion.", "Rockets 'aren't the prettiest offensive team' and the system 'was questioned this past season' (SI, 2026)."], "sources": ["https://www.profootballnetwork.com/nba/inside-the-rockets-dominance-houston-redefining-modern-nba-offense/", "https://www.si.com/nba/rockets/onsi/rockets-coach-ime-udoka-offensive-system-was-questioned-this-past-season"]},
+      "transition_emphasis": {"score": 40, "confidence": 0.5, "evidence": ["Amen Thompson is a transition weapon and Houston forces turnovers, but overall tempo is deliberate (28th in pace)."], "sources": ["https://www.profootballnetwork.com/nba/inside-the-rockets-dominance-houston-redefining-modern-nba-offense/"]},
+      "offensive_rebounding": {"score": 95, "confidence": 0.9, "evidence": ["Rockets led the NBA in offensive rebounding percentage at 39.9% at the 2026 All-Star break; retained 44%+ of available offensive boards with Sengun alongside Adams or Capela early in 2025-26.", "ESPN: Houston 'bullied' its way to one of the NBA's best offenses."], "sources": ["https://www.si.com/nba/rockets/onsi/news/three-positive-rockets-stats-at-the-nba-all-star-break", "https://www.si.com/nba/rockets/news/rockets-have-dominated-the-boards-since-sengun-move-starting-lineup", "https://africa.espn.com/nba/story/_/id/47684732/houston-rocket-bullied-nba-best-offenses-sengun-thompson-sheppard-durant"]},
+      "paint_post_emphasis": {"score": 80, "confidence": 0.75, "evidence": ["Double-big lineups (Sengun + Adams/Capela) with Thompson (6-7) the shortest starter; Sengun post/DHO hub; offense built on size and second chances."], "sources": ["https://www.profootballnetwork.com/nba/inside-the-rockets-dominance-houston-redefining-modern-nba-offense/", "https://www.nba.com/news/4-takeaways-from-rockets-early-season-success"]},
+      "playcalling_ato_quality": {"score": 45, "confidence": 0.5, "evidence": ["After blowing Game 3 vs LAL (Apr 2026) Udoka said he called timeout to run an elbow set for Sengun and players 'refused to execute'; critics flagged late-game play design/clutch offense as a weakness and his offensive system 'was questioned'."], "sources": ["https://bleacherreport.com/articles/25422270-ime-udoka-calls-out-rockets-horrendous-mistakes-after-game-3-loss-lebron-james-lakers", "https://www.si.com/nba/rockets/onsi/rockets-coach-ime-udoka-offensive-system-was-questioned-this-past-season"]}
+    },
+    "defense": {
+      "aggressiveness": {"score": 80, "confidence": 0.75, "evidence": ["Encourages physical play 'even at the cost of a few extra shooting fouls' (2024) and is 'okay with the fouls as long as they are strategic'; Rockets built a top-five defense on length, pressure and switching (2024-25).", "Udoka after a 2025-26 loss to CHI: team was 'just non-aggressive'."], "sources": ["https://lastwordonsports.com/basketball/2024/09/24/projecting-the-rockets-defense-in-year-2-of-ime-udoka/", "https://www.yardbarker.com/nba/articles/houston_rockets_coach_opens_fire_about_nba_officiating/s1_17149_40224015", "https://www.aol.com/articles/ime-udoka-criticizes-rockets-132-035107873.html"]},
+      "perimeter_priority": {"score": 55, "confidence": 0.5, "evidence": ["Switch-heavy with long wings (Thompson, Brooks, Eason) while Sengun is not asked to anchor like an elite rim protector (ESPN, Dec 2024); double-big lineups in 2025-26 added paint protection via Adams/Capela."], "sources": ["https://africa.espn.com/nba/story/_/id/42881420/ime-udoka-built-rockets-new-identity", "https://www.theringer.com/2024/11/25/nba/houston-rockets-defense-ime-udoka"]},
+      "foul_discipline": {"score": 25, "confidence": 0.7, "evidence": ["Foul-prone by design: 2025-26 opener vs DET saw several starters in foul trouble by halftime; Thompson flagrant-1s/ejections (vs DAL 2024, vs UTA 2025-26); Udoka repeatedly rails at officiating ('most poorly officiated game' Dec 2025)."], "sources": ["https://roundtable.io/sports/nba/rockets/opinion/the-rockets-lose-their-rythm-in-a-foul-filled-home-opener-vs-the-pistons", "https://fadeawayworld.net/?p=155971", "https://www.si.com/nba/rockets/news/houston-rockets-amen-thompson-ejected-vs-mavericks-ime-udoka"]},
+      "zone_usage": {"score": 75, "confidence": 0.7, "evidence": ["Udoka's 2-3/box-and-one hybrid zone was born 'out of necessity' in the 2025 GSW series; observers saw him alternate man and zone possession-to-possession, and in Oct 2025 he said the zone 'has worked well' with plans to rely on it through 2025-26.", "Durant praised Udoka's 'unique' defensive schemes."], "sources": ["https://www.si.com/nba/rockets/onsi/news/houston-rockets-kevin-durant-praises-ime-udoka-s-defensive-schemes", "https://www.si.com/nba/rockets/news/rockets-kevin-durant-explains-ime-udoka-unique-defensive-strategy", "https://spacecityscoop.com/surprising-rockets-lineup-change-could-resurrect-their-defensive-identity"]},
+      "scheme_adaptability": {"score": 60, "confidence": 0.55, "evidence": ["Invented a zone package mid-series to push GSW to seven (2025) and staggers bigs 'so more guys can guard'; but a 2026 critique said the Rockets 'struggled to adjust when the initial game plan wasn't working'."], "sources": ["https://www.theringer.com/2025/04/23/nba/houston-rockets-golden-state-warriors-game-2-nba-playoffs", "https://basketball.realgm.com/article/285257/The-Rockets-Discover-The-Pitfalls-Of-Defense-First"]}
+    },
+    "endgame": {
+      "timeout_aggressiveness": {"score": 50, "confidence": 0.4, "evidence": ["Called timeout to set up the final possession in Game 3 vs LAL (Apr 2026); after a Dec 2025 Cup loss to DEN he admitted 'rotations were a little late'. No pattern of saving or burning timeouts documented (inferred average)."], "sources": ["https://bleacherreport.com/articles/25422270-ime-udoka-calls-out-rockets-horrendous-mistakes-after-game-3-loss-lebron-james-lakers", "https://roundtable.io/sports/nba/rockets/opinion/rockets-cup-loss-to-nuggets-what-went-wrong-according-to-coach-ime-udoka"]},
+      "foul_up_three": {"score": 75, "confidence": 0.6, "evidence": ["After a 2024 loss to DAL, Udoka revealed 'the plan was to intentionally foul any ball handler to avoid a game-tying triple' (execution failed); indicates a standing foul-up-3 policy."], "sources": ["https://www.si.com/nba/rockets/news/houston-rockets-fall-dallas-mavericks-ime-udoka-dante-exum"]},
+      "late_lineup_shrink": {"score": 70, "confidence": 0.6, "evidence": ["Already runs an 8-man rotation and shortens further late; crunch-time groups built around Durant, Sengun, Thompson, VanVleet plus a defender (Tate/Brooks)."], "sources": ["https://www.si.com/nba/rockets/onsi/news/houston-rockets-can-reed-sheppard-get-rotation-minutes"]},
+      "challenge_quality": {"score": 50, "confidence": 0.25, "evidence": ["No data found on Udoka's challenge frequency or success; frequent officiating complaints suggest he challenges readily, but this is inferred."], "sources": []},
+      "two_for_one_awareness": {"score": 40, "confidence": 0.3, "evidence": ["Deliberate, sequencing-first offense (28th in pace) suggests below-average 2-for-1 hunting; not directly documented."], "sources": ["https://www.profootballnetwork.com/nba/inside-the-rockets-dominance-houston-redefining-modern-nba-offense/"]},
+      "risk_appetite": {"score": 50, "confidence": 0.4, "evidence": ["Conservative instincts (intentional fouls to prevent tying threes, defense-first substitutions) balanced by willingness to junk up a series with zone. Roughly average."], "sources": ["https://www.si.com/nba/rockets/news/houston-rockets-fall-dallas-mavericks-ime-udoka-dante-exum"]},
+      "clutch_reputation": {"score": 35, "confidence": 0.65, "evidence": ["Game 3 vs LAL (Apr 2026): led 101-95 with under 30 seconds left, lost 108-112 in OT; Udoka blamed 'horrendous mistakes' and 'youth or scared of the moment', and Bill Simmons called it 'one of the worst coaching jobs of the year'.", "Earlier late-game blunders (2024 vs DAL) were also pinned on him by commentators."], "sources": ["https://www.nbcsports.com/nba/news/ime-udoka-puts-his-rockets-team-on-blast-for-horrendous-mistakes-blowing-lead-to-lakers", "https://www.essentiallysports.com/nba-active-basketball-news-one-of-the-worst-coaching-jobs-of-the-year-bill-simmons-criticizes-ime-udoka-for-houston-rockets-dismal-season/", "https://www.si.com/nba/rockets/news/houston-rockets-fall-dallas-mavericks-ime-udoka-dante-exum"]}
+    },
+    "overall": {
+      "adaptability": {"score": 55, "confidence": 0.55, "evidence": ["Credited for the mid-series zone vs GSW (2025) and for reshaping the offense around Durant/Sengun and offensive rebounding (2025-26); criticized for sticking with double-big lineups and slow in-game adjustments."], "sources": ["https://www.theringer.com/2025/04/23/nba/houston-rockets-golden-state-warriors-game-2-nba-playoffs", "https://basketball.realgm.com/article/285257/The-Rockets-Discover-The-Pitfalls-Of-Defense-First"]},
+      "player_development": {"score": 60, "confidence": 0.55, "evidence": ["Sengun (All-Star), Thompson (All-Defense) and Jabari Smith developed under his accountability-first culture; but analysts ask whether his 'demanding style stifles creativity' and he slow-played Sheppard for two seasons."], "sources": ["https://www.si.com/nba/rockets/news/ime-udoka-continues-to-mold-the-houston-rockets-into-his-ideal-team", "https://www.si.com/nba/rockets/onsi/news/ime-udoka-gets-questioned-again-for-use-of-rockets-reed-sheppard"]},
+      "analytics_adoption": {"score": 40, "confidence": 0.45, "evidence": ["Runs a low-3PA, offensive-rebound-crash, foul-tolerant style that cuts against modern shot-selection orthodoxy; Rockets front office (Stone) is analytically inclined but Udoka's identity is physical/defensive."], "sources": ["https://www.si.com/nba/rockets/onsi/news/three-positive-rockets-stats-at-the-nba-all-star-break", "https://lastwordonsports.com/basketball/2024/09/24/projecting-the-rockets-defense-in-year-2-of-ime-udoka/"]},
+      "reputation": {"score": 62, "confidence": 0.6, "evidence": ["Ranked the NBA's fourth-best coach in one 2025 ranking (SI); praised by ESPN/Boston Globe for building a defensive identity and culture; agreed to an extension.", "Hot-seat chatter after the 2026 first-round exit and public criticism of his players ('grow up'), plus the Boston scandal."], "sources": ["https://www.si.com/nba/rockets/news/rockets-ime-udoka-ranks-nba-fourth-best-coach", "https://www.bostonglobe.com/2024/12/14/sports/ime-udoka-houston-rockets-sunday-basketball-notes", "https://bleacherreport.com/articles/25425008-new-rockets-rumors-update-kevin-durant-ime-udokas-future-after-loss-lakers-nba-playoffs", "https://rapidcitypost.com/?p=32284"]}
+    }
+  },
+  "notable_quotes": [
+    {"quote": "Youth or scared of the moment.", "speaker": "Ime Udoka", "context": "Postgame, Game 3 vs Lakers after blowing a six-point lead in the final 30 seconds, Apr 2026", "source": "https://www.espn.com/nba/player/news/_/id/6234"},
+    {"quote": "Not prepared to play.", "speaker": "Ime Udoka", "context": "After 124-132 loss to Chicago, 2025-26", "source": "https://www.aol.com/articles/ime-udoka-criticizes-rockets-132-035107873.html"},
+    {"quote": "The most poorly officiated game I've seen in a long time.", "speaker": "Ime Udoka", "context": "After NBA Cup loss to Denver, Dec 2025", "source": "https://fadeawayworld.net/?p=155971"},
+    {"quote": "The plan was to intentionally foul any ball handler to avoid a game-tying triple.", "speaker": "Ime Udoka (paraphrased by SI)", "context": "After loss to Dallas, 2024", "source": "https://www.si.com/nba/rockets/news/houston-rockets-fall-dallas-mavericks-ime-udoka-dante-exum"},
+    {"quote": "That comes from Ime.", "speaker": "Dillon Brooks", "context": "On the Rockets' defensive will, Dec 2024 (ESPN)", "source": "https://africa.espn.com/nba/story/_/id/42881420/ime-udoka-built-rockets-new-identity"}
+  ],
+  "key_criticisms": [
+    "Late-game execution and clutch decision-making (Game 3 collapse vs LAL 2026; 2024 DAL loss); Bill Simmons called 2025-26 'one of the worst coaching jobs of the year'.",
+    "Tight, veteran-first rotation; slow to trust Reed Sheppard and other young players.",
+    "Low-3PA, isolation/post offense 'questioned' by analysts; offense stalls in key situations.",
+    "Foul-heavy physical scheme and frequent officiating complaints; public blame of players ('grow up', 'scared of the moment').",
+    "No playoff series wins in three Houston seasons (5-8)."
+  ],
+  "key_strengths": [
+    "Elite culture/accountability builder; transformed Houston from 22 wins to consecutive 52-win seasons.",
+    "Defensive architect: top-five defense in 2024-25, creative hybrid zone, switchable length.",
+    "Historic offensive-rebounding/second-chance engine with double-big lineups (league-best OREB% 2025-26).",
+    "Developed Sengun, Thompson, Smith into high-end two-way players; respected by stars (Durant praise)."
+  ],
+  "sources": [
+    "https://www.click2houston.com/news/local/2026/05/02/rockets-fall-to-lakers-in-98-78-whomping-in-houston-to-end-season/",
+    "https://www.si.com/nba/rockets/onsi/grading-the-houston-rockets-2025-26-nba-season",
+    "https://www.si.com/nba/rockets/onsi/one-area-ime-udoka-excelled-at-and-one-area-that-needs-improvement",
+    "https://www.si.com/nba/rockets/onsi/rockets-coach-ime-udoka-offensive-system-was-questioned-this-past-season",
+    "https://www.yardbarker.com/nba/articles/ime_udokas_breakdown_of_season_ending_in_first_round_and_look_ahead_to_future/s1_17031_43803401",
+    "https://rapidcitypost.com/?p=32284",
+    "https://bleacherreport.com/articles/25425008-new-rockets-rumors-update-kevin-durant-ime-udokas-future-after-loss-lakers-nba-playoffs",
+    "https://www.profootballnetwork.com/nba/inside-the-rockets-dominance-houston-redefining-modern-nba-offense/",
+    "https://www.nba.com/news/4-takeaways-from-rockets-early-season-success",
+    "https://www.si.com/nba/rockets/onsi/news/early-trends-for-the-rockets-10-games-into-the-nba-season",
+    "https://www.si.com/nba/rockets/onsi/news/three-positive-rockets-stats-at-the-nba-all-star-break",
+    "https://www.si.com/nba/rockets/news/rockets-have-dominated-the-boards-since-sengun-move-starting-lineup",
+    "https://africa.espn.com/nba/story/_/id/47684732/houston-rocket-bullied-nba-best-offenses-sengun-thompson-sheppard-durant",
+    "https://www.si.com/nba/rockets/onsi/news/kevin-durant-explains-rockets-offensive-challenges-without-fred-vanvleet",
+    "https://roundtable.io/sports/nba/rockets/opinion/the-rockets-lose-their-rythm-in-a-foul-filled-home-opener-vs-the-pistons",
+    "https://www.aol.com/articles/ime-udoka-criticizes-rockets-132-035107873.html",
+    "https://www.yardbarker.com/nba/articles/houston_rockets_coach_opens_fire_about_nba_officiating/s1_17149_40224015",
+    "https://lastwordonsports.com/basketball/2024/09/24/projecting-the-rockets-defense-in-year-2-of-ime-udoka/",
+    "https://africa.espn.com/nba/story/_/id/42881420/ime-udoka-built-rockets-new-identity",
+    "https://www.theringer.com/2024/11/25/nba/houston-rockets-defense-ime-udoka",
+    "https://www.si.com/nba/rockets/news/houston-rockets-amen-thompson-ejected-vs-mavericks-ime-udoka",
+    "https://www.si.com/nba/rockets/onsi/news/rockets-ime-udoka-will-need-to-counter-how-teams-are-defending-amen-thompson",
+    "https://www.si.com/nba/rockets/onsi/news/houston-rockets-kevin-durant-praises-ime-udoka-s-defensive-schemes",
+    "https://www.si.com/nba/rockets/news/rockets-kevin-durant-explains-ime-udoka-unique-defensive-strategy",
+    "https://spacecityscoop.com/surprising-rockets-lineup-change-could-resurrect-their-defensive-identity",
+    "https://basketball.realgm.com/article/285257/The-Rockets-Discover-The-Pitfalls-Of-Defense-First",
+    "https://www.theringer.com/2025/04/23/nba/houston-rockets-golden-state-warriors-game-2-nba-playoffs",
+    "https://www.celticsblog.com/2025/1/4/24334872/boston-celtics-houston-rockets-joe-mazzulla-ime-udoka-ten-takeaways-derrick-white-payton-pritchard",
+    "https://mauth.cbssports.com/nba/news/rockets-assign-reed-sheppard-to-g-league-as-rookies-minutes-dwindle-in-houston/",
+    "https://www.si.com/nba/rockets/onsi/news/houston-rockets-head-coach-ime-udoka-2024-25-rotation",
+    "https://www.si.com/nba/rockets/onsi/news/houston-rockets-can-reed-sheppard-get-rotation-minutes",
+    "https://www.si.com/nba/rockets/onsi/news/ime-udoka-gets-questioned-again-for-use-of-rockets-reed-sheppard",
+    "https://www.si.com/nba/rockets/onsi/news/rockets-coach-ime-udoka-reveals-plan-role-for-reed-sheppard",
+    "https://bleacherreport.com/articles/25422270-ime-udoka-calls-out-rockets-horrendous-mistakes-after-game-3-loss-lebron-james-lakers",
+    "https://www.nbcsports.com/nba/news/ime-udoka-puts-his-rockets-team-on-blast-for-horrendous-mistakes-blowing-lead-to-lakers",
+    "https://www.espn.com/nba/player/news/_/id/6234",
+    "https://www.essentiallysports.com/nba-active-basketball-news-one-of-the-worst-coaching-jobs-of-the-year-bill-simmons-criticizes-ime-udoka-for-houston-rockets-dismal-season/",
+    "https://www.essentiallysports.com/nba-active-basketball-news-nba-playoffs-grow-up-ime-udoka-throws-rockets-under-the-bus-with-stern-locker-room-message-after-game-three-loss-to-los-angeles-lakers/",
+    "https://www.si.com/nba/rockets/news/houston-rockets-fall-dallas-mavericks-ime-udoka-dante-exum",
+    "https://roundtable.io/sports/nba/rockets/opinion/rockets-cup-loss-to-nuggets-what-went-wrong-according-to-coach-ime-udoka",
+    "https://fadeawayworld.net/?p=155971",
+    "https://www.si.com/nba/rockets/onsi/news/ime-udoka-no-nonsense-style-helped-turn-around-the-rockets",
+    "https://www.si.com/nba/rockets/news/ime-udoka-continues-to-mold-the-houston-rockets-into-his-ideal-team",
+    "https://www.si.com/nba/rockets/news/rockets-ime-udoka-ranks-nba-fourth-best-coach",
+    "https://www.bostonglobe.com/2024/12/14/sports/ime-udoka-houston-rockets-sunday-basketball-notes",
+    "https://www.sanjuandailystar.com/post/a-fiery-coach-preaches-no-friends-on-the-floor",
+    "https://www.squawka.com/ca/?p=18764"
+  ],
+  "research_notes": "Search-only environment; search budget exhausted before 2026-27 games could be verified. UNVERIFIED: the 4-0 start shown by a single live tracker (Squawka) in late Oct 2026. The 2025-26 regular-season record (52-30) is inferred from a reported 145-101 three-season Rockets total minus the known 41-41 and 52-30 seasons, and from a report that Houston 'matched last year's 52 wins'; the first-round loss to the Lakers in six (Game 6 78-98 on May 1, 2026) is confirmed. Seed in 2025-26 not confirmed (team was 2nd in West at 48-26 late in the year). Boston 2021-22 figures are from my own knowledge, not re-verified by search. The timing of Udoka's AP-reported contract extension was not pinned down (likely summer 2025 or 2026). No data were found on challenge usage/success, 2-for-1 frequency, zone possession counts, or exact minutes; those dimensions are inferred with confidence <= 0.4. Sources conflict on whether Houston's defense regressed in 2025-26 (early slippage vs 'elite level recently' mid-season).",
+  "researched_at": "2026-11-02"
+}

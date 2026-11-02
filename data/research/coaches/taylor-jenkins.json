@@ -1,0 +1,119 @@
+{
+  "coach": "Taylor Jenkins",
+  "slug": "taylor-jenkins",
+  "team": "MIL",
+  "team_name": "Milwaukee Bucks",
+  "head_coach_since": "2026-27 (hired Apr 30, 2026); previously Memphis Grizzlies 2019-20 to Mar 28, 2025",
+  "age": 42,
+  "background": "Wharton (Penn) graduate (born Sept 1984) who entered the NBA as a Spurs basketball-operations intern, won a D-League title as Austin Toros head coach (2012), then rose through Mike Budenholzer's staffs in Atlanta (2013-18) and Milwaukee (2018-19). Hired by Memphis at 34 in 2019 and became the franchise's winningest coach (250-214, .539) over six seasons: 56-26 and 51-31 in 2021-22 and 2022-23 (Coach of the Year runner-up 2022, one playoff series win), a 27-55 injury season in 2023-24, and 44-29 in 2024-25 when he was abruptly fired with nine games left after an in-season offensive overhaul (Noah LaRoche's five-out 'drive-kick-relocate' system, league-best 33.1% offensive rebounding rate) fractured staff alignment and de-emphasized Ja Morant. Milwaukee hired him on Apr 30, 2026 to replace Doc Rivers, with co-owner Jimmy Haslam citing his player-development record and defensive reputation; Darvin Ham remains on staff. Known for pace, offensive rebounding, egalitarian '.5 basketball' offense, an aggressive 'risk-reward' drop-based defense that funnels drivers to the rim protector, deep rotations and strong young-player development, but also for timeout gaffes and inconsistent playoff adjustments.",
+  "prior_head_coaching": [
+    {"team": "Austin Toros (NBA D-League)", "seasons": "2012-13 to 2014-15 (approx.)", "record": "n/a", "notes": "D-League champion 2012 as head coach (Spurs affiliate)"},
+    {"team": "Memphis Grizzlies", "seasons": "2019-20 to 2024-25", "record": "250-214 (.539)", "notes": "Franchise's winningest coach; 3 playoff trips, 1 series win (2022 vs MIN); COY runner-up 2022; fired Mar 28, 2025 at 44-29"}
+  ],
+  "record_last5": [
+    {"season": "2021-22", "team": "Memphis Grizzlies", "wins": 56, "losses": 26, "playoffs": "Beat Minnesota 4-2; lost West semis to Golden State 2-4", "notes": "2nd seed in West; Coach of the Year runner-up; team went 20-5 without Morant"},
+    {"season": "2022-23", "team": "Memphis Grizzlies", "wins": 51, "losses": 31, "playoffs": "Lost Round 1 to LA Lakers 2-4", "notes": "2nd seed in West; top-3 defense anchored by DPOY Jaren Jackson Jr."},
+    {"season": "2023-24", "team": "Memphis Grizzlies", "wins": 27, "losses": 55, "playoffs": "Missed playoffs", "notes": "Morant 25-game suspension and season-ending shoulder injury; record-setting number of players used"},
+    {"season": "2024-25", "team": "Memphis Grizzlies (fired Mar 28, 2025)", "wins": 44, "losses": 29, "playoffs": "Did not coach playoffs (team finished 48-34, swept by OKC under Iisalo)", "notes": "5th in West at firing; new LaRoche offense led NBA in offensive rebounding (33.1%)"},
+    {"season": "2025-26", "team": "None (out of coaching)", "wins": null, "losses": null, "playoffs": "", "notes": "Did not coach; hired by Milwaukee Apr 30, 2026"},
+    {"season": "2026-27", "team": "Milwaukee Bucks", "wins": null, "losses": null, "playoffs": "", "notes": "Record not confirmed (search budget exhausted); first season after Doc Rivers; offseason of 'big roster changes'; Giannis timeline discussed by ownership"}
+  ],
+  "defense_scheme_tags": ["drop", "aggressive-help", "funnel-to-rim", "hedge (situational)", "switch (situational)", "gap-help/risk-reward"],
+  "offense_scheme_tags": ["five-out", "pace-and-space", "transition", "drive-and-kick", "relocation/motion", "offensive-rebound-crash", "egalitarian", ".5-basketball"],
+  "scores": {
+    "rotation": {
+      "depth": {"score": 75, "confidence": 0.6, "evidence": ["Memphis routinely ran 10-deep rotations; 2023-24 used a huge number of players amid injuries; Locked On: 'Taylor Jenkins' rotations are scaring Memphis' (2024-25)", "Budenholzer-tree preference for depth and bench units"], "sources": ["https://newsletters.lockedonpodcasts.com/nba/locked-on-grizzlies/taylor-jenkins-grizzlies-rotations-scaring-nba-memphis", "https://sportsethos.com/articles/hoop-ball-fantasy-basketball-features/season-wrap-the-2024-25-memphis-grizzlies/"]},
+      "star_minutes_load": {"score": 30, "confidence": 0.6, "evidence": ["Morant and Jackson Jr. typically played ~30-33 mpg in Memphis's deep-rotation system; Grizzlies' best players rarely in top-20 in minutes (2021-25, inferred from box scores)"], "sources": ["https://sportsethos.com/articles/hoop-ball-fantasy-basketball-features/season-wrap-the-2024-25-memphis-grizzlies/"]},
+      "consistency": {"score": 40, "confidence": 0.4, "evidence": ["Frequent lineup/rotation tinkering drew local criticism in 2024-25 (Locked On Grizzlies); staff-level scheme changes mid-season (ESPN 'no one was on the same page')"], "sources": ["https://newsletters.lockedonpodcasts.com/nba/locked-on-grizzlies/taylor-jenkins-grizzlies-rotations-scaring-nba-memphis", "https://global.espn.com/nba/story/_/id/44480928/no-one-was-same-page-memphis-grizzlies-shocking-firing-taylor-jenkins"]},
+      "youth_trust": {"score": 78, "confidence": 0.7, "evidence": ["Started rookie Jaylen Wells and gave rookies/2nd-year players (Aldama, GG Jackson, Bane, Clarke, Tillman) big roles; Haslam cited his player-development record when hiring him (Apr 2026)"], "sources": ["https://urbanmilwaukee.com/2026/05/07/milwaukee-bucks-introduce-new-head-coach-taylor-jenkins/", "https://sportsethos.com/articles/hoop-ball-fantasy-basketball-features/season-wrap-the-2024-25-memphis-grizzlies/"]},
+      "load_management": {"score": 62, "confidence": 0.4, "evidence": ["Memphis managed Morant's and Jackson Jr.'s workloads with regular rest and minute caps (2021-25; inferred from Grizzlies' injury-management practices)"], "sources": ["https://sportsethos.com/articles/hoop-ball-fantasy-basketball-features/season-wrap-the-2024-25-memphis-grizzlies/"]},
+      "closing_flexibility": {"score": 50, "confidence": 0.3, "evidence": ["Closed with Morant/Bane/Jackson Jr. core but varied fifth/sixth closer by matchup (Adams vs Clarke, Brooks); no strong documented pattern (inferred)"], "sources": []}
+    },
+    "offense": {
+      "pace": {"score": 85, "confidence": 0.8, "evidence": ["Grizzlies consistently top-5 in pace; Jenkins tracked the 'three Ps' (pace, principles, possessions) in 2024-25 preseason: 'as long as we're maintaining pace in the halfcourt, it's going to improve our offense'", "Jenkins: 'we're going to play fast' (2024)"], "sources": ["https://publish.grindcitymedia.com/?p=45141", "https://clutchpoints.com/grizzlies-news-memphis-coach-taylor-jenkins-reveals-grizzlies-are-going-to-play-fast"]},
+      "three_point_emphasis": {"score": 55, "confidence": 0.45, "evidence": ["Scheme 'predicated on spacing, pace, ball-movement and aggressive play in the paint and at the three-point line'; Memphis 3PA volume middle-to-upper tier rather than extreme (2021-25)"], "sources": ["https://www.nba.com/grizzlies/news/grind-city-media/mikecheck-jenkins-retraces-foundational-steps-along-path-to-early-success-as-grizzlies-coach-200219", "https://theringer.com/2025/01/15/nba/memphis-grizzlies-ja-morant-offense-style-statistics"]},
+      "ball_movement": {"score": 72, "confidence": 0.6, "evidence": ["'Egalitarian system where any of the five players can facilitate'; '.5 basketball' - shoot, pass or drive within half a second (2024-25)", "LaRoche's space-cut-drive-relocate principles de-emphasized Morant heliocentrism (Ringer, Jan 2025)"], "sources": ["https://www.actionnews5.com/2024/10/01/new-look-grizzlies-offense-dominates-discussion-first-day-training-camp/", "https://medium.com/@AdamPikeGrizzliesFilm/memphis-grizzlies-5-out-freelance-offence-tweak-6e0bc3ab9e48", "https://theringer.com/2025/01/15/nba/memphis-grizzlies-ja-morant-offense-style-statistics"]},
+      "transition_emphasis": {"score": 85, "confidence": 0.75, "evidence": ["'Whoever gets the rebound could be the player who starts the offense' - rebounds fed transition; top-tier fast-break scoring every season (2019-25)"], "sources": ["https://publish.grindcitymedia.com/?p=45141", "https://www.cbssports.com/nba/news/sprint-grind-how-grizzlies-raptors-and-hornets-are-winning-the-new-possession-game"]},
+      "offensive_rebounding": {"score": 95, "confidence": 0.9, "evidence": ["2024-25 Grizzlies led the NBA with a 33.1% offensive rebounding rate, highest full-season mark since the 2015-16 Thunder (CBS 'Sprint & grind')", "Memphis led or ranked top-3 in offensive rebounds in multiple Jenkins seasons (2021-23)"], "sources": ["https://www.cbssports.com/nba/news/sprint-grind-how-grizzlies-raptors-and-hornets-are-winning-the-new-possession-game"]},
+      "paint_post_emphasis": {"score": 48, "confidence": 0.4, "evidence": ["Paint-heavy via drives and offensive rebounds (league leader in paint points in 2021-23) rather than post-ups; Steven Adams used as screener/rebounder, not a post scorer"], "sources": ["https://www.nba.com/grizzlies/news/grind-city-media/mikecheck-jenkins-retraces-foundational-steps-along-path-to-early-success-as-grizzlies-coach-200219"]},
+      "playcalling_ato_quality": {"score": 45, "confidence": 0.4, "evidence": ["Freelance 'Advantage Creation' system rather than set-heavy playbook (2024-25); late-game timeout gaffes (waved-off Bane 3 in 2023; took blame for calling timeout as Bane shot, Jan 2025)", "Half-court offense efficiency was a recurring playoff weakness (2022-23)"], "sources": ["https://www.si.com/nba/grizzlies/onsi/news/former-grizzlies-coach-laroche-consulting-with-spoelstra-on-heat-s-thriving-offense-01k959c99twx", "https://dailymemphian.com/article/49091/geoff-calkins-memphis-grizzlies-houston-rockets-taylor-jenkins-western-division"]}
+    },
+    "defense": {
+      "aggressiveness": {"score": 75, "confidence": 0.65, "evidence": ["Jenkins described an aggressive 'risk-reward' defensive scheme; Grizzlies led the league in blocks and ranked top-3 in steals/forced turnovers (2021-23)"], "sources": ["https://theanalyst.com/articles/jaren-jackson-jr-memphis-grizzlies-the-nbas-next-defensive-superstar/", "https://www.thescore.com/nba/news/2280578"]},
+      "perimeter_priority": {"score": 38, "confidence": 0.6, "evidence": ["Grizzlies 'often funnel drivers into Jackson Jr., prioritizing shot-blocking'; base drop coverage conceded some perimeter looks (2022-23)"], "sources": ["https://www.cbssports.com/nba/news/jaren-jackson-jr-s-well-earned-nba-all-star-selection-reminds-us-that-defense-deserves-recognition-too/", "https://www.theringer.com/2022/05/03/nba/jaren-jackson-jr-nba-playoffs-memphis-grizzlies"]},
+      "foul_discipline": {"score": 35, "confidence": 0.5, "evidence": ["Aggressive scheme produced high foul counts; Jackson Jr.'s foul trouble was a chronic issue until a 'career-low 3.3 fouls per game' in 2022-23 (the Analyst)"], "sources": ["https://theanalyst.com/articles/jaren-jackson-jr-memphis-grizzlies-the-nbas-next-defensive-superstar/", "https://clutchpoints.com/grizzlies-news-why-jaren-jackson-jr-achilles-heel-become-gigantic-memphis-nba-playoffs-problem"]},
+      "zone_usage": {"score": 35, "confidence": 0.3, "evidence": ["Occasional zone looks in Memphis but man-to-man drop is the documented base (inferred)"], "sources": []},
+      "scheme_adaptability": {"score": 62, "confidence": 0.5, "evidence": ["Jackson Jr. 'can still get in his drop sometimes, but he's able to move' - Memphis 'never has to commit to playing any one way'; earlier used switch and hard-hedge coverages (2022)", "Haslam cited his defensive reputation when hiring him (Apr 2026)"], "sources": ["https://www.theringer.com/2022/05/03/nba/jaren-jackson-jr-nba-playoffs-memphis-grizzlies", "https://urbanmilwaukee.com/2026/05/07/milwaukee-bucks-introduce-new-head-coach-taylor-jenkins/"]}
+    },
+    "endgame": {
+      "timeout_aggressiveness": {"score": 65, "confidence": 0.5, "evidence": ["Called a timeout that waved off a made Desmond Bane game-winning three (2023) and took blame for calling timeout as Bane was shooting (Jan 2025) - quick trigger on timeouts", "Jan 30, 2025 vs Houston: officials wrongly awarded a timeout he did not call ('I said go go go')"], "sources": ["https://dailymemphian.com/article/49091/geoff-calkins-memphis-grizzlies-houston-rockets-taylor-jenkins-western-division", "https://www.si.com/nba/grizzlies/news/taylor-jenkins-breaks-silence-on-controversial-ending-to-grizzlies-rockets-01jjxep4g265"]},
+      "foul_up_three": {"score": 50, "confidence": 0.2, "evidence": ["No direct evidence found (inferred league-typical)"], "sources": []},
+      "late_lineup_shrink": {"score": 55, "confidence": 0.3, "evidence": ["Deep regular rotation but tightened to core (Morant, Bane, Jackson Jr., Brooks/Smart) in clutch; no detailed documentation (inferred)"], "sources": []},
+      "challenge_quality": {"score": 50, "confidence": 0.2, "evidence": ["No challenge success data found (inferred average)"], "sources": []},
+      "two_for_one_awareness": {"score": 65, "confidence": 0.35, "evidence": ["Possession-focused coach ('three Ps' include possessions; offensive-rebound-driven extra possessions), suggesting above-average 2-for-1 awareness (inferred)"], "sources": ["https://publish.grindcitymedia.com/?p=45141"]},
+      "risk_appetite": {"score": 55, "confidence": 0.3, "evidence": ["Aggressive, gambling defense and crash-the-glass offense; moderate late-game risk profile (inferred)"], "sources": ["https://theanalyst.com/articles/jaren-jackson-jr-memphis-grizzlies-the-nbas-next-defensive-superstar/"]},
+      "clutch_reputation": {"score": 40, "confidence": 0.5, "evidence": ["Repeated timeout gaffes (2023 waved-off Bane 3; Jan 2025 took blame for a loss; Lakers clock-error game) and criticism of playoff half-court execution", "Nonetheless won 56 and 51 games with strong regular-season clutch records in 2021-23"], "sources": ["https://dailymemphian.com/article/49091/geoff-calkins-memphis-grizzlies-houston-rockets-taylor-jenkins-western-division", "https://dailymemphian.com/article/43195/taylor-jenkins-memphis-grizzlies-la-lakers-clock-problem"]}
+    },
+    "overall": {
+      "adaptability": {"score": 50, "confidence": 0.5, "evidence": ["Regular-season adaptability strong (20-5 without Morant in 2021-22; overhauled offense in 2024-25), but in-series playoff adjustments were criticized (GSW 2022, LAL 2023) and the 2024-25 scheme split left 'no one on the same page' (ESPN)"], "sources": ["https://global.espn.com/nba/story/_/id/44480928/no-one-was-same-page-memphis-grizzlies-shocking-firing-taylor-jenkins", "https://www.espn.com.au/nba/story/_/id/44444002/taylor-jenkins-grizzlies-coach-six-seasons"]},
+      "player_development": {"score": 85, "confidence": 0.8, "evidence": ["Bucks co-owner Haslam: hired for his 'player development record and defensive reputation... a no-brainer' (Apr 2026)", "Developed Bane, Clarke, Aldama, Tillman, Wells and Jackson Jr. (DPOY 2023) in Memphis"], "sources": ["https://urbanmilwaukee.com/2026/05/07/milwaukee-bucks-introduce-new-head-coach-taylor-jenkins/", "https://www.espn.com.au/nba/story/_/id/44444002/taylor-jenkins-grizzlies-coach-six-seasons"]},
+      "analytics_adoption": {"score": 80, "confidence": 0.7, "evidence": ["Wharton graduate from the Spurs/Budenholzer tree; tracked preseason 'three Ps' metrics; embraced LaRoche's data-driven five-out, offensive-rebounding-heavy system (2024-25)"], "sources": ["https://publish.grindcitymedia.com/?p=45141", "https://www.cbssports.com/nba/news/sprint-grind-how-grizzlies-raptors-and-hornets-are-winning-the-new-possession-game"]},
+      "reputation": {"score": 68, "confidence": 0.7, "evidence": ["'NBA world baffled' by his firing at 44-29 (Mar 2025); COY runner-up 2022; franchise-winningest coach; hired by Milwaukee within a year", "Knocks: playoff ceiling (one series win), timeout gaffes"], "sources": ["https://www.si.com/nba/nba-world-baffled-by-grizzlies-decision-to-fire-taylor-jenkins", "https://www.wbay.com/2026/04/30/bucks-officially-hire-taylor-jenkins-next-head-coach/", "https://nbacoaches.com/taylor-jenkins/"]}
+    }
+  },
+  "notable_quotes": [
+    {"quote": "As long as we're maintaining pace in the halfcourt, it's going to improve our offense.", "speaker": "Taylor Jenkins", "context": "Preseason 2024, on tracking pace, principles and possessions", "source": "https://publish.grindcitymedia.com/?p=45141"},
+    {"quote": "My intention was not to call a timeout, I said 'go go go.' I wasn't even signaling a timeout.", "speaker": "Taylor Jenkins", "context": "After officials awarded an unrequested timeout vs Houston, Jan 30, 2025", "source": "https://www.si.com/nba/grizzlies/news/taylor-jenkins-breaks-silence-on-controversial-ending-to-grizzlies-rockets-01jjxep4g265"},
+    {"quote": "It was a no-brainer for us.", "speaker": "Jimmy Haslam (Bucks co-owner)", "context": "Introducing Jenkins, citing player development and defensive reputation, May 2026", "source": "https://urbanmilwaukee.com/2026/05/07/milwaukee-bucks-introduce-new-head-coach-taylor-jenkins/"},
+    {"quote": "Whoever gets the rebound could be the player who starts the offense.", "speaker": "Taylor Jenkins", "context": "On the new-look Grizzlies offense, Oct 2024", "source": "https://www.actionnews5.com/2024/10/01/new-look-grizzlies-offense-dominates-discussion-first-day-training-camp/"}
+  ],
+  "key_criticisms": [
+    "Playoff ceiling: one series win in three trips; in-series adjustments and half-court execution questioned (2022-23)",
+    "Timeout gaffes: waved-off Bane game-winner (2023), timeout while Bane shooting (Jan 2025)",
+    "2024-25 offensive overhaul created staff disunity ('no one was on the same page') and friction with Morant's role",
+    "Aggressive scheme leads to foul trouble; constant rotation tinkering frustrates fans"
+  ],
+  "key_strengths": [
+    "Elite player development (Bane, Jackson Jr., Clarke, Aldama, Wells) - the stated reason Milwaukee hired him",
+    "Modern, analytics-friendly offense: top-5 pace, league-best offensive rebounding, egalitarian .5 basketball",
+    "Aggressive, turnover-forcing drop defense with flexible coverages; top-3 defenses in 2021-23",
+    "Deep rotations and moderate star minutes preserve health; 20-5 without Morant in 2021-22"
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Taylor_Jenkins",
+    "https://nbacoaches.com/taylor-jenkins/",
+    "https://www.espn.com.au/nba/story/_/id/44444002/taylor-jenkins-grizzlies-coach-six-seasons",
+    "https://fieldlevelmedia.com/nba/grizzlies-fire-coach-taylor-jenkins-despite-44-29-record",
+    "https://dailymemphian.com/article/50859/memphis-grizzlies-fire-head-coach-taylor-jenkins",
+    "https://www.si.com/nba/nba-world-baffled-by-grizzlies-decision-to-fire-taylor-jenkins",
+    "https://global.espn.com/nba/story/_/id/44480928/no-one-was-same-page-memphis-grizzlies-shocking-firing-taylor-jenkins",
+    "https://www.wbay.com/2026/04/30/bucks-officially-hire-taylor-jenkins-next-head-coach/",
+    "https://urbanmilwaukee.com/2026/05/07/milwaukee-bucks-introduce-new-head-coach-taylor-jenkins/",
+    "https://www.nba.com/news/milwaukee-bucks-finalize-coaching-staff-2026-27",
+    "https://api-hub.nba.com/news/bucks-name-taylor-jenkins-head-coach",
+    "https://espn.com.au/nba/story/_/id/48572946/bucks-finalizing-deal-hire-taylor-jenkins",
+    "https://www.cbssports.com/nba/news/sprint-grind-how-grizzlies-raptors-and-hornets-are-winning-the-new-possession-game",
+    "https://theringer.com/2025/01/15/nba/memphis-grizzlies-ja-morant-offense-style-statistics",
+    "https://www.actionnews5.com/2024/10/01/new-look-grizzlies-offense-dominates-discussion-first-day-training-camp/",
+    "https://medium.com/@AdamPikeGrizzliesFilm/memphis-grizzlies-5-out-freelance-offence-tweak-6e0bc3ab9e48",
+    "https://publish.grindcitymedia.com/?p=45141",
+    "https://clutchpoints.com/grizzlies-news-memphis-coach-taylor-jenkins-reveals-grizzlies-are-going-to-play-fast",
+    "https://www.nba.com/grizzlies/news/grind-city-media/mikecheck-jenkins-retraces-foundational-steps-along-path-to-early-success-as-grizzlies-coach-200219",
+    "https://dailymemphian.com/article/9837/grizz-week-taylor-jenkins-milwaukee-model-is",
+    "https://www.si.com/nba/grizzlies/onsi/news/former-grizzlies-coach-laroche-consulting-with-spoelstra-on-heat-s-thriving-offense-01k959c99twx",
+    "https://sportsethos.com/articles/hoop-ball-fantasy-basketball-features/season-wrap-the-2024-25-memphis-grizzlies/",
+    "https://www.theringer.com/2022/05/03/nba/jaren-jackson-jr-nba-playoffs-memphis-grizzlies",
+    "https://www.cbssports.com/nba/news/jaren-jackson-jr-s-well-earned-nba-all-star-selection-reminds-us-that-defense-deserves-recognition-too/",
+    "https://theanalyst.com/articles/jaren-jackson-jr-memphis-grizzlies-the-nbas-next-defensive-superstar/",
+    "https://www.thescore.com/nba/news/2280578",
+    "https://clutchpoints.com/grizzlies-news-why-jaren-jackson-jr-achilles-heel-become-gigantic-memphis-nba-playoffs-problem",
+    "https://newsletters.lockedonpodcasts.com/nba/locked-on-grizzlies/taylor-jenkins-grizzlies-rotations-scaring-nba-memphis",
+    "https://dailymemphian.com/article/49091/geoff-calkins-memphis-grizzlies-houston-rockets-taylor-jenkins-western-division",
+    "https://www.si.com/nba/grizzlies/news/taylor-jenkins-breaks-silence-on-controversial-ending-to-grizzlies-rockets-01jjxep4g265",
+    "https://official.nba.com/pool-report-on-stoppage-of-play-with-13-seconds-remaining-in-the-fourth-quarter",
+    "https://dailymemphian.com/article/43195/taylor-jenkins-memphis-grizzlies-la-lakers-clock-problem",
+    "https://www.nbcsportsbayarea.com/nba/golden-state-warriors/grizzlies-jenkins-curious-again-after-late-non-call-in-game-4/1413923/"
+  ],
+  "research_notes": "Search budget ran out before confirming the Bucks' 2026-27 start, Jenkins' training-camp philosophy in Milwaukee, Giannis' status, challenge data, foul-up-3/two-for-one habits, and exact rotation/minutes figures. Season W-L for 2021-22 (56-26), 2022-23 (51-31) and 2023-24 (27-55) are from general knowledge consistent with the 250-214 total and the '56 wins' and 'back-to-back 50-win seasons' reporting; playoff series results are from memory. Austin Toros tenure dates are approximate. Scores for Bucks-era tendencies assume continuity with his Memphis approach.",
+  "researched_at": "2026-11-02"
+}

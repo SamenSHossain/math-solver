@@ -1,0 +1,499 @@
+{
+  "coach": "Chris Finch",
+  "slug": "chris-finch",
+  "team": "MIN",
+  "team_name": "Minnesota Timberwolves",
+  "head_coach_since": "2020-21",
+  "age": 56,
+  "background": "Franklin & Marshall alum who built his reputation overseas (Sheffield Sharks, Giessen, Dexia Mons-Hainaut; Great Britain national team) and in the G League, where his Rio Grande Valley Vipers (2009-11, 2010 title) became the Rockets' analytics-driven pace-and-space laboratory. NBA assistant stops with Houston (Harden era), Denver, New Orleans and Toronto preceded his unusual midseason hire by Minnesota in February 2021. He has coached the Wolves to five straight winning seasons and playoff trips, including back-to-back Western Conference Finals (2024, 2025; lost 1-4 each time to DAL and OKC) and a 2026 second-round exit to San Antonio after beating Denver. Finished second in 2023-24 Coach of the Year voting; extended through 2027-28 in June 2024. Known as an offensive innovator ('flow' offense, 0.5-second decisions) who nevertheless has fielded top defenses with Rudy Gobert; recurring criticisms are late-game management (not calling timeouts during runs, clutch offense stalling) and reluctance to play young players.",
+  "prior_head_coaching": [
+    {
+      "team": "Rio Grande Valley Vipers (G League)",
+      "seasons": "2009-10 to 2010-11",
+      "record": "G League champion 2010",
+      "notes": "Houston Rockets affiliate; pioneered analytics-driven pace-and-space system. Also head coach of Sheffield Sharks, Giessen 46ers, Dexia Mons-Hainaut and Great Britain national team (2006-2012 Olympics) before NBA assistant roles with HOU, DEN, NOP, TOR."
+    }
+  ],
+  "record_last5": [
+    {
+      "season": "2021-22",
+      "team": "MIN",
+      "wins": 46,
+      "losses": 36,
+      "playoffs": "Won play-in vs LAC; lost R1 2-4 to MEM",
+      "notes": "Finch apologized to the team for not calling a timeout during a 21-0 Memphis run in Game 3."
+    },
+    {
+      "season": "2022-23",
+      "team": "MIN",
+      "wins": 42,
+      "losses": 40,
+      "playoffs": "Lost play-in to LAL, won vs OKC; lost R1 1-4 to DEN",
+      "notes": "First Gobert season; Finch coached part of series on crutches after knee injury."
+    },
+    {
+      "season": "2023-24",
+      "team": "MIN",
+      "wins": 56,
+      "losses": 26,
+      "playoffs": "Beat PHX 4-0, DEN 4-3; lost WCF 1-4 to DAL",
+      "notes": "No. 1 defense; Finch second in Coach of the Year voting."
+    },
+    {
+      "season": "2024-25",
+      "team": "MIN",
+      "wins": 49,
+      "losses": 33,
+      "playoffs": "Beat LAL 4-1, GSW 4-1; lost WCF 1-4 to OKC",
+      "notes": "Post-Towns trade (Randle/DiVincenzo); criticized for sticking with 8-man rotation in WCF Game 2."
+    },
+    {
+      "season": "2025-26",
+      "team": "MIN",
+      "wins": 49,
+      "losses": 33,
+      "playoffs": "6th seed; beat DEN 4-2; lost R2 2-4 to SAS",
+      "notes": "Playoffs 6-6. Edwards career-high 28.8 ppg on 39.9% from three but only 3.7 apg; Finch said the team did Edwards 'a disservice' using him as point guard, leading to the summer 2026 LaMelo Ball trade. Confrontation with referee Tony Brothers in Game 3 vs SAS."
+    }
+  ],
+  "defense_scheme_tags": [
+    "drop",
+    "high-wall",
+    "hedge",
+    "switch",
+    "zone",
+    "aggressive-help"
+  ],
+  "offense_scheme_tags": [
+    "flow",
+    "motion",
+    "pace-and-space",
+    "five-out",
+    "dribble-handoff",
+    "isolation",
+    "heliocentric"
+  ],
+  "scores": {
+    "rotation": {
+      "depth": {
+        "score": 30,
+        "confidence": 0.75,
+        "evidence": [
+          "Despite preseason talk of a 9-to-10-man rotation, in-season reporting (2025-26) described a tight rotation in which Finch 'seems to only trust six players' with Conley and Edwards out; he 'defended a tight rotation as young guards wait their turn'.",
+          "In WCF Game 2 (2025) he 'stubbornly stuck with an eight-man rotation'."
+        ],
+        "sources": [
+          "https://www.si.com/nba/timberwolves/onsi/minnesota-timberwolves-news/finch-defends-tight-rotation-as-wolves-young-guards-wait-their-turn",
+          "https://dunkingwithwolves.com/chris-finch-s-handling-of-young-players-is-starting-to-infuriate-timberwolves-fans",
+          "https://www.startribune.com/timberwolves-thunder-chris-finch-nba-western-conference-finals/601360243"
+        ]
+      },
+      "star_minutes_load": {
+        "score": 65,
+        "confidence": 0.55,
+        "evidence": [
+          "Edwards plays ~36 mpg and Gobert/McDaniels ~33-34; a Star Tribune column argued 'load management could be good for Wolves' youngsters', implying stars are rarely rested."
+        ],
+        "sources": [
+          "https://www.startribune.com/reusse-load-management-could-be-good-for-wolves-youngsters/601170099"
+        ]
+      },
+      "consistency": {
+        "score": 65,
+        "confidence": 0.6,
+        "evidence": [
+          "Finch favors 'defined roles' over churn and has been criticized for stubbornness with rotations in series (2025 WCF); starting lineups stay stable when healthy."
+        ],
+        "sources": [
+          "https://www.postbulletin.com/sports/pro/frederick-chris-finch-making-young-wolves-earn-minutes",
+          "https://www.startribune.com/timberwolves-thunder-chris-finch-nba-western-conference-finals/601360243"
+        ]
+      },
+      "youth_trust": {
+        "score": 25,
+        "confidence": 0.75,
+        "evidence": [
+          "Dillingham's minutes 'continue to decrease'; Clark (15.0 mpg) and Shannon (14.0 mpg) only modestly up in 2025-26; Finch says young players develop through defined roles, not 'a lot of minutes without guardrails'.",
+          "Fan/media pieces: 'Chris Finch's handling of young players is starting to infuriate Timberwolves fans' and he 'sounds far from enthused about Minnesota's young supporting cast'."
+        ],
+        "sources": [
+          "https://www.si.com/nba/timberwolves/onsi/minnesota-timberwolves-news/finch-defends-tight-rotation-as-wolves-young-guards-wait-their-turn",
+          "https://dunkingwithwolves.com/chris-finch-s-handling-of-young-players-is-starting-to-infuriate-timberwolves-fans",
+          "https://www.startribune.com/timberwolves-young-talent-chris-finch-rob-dillingham-terrence-shannon-josh-minott-leonard-miller/600378656"
+        ]
+      },
+      "load_management": {
+        "score": 35,
+        "confidence": 0.45,
+        "evidence": [
+          "Edwards rarely sits when healthy; Gobert occasionally rests on back-to-backs; columnists have urged more rest for stars to develop youth, suggesting it is not Finch's default."
+        ],
+        "sources": [
+          "https://www.startribune.com/reusse-load-management-could-be-good-for-wolves-youngsters/601170099"
+        ]
+      },
+      "closing_flexibility": {
+        "score": 40,
+        "confidence": 0.5,
+        "evidence": [
+          "Closers are usually fixed (Edwards, Conley/Randle, McDaniels, Gobert + Reid/DiVincenzo); notable exceptions drew criticism (subbed out 'the team's best decision-maker with 47 seconds to play' in 2024 WCF Game 2)."
+        ],
+        "sources": [
+          "https://www.deseret.com/sports/2024/05/25/minnesota-timberwolves-chris-finch-nba-playoff-mistakes"
+        ]
+      }
+    },
+    "offense": {
+      "pace": {
+        "score": 45,
+        "confidence": 0.5,
+        "evidence": [
+          "Wolves have been a middle-to-slow pace team; Star Tribune (Oct 2025): if they 'can get in transition more often' Edwards faces fewer doubles 'when they are slow in bringing the ball up the floor'. 2026-27 LaMelo Ball addition expected to raise pace."
+        ],
+        "sources": [
+          "https://www.startribune.com/minnesota-timberwolves-offense-oklahoma-city-indiana-pacers-nba-transition/601457778",
+          "https://www.si.com/nba/timberwolves/onsi/pace-will-be-key-factor-in-lamelo-ball-unlocking-timberwolves-upside-01kz4pjxhn7g"
+        ]
+      },
+      "three_point_emphasis": {
+        "score": 70,
+        "confidence": 0.6,
+        "evidence": [
+          "Finch's background is the Rockets/Vipers pace-and-space system; Wolves have ranked top-10 in 3PA rate in recent seasons with Edwards attempting 10+ threes a game (39.9% in 2025-26)."
+        ],
+        "sources": [
+          "https://zonecoverage.com/2025/timberwolves/have-the-wolves-finally-embraced-finchs-mystical-flow/",
+          "https://www.talkbasket.net/219458-chris-finch-says-anthony-edwards-has-cleaned-up-his-shot-selection"
+        ]
+      },
+      "ball_movement": {
+        "score": 50,
+        "confidence": 0.65,
+        "evidence": [
+          "Finch 'prefers' a high-ball-movement 'flow' style, but the offense 'leaned on high-usage isolation players'; Edwards admitted 'I play a part in the no-pass offense' and earlier said the team had 'no offensive identity'.",
+          "Finch (May 2026): 'We definitely need another ball handler and playmaker... take the load off of Anthony.'"
+        ],
+        "sources": [
+          "https://zonecoverage.com/2025/timberwolves/have-the-wolves-finally-embraced-finchs-mystical-flow/",
+          "https://dunkingwithwolves.com/chris-finch-says-the-quiet-part-out-loud-about-the-timberwolves-offense",
+          "https://secure-www.cbssports.com/nba/news/anthony-edwards-says-wolves-have-no-offensive-identity-he-cant-get-downhill-with-four-people-at-the-rim",
+          "https://www.talkbasket.net/219499-chris-finch-timberwolves-need-another-ball-handler"
+        ]
+      },
+      "transition_emphasis": {
+        "score": 45,
+        "confidence": 0.5,
+        "evidence": [
+          "Transition offense was identified as the area the Wolves must improve to 'run with the big dogs' (OKC/IND), indicating it was not a strength through 2024-25."
+        ],
+        "sources": [
+          "https://www.startribune.com/minnesota-timberwolves-offense-oklahoma-city-indiana-pacers-nba-transition/601457778"
+        ]
+      },
+      "offensive_rebounding": {
+        "score": 40,
+        "confidence": 0.3,
+        "evidence": [
+          "Gobert and Reid generate second chances but the scheme emphasizes floor balance/transition defense; roughly below-average crash rate (inferred)."
+        ],
+        "sources": []
+      },
+      "paint_post_emphasis": {
+        "score": 45,
+        "confidence": 0.4,
+        "evidence": [
+          "Randle post-ups and Gobert dunker-spot finishes exist, but the offense is perimeter-initiated; Edwards complained of 'four people at the rim' clogging his drives (2024-25)."
+        ],
+        "sources": [
+          "https://secure-www.cbssports.com/nba/news/anthony-edwards-says-wolves-have-no-offensive-identity-he-cant-get-downhill-with-four-people-at-the-rim"
+        ]
+      },
+      "playcalling_ato_quality": {
+        "score": 60,
+        "confidence": 0.55,
+        "evidence": [
+          "Regarded as a creative offensive designer ('Chris Finch's genius is also his Achilles heel' - Zone Coverage 2024; 'Deep Dive Inside the Timberwolves' Creative Offensive Scheme').",
+          "But late-game sets have faltered: botched inbounds defense vs MIA ('I didn't get it right'), 'poor inbounds plays' in Nov 2025 collapses, and a 'stalling' late-game offense he himself dislikes."
+        ],
+        "sources": [
+          "https://zonecoverage.com/2024/timberwolves/chris-finchs-genius-is-also-his-achilles-heel",
+          "https://areyouwatchingthis.com/hosted/nba/news/730165-Deep-Dive-Inside-the-Minnesota-Timberwolves-Creative-Offensive-Scheme",
+          "https://www.si.com/nba/timberwolves/minnesota-timberwolves-news/i-didn-t-get-it-right-what-went-wrong-for-wolves-on-heat-s-late-inbounds-play-01jccpypq5dk",
+          "https://www.yahoo.com/news/chris-finch-remains-unhappy-timberwolves-000300015.html"
+        ]
+      }
+    },
+    "defense": {
+      "aggressiveness": {
+        "score": 45,
+        "confidence": 0.55,
+        "evidence": [
+          "Base is Gobert drop coverage; Finch and assistant Elston Turner 'generally favored aggressive defense' and run a hybrid (drop with Gobert, high-wall/aggressive looks without him), with McDaniels as a point-of-attack disruptor."
+        ],
+        "sources": [
+          "https://www.startribune.com/timberwolves-rudy-gobert-anthony-edwards-russell-towns-finch/600211488",
+          "https://www.startribune.com/timberwolves-nba-top-defense-rudy-gobert-jaden-mcdaniels-chris-finch/600322291"
+        ]
+      },
+      "perimeter_priority": {
+        "score": 30,
+        "confidence": 0.65,
+        "evidence": [
+          "Heavy drop coverage with Gobert concedes pop-out threes ('the pop-out 3 is what defenses give up in drop'); assistant Micah Nori: 'we have been working on a lot of drop coverage' while warning not to expect Gobert to clean everything up."
+        ],
+        "sources": [
+          "https://www.canishoopus.com/game-recaps/2022/11/24/23476355/minnesota-timberwolves-115-indiana-pacers-101-minnesotas-most-complete-performance-yet",
+          "https://www.startribune.com/timberwolves-rudy-gobert-anthony-edwards-russell-towns-finch/600211488"
+        ]
+      },
+      "foul_discipline": {
+        "score": 55,
+        "confidence": 0.3,
+        "evidence": [
+          "Drop scheme with a disciplined rim protector keeps fouls moderate; Gobert is low-foul. No hard data found (inferred)."
+        ],
+        "sources": []
+      },
+      "zone_usage": {
+        "score": 35,
+        "confidence": 0.45,
+        "evidence": [
+          "Wolves 'continue to try to add different defenses to arsenal' including occasional zone looks, but zone is a change-up, not a staple."
+        ],
+        "sources": [
+          "https://www.inforum.com/sports/pro/timberwolves-continue-to-try-to-add-different-defenses-to-arsenal"
+        ]
+      },
+      "scheme_adaptability": {
+        "score": 50,
+        "confidence": 0.55,
+        "evidence": [
+          "Runs two coverage packages (drop with Gobert, high-wall/switch without) and plans to use Joan Beringer for 'more aggressive defensive looks when Gobert rests' (2026-27).",
+          "Series criticism: slow to adjust vs OKC (2025) and vs SAS (2026); 'fair to nitpick Finch's coaching... against the Spurs'."
+        ],
+        "sources": [
+          "https://www.eurohoops.net/en/nba-news/2006396/chris-finch-talks-rudy-gobert-joan-beringer-minnesota-timberwolves-nba/",
+          "https://www.si.com/nba/timberwolves/onsi/minnesota-timberwolves-news/wolves-may-have-found-fix-defensive-issues-non-gobert-minutes",
+          "https://www.startribune.com/chris-finch-minnesota-timberwolves-nba-playoffs-souhan/601343092"
+        ]
+      }
+    },
+    "endgame": {
+      "timeout_aggressiveness": {
+        "score": 18,
+        "confidence": 0.85,
+        "evidence": [
+          "Repeated pattern of letting runs go: apologized for no timeout during a 21-0 MEM run (2022); 'That's on me' after not calling timeout in Game 3 collapse vs DEN (2024); in Nov 2025 he 'elected not to take a timeout while the lead was evaporating' in SAC and PHX and admitted he 'didn't handle the end... like he should have'.",
+          "His stated philosophy favors playing through runs and saving possessions."
+        ],
+        "sources": [
+          "https://www.startribune.com/timberwolves-chris-finch-anthony-edwards-timeout/600167368",
+          "https://www.si.com/nba/timberwolves/onsi/minnesota-timberwolves-news/chris-finch-takes-blame-timberwolves-recent-late-game-collapses",
+          "https://www.startribune.com/chris-finch-s-late-game-mind-set-save-the-wolves-possessions/600042018"
+        ]
+      },
+      "foul_up_three": {
+        "score": 45,
+        "confidence": 0.25,
+        "evidence": [
+          "No direct evidence found; Finch's analytics background suggests awareness, but his late-game record shows inconsistent execution (inferred)."
+        ],
+        "sources": []
+      },
+      "late_lineup_shrink": {
+        "score": 75,
+        "confidence": 0.65,
+        "evidence": [
+          "Already tight rotation shrinks to six trusted players in close games; young guards are not used in clutch minutes."
+        ],
+        "sources": [
+          "https://dunkingwithwolves.com/chris-finch-s-handling-of-young-players-is-starting-to-infuriate-timberwolves-fans",
+          "https://www.si.com/nba/timberwolves/onsi/minnesota-timberwolves-news/finch-defends-tight-rotation-as-wolves-young-guards-wait-their-turn"
+        ]
+      },
+      "challenge_quality": {
+        "score": 50,
+        "confidence": 0.3,
+        "evidence": [
+          "No challenge data found; Finch has frequent run-ins with officials (Tony Brothers, May 2026) but no documented challenge misuse (inferred average)."
+        ],
+        "sources": [
+          "https://www.hoopsrumors.com/2026/05/chris-finch-calls-tony-brothers-unprofessional-after-game-3-loss.html"
+        ]
+      },
+      "two_for_one_awareness": {
+        "score": 50,
+        "confidence": 0.3,
+        "evidence": [
+          "Finch has spoken about 'saving possessions' late; Rockets-tree coaches typically hunt 2-for-1s, but no direct evidence (inferred)."
+        ],
+        "sources": [
+          "https://www.startribune.com/chris-finch-s-late-game-mind-set-save-the-wolves-possessions/600042018"
+        ]
+      },
+      "risk_appetite": {
+        "score": 45,
+        "confidence": 0.4,
+        "evidence": [
+          "Tends toward letting players play (no timeouts, fixed closers) rather than aggressive gambits; occasionally questionable substitutions late."
+        ],
+        "sources": [
+          "https://www.deseret.com/sports/2024/05/25/minnesota-timberwolves-chris-finch-nba-playoff-mistakes"
+        ]
+      },
+      "clutch_reputation": {
+        "score": 30,
+        "confidence": 0.75,
+        "evidence": [
+          "Analysis: in Finch's four full seasons the Wolves 'never ranked higher than 15th in clutch time net rating or 19th in clutch time offensive rating'.",
+          "Multiple documented late collapses (PHX/SAC Nov 2025, MIA inbounds 2024-25, DEN Game 3 2024); Finch graded his own late-game work at 'about 80 percent'."
+        ],
+        "sources": [
+          "https://dunkingwithwolves.com/it-s-time-for-the-timberwolves-to-have-an-uncomfortable-chris-finch-conversation",
+          "https://www.si.com/nba/timberwolves/onsi/minnesota-timberwolves-news/chris-finch-takes-blame-timberwolves-recent-late-game-collapses",
+          "https://newsletters.lockedonpodcasts.com/nba/locked-on-wolves/coaching-mistakes-magnified-as-sloppy-timberwolves-collapse-late-in-frustrating-loss-to-heat"
+        ]
+      }
+    },
+    "overall": {
+      "adaptability": {
+        "score": 45,
+        "confidence": 0.55,
+        "evidence": [
+          "Credited with stabilizing the team after the Towns trade (2024-25) and building two coverage packages; criticized as 'stubborn' with rotations in the 2025 WCF and for slow adjustments vs SAS (2026)."
+        ],
+        "sources": [
+          "https://zonecoverage.com/2025/timberwolves/chris-finch-is-stabilizing-the-timberwolves",
+          "https://www.startribune.com/timberwolves-thunder-chris-finch-nba-western-conference-finals/601360243",
+          "https://www.startribune.com/chris-finch-minnesota-timberwolves-nba-playoffs-souhan/601343092"
+        ]
+      },
+      "player_development": {
+        "score": 50,
+        "confidence": 0.5,
+        "evidence": [
+          "Edwards (All-NBA), McDaniels and Reid (Sixth Man) blossomed under Finch; but Dillingham, Shannon, Clark and Minott have struggled to earn roles, and Finch admitted misusing Edwards as a point guard in 2025-26."
+        ],
+        "sources": [
+          "https://www.nbcsports.com/nba/news/chris-finch-explains-why-minnesota-felt-it-needed-lamelo-ball-to-unlock-anthony-edwards",
+          "https://www.startribune.com/timberwolves-young-talent-chris-finch-rob-dillingham-terrence-shannon-josh-minott-leonard-miller/600378656"
+        ]
+      },
+      "analytics_adoption": {
+        "score": 65,
+        "confidence": 0.5,
+        "evidence": [
+          "Product of the Rockets/Vipers analytics laboratory; 'flow' offense emphasizes quick decisions and threes; but his rotation and timeout habits are feel-based and sometimes contradict the data."
+        ],
+        "sources": [
+          "https://zonecoverage.com/2025/timberwolves/have-the-wolves-finally-embraced-finchs-mystical-flow/",
+          "https://zonecoverage.com/2024/timberwolves/chris-finchs-genius-is-also-his-achilles-heel"
+        ]
+      },
+      "reputation": {
+        "score": 58,
+        "confidence": 0.6,
+        "evidence": [
+          "Best winning percentages of any coach in franchise history (242-182 regular season, 21-21 playoffs through 2024-25; 258-193 through 2025-26), back-to-back WCFs, 2024 COY runner-up; 'In Finchy we trust' (Souhan).",
+          "Growing fan/media calls for change after the 2026 Spurs loss; Olden Polynice doubted he can win a title; front office kept him."
+        ],
+        "sources": [
+          "https://www.si.com/nba/timberwolves/onsi/minnesota-timberwolves-news/jim-petersen-bashes-chris-finch-detractors-how-about-some-gratitudes",
+          "https://www.startribune.com/chris-finch-minnesota-timberwolves-nba-playoffs-souhan/601343092",
+          "https://www.hoopsrumors.com/2026/05/chris-finch-expected-to-remain-timberwolves-head-coach.html",
+          "https://fadeawayworld.net/?p=140222"
+        ]
+      }
+    }
+  },
+  "notable_quotes": [
+    {
+      "quote": "That's on me.",
+      "speaker": "Chris Finch",
+      "context": "On not calling timeout during Game 3 collapse vs Denver, May 2024",
+      "source": "https://www.startribune.com/timberwolves-chris-finch-anthony-edwards-timeout/600167368"
+    },
+    {
+      "quote": "We definitely need another ball handler and playmaker and somebody who can, you know, initiate the offense, take the load off of Anthony.",
+      "speaker": "Chris Finch",
+      "context": "End-of-season presser, May 2026",
+      "source": "https://www.talkbasket.net/219499-chris-finch-timberwolves-need-another-ball-handler"
+    },
+    {
+      "quote": "Completely unprofessional.",
+      "speaker": "Chris Finch",
+      "context": "On referee Tony Brothers ignoring his timeout request, Game 3 vs SAS, May 2026",
+      "source": "https://www.hoopsrumors.com/2026/05/chris-finch-calls-tony-brothers-unprofessional-after-game-3-loss.html"
+    },
+    {
+      "quote": "I play a part in the no-pass offense.",
+      "speaker": "Anthony Edwards",
+      "context": "2025-26 season",
+      "source": "https://dunkingwithwolves.com/chris-finch-says-the-quiet-part-out-loud-about-the-timberwolves-offense"
+    },
+    {
+      "quote": "We have been working on a lot of drop coverage... we can't get complacent in that coverage and just expect Gobert to clean everything up at the rim.",
+      "speaker": "Micah Nori (assistant)",
+      "context": "Star Tribune, 2022-23",
+      "source": "https://www.startribune.com/timberwolves-rudy-gobert-anthony-edwards-russell-towns-finch/600211488"
+    }
+  ],
+  "key_criticisms": [
+    "Late-game management: habitually declines timeouts during opponent runs (2022, 2024, Nov 2025); clutch net rating never better than 15th in four full seasons.",
+    "Tight rotation and slow trust in young players (Dillingham, Shannon, Clark); 'stubbornly' kept an 8-man rotation in the 2025 WCF.",
+    "Offense drifts into Edwards isolation/'no-pass' stretches despite his stated flow philosophy; admitted misusing Edwards as point guard in 2025-26.",
+    "Fiery with officials (Tony Brothers confrontation, May 2026) and occasionally questioned lineup choices (e.g., vs lowly Spurs regular season).",
+    "Three straight deep playoff runs ended in lopsided series losses (1-4, 1-4, 2-4)."
+  ],
+  "key_strengths": [
+    "Creative offensive designer with a clear 'flow' philosophy; developed Edwards into an MVP-level scorer.",
+    "Built a No. 1 defense around Gobert with a coherent drop/high-wall hybrid.",
+    "Stability and buy-in: franchise-best winning percentage, five straight playoff seasons, strong relationship with Edwards and Tim Connelly.",
+    "Accountable in public (takes blame for late-game errors), respected by local analysts (Petersen, Souhan)."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025%E2%80%9326_Minnesota_Timberwolves_season",
+    "https://www.hoopsrumors.com/2026/05/chris-finch-expected-to-remain-timberwolves-head-coach.html",
+    "https://roundtable.io/sports/nba/timberwolves/news/chris-finch-takes-responsibility-for-season-ending-game-6-loss-to-spurs",
+    "https://www.kttc.com/2024/06/24/timberwolves-coach-chris-finch-extended-through-2027-28-season",
+    "https://www.startribune.com/chris-finch-minnesota-timberwolves-nba-playoffs-souhan/601343092",
+    "https://zonecoverage.com/2025/timberwolves/have-the-wolves-finally-embraced-finchs-mystical-flow/",
+    "https://zonecoverage.com/2024/timberwolves/chris-finchs-genius-is-also-his-achilles-heel",
+    "https://zonecoverage.com/2025/timberwolves/chris-finch-is-stabilizing-the-timberwolves",
+    "https://dunkingwithwolves.com/chris-finch-says-the-quiet-part-out-loud-about-the-timberwolves-offense",
+    "https://www.startribune.com/minnesota-timberwolves-offense-oklahoma-city-indiana-pacers-nba-transition/601457778",
+    "https://www.nbcsports.com/nba/news/chris-finch-explains-why-minnesota-felt-it-needed-lamelo-ball-to-unlock-anthony-edwards",
+    "https://bleacherreport.com/articles/25454554-anthony-edwards-can-be-cold-blooded-scorer-after-lamelo-ball-trade-says-t-wolves-hc",
+    "https://secure-www.cbssports.com/nba/news/anthony-edwards-says-wolves-have-no-offensive-identity-he-cant-get-downhill-with-four-people-at-the-rim",
+    "https://www.talkbasket.net/219499-chris-finch-timberwolves-need-another-ball-handler",
+    "https://www.talkbasket.net/219458-chris-finch-says-anthony-edwards-has-cleaned-up-his-shot-selection",
+    "https://www.si.com/nba/timberwolves/onsi/pace-will-be-key-factor-in-lamelo-ball-unlocking-timberwolves-upside-01kz4pjxhn7g",
+    "https://areyouwatchingthis.com/hosted/nba/news/730165-Deep-Dive-Inside-the-Minnesota-Timberwolves-Creative-Offensive-Scheme",
+    "https://www.startribune.com/timberwolves-rudy-gobert-anthony-edwards-russell-towns-finch/600211488",
+    "https://www.startribune.com/timberwolves-nba-top-defense-rudy-gobert-jaden-mcdaniels-chris-finch/600322291",
+    "https://www.canishoopus.com/game-recaps/2022/11/24/23476355/minnesota-timberwolves-115-indiana-pacers-101-minnesotas-most-complete-performance-yet",
+    "https://www.eurohoops.net/en/nba-news/2006396/chris-finch-talks-rudy-gobert-joan-beringer-minnesota-timberwolves-nba/",
+    "https://www.inforum.com/sports/pro/timberwolves-continue-to-try-to-add-different-defenses-to-arsenal",
+    "https://www.si.com/nba/timberwolves/onsi/minnesota-timberwolves-news/wolves-may-have-found-fix-defensive-issues-non-gobert-minutes",
+    "https://www.si.com/nba/timberwolves/onsi/minnesota-timberwolves-news/finch-defends-tight-rotation-as-wolves-young-guards-wait-their-turn",
+    "https://www.postbulletin.com/sports/pro/frederick-chris-finch-making-young-wolves-earn-minutes",
+    "https://dunkingwithwolves.com/chris-finch-s-handling-of-young-players-is-starting-to-infuriate-timberwolves-fans",
+    "https://www.startribune.com/timberwolves-young-talent-chris-finch-rob-dillingham-terrence-shannon-josh-minott-leonard-miller/600378656",
+    "https://www.startribune.com/reusse-load-management-could-be-good-for-wolves-youngsters/601170099",
+    "https://www.si.com/nba/timberwolves/onsi/minnesota-timberwolves-news/chris-finch-takes-blame-timberwolves-recent-late-game-collapses",
+    "https://www.startribune.com/timberwolves-chris-finch-anthony-edwards-timeout/600167368",
+    "https://www.startribune.com/chris-finch-s-late-game-mind-set-save-the-wolves-possessions/600042018",
+    "https://www.deseret.com/sports/2024/05/25/minnesota-timberwolves-chris-finch-nba-playoff-mistakes",
+    "https://www.si.com/nba/timberwolves/minnesota-timberwolves-news/i-didn-t-get-it-right-what-went-wrong-for-wolves-on-heat-s-late-inbounds-play-01jccpypq5dk",
+    "https://www.yahoo.com/news/chris-finch-remains-unhappy-timberwolves-000300015.html",
+    "https://dunkingwithwolves.com/it-s-time-for-the-timberwolves-to-have-an-uncomfortable-chris-finch-conversation",
+    "https://newsletters.lockedonpodcasts.com/nba/locked-on-wolves/coaching-mistakes-magnified-as-sloppy-timberwolves-collapse-late-in-frustrating-loss-to-heat",
+    "https://www.hoopsrumors.com/2026/05/chris-finch-calls-tony-brothers-unprofessional-after-game-3-loss.html",
+    "https://www.startribune.com/timberwolves-thunder-chris-finch-nba-western-conference-finals/601360243",
+    "https://www.si.com/nba/timberwolves/onsi/minnesota-timberwolves-news/jim-petersen-bashes-chris-finch-detractors-how-about-some-gratitudes",
+    "https://www.yardbarker.com/nba/articles/chris_finch_fires_back_at_the_timberwolves_rotation_critics/s1_17615_42063586",
+    "https://fadeawayworld.net/?p=140222"
+  ],
+  "research_notes": "Search-only environment; search budget exhausted before any 2026-27 Timberwolves result could be checked, so no current-season record is included. 2025-26: 49-33, 6th seed, beat DEN 4-2, lost R2 to SAS (6-6 playoffs) is confirmed by Wikipedia/Hoops Rumors; the 258-193 career total matches the season-by-season figures (2020-21 partial 16-25 included). 2021-22 through 2024-25 records are from my knowledge and consistent with the reported cumulative totals (160-127 after four partial/full seasons; 242-182 through 2024-25). The LaMelo Ball trade to Minnesota (summer 2026) is referenced by Bleacher Report/NBC pieces but trade details were not retrieved. Finch turns 57 on Nov 6, 2026 (age 56 on the research date). No team-level data found for foul-up-3, 2-for-1s, challenge success, zone frequency, offensive-rebound rate or exact minutes; those dimensions are inferred with confidence <= 0.35. Coverage of defense scheme is partly from 2022-24 and may not reflect the 2026-27 roster (Beringer as backup center).",
+  "researched_at": "2026-11-02"
+}

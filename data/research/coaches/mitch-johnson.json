@@ -1,0 +1,117 @@
+{
+  "coach": "Mitch Johnson",
+  "slug": "mitch-johnson",
+  "team": "SAS",
+  "team_name": "San Antonio Spurs",
+  "head_coach_since": "2024-25",
+  "age": 40,
+  "background": "Former Stanford point guard (2005-09) who came up through the Spurs organization: Austin Spurs (G League) assistant and then head coach (2018-19), San Antonio assistant under Gregg Popovich from 2019. Became acting head coach on Nov 2, 2024 when Popovich suffered a stroke, started 8-6 and finished 32-45 (team 34-48; the NBA later formally credited those games to Johnson, resetting Popovich to 1,390-824). Named permanent head coach on May 2, 2025 when Popovich moved to president of basketball operations. In his first full season (2025-26) he led a young Spurs team built around Victor Wembanyama, De'Aaron Fox, Stephon Castle and rookies Dylan Harper and Carter Bryant to 62-20, the Southwest title, the 2026 All-Star Game head-coaching assignment, and a run to the NBA Finals (second-round win over Minnesota, Western Conference Finals win over Oklahoma City; Finals opponent/result not verified in this session). Described as calm, process-driven and communicative; credited by Spurs media with 'cracking the Wembanyama code' by pairing tempo and three-point volume with Horns/rip-screen set design.",
+  "prior_head_coaching": [{"team": "Austin Spurs (NBA G League)", "seasons": "2018-19", "notes": "G League head coach after assistant stint; moved to Spurs staff in 2019"}],
+  "record_last5": [
+    {"season": "2021-22", "team": "SAS", "wins": null, "losses": null, "playoffs": null, "notes": "assistant coach under Gregg Popovich (team 34-48, lost play-in)"},
+    {"season": "2022-23", "team": "SAS", "wins": null, "losses": null, "playoffs": null, "notes": "assistant coach (team 22-60)"},
+    {"season": "2023-24", "team": "SAS", "wins": null, "losses": null, "playoffs": null, "notes": "assistant coach (team 22-60; Wembanyama rookie year)"},
+    {"season": "2024-25", "team": "SAS", "wins": 32, "losses": 45, "playoffs": "Missed playoffs", "notes": "Acting head coach from 2024-11-02 after Popovich's stroke (Popovich 2-3 in first 5 games; team 34-48, 13th in West). Some outlets list Johnson at 31-45. Wembanyama lost to DVT in Feb 2025; Castle won Rookie of the Year; named permanent HC 2025-05-02"},
+    {"season": "2025-26", "team": "SAS", "wins": 62, "losses": 20, "playoffs": "Won R1 (opponent unverified); won R2 vs MIN; won WCF vs OKC; reached NBA Finals (result not verified)", "notes": "Southwest Division champion; 2026 All-Star Game head coach; Spurs' first Finals since 2014; Finals opponent appears to be New York (Bleacher Report coverage of a Finals-window loss to the Knicks). Series scores not verified in this session"},
+    {"season": "2026-27", "team": "SAS", "wins": null, "losses": null, "playoffs": null, "notes": "Record through 2026-11-02 not verified in this session"}
+  ],
+  "defense_scheme_tags": ["drop", "zone", "no-middle", "aggressive-help"],
+  "offense_scheme_tags": ["transition", "pace-and-space", "motion", "two-big", "five-out"],
+  "scores": {
+    "rotation": {
+      "depth": {"score": 68, "confidence": 0.45, "evidence": ["Spurs tradition of 10-man rotations continued in 2025-26: Fox/Castle/Vassell/Barnes/Wembanyama starters with Harper, Bryant, Keldon Johnson, Kornet, Champagnie, Sochan, Olynyk cycling through real minutes", "Johnson's 'relentless' identity relies on waves of defenders and depth, per Spurs beat coverage (2025-26)"], "sources": ["https://www.si.com/nba/spurs/onsi/news/mitch-johnson-defines-san-antonio-spurs-relentless-brand-of-basketball", "https://www.poundingtherock.com/general/89645/how-mitch-johnson-has-rekindled-spurs-basketball"]},
+      "star_minutes_load": {"score": 35, "confidence": 0.45, "evidence": ["Wembanyama's minutes were managed carefully in 2025-26 after his 2025 blood-clot season and a midseason calf injury; the Athletic noted Fox 'bringing the Spurs offense to life' without him", "Johnson pushed Wembanyama to be more aggressive in the 2026 playoffs ('he's got to take more') rather than simply playing him more"], "sources": ["https://api-hub.nba.com/news/the-athletic-without-victor-wembanyama-deaaron-fox-is-bringing-the-spurs-offense-to-life", "https://www.essentiallysports.com/nba-active-basketball-news-victor-wembanyama-receives-strong-message-from-spurs-hc-following-game-five-struggles-hes-got-to-take-more-nba-playoffs"]},
+      "consistency": {"score": 58, "confidence": 0.35, "evidence": ["Stable starting five through 2025-26 when healthy; bench roles adjusted for injuries and the young players' development arcs (estimate from coverage)"], "sources": ["https://www.si.com/nba/spurs/onsi/news/the-standard-rebuilt-how-mitch-johnson-turned-doubt-into-a-spurs-revival"]},
+      "youth_trust": {"score": 80, "confidence": 0.55, "evidence": ["Started/played 20-year-old Castle (ROY 2025) and gave rookies Dylan Harper (19) and Carter Bryant (19) rotation minutes on a 62-win team; Harper featured in Finals coverage (2026)", "Spurs media credit Johnson with developing Wembanyama's game in a way 'even Popovich struggled to'"], "sources": ["https://bleacherreport.com/articles/25440436-everything-mitch-johnson-said-about-wemby-jalen-brunson-dylan-harper-and-spurs-loss-knicks", "https://airalamo.com/mitch-johnson-cracked-victor-wembanyama-code-way-gregg-popovich-struggled"]},
+      "load_management": {"score": 60, "confidence": 0.35, "evidence": ["Organization-wide caution with Wembanyama (post-DVT) meant minutes limits and some rest/back-to-back management in 2025-26 (estimate; no tracking data found)"], "sources": ["https://api-hub.nba.com/news/the-athletic-without-victor-wembanyama-deaaron-fox-is-bringing-the-spurs-offense-to-life"]},
+      "closing_flexibility": {"score": 50, "confidence": 0.3, "evidence": ["Closing groups generally Fox/Castle/Vassell/Barnes/Wembanyama with Sochan or Keldon Johnson swapped in by matchup (2025-26); limited direct reporting"], "sources": []}
+    },
+    "offense": {
+      "pace": {"score": 58, "confidence": 0.45, "evidence": ["Deliberately slowed the offense in 2024-25 (Spurs 27th in pace at one point, 'fourth slowest') to let Wembanyama work near the basket", "In 2025-26 shifted to 'pace and patience'; at the 2026 Finals: 'we want to play with pace, and we want to hunt threes in transition'"], "sources": ["https://airalamo.com/mitch-johnson-cracked-victor-wembanyama-code-way-gregg-popovich-struggled", "https://www.si.com/nba/spurs/onsi/news/pace-and-patience-the-spurs-can-beat-you-a-million-different-ways", "https://asaptext.com/orgs/nbafinals/transcripts/168054.pdf"]},
+      "three_point_emphasis": {"score": 60, "confidence": 0.45, "evidence": ["'The Spurs have made it a point to increase Wembanyama's volume from three' (6.9 3PA early 2024-25); Johnson: 'we want him to shoot those shots'", "Designed set plays ('Slap Five' rip screens) specifically to free Wembanyama for threes; 'hunt threes in transition' (2026 Finals)"], "sources": ["https://airalamo.com/3-point-jump-two-spurs-make-risk-losing-big-minutes", "https://thesportsrush.com/nba-news-nba-play-breakdown-slap-five-how-spurs-leverage-rip-screens-to-get-victor-wembanyama-an-open-three-pointer/", "https://asaptext.com/orgs/nbafinals/transcripts/168054.pdf"]},
+      "ball_movement": {"score": 62, "confidence": 0.45, "evidence": ["Praised the Spurs' 'sharp passing' after beating Milwaukee (2025-26); offense features Horns sets with two bigs at the elbows rather than one-man isolation", "Fox, Castle and Wembanyama share creation; no single heliocentric hub"], "sources": ["https://www.talkbasket.net/210350-mitch-johnson-praises-spurs-sharp-passing-and-defensive-effort-after-win-over-bucks", "https://thesportsrush.com/nba-news-nba-play-breakdown-slap-five-how-spurs-leverage-rip-screens-to-get-victor-wembanyama-an-open-three-pointer/"]},
+      "transition_emphasis": {"score": 65, "confidence": 0.5, "evidence": ["'We want to play with pace, and we want to hunt threes in transition' (Johnson, 2026 Finals); Castle/Fox/Wembanyama rim-runs make San Antonio an elite transition team (2025-26)"], "sources": ["https://asaptext.com/orgs/nbafinals/transcripts/168054.pdf", "https://www.si.com/nba/spurs/onsi/news/pace-and-patience-the-spurs-can-beat-you-a-million-different-ways"]},
+      "offensive_rebounding": {"score": 50, "confidence": 0.3, "evidence": ["Wembanyama and Kornet/Olynyk offer size but the Spurs prioritize transition defense; roughly average crash rate (estimate)"], "sources": []},
+      "paint_post_emphasis": {"score": 55, "confidence": 0.4, "evidence": ["Slowing the game in 2024-25 was framed as letting Wembanyama 'focus on his strengths near the basket'; Horns alignments put two bigs at the free-throw line (2024-26)"], "sources": ["https://airalamo.com/mitch-johnson-cracked-victor-wembanyama-code-way-gregg-popovich-struggled", "https://thesportsrush.com/nba-news-nba-play-breakdown-slap-five-how-spurs-leverage-rip-screens-to-get-victor-wembanyama-an-open-three-pointer/"]},
+      "playcalling_ato_quality": {"score": 58, "confidence": 0.4, "evidence": ["Play breakdowns highlight bespoke sets ('Slap Five') to create Wembanyama threes; offense 'can beat you a million different ways' (2025-26)", "Local critics faulted 'several critical mistakes' and a 'repeated critical mistake that may cost the Spurs a championship' during the 2026 playoffs, including handling OKC's physicality"], "sources": ["https://thesportsrush.com/nba-news-nba-play-breakdown-slap-five-how-spurs-leverage-rip-screens-to-get-victor-wembanyama-an-open-three-pointer/", "https://airalamo.com/mitch-johnson-repeats-critical-mistake-that-may-cost-spurs-a-championship", "https://airalamo.com/mitch-johnson-makes-several-critical-mistakes-spurs-struggled-to-recover-from"]}
+    },
+    "defense": {
+      "aggressiveness": {"score": 48, "confidence": 0.4, "evidence": ["Spurs 'historically relied on a drop scheme and prioritized fundamentals and avoiding fouls'; preseason analysis asked whether Johnson would become more aggressive (2025)", "Castle/Wembanyama length generates turnovers and blocks without heavy trapping; Johnson lauded 'defensive effort' in wins over Milwaukee and Boston (2025-26)"], "sources": ["https://www.poundingtherock.com/spurs-analysis/88173/how-the-spurs-can-become-the-defensive-juggernaut-they-want-to-be", "https://www.talkbasket.net/210350-mitch-johnson-praises-spurs-sharp-passing-and-defensive-effort-after-win-over-bucks", "https://www.si.com/nba/spurs/onsi/news/spurs-beat-celtics-100-95-behind-wembanyama-fox-and-defense"]},
+      "perimeter_priority": {"score": 35, "confidence": 0.45, "evidence": ["Drop coverage with Wembanyama as the rim anchor is the base; Johnson 'gets honest' about perimeter defense lapses after a Portland loss (2025-26)"], "sources": ["https://www.poundingtherock.com/spurs-analysis/88173/how-the-spurs-can-become-the-defensive-juggernaut-they-want-to-be", "https://www.si.com/nba/spurs/onsi/news/san-antonio-spurs-get-honest-perimeter-defense-after-loss-to-trail-blazers"]},
+      "foul_discipline": {"score": 60, "confidence": 0.4, "evidence": ["Spurs culture emphasizes 'avoiding fouls'; Johnson blamed 'undisciplined' defense for Shai Gilgeous-Alexander's free throws in a 2026 WCF Game 3 loss, signaling discipline is a stated priority"], "sources": ["https://www.poundingtherock.com/spurs-analysis/88173/how-the-spurs-can-become-the-defensive-juggernaut-they-want-to-be", "https://www.yardbarker.com/nba/articles/mitch_johnson_blames_spurs_undisciplined_defense_for_sgas_free_throws_in_game_3/s1_17776_43873981"]},
+      "zone_usage": {"score": 45, "confidence": 0.35, "evidence": ["Finals preview noted Wembanyama 'can still bother shooters even when the Spurs are playing zone', confirming zone is in the toolbox (2026) but not a base look"], "sources": ["https://larrybrownsports.com/basketball/magic-johnson-raises-1-concern-victor-wembanyama-nba-finals/756408"]},
+      "scheme_adaptability": {"score": 48, "confidence": 0.35, "evidence": ["Mixes drop and zone; fan/local criticism that he was slow to counter OKC's physical defense in the 2026 playoffs; blasted officiating/physicality after Wembanyama's ejection vs MIN"], "sources": ["https://airalamo.com/mitch-johnson-repeats-critical-mistake-that-may-cost-spurs-a-championship", "https://www.eurohoops.net/en/nba-news/1966715/victor-wembanyama-ejection-san-antonio-spurs-nba-playoffs/"]}
+    },
+    "endgame": {
+      "timeout_aggressiveness": {"score": 50, "confidence": 0.2, "evidence": ["No specific reporting found; Popovich-school coaches tend to be quick with run-stopping timeouts (estimate)"], "sources": []},
+      "foul_up_three": {"score": 50, "confidence": 0.2, "evidence": ["No reporting found; league-average assumed"], "sources": []},
+      "late_lineup_shrink": {"score": 55, "confidence": 0.3, "evidence": ["Deep regular-season rotation shrank toward 8 in the 2026 playoffs with rookies' minutes trimmed, but Wembanyama's minutes were still not maxed (estimate from coverage)"], "sources": ["https://www.essentiallysports.com/nba-active-basketball-news-victor-wembanyama-receives-strong-message-from-spurs-hc-following-game-five-struggles-hes-got-to-take-more-nba-playoffs"]},
+      "challenge_quality": {"score": 50, "confidence": 0.2, "evidence": ["No reporting found; league-average assumed"], "sources": []},
+      "two_for_one_awareness": {"score": 50, "confidence": 0.2, "evidence": ["No reporting found; league-average assumed"], "sources": []},
+      "risk_appetite": {"score": 45, "confidence": 0.3, "evidence": ["Temperament is calm and conservative; emphasizes process and discipline over gambles (2024-26 coverage)"], "sources": ["https://www.si.com/nba/spurs/onsi/news/the-standard-rebuilt-how-mitch-johnson-turned-doubt-into-a-spurs-revival"]},
+      "clutch_reputation": {"score": 55, "confidence": 0.35, "evidence": ["62 wins and a Finals run imply strong close-game results, but Air Alamo criticized repeated late-series mistakes and Johnson himself called some Finals possessions 'bad offense on our part' (June 2026)"], "sources": ["https://airalamo.com/mitch-johnson-repeats-critical-mistake-that-may-cost-spurs-a-championship", "https://asaptext.com/orgs/nbafinals/transcripts/168022.pdf"]}
+    },
+    "overall": {
+      "adaptability": {"score": 55, "confidence": 0.4, "evidence": ["Changed the team's tempo identity between 2024-25 (slow) and 2025-26 (pace plus patience) to fit personnel", "Playoff criticism for being slow to adjust to OKC physicality and for repeating a 'critical mistake' (2026)"], "sources": ["https://www.si.com/nba/spurs/onsi/news/pace-and-patience-the-spurs-can-beat-you-a-million-different-ways", "https://airalamo.com/mitch-johnson-repeats-critical-mistake-that-may-cost-spurs-a-championship"]},
+      "player_development": {"score": 75, "confidence": 0.55, "evidence": ["Castle won 2025 ROY; Wembanyama's offensive game expanded ('cracked the code'); Harper and Bryant contributed as teenage rookies on a 62-win team (2025-26)", "Came up through player-development and G League roles in the Spurs system"], "sources": ["https://airalamo.com/mitch-johnson-cracked-victor-wembanyama-code-way-gregg-popovich-struggled", "https://andscape.com/features/mitch-johnson-san-antonio-spurs-coach-gregg-popovich-brian-wright/"]},
+      "analytics_adoption": {"score": 55, "confidence": 0.3, "evidence": ["Pushes three-point volume for Wembanyama and 'hunt threes in transition', while retaining old-school Spurs discipline principles; no public analytics emphasis found"], "sources": ["https://asaptext.com/orgs/nbafinals/transcripts/168054.pdf"]},
+      "reputation": {"score": 72, "confidence": 0.55, "evidence": ["62-20, 2026 All-Star Game head coach, Spurs' first Finals since 2014 in his first full season; Spurs media: 'The Standard, Rebuilt'", "Still viewed as a system/organizational product by some; local criticism of playoff decision-making"], "sources": ["https://www.nba.com/news/spurs-mitch-johnson-named-head-coach-in-2026-nba-all-star-game", "https://gostanford.com/news/2026/06/3/johnson-leads-spurs-to-nba-finals", "https://www.si.com/nba/spurs/onsi/news/the-standard-rebuilt-how-mitch-johnson-turned-doubt-into-a-spurs-revival"]}
+    }
+  },
+  "notable_quotes": [
+    {"quote": "We want to play with pace, and we want to hunt threes in transition.", "speaker": "Mitch Johnson", "context": "2026 NBA Finals media availability (June 2026)", "source": "https://asaptext.com/orgs/nbafinals/transcripts/168054.pdf"},
+    {"quote": "Felt like some of that was bad offense on our part.", "speaker": "Mitch Johnson", "context": "2026 NBA Finals postgame (June 2026)", "source": "https://asaptext.com/orgs/nbafinals/transcripts/168022.pdf"},
+    {"quote": "He's got to take more.", "speaker": "Mitch Johnson", "context": "2026 playoffs, on Wembanyama's shot volume after a Game 5 struggle", "source": "https://www.essentiallysports.com/nba-active-basketball-news-victor-wembanyama-receives-strong-message-from-spurs-hc-following-game-five-struggles-hes-got-to-take-more-nba-playoffs"},
+    {"quote": "Don't give a s***.", "speaker": "Mitch Johnson", "context": "May 2026, blasting the physicality allowed after Wembanyama's playoff ejection vs Minnesota", "source": "https://www.eurohoops.net/en/nba-news/1966715/victor-wembanyama-ejection-san-antonio-spurs-nba-playoffs/"}
+  ],
+  "key_criticisms": [
+    "Local analysts (Air Alamo) accused him of repeating a 'critical mistake' in the 2026 playoffs and of being slow to counter Oklahoma City's physical defense",
+    "Undisciplined fouling at times in the 2026 WCF (Johnson's own words after SGA's free-throw parade in Game 3)",
+    "Perimeter defense lapses in regular-season losses (Portland, Phoenix 'they were expecting everything')",
+    "Occasional perception as a caretaker of Popovich's system rather than an innovator"
+  ],
+  "key_strengths": [
+    "Unlocked Wembanyama (tempo control, three-point volume, bespoke rip-screen sets) and developed Castle (ROY) plus teenage rookies on a 62-win team",
+    "Depth-based, 'relentless' identity with elite transition offense and rim protection",
+    "Calm, communicative demeanor praised by players and front office; chosen over outside candidates to succeed Popovich",
+    "Rapid results: 62-20, All-Star Game head coach and NBA Finals in first full season"
+  ],
+  "sources": [
+    "https://www.si.com/nba/spurs-promote-mitch-johnson-head-coach-after-gregg-popovich-steps-down",
+    "https://www.poundingtherock.com/2025/7/2/24460670/nba-adjusts-gregg-popovichs-record-transfer-most-2024-25-games-to-mitch-johnson",
+    "https://bleacherreport.com/articles/25221931-gregg-popovichs-career-record-changed-nba-after-absence-during-2024-25-season",
+    "https://hoopsrumors.com/2024/12/spurs-notes-m-johnson-popovich-harrison-castle-derozan.html",
+    "https://bolavip.com/en/nba/mitch-johnson-profile",
+    "https://gostanford.com/news/2026/06/3/johnson-leads-spurs-to-nba-finals",
+    "https://www.nba.com/news/spurs-mitch-johnson-named-head-coach-in-2026-nba-all-star-game",
+    "https://www.si.com/nba/spurs/onsi/news/the-standard-rebuilt-how-mitch-johnson-turned-doubt-into-a-spurs-revival",
+    "https://www.poundingtherock.com/general/89645/how-mitch-johnson-has-rekindled-spurs-basketball",
+    "https://andscape.com/features/mitch-johnson-san-antonio-spurs-coach-gregg-popovich-brian-wright/",
+    "https://www.dunkest.com/en/nba/news/234364/spurs-success-is-coming-through-mitch-johnsons-leadership",
+    "https://airalamo.com/mitch-johnson-cracked-victor-wembanyama-code-way-gregg-popovich-struggled",
+    "https://www.nba.com/news/q-a-spurs-coach-mitch-johnson",
+    "https://www.talkbasket.net/210350-mitch-johnson-praises-spurs-sharp-passing-and-defensive-effort-after-win-over-bucks",
+    "https://thesportsrush.com/nba-news-nba-play-breakdown-slap-five-how-spurs-leverage-rip-screens-to-get-victor-wembanyama-an-open-three-pointer/",
+    "https://www.si.com/nba/spurs/onsi/news/pace-and-patience-the-spurs-can-beat-you-a-million-different-ways",
+    "https://www.si.com/nba/spurs/onsi/news/mitch-johnson-defines-san-antonio-spurs-relentless-brand-of-basketball",
+    "https://api-hub.nba.com/news/the-athletic-without-victor-wembanyama-deaaron-fox-is-bringing-the-spurs-offense-to-life",
+    "https://asaptext.com/orgs/nbafinals/transcripts/168054.pdf",
+    "https://asaptext.com/orgs/nbafinals/transcripts/168022.pdf",
+    "https://www.poundingtherock.com/spurs-analysis/88173/how-the-spurs-can-become-the-defensive-juggernaut-they-want-to-be",
+    "https://www.poundingtherock.com/general/88108/takeaways-from-the-spurs-2025-26-media-day",
+    "https://www.eurohoops.net/en/nba-news/1966715/victor-wembanyama-ejection-san-antonio-spurs-nba-playoffs/",
+    "https://www.yardbarker.com/nba/articles/mitch_johnson_blames_spurs_undisciplined_defense_for_sgas_free_throws_in_game_3/s1_17776_43873981",
+    "https://airalamo.com/mitch-johnson-repeats-critical-mistake-that-may-cost-spurs-a-championship",
+    "https://airalamo.com/mitch-johnson-makes-several-critical-mistakes-spurs-struggled-to-recover-from",
+    "https://bleacherreport.com/articles/25440436-everything-mitch-johnson-said-about-wemby-jalen-brunson-dylan-harper-and-spurs-loss-knicks",
+    "https://larrybrownsports.com/basketball/magic-johnson-raises-1-concern-victor-wembanyama-nba-finals/756408",
+    "https://www.si.com/nba/spurs/onsi/news/san-antonio-spurs-get-honest-perimeter-defense-after-loss-to-trail-blazers",
+    "https://www.si.com/nba/spurs/onsi/news/spurs-beat-celtics-100-95-behind-wembanyama-fox-and-defense",
+    "https://www.si.com/nba/timberwolves/onsi/seven-turnovers-eight-players-94-shots-how-the-wolves-eliminated-denver",
+    "https://airalamo.com/3-point-jump-two-spurs-make-risk-losing-big-minutes",
+    "https://www.essentiallysports.com/nba-active-basketball-news-victor-wembanyama-receives-strong-message-from-spurs-hc-following-game-five-struggles-hes-got-to-take-more-nba-playoffs",
+    "https://www.eurohoops.net/en/nba-news/1889208/victor-wembanyama-scores-9-points-spurs-lose-to-suns-nba/amp/"
+  ],
+  "research_notes": "Regular-season records are solid (2024-25 acting-HC record computed as 32-45 from team 34-48 minus Popovich's 2-3; one wiki mirror says 31-45). 2025-26 playoff path is partially inferred: the Wolves were reported to advance to face San Antonio in R2; the 2026 WCF opponent (OKC) follows from the bracket and a Yardbarker piece on SGA free throws in 'Game 3'; the Finals berth is confirmed by a June 3, 2026 Stanford athletics article and ASAP Sports Finals transcripts; the Finals opponent (likely New York, per a Bleacher Report headline about a Spurs loss to the Knicks involving Brunson) and the Finals result were NOT verified because the shared web-search budget ran out. The R1 opponent and all series scores are unverified. 2026-27 record unknown. No data found on challenge success, timeouts, two-for-one, foul-up-three, rotation minute totals or coverage frequencies; those scores are estimates (confidence <= 0.3). Age assumes an August 1986 birth date.",
+  "researched_at": "2026-11-02"
+}

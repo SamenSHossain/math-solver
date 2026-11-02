@@ -1,0 +1,126 @@
+{
+  "coach": "Doug Christie",
+  "slug": "doug-christie",
+  "team": "SAC",
+  "team_name": "Sacramento Kings",
+  "head_coach_since": "2024-25 (interim Dec 27, 2024; permanent May 2025)",
+  "age": 56,
+  "background": "Former 15-year NBA guard (born May 1970) and All-Defensive stalwart on the early-2000s Kings who moved into Sacramento's broadcast booth and radio before joining Mike Brown's staff as an assistant (2022-24). Named interim head coach when Brown was fired on Dec 27, 2024 and went 27-24 over 51 games, reaching the play-in (loss to Dallas). Signed a multiyear deal as permanent head coach in May 2025. His first full season (2025-26) under new GM Scott Perry collapsed to 22-60 (14th in West) amid injuries, rotation criticism, veteran benchings (Malik Monk, Zach LaVine) and an April 2026 NBA investigation into an intentional foul he ordered while mistakenly believing the Kings had a foul to give (he was cleared of tanking; the league called it a mistake). Retained for 2026-27, the Kings opened 0-6 through Oct 31, 2026 with a bottom-five offense and defense, though rookie Darius Acuff Jr. has emerged. Preaches defense-first, '94 feet' pickup and pace, but his teams have graded out as offense-first and defensively porous.",
+  "prior_head_coaching": [],
+  "record_last5": [
+    {"season": "2021-22", "team": "Sacramento Kings (broadcaster/analyst, not coaching)", "wins": null, "losses": null, "playoffs": "", "notes": "Not a head coach; joined Mike Brown's staff as assistant in 2022-23"},
+    {"season": "2022-23", "team": "Sacramento Kings (assistant coach)", "wins": null, "losses": null, "playoffs": "Team lost Round 1 to GSW in 7 (as assistant)", "notes": "Assistant under Mike Brown"},
+    {"season": "2023-24", "team": "Sacramento Kings (assistant coach)", "wins": null, "losses": null, "playoffs": "Team lost in play-in (as assistant)", "notes": "Assistant under Mike Brown"},
+    {"season": "2024-25", "team": "Sacramento Kings (interim HC from Dec 27, 2024)", "wins": 27, "losses": 24, "playoffs": "Lost 9-10 play-in game to Dallas; team finished 40-42", "notes": "Took over at 13-18; De'Aaron Fox traded at deadline; offense jumped to 2nd (122.2 ORtg) but defense worsened 3.9 pts/100"},
+    {"season": "2025-26", "team": "Sacramento Kings", "wins": 22, "losses": 60, "playoffs": "Missed playoffs (14th in West after tiebreaker with Utah)", "notes": "Combined record as HC 49-84 entering 2026-27; NBA investigation (Apr 2026) cleared him of tanking over intentional-foul error; retained by GM Scott Perry"},
+    {"season": "2026-27", "team": "Sacramento Kings", "wins": 0, "losses": 6, "playoffs": "", "notes": "As of Oct 31, 2026 (0-5 per NBC Sports Oct 30, then lost 136-105 at Memphis Oct 31); -15.7 net rating second-worst in NBA; Ben Simmons out for season (Achilles); Amick reports job not in danger 'anytime soon'"}
+  ],
+  "defense_scheme_tags": ["zone", "drop", "match-up zone", "conservative", "aggressive-help (stated, not realized)"],
+  "offense_scheme_tags": ["pace-and-space", "transition", "freelance", "dribble-handoff (Sabonis hub)", "guard-heavy", "isolation (DeRozan/LaVine era)"],
+  "scores": {
+    "rotation": {
+      "depth": {"score": 48, "confidence": 0.4, "evidence": ["Early interim stretch (Jan 2025): no Kings player ranked top-10 in NBA minutes, framed as balanced distribution", "2025-26: 'rotational logjam' of guards; critics say he leaned on one group while bench defenders sat"], "sources": ["https://www.nbcsportsbayarea.com/nba/sacramento-kings/doug-christie-stats-early-success/1822909/", "https://roundtable.io/sports/nba/kings/players/kings-urged-to-correct-rotational-logjam", "https://aroyalpain.com/doug-christie-overreliance-one-group-continues-cause-kings-problems"]},
+      "star_minutes_load": {"score": 42, "confidence": 0.4, "evidence": ["No player in the NBA top-10 in minutes during his first weeks as interim (Jan 2025)", "Benched Zach LaVine and Malik Monk for stretches in 2025-26, limiting veteran stars' minutes situationally"], "sources": ["https://www.nbcsportsbayarea.com/nba/sacramento-kings/doug-christie-stats-early-success/1822909/", "https://www.si.com/nba/kings/onsi/sacramento-kings-news/doug-christie-explains-zach-lavine-decision-in-kings-loss-to-spurs"]},
+      "consistency": {"score": 62, "confidence": 0.5, "evidence": ["Columnist: 'no matter how much a plan doesn't work, he sticks with it' (2025-26)", "'Overreliance on one group continues to cause the Kings problems' (A Royal Pain, 2025-26)"], "sources": ["https://aroyalpain.com/doug-christie-really-needs-rethink-his-stance-one-specific-king", "https://aroyalpain.com/doug-christie-overreliance-one-group-continues-cause-kings-problems"]},
+      "youth_trust": {"score": 33, "confidence": 0.6, "evidence": ["Repeatedly criticized for not playing Keon Ellis and Devin Carter (Carter ~3.5 minutes in one game) while losing (2025-26)", "Rookies Raynaud, Clifford and Cardwell only became the focus after the season 'went sideways'; Oct 2026 column asks whether he is 'mismanaging the young talent'"], "sources": ["https://aroyalpain.com/doug-christie-leaves-two-difference-making-players-on-bench-loses-again", "https://aroyalpain.com/another-kings-loss-story-who-didnt-play-incredibly-frustrating", "https://www.hoopsrumors.com/2026/02/kings-notes-losing-streak-young-players-cardwell-hunter.html", "https://sports.yahoo.com/articles/kings-coach-christie-mismanaging-young-214213059.html"]},
+      "load_management": {"score": 40, "confidence": 0.25, "evidence": ["No reporting of systematic rest days for healthy stars found; veterans (Sabonis, DeRozan, LaVine) played when available (inferred, 2025-26)"], "sources": []},
+      "closing_flexibility": {"score": 45, "confidence": 0.3, "evidence": ["Benched Monk vs Portland and LaVine vs Miami/San Antonio in 2025-26, showing willingness to change who finishes, but generally relied on veteran guards"], "sources": ["https://www.si.com/nba/kings/onsi/sacramento-kings-news/sacramento-kings-doug-christie-explains-surprising-decision-bench-malik-monk", "https://www.essentiallysports.com/nba-active-basketball-news-doug-christie-fires-shot-at-zach-lavine-explains-benching-vs-miami-heat"]}
+    },
+    "offense": {
+      "pace": {"score": 72, "confidence": 0.7, "evidence": ["Kings' pace rose from 99.43 (17th) under Brown to 101.28 (5th) after Christie took over (2024-25)", "Long advocated 'pace in the half-court offense as well, not just on the fastbreak' (from his broadcast days)"], "sources": ["https://www.si.com/nba/kings/onsi/sacramento-kings-news/sacramento-kings-pushing-the-pace-under-doug-christie-01jgshhmdxeb", "https://kingsherald.com/?p=46056"]},
+      "three_point_emphasis": {"score": 48, "confidence": 0.35, "evidence": ["Oct 2026 preseason coverage flagged 3-point shooting as an early concern; roster built on mid-range guards (DeRozan/LaVine) in 2025-26", "Kings' 3PA volume has been middle-of-pack under him (inferred)"], "sources": ["https://roundtable.io/sports/nba/kings/opinion/is-3-point-shooting-an-early-preseason-concern-for-the-kings", "https://www.yardbarker.com/nba/articles/christie_responds_after_kings_3_point_disaster_against_lakers/s1_17302_44401000"]},
+      "ball_movement": {"score": 50, "confidence": 0.4, "evidence": ["Defector (Jan 2025): gives players 'freedom'; team 'not running scripted plays on offense'", "Sabonis DHO hub plus isolation-heavy scorers (DeRozan, LaVine, Monk) made the 2025-26 offense guard-and-iso dependent"], "sources": ["https://defector.com/doug-christie-gives-the-surprising-kings-the-freedom-to-be-good", "https://www.si.com/nba/kings/sacramento-kings-news/sabonis-teases-shift-3-ways-christie-could-revamp-offense"]},
+      "transition_emphasis": {"score": 70, "confidence": 0.6, "evidence": ["Media day 2025: 'offense should be easy in transition after getting stops'; pace jumped to 5th after he took over (2024-25)", "Oct 2026: said Kings must improve on defense and transition after 0-4 start"], "sources": ["https://www.nbcsports.com/nba/news/doug-christie-brings-new-voice-to-kings-but-will-that-be-enough", "https://sports.yahoo.com/videos/doug-christie-says-kings-must-103852710.html"]},
+      "offensive_rebounding": {"score": 45, "confidence": 0.2, "evidence": ["No evidence found of a crash-the-glass emphasis; Sabonis provides individual offensive rebounding (inferred)"], "sources": []},
+      "paint_post_emphasis": {"score": 58, "confidence": 0.4, "evidence": ["Offense routed through Domantas Sabonis post/DHO touches and DeRozan mid-post isolations (2024-26); Sabonis still the hub in Oct 2026 (passed Divac on franchise list)"], "sources": ["https://www.si.com/nba/kings/sacramento-kings-news/sabonis-teases-shift-3-ways-christie-could-revamp-offense", "https://www.eurohoops.net/en/nba-news/2028219/deni-avdija-domantas-sabonis-mario-hezonja-nba-european-recap/"]},
+      "playcalling_ato_quality": {"score": 35, "confidence": 0.45, "evidence": ["Described as not running scripted plays, relying on player freedom (Jan 2025)", "Kings were 3-11 in games decided by 5 or fewer before he took over and close-game execution remained a stated problem; late-game rule misread in Apr 2026"], "sources": ["https://defector.com/doug-christie-gives-the-surprising-kings-the-freedom-to-be-good", "https://abcnews.go.com/Sports/wireStory/doug-christie-hopes-bring-stability-kings-after-firing-117173351", "https://abc7news.com/post/sources-kings-late-foul-was-tactical-error-not-tanking/18857800/"]}
+    },
+    "defense": {
+      "aggressiveness": {"score": 45, "confidence": 0.4, "evidence": ["Stated goal of 'picking up 94 feet' and playing 'far more proactively' on defense (2024-25 interim), but results were a defense 3.9 pts/100 worse and a team labeled 'defense optional' lacking physicality (Oct 2025)"], "sources": ["https://www.nbcsports.com/nba/news/doug-christie-brings-new-voice-to-kings-but-will-that-be-enough", "https://www.si.com/nba/kings/onsi/sacramento-kings-news/sacramento-kings-pushing-the-pace-under-doug-christie-01jgshhmdxeb", "https://aroyalpain.com/doug-christie-wants-kings-focused-defense"]},
+      "perimeter_priority": {"score": 40, "confidence": 0.4, "evidence": ["Kings were dead last in opponent 3P% in 2024-25; zone/drop coverages designed to cover Sabonis' limitations concede perimeter looks", "Mar 2026: 'we have to get them off the three-point line, run them inside' after a blowout loss to Charlotte"], "sources": ["https://www.si.com/nba/kings/sacramento-kings-news/new-era-new-identity-doug-christie-outlines-vision-for-kings", "https://www.si.com/nba/kings/onsi/sacramento-kings-news/doug-christie-calls-out-sacramento-kings-defense-after-blowout-loss-charlotte-hornets"]},
+      "foul_discipline": {"score": 42, "confidence": 0.3, "evidence": ["Team described as 'lacking physicality or discipline' (Oct 2025); no FT-rate data found"], "sources": ["https://aroyalpain.com/doug-christie-wants-kings-focused-defense"]},
+      "zone_usage": {"score": 70, "confidence": 0.6, "evidence": ["Synergy: Kings went zone 2.29 times/game under Brown vs 3.25 times/game in Christie's first eight games (Jan 2025), plus zone/man match-up coverages"], "sources": ["https://www.si.com/nba/kings/sacramento-kings-news/sacramento-kings-turning-early-season-weakness-into-strength-01jhbkbp5cwf"]},
+      "scheme_adaptability": {"score": 45, "confidence": 0.35, "evidence": ["Mixes zone and man match-up coverages (2025), but columnists describe him as sticking with plans that aren't working (2025-26)"], "sources": ["https://www.si.com/nba/kings/sacramento-kings-news/sacramento-kings-turning-early-season-weakness-into-strength-01jhbkbp5cwf", "https://aroyalpain.com/doug-christie-really-needs-rethink-his-stance-one-specific-king"]}
+    },
+    "endgame": {
+      "timeout_aggressiveness": {"score": 62, "confidence": 0.4, "evidence": ["Apr 2026: ordered an intentional foul with ~3:15 left specifically to stop the clock and use a timeout before the three-minute mark ('use it or lose it'), showing he values spending timeouts", "Fan complaints of no response to runs are less common than for peers; no systematic data"], "sources": ["https://abc7news.com/post/sources-kings-late-foul-was-tactical-error-not-tanking/18857800/", "https://theleadsm.com/why-did-doug-christie-tell-his-kings-players-to-foul-seth-curry/"]},
+      "foul_up_three": {"score": 50, "confidence": 0.2, "evidence": ["No direct evidence found (inferred league-typical)"], "sources": []},
+      "late_lineup_shrink": {"score": 58, "confidence": 0.3, "evidence": ["Leans on veteran guards late; benched Monk/LaVine in specific games but otherwise a fixed veteran-heavy closing group (2025-26, inferred)"], "sources": ["https://www.si.com/nba/kings/onsi/sacramento-kings-news/sacramento-kings-doug-christie-explains-surprising-decision-bench-malik-monk"]},
+      "challenge_quality": {"score": 42, "confidence": 0.2, "evidence": ["No challenge success data found; the Apr 2026 misread of the penalty situation suggests weak situational awareness from the bench (low-confidence inference)"], "sources": ["https://www.dunkest.com/en/nba/news/237014/christies-late-game-error-sparks-tanking-investigation"]},
+      "two_for_one_awareness": {"score": 45, "confidence": 0.2, "evidence": ["No evidence found (inferred)"], "sources": []},
+      "risk_appetite": {"score": 40, "confidence": 0.3, "evidence": ["Conservative, veteran-reliant approach; intentional-foul decision was about clock management rather than aggression (Apr 2026)"], "sources": ["https://www.eurohoops.net/en/nba-news/1954119/sacramento-kings-tanking-investigation-doug-christie-nba"]},
+      "clutch_reputation": {"score": 24, "confidence": 0.6, "evidence": ["Apr 2026: told McDermott to foul Seth Curry up one while mistakenly believing Kings had a foul to give; NBA investigated for tanking, cleared him but called it a mistake; 'Not tanking, just bad' ridicule", "Close-game execution was the stated problem he inherited (3-11 in 5-point games in Dec 2024) and the Kings remained poor in 2025-26"], "sources": ["https://pr.nba.com/nba-statement-kings-investigation", "https://www.profootballnetwork.com/nba/not-tanking-just-bad-nba-world-rips-doug-christie-leagues-investigation-highlights-kings-hc-incompetence-april-2026/", "https://abcnews.go.com/Sports/wireStory/doug-christie-hopes-bring-stability-kings-after-firing-117173351"]}
+    },
+    "overall": {
+      "adaptability": {"score": 35, "confidence": 0.5, "evidence": ["Columnists: 'no matter how much a plan doesn't work, he sticks with it'; roster-fit complaints (guards who shoot first) went unaddressed (2025-26)", "Did adjust zone frequency and pace after taking over in 2024-25"], "sources": ["https://aroyalpain.com/doug-christie-really-needs-rethink-his-stance-one-specific-king", "https://www.si.com/nba/kings/sacramento-kings-news/sacramento-kings-turning-early-season-weakness-into-strength-01jhbkbp5cwf"]},
+      "player_development": {"score": 35, "confidence": 0.5, "evidence": ["Youth (Raynaud, Clifford, Cardwell) got minutes only once 2025-26 was lost; Ellis/Carter development questioned; SI asks if he is 'the right coach for the Kings rebuild' (2026)", "Rookie Darius Acuff Jr. producing (34 pts) early in 2026-27"], "sources": ["https://www.si.com/nba/kings/onsi/sacramento-kings-news/is-doug-christie-the-right-coach-for-sacramento-kings-rebuild", "https://www.hoopsrumors.com/2026/02/kings-notes-losing-streak-young-players-cardwell-hunter.html", "https://www.nbcsports.com/nba/news/despite-0-5-start-kings-coach-doug-christie-reportedly-not-on-hot-seat"]},
+      "analytics_adoption": {"score": 30, "confidence": 0.4, "evidence": ["Ex-player/broadcaster whose approach is feel- and freedom-based ('not running scripted plays'); penalty-situation misread in Apr 2026 (inferred)"], "sources": ["https://defector.com/doug-christie-gives-the-surprising-kings-the-freedom-to-be-good", "https://abc7news.com/post/sources-kings-late-foul-was-tactical-error-not-tanking/18857800/"]},
+      "reputation": {"score": 22, "confidence": 0.6, "evidence": ["Combined 49-84 as HC (through 2025-26) then 0-6 start; Hot Seat Meter coverage; retained largely because of injuries and front-office patience (Amick, Oct 2026)", "Early interim run (27-24, 2nd-ranked offense) earned praise from Draymond Green and others (Jan 2025)"], "sources": ["https://www.si.com/nba/kings/onsi/hot-seat-meter-doug-christie-kings-off-to-0-4-start-this-season", "https://www.nbcsports.com/nba/news/despite-0-5-start-kings-coach-doug-christie-reportedly-not-on-hot-seat", "https://nbcsportsbayarea.com/nba/sacramento-kings/draymond-green-doug-christie-turnaround/1822688"]}
+    }
+  },
+  "notable_quotes": [
+    {"quote": "Defense first... picking up 94 feet.", "speaker": "Doug Christie", "context": "First media day as permanent head coach, Sept 2025", "source": "https://www.nbcsports.com/nba/news/doug-christie-brings-new-voice-to-kings-but-will-that-be-enough"},
+    {"quote": "We have to get them off the three-point line, run them inside the three-point line, and the shell defense has to be strong enough to help slow them down.", "speaker": "Doug Christie", "context": "After blowout loss to Charlotte, Mar 2026", "source": "https://www.si.com/nba/kings/onsi/sacramento-kings-news/doug-christie-calls-out-sacramento-kings-defense-after-blowout-loss-charlotte-hornets"},
+    {"quote": "The investigation found that Christie made no intentional effort to give the Warriors a shooting foul... he mistakenly believed the Warriors were not in the penalty.", "speaker": "NBA statement", "context": "Ruling on the Apr 2026 intentional-foul investigation", "source": "https://pr.nba.com/nba-statement-kings-investigation"}
+  ],
+  "key_criticisms": [
+    "Late-game situational error (ordered foul up one without realizing Kings were in the penalty) triggered an NBA tanking investigation, Apr 2026",
+    "Stubborn rotations: underused defensive guards Keon Ellis and Devin Carter and rookies while losing; 'overreliance on one group'",
+    "Preaches defense-first but teams have ranked near the bottom defensively (last in opp 3P% 2024-25; bottom-five both ends in Oct 2026)",
+    "22-60 and then 0-6 start; -15.7 net rating; questions whether he is the right coach for a rebuild"
+  ],
+  "key_strengths": [
+    "Players respond to his freedom-based, positive style; interim run lifted offense to 2nd in the NBA and pace to 5th (2024-25)",
+    "Willing to use zone and match-up coverages more than most (3.25 zones/game early)",
+    "Front office (Scott Perry) and ownership have shown patience; locker-room stability after Brown firing"
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sacramento_Kings_season",
+    "https://en.wikipedia.org/wiki/2026%E2%80%9327_Sacramento_Kings_season",
+    "https://www.hoopsrumors.com/2026/04/doug-christie-expected-to-remain-kings-head-coach.html",
+    "https://www.foxsports.com/articles/nba/kings-will-bring-back-coach-doug-christie-for-a-second-full-season-ap-source-says",
+    "https://www.statmuse.com/nba/ask/kings-head-coach-nba",
+    "https://www.cbssports.com/nba/news/kings-hire-head-coach-doug-christie-on-permanent-basis-with-reported-multi-year-contract",
+    "https://abcnews.go.com/Sports/wireStory/doug-christie-hopes-bring-stability-kings-after-firing-117173351",
+    "https://www.nbcsports.com/nba/news/doug-christie-brings-new-voice-to-kings-but-will-that-be-enough",
+    "https://www.nbcsportsbayarea.com/nba/sacramento-kings/doug-christie-stats-early-success/1822909/",
+    "https://www.si.com/nba/kings/onsi/sacramento-kings-news/sacramento-kings-pushing-the-pace-under-doug-christie-01jgshhmdxeb",
+    "https://kingsherald.com/?p=46056",
+    "https://defector.com/doug-christie-gives-the-surprising-kings-the-freedom-to-be-good",
+    "https://aroyalpain.com/doug-christie-wants-kings-focused-defense",
+    "https://www.si.com/nba/kings/sacramento-kings-news/sabonis-teases-shift-3-ways-christie-could-revamp-offense",
+    "https://www.si.com/nba/kings/sacramento-kings-news/sacramento-kings-turning-early-season-weakness-into-strength-01jhbkbp5cwf",
+    "https://www.si.com/nba/kings/sacramento-kings-news/new-era-new-identity-doug-christie-outlines-vision-for-kings",
+    "https://www.si.com/nba/kings/onsi/sacramento-kings-news/doug-christie-calls-out-sacramento-kings-defense-after-blowout-loss-charlotte-hornets",
+    "https://roundtable.io/sports/nba/kings/players/kings-urged-to-correct-rotational-logjam",
+    "https://aroyalpain.com/doug-christie-overreliance-one-group-continues-cause-kings-problems",
+    "https://aroyalpain.com/doug-christie-really-needs-rethink-his-stance-one-specific-king",
+    "https://aroyalpain.com/doug-christie-leaves-two-difference-making-players-on-bench-loses-again",
+    "https://aroyalpain.com/another-kings-loss-story-who-didnt-play-incredibly-frustrating",
+    "https://www.si.com/nba/kings/onsi/sacramento-kings-news/kings-fans-chant-christie-explains-ellis-lack-of-minutes",
+    "https://www.si.com/nba/kings/onsi/sacramento-kings-news/doug-christie-explains-zach-lavine-decision-in-kings-loss-to-spurs",
+    "https://www.si.com/nba/kings/onsi/sacramento-kings-news/sacramento-kings-doug-christie-explains-surprising-decision-bench-malik-monk",
+    "https://www.essentiallysports.com/nba-active-basketball-news-doug-christie-fires-shot-at-zach-lavine-explains-benching-vs-miami-heat",
+    "https://www.si.com/nba/kings/onsi/sacramento-kings-news/is-doug-christie-the-right-coach-for-sacramento-kings-rebuild",
+    "https://www.hoopsrumors.com/2026/02/kings-notes-losing-streak-young-players-cardwell-hunter.html",
+    "https://www.si.com/nba/kings/onsi/sacramento-kings-news/report-card-grades-sacramento-kings-rookies-after-first-30-games",
+    "https://pr.nba.com/nba-statement-kings-investigation",
+    "https://abc7news.com/post/sources-kings-late-foul-was-tactical-error-not-tanking/18857800/",
+    "https://theleadsm.com/why-did-doug-christie-tell-his-kings-players-to-foul-seth-curry/",
+    "https://www.eurohoops.net/en/nba-news/1954119/sacramento-kings-tanking-investigation-doug-christie-nba",
+    "https://www.dunkest.com/en/nba/news/237014/christies-late-game-error-sparks-tanking-investigation",
+    "https://www.profootballnetwork.com/nba/not-tanking-just-bad-nba-world-rips-doug-christie-leagues-investigation-highlights-kings-hc-incompetence-april-2026/",
+    "https://www.hoopsrumors.com/2026/04/kings-notes-curry-foul-lottery-odds-derozan-offseason.html",
+    "https://www.nbcsports.com/nba/news/despite-0-5-start-kings-coach-doug-christie-reportedly-not-on-hot-seat",
+    "https://www.si.com/nba/kings/onsi/hot-seat-meter-doug-christie-kings-off-to-0-4-start-this-season",
+    "https://sports.yahoo.com/articles/kings-coach-christie-mismanaging-young-214213059.html",
+    "https://sports.yahoo.com/videos/doug-christie-says-kings-must-103852710.html",
+    "https://sports.yahoo.com/videos/doug-christie-takes-accountability-kings-113731584.html",
+    "https://roundtable.io/sports/nba/kings/opinion/is-3-point-shooting-an-early-preseason-concern-for-the-kings",
+    "https://www.yardbarker.com/nba/articles/christie_responds_after_kings_3_point_disaster_against_lakers/s1_17302_44401000",
+    "https://nbcsportsbayarea.com/nba/sacramento-kings/draymond-green-doug-christie-turnaround/1822688",
+    "https://www.eurohoops.net/en/nba-news/2028219/deni-avdija-domantas-sabonis-mario-hezonja-nba-european-recap/"
+  ],
+  "research_notes": "Search budget ran out before confirming: the 2025 play-in loss to Dallas (from memory), Christie's challenge record, foul-up-3 and two-for-one habits, 2026 offseason roster moves (Sabonis appears to remain; DeRozan/LaVine status unverified), and current (Nov 2026) rotation. Combined HC record is reported as 49-83 or 49-84 depending on source. Pre-coaching seasons 2021-22 to 2023-24 are listed with null records since he was a broadcaster/assistant. Zone-frequency data is from his first eight games as interim (Jan 2025) and may not reflect 2025-26 usage.",
+  "researched_at": "2026-11-02"
+}

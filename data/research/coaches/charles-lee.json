@@ -1,0 +1,127 @@
+{
+  "coach": "Charles Lee",
+  "slug": "charles-lee",
+  "team": "CHA",
+  "team_name": "Charlotte Hornets",
+  "head_coach_since": "2024-25 (hired May 2024)",
+  "age": 41,
+  "background": "Bucknell Patriot League Player of the Year who played professionally in Europe before entering coaching through the Mike Budenholzer tree: Atlanta Hawks assistant (2014-18), Milwaukee Bucks assistant (2018-23, 2021 NBA champion) and Boston Celtics associate head coach under Joe Mazzulla (2023-24, 2024 NBA champion). Hired by Charlotte in May 2024 at age 39. Year one (2024-25) was a 19-63 injury-wrecked season with nightly rotation changes and a nightly 'defense first' message, but the Hornets ranked 2nd in 3PA. Year two (2025-26) produced a 25-win jump to 44-38, the franchise's best record since 2015-16, a top-three offense over the second half built on guard-to-guard screening, off-ball movement and a green light for LaMelo Ball, Brandon Miller and rookie Kon Knueppel; Charlotte beat Miami in OT in the play-in before losing to Orlando, one win short of the playoffs. Lee received Coach of the Year votes and a multiyear extension (May 2026). Analytics-driven on both ends: heavy 3PA volume, limiting corner threes, winning the possession battle, and managing Ball's load (bench role on back-to-backs).",
+  "prior_head_coaching": [],
+  "record_last5": [
+    {"season": "2021-22", "team": "Milwaukee Bucks (assistant coach)", "wins": null, "losses": null, "playoffs": "Team lost East semis to Boston in 7 (as assistant)", "notes": "Top assistant under Mike Budenholzer"},
+    {"season": "2022-23", "team": "Milwaukee Bucks (assistant coach)", "wins": null, "losses": null, "playoffs": "Team lost Round 1 to Miami (as assistant)", "notes": "Interviewed for head-coaching jobs"},
+    {"season": "2023-24", "team": "Boston Celtics (associate head coach)", "wins": null, "losses": null, "playoffs": "NBA champion (as assistant)", "notes": "Hired by Charlotte in May 2024 while Celtics' playoff run continued"},
+    {"season": "2024-25", "team": "Charlotte Hornets", "wins": 19, "losses": 63, "playoffs": "Missed playoffs (4th Southeast)", "notes": "First season as head coach; heavy injuries (Ball, Miller, Mark Williams); 23rd in pace, 2nd in 3PA"},
+    {"season": "2025-26", "team": "Charlotte Hornets", "wins": 44, "losses": 38, "playoffs": "Play-in: beat Miami in OT, lost to Orlando (missed playoffs by one win)", "notes": "+25 wins, best record since 2015-16; Coach of the Year votes; multiyear extension May 2026"},
+    {"season": "2026-27", "team": "Charlotte Hornets", "wins": null, "losses": null, "playoffs": "", "notes": "Record not confirmed (search budget exhausted); known results include losses at Memphis (Oct 2026) and 79-95 at Washington (~Nov 1, 2026); one headline references a 'stunning LaMelo Ball trade' (unverified)"}
+  ],
+  "defense_scheme_tags": ["drop", "switch", "aggressive-help", "double-post", "no-corner-threes", "possession-battle"],
+  "offense_scheme_tags": ["five-out", "pace-and-space", "high-3PA", "ball-screen-heavy", "guard-to-guard-screens", "off-ball-motion", "dribble-handoff", "spread-pick-and-roll"],
+  "scores": {
+    "rotation": {
+      "depth": {"score": 58, "confidence": 0.4, "evidence": ["Forced to re-work rotations nightly in 2024-25 due to injuries; in 2025-26 used Salaun, Kalkbrenner, Josh Green and Tre Mann as real bench pieces, with four-guard looks", "Typical 9-10 man rotation when healthy (inferred)"], "sources": ["https://www.si.com/nba/hornets/news/projecting-the-charlotte-hornets-2025-26-rotations", "https://www.si.com/nba/hornets/onsi/news/charles-lee-reveals-plan-for-hornets-in-wake-of-kon-knueppel-injury"]},
+      "star_minutes_load": {"score": 35, "confidence": 0.6, "evidence": ["Ball and Miller projected ~31 mpg; Lee and medical staff had Ball come off the bench on back-to-backs with a minutes limit (2025-26)", "Discussed Ball and Miller 'minutes restrictions' publicly (2025-26)"], "sources": ["https://sportsethos.com/top-posts/season-wrap-the-2025-26-charlotte-hornets/", "https://www.si.com/nba/hornets/news/projecting-the-charlotte-hornets-2025-26-rotations", "https://clutchpoints.com/tag/charles-lee"]},
+      "consistency": {"score": 35, "confidence": 0.6, "evidence": ["'Not committed to a starting lineup' and called starting spots 'fluid' entering 2025-26; told Mann, Knueppel and Sexton to be ready to start", "Nightly rotation re-works in 2024-25; moved Diabate into the starting five and used four-guard lineups in 2025-26"], "sources": ["https://www.si.com/nba/hornets/news/charles-lee-makes-it-clear-he-s-not-committed-to-a-starting-lineup-yet", "https://www.si.com/nba/hornets/onsi/gameday/hornets-announce-interesting-starting-five-as-kon-knueppel-returns-to-the-lineup"]},
+      "youth_trust": {"score": 75, "confidence": 0.7, "evidence": ["Rookie Kon Knueppel played 30 minutes in his debut and 34 in later games; started as a rookie (2025-26)", "Gave Tidjane Salaun and rookie Ryan Kalkbrenner meaningful bench roles; praised Knueppel's debut"], "sources": ["https://www.si.com/nba/hornets/onsi/news/charles-lee-reveals-the-one-thing-that-stood-out-in-kon-knueppel-s-hornets-debut", "https://www.si.com/nba/draft/nba-rookies/kon-knueppel-continues-solid-rookie-season-in-hornets-latest-win-01kf41h12kde", "https://www.si.com/nba/hornets/news/projecting-the-charlotte-hornets-2025-26-rotations"]},
+      "load_management": {"score": 72, "confidence": 0.6, "evidence": ["LaMelo Ball came off the bench with a minutes limit on back-to-backs in 2025-26 and the restriction 'might continue'", "Miller minutes restrictions after shoulder surgery (2025-26)"], "sources": ["https://sportsethos.com/top-posts/season-wrap-the-2025-26-charlotte-hornets/", "https://clutchpoints.com/tag/charles-lee"]},
+      "closing_flexibility": {"score": 65, "confidence": 0.6, "evidence": ["Benched LaMelo Ball for the clutch minutes vs Brooklyn in favor of Tre Mann ('gives us another ball handler'), 2024-25", "Fluid lineups and matchup-based substitutions criticized vs Toronto (2025-26)"], "sources": ["https://www.yardbarker.com/nba/articles/charles_lee_on_why_he_benched_lamelo_ball_in_clutch_time_against_the_nets/s1_16751_41266233", "https://www.si.com/nba/hornets/charles-lee-explains-confounding-decision-to-sit-lamelo-ball-in-favor-of-tre-mann", "https://swarmandsting.com/charles-lee-glaring-flaws-come-light-anew-frustrating-loss-raptors"]}
+    },
+    "offense": {
+      "pace": {"score": 45, "confidence": 0.6, "evidence": ["2024-25 Hornets finished 23rd in pace (98.22); Lee made pace, quicker inbounds and advancing the ball by pass the offseason priority for 2025-26", "Scored efficiently through ball movement and shot-clock management rather than tempo (2025-26 analysis)"], "sources": ["https://www.si.com/nba/hornets/news/charles-lee-details-new-offensive-philosophies-ahead-of-2025-nba-season", "https://www.si.com/nba/hornets/news/one-statistic-that-will-define-the-charlotte-hornets-2025-26-season", "https://swarmandsting.com/hornets-offensive-transformation-come-twist-not-many-fans-expected"]},
+      "three_point_emphasis": {"score": 88, "confidence": 0.85, "evidence": ["Hornets 2nd in NBA in 3PA (45+ per game) and in share of points from threes, trailing only Boston, importing the Celtics' 'death by a thousand threes' philosophy (2024-25)", "Ringer (Mar 2026) breakdown of the Knueppel/Ball offense built on spacing and volume threes"], "sources": ["https://www.si.com/nba/magic/news/meet-the-opponent-3-point-happy-charlotte-hornets-open-orlando-magic-nba-cup-schedule", "https://www.theringer.com/2026/03/12/nba/charlotte-hornets-offense-kon-knueppel-lamelo-ball-charles-lee"]},
+      "ball_movement": {"score": 62, "confidence": 0.5, "evidence": ["Guard-to-guard screening actions, off-ball movement and 'sublime ball movement' credited for the 2025-26 offense, alongside a green light for stars", "Ball-screen-heavy system producing 117.3 pts/100 early 2025-26 (Cleaning the Glass)"], "sources": ["https://swarmandsting.com/hornets-offensive-philosophy-perfect-for-teams-cornerstones", "https://swarmandsting.com/simple-change-radically-boost-hornets-offense", "https://www.theringer.com/2026/03/12/nba/charlotte-hornets-offense-kon-knueppel-lamelo-ball-charles-lee"]},
+      "transition_emphasis": {"score": 50, "confidence": 0.4, "evidence": ["Emphasized quicker inbounds and advancing the ball with the pass to raise tempo for 2025-26, after a bottom-10 pace year"], "sources": ["https://www.si.com/nba/hornets/news/charles-lee-details-new-offensive-philosophies-ahead-of-2025-nba-season"]},
+      "offensive_rebounding": {"score": 30, "confidence": 0.4, "evidence": ["Budenholzer/Celtics lineage prioritizes transition defense; Hornets' defensive identity is 'winning the possession battle' by limiting opponent offensive rebounds rather than crashing (2024-25 mid-season review)"], "sources": ["https://www.si.com/nba/hornets/onsi/news/grading-charles-lee-at-the-mid-season-ish-point-how-has-the-charlotte-hornets-head-coach-performed"]},
+      "paint_post_emphasis": {"score": 25, "confidence": 0.5, "evidence": ["Perimeter-centric five-out system; centers (Diabate, Kalkbrenner, Williams) used as screeners/rim-runners rather than post hubs (2024-26)"], "sources": ["https://www.theringer.com/2026/03/12/nba/charlotte-hornets-offense-kon-knueppel-lamelo-ball-charles-lee", "https://swarmandsting.com/hornets-offensive-philosophy-perfect-for-teams-cornerstones"]},
+      "playcalling_ato_quality": {"score": 45, "confidence": 0.4, "evidence": ["Criticized for 'ineffective after-timeout plays' (best look a contested 14-foot Bridges turnaround) in a 2025-26 loss to Toronto", "Credited with smart offensive adjustments vs Miami and a strong Celtics/Bucks set-play pedigree"], "sources": ["https://swarmandsting.com/charles-lee-glaring-flaws-come-light-anew-frustrating-loss-raptors", "https://www.si.com/nba/hornets/onsi/news/charles-lee-s-offensive-adjustment-that-could-lead-to-a-hornets-upset-over-the-heat-in-miami"]}
+    },
+    "defense": {
+      "aggressiveness": {"score": 55, "confidence": 0.5, "evidence": ["Toolkit includes switching pick-and-rolls, hard helping off poor shooters and doubling big-man touches at the free-throw line (2024-25)", "Opened first camp with four straight defensive drills; 'defense first' messaging (Oct 2024)"], "sources": ["https://www.si.com/nba/hornets/news/charles-lee-s-defensive-framework-shines-despite-charlotte-s-disappointing-campaign", "https://www.foxsports.com/articles/nba/new-coach-charles-lee-wastes-no-time-prioritizing-defense-as-hornets-begin-a-new-era"]},
+      "perimeter_priority": {"score": 55, "confidence": 0.5, "evidence": ["Analytical defensive approach centered on limiting corner threes (fewest allowed in NBA, 2024-25) while keeping a drop/rim-protection base from the Budenholzer-Celtics lineage"], "sources": ["https://www.si.com/nba/hornets/onsi/news/grading-charles-lee-at-the-mid-season-ish-point-how-has-the-charlotte-hornets-head-coach-performed", "https://www.bostonsportsjournal.com/2024/11/02/nba-notebook-celtics-champion-charles-lee-begins-head-coaching-career-with-hornet"]},
+      "foul_discipline": {"score": 48, "confidence": 0.3, "evidence": ["'Frustrations and fouls' in a 2025-26 loss to Minnesota; aggressive help/doubles can produce fouls; no team FT-rate data found"], "sources": ["https://newsletters.lockedonpodcasts.com/nba/locked-on-hornets/hornets-fall-hard-against-timberwolves-amid-frustrations-and-fouls"]},
+      "zone_usage": {"score": 25, "confidence": 0.25, "evidence": ["No reporting of zone usage found; Budenholzer/Mazzulla lineage is man-to-man (inferred)"], "sources": []},
+      "scheme_adaptability": {"score": 62, "confidence": 0.5, "evidence": ["Mixes drop, switching and doubles; stressed tightening coverages against stars who found gaps in first halves (2024-25)", "Defensive framework praised as a strength even in the 19-win season"], "sources": ["https://www.si.com/nba/hornets/news/charles-lee-s-defensive-framework-shines-despite-charlotte-s-disappointing-campaign", "https://www.si.com/nba/hornets/news/charles-lee-charlotte-hornets-houston-rockets-12-23-24"]}
+    },
+    "endgame": {
+      "timeout_aggressiveness": {"score": 60, "confidence": 0.4, "evidence": ["Ran to midcourt to call timeout to set the offense in a late Jan 2026 possession vs Indiana (officials missed it, leading to a turnover)", "Quick to use timeouts to stop runs per Celtics/Bucks habits (inferred)"], "sources": ["https://www.thecharlottepost.com/news/2026/01/09/hornets/hornets-drop-another-game-to-nba-worst-pacers/"]},
+      "foul_up_three": {"score": 50, "confidence": 0.2, "evidence": ["No direct evidence found (inferred league-typical)"], "sources": []},
+      "late_lineup_shrink": {"score": 50, "confidence": 0.3, "evidence": ["Has gone away from stars late (Ball benched for Mann, 2024-25) and used four-guard closing groups; no fixed shrink pattern documented"], "sources": ["https://www.si.com/nba/hornets/charles-lee-explains-confounding-decision-to-sit-lamelo-ball-in-favor-of-tre-mann"]},
+      "challenge_quality": {"score": 50, "confidence": 0.2, "evidence": ["No challenge-rate data found; Two-Minute Report showed Hornets wronged by officials vs Toronto (2025-26) but no challenge detail (inferred average)"], "sources": ["https://www.yardbarker.com/nba/articles/two_minute_report_shows_how_hornets_got_screwed_vs_raptors/s1_16808_43091107"]},
+      "two_for_one_awareness": {"score": 60, "confidence": 0.3, "evidence": ["Offense praised for 'shot clock management' and analytics-first approach (2025-26); Celtics-tree coaches typically hunt 2-for-1s (inferred)"], "sources": ["https://swarmandsting.com/hornets-offensive-transformation-come-twist-not-many-fans-expected"]},
+      "risk_appetite": {"score": 50, "confidence": 0.3, "evidence": ["Willing to make unconventional calls (benching Ball in clutch) but conservative, analytics-driven shot profile; no clear go-for-win-on-road pattern found"], "sources": ["https://www.yardbarker.com/nba/articles/why_charles_lees_benching_of_lamelo_ball_makes_sense/s1_17113_41270392"]},
+      "clutch_reputation": {"score": 40, "confidence": 0.5, "evidence": ["Locked On Hornets 'Crunch Time Crisis' (2025-26); 'atrocious coaching decision' blamed for NBA Cup elimination; fans raged over benching Ball in clutch vs Nets (2024-25)", "Hornets won an OT play-in game vs Miami (Apr 2026) and had a strong second half of 2025-26"], "sources": ["https://newsletters.lockedonpodcasts.com/nba/locked-on-hornets/crunch-time-crisis-can-the-hornets-turn-it-around", "https://swarmandsting.com/atrocious-coaching-decision-dooms-hornets-nba-cup-hopes", "https://www.essentiallysports.com/nba-active-basketball-news-we-demand-answers-fans-rage-over-coach-lees-bold-lamelo-ball-move-as-brooklyn-nets-snatch-victory-vs-charlotte-hornets/"]}
+    },
+    "overall": {
+      "adaptability": {"score": 65, "confidence": 0.5, "evidence": ["Responded to a 23rd-ranked pace by overhauling tempo principles; offense became top-three in second half of 2025-26 with guard-to-guard screens tailored to personnel", "Lauded for in-game defensive adjustments vs stars; criticized for slow starts requiring late comebacks"], "sources": ["https://www.si.com/nba/hornets/news/charles-lee-details-new-offensive-philosophies-ahead-of-2025-nba-season", "https://swarmandsting.com/hornets-offensive-philosophy-perfect-for-teams-cornerstones", "https://lwosports.com/?p=92301"]},
+      "player_development": {"score": 72, "confidence": 0.6, "evidence": ["25-win improvement with Knueppel, Miller, Diabate and Kalkbrenner growing into roles (2025-26); Nick Richards noted changed practice attitude", "Lee's development messaging ('Hornets DNA') credited for culture change"], "sources": ["https://fieldlevelmedia.com/nba/hornets-sign-charles-lee-to-extension-after-25-win-improvement/", "https://www.si.com/nba/hornets/news/nick-richards-points-out-major-difference-in-hornets-practice-attitude", "https://www.si.com/nba/hornets/news/charles-lee-s-determined-leadership-has-charlotte-fully-embodying-hornets-dna"]},
+      "analytics_adoption": {"score": 82, "confidence": 0.7, "evidence": ["Explicitly analytical: 2nd in 3PA volume, limiting corner threes, winning the possession battle, load-managing Ball on back-to-backs (2024-26)", "Celtics/Mazzulla and Bucks/Budenholzer lineage"], "sources": ["https://www.si.com/nba/hornets/onsi/news/grading-charles-lee-at-the-mid-season-ish-point-how-has-the-charlotte-hornets-head-coach-performed", "https://www.si.com/nba/magic/news/meet-the-opponent-3-point-happy-charlotte-hornets-open-orlando-magic-nba-cup-schedule"]},
+      "reputation": {"score": 68, "confidence": 0.6, "evidence": ["Received Coach of the Year votes and a multiyear extension after 2025-26; ranked No. 10 in a preseason top-10 coaches list and given an 'impressive rank' among NBA coaches", "Some fan/blog criticism of late-game decisions persists"], "sources": ["https://www.hoopsrumors.com/2026/05/hornets-sign-charles-lee-to-multiyear-extension.html", "https://www.sportsgrid.com/nba/article/ranking-the-top-10-coaches-in-the-nba-right-now-preseason-edition", "https://www.si.com/nba/hornets/onsi/news/hornets-coach-charles-lee-given-impressive-rank-amongst-nba-coaches"]}
+    }
+  },
+  "notable_quotes": [
+    {"quote": "Having Tre (Mann) I think, gives us another ball handler.", "speaker": "Charles Lee", "context": "Explaining why LaMelo Ball sat in clutch time vs Brooklyn, 2024-25", "source": "https://www.yardbarker.com/nba/articles/charles_lee_on_why_he_benched_lamelo_ball_in_clutch_time_against_the_nets/s1_16751_41266233"},
+    {"quote": "I didn't get much of an explanation.", "speaker": "Charles Lee", "context": "On officials missing his late timeout signal vs Indiana, Jan 2026", "source": "https://www.thecharlottepost.com/news/2026/01/09/hornets/hornets-drop-another-game-to-nba-worst-pacers/"},
+    {"quote": "Pace will be the name of the game heading into 2025-26 - quicker inbounds and advancing the ball with the pass.", "speaker": "Charles Lee (paraphrased)", "context": "Preseason 2025 offensive philosophy", "source": "https://www.si.com/nba/hornets/news/charles-lee-details-new-offensive-philosophies-ahead-of-2025-nba-season"}
+  ],
+  "key_criticisms": [
+    "Late-game decision-making questioned: benching LaMelo Ball in clutch (2024-25), ineffective ATO plays, NBA Cup loss blamed on coaching, 'crunch time crisis' (2025-26)",
+    "Slow pace in year one (23rd) and slow starts requiring comebacks",
+    "Constant lineup fluidity can hurt continuity",
+    "19-63 debut season (injury-driven) and one win short of playoffs in 2025-26"
+  ],
+  "key_strengths": [
+    "Analytically modern shot profile (2nd in 3PA) and defensive priorities (fewest corner threes allowed)",
+    "Player development and culture: 25-win jump, rookie Knueppel trusted immediately, extension and COY votes (2026)",
+    "Careful load management of Ball and Miller",
+    "Championship pedigree from Budenholzer and Mazzulla staffs; flexible coverages (drop/switch/doubles)"
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Charles_Lee_(basketball)",
+    "https://fieldlevelmedia.com/nba/hornets-sign-charles-lee-to-extension-after-25-win-improvement/",
+    "https://www.hoopsrumors.com/2026/05/hornets-sign-charles-lee-to-multiyear-extension.html",
+    "https://www.newsweek.com/sports/nba/hornets-announce-contract-decision-on-head-coach-charles-lee-11925645",
+    "https://www.arizonasportsfans.com/forum/threads/hornets-coach-charles-lee-recognized-in-nba-coach-of-the-year-voting.1330820/",
+    "https://www.si.com/nba/hornets/news/the-hornets-need-to-see-strong-growth-from-charles-lee-in-year-two",
+    "https://www.si.com/nba/hornets/onsi/news/grading-charles-lee-at-the-mid-season-ish-point-how-has-the-charlotte-hornets-head-coach-performed",
+    "https://www.si.com/nba/hornets/news/charles-lee-details-new-offensive-philosophies-ahead-of-2025-nba-season",
+    "https://www.si.com/nba/hornets/news/one-statistic-that-will-define-the-charlotte-hornets-2025-26-season",
+    "https://swarmandsting.com/posts/hornets-offensive-philosophy-perfect-for-teams-cornerstones",
+    "https://swarmandsting.com/hornets-offensive-philosophy-perfect-for-teams-cornerstones",
+    "https://swarmandsting.com/hornets-offensive-transformation-come-twist-not-many-fans-expected",
+    "https://swarmandsting.com/simple-change-radically-boost-hornets-offense",
+    "https://www.theringer.com/2026/03/12/nba/charlotte-hornets-offense-kon-knueppel-lamelo-ball-charles-lee",
+    "https://www.si.com/nba/magic/news/meet-the-opponent-3-point-happy-charlotte-hornets-open-orlando-magic-nba-cup-schedule",
+    "https://www.sportsgrid.com/nba/article/ranking-the-top-10-coaches-in-the-nba-right-now-preseason-edition",
+    "https://www.si.com/nba/hornets/onsi/news/hornets-coach-charles-lee-given-impressive-rank-amongst-nba-coaches",
+    "https://www.si.com/nba/hornets/news/charles-lee-s-defensive-framework-shines-despite-charlotte-s-disappointing-campaign",
+    "https://www.bostonsportsjournal.com/2024/11/02/nba-notebook-celtics-champion-charles-lee-begins-head-coaching-career-with-hornet",
+    "https://www.foxsports.com/articles/nba/new-coach-charles-lee-wastes-no-time-prioritizing-defense-as-hornets-begin-a-new-era",
+    "https://www.si.com/nba/hornets/news/charles-lee-charlotte-hornets-houston-rockets-12-23-24",
+    "https://www.si.com/nba/hornets/onsi/news/charles-lee-s-offensive-adjustment-that-could-lead-to-a-hornets-upset-over-the-heat-in-miami",
+    "https://lwosports.com/?p=92301",
+    "https://www.si.com/nba/hornets/news/projecting-the-charlotte-hornets-2025-26-rotations",
+    "https://www.si.com/nba/hornets/news/charles-lee-makes-it-clear-he-s-not-committed-to-a-starting-lineup-yet",
+    "https://www.si.com/nba/hornets/onsi/news/charles-lee-reveals-plan-for-hornets-in-wake-of-kon-knueppel-injury",
+    "https://www.si.com/nba/hornets/onsi/news/charles-lee-reveals-the-one-thing-that-stood-out-in-kon-knueppel-s-hornets-debut",
+    "https://www.si.com/nba/hornets/onsi/gameday/hornets-announce-interesting-starting-five-as-kon-knueppel-returns-to-the-lineup",
+    "https://www.si.com/nba/draft/nba-rookies/kon-knueppel-continues-solid-rookie-season-in-hornets-latest-win-01kf41h12kde",
+    "https://sportsethos.com/top-posts/season-wrap-the-2025-26-charlotte-hornets/",
+    "https://clutchpoints.com/tag/charles-lee",
+    "https://swarmandsting.com/charles-lee-glaring-flaws-come-light-anew-frustrating-loss-raptors",
+    "https://www.thecharlottepost.com/news/2026/01/09/hornets/hornets-drop-another-game-to-nba-worst-pacers/",
+    "https://newsletters.lockedonpodcasts.com/nba/locked-on-hornets/crunch-time-crisis-can-the-hornets-turn-it-around",
+    "https://www.essentiallysports.com/nba-active-basketball-news-we-demand-answers-fans-rage-over-coach-lees-bold-lamelo-ball-move-as-brooklyn-nets-snatch-victory-vs-charlotte-hornets/",
+    "https://www.si.com/nba/hornets/charles-lee-explains-confounding-decision-to-sit-lamelo-ball-in-favor-of-tre-mann",
+    "https://www.yardbarker.com/nba/articles/charles_lee_on_why_he_benched_lamelo_ball_in_clutch_time_against_the_nets/s1_16751_41266233",
+    "https://www.yardbarker.com/nba/articles/why_charles_lees_benching_of_lamelo_ball_makes_sense/s1_17113_41270392",
+    "https://swarmandsting.com/atrocious-coaching-decision-dooms-hornets-nba-cup-hopes",
+    "https://www.yardbarker.com/nba/articles/two_minute_report_shows_how_hornets_got_screwed_vs_raptors/s1_16808_43091107",
+    "https://newsletters.lockedonpodcasts.com/nba/locked-on-hornets/hornets-fall-hard-against-timberwolves-amid-frustrations-and-fouls",
+    "https://www.si.com/nba/hornets/news/nick-richards-points-out-major-difference-in-hornets-practice-attitude",
+    "https://www.si.com/nba/hornets/news/charles-lee-s-determined-leadership-has-charlotte-fully-embodying-hornets-dna",
+    "https://sports.yahoo.com/articles/tuomas-iisalo-credits-grizzlies-second-154406286.html",
+    "https://www.basketball-reference.com/teams/WAS/2027.html"
+  ],
+  "research_notes": "Search budget ran out before the 2026-27 Hornets record, LaMelo Ball's status (a ClutchPoints headline mentioned a 'stunning LaMelo Ball trade' and one 2026 piece referred to 'losing their engine in LaMelo Ball' - unverified), Coach of the Year vote totals, and challenge/foul-up-3/two-for-one data could be confirmed. Assistant-era playoff notes (2021-24) are from general knowledge. Zone usage and foul discipline are inferred. The 2024-25 '2nd in 3PA' figure is from an early-season report.",
+  "researched_at": "2026-11-02"
+}

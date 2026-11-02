@@ -1,0 +1,396 @@
+{
+  "coach": "J.B. Bickerstaff",
+  "slug": "jb-bickerstaff",
+  "team": "DET",
+  "team_name": "Detroit Pistons",
+  "head_coach_since": "2024-25 (hired July 2024)",
+  "age": 47,
+  "background": "Son of longtime NBA coach Bernie Bickerstaff, J.B. became an NBA assistant at 25 (Charlotte, 2004) and served interim head-coaching stints with Houston (2015-16, 37-34, playoffs) and Memphis (2017-19) before taking over Cleveland in February 2020. He led the Cavaliers' rebuild into a 51-win team and the league's No. 1 defense (2022-23) and a second-round appearance (2024), but was fired in May 2024 amid criticism of his half-court offense and playoff adjustments. Detroit hired him in July 2024 after a 14-68 season; he immediately delivered a 30-win improvement (44-38, first playoff appearance since 2019 and first playoff win since 2008), finished runner-up for Coach of the Year, then went 60-22 in 2025-26 as the East's No. 1 seed, won a first-round series over Orlando and lost a home Game 7 to Cleveland in the second round. Extended in May 2026. Reputation: physical, aggressive, foul-heavy defense; culture and accountability; a Cade Cunningham-centric, paint- and glass-oriented offense with low three-point volume.",
+  "prior_head_coaching": [
+    {
+      "team": "HOU (interim)",
+      "seasons": "2015-16",
+      "record": "37-34",
+      "notes": "Took over after Kevin McHale's firing; lost R1 1-4 to GSW."
+    },
+    {
+      "team": "MEM",
+      "seasons": "2017-18 (interim) to 2018-19",
+      "record": "48-97",
+      "notes": "Fired April 2019."
+    },
+    {
+      "team": "CLE",
+      "seasons": "2019-20 (interim from Feb 2020) to 2023-24",
+      "record": "170-159",
+      "notes": "51-31 and No. 1 defense in 2022-23 (lost R1 1-4 to NYK); 2023-24 beat ORL 4-3 then lost R2 1-4 to BOS; fired May 2024."
+    }
+  ],
+  "record_last5": [
+    {
+      "season": "2021-22",
+      "team": "CLE",
+      "wins": 44,
+      "losses": 38,
+      "playoffs": "Lost both play-in games (BKN, ATL)",
+      "notes": "22-win improvement; Mobley/Allen double-big defense; late-season injuries."
+    },
+    {
+      "season": "2022-23",
+      "team": "CLE",
+      "wins": 51,
+      "losses": 31,
+      "playoffs": "Lost R1 1-4 to NYK",
+      "notes": "League's No. 1 defensive rating; offense stalled badly in the series (criticism of late-game iso offense)."
+    },
+    {
+      "season": "2023-24",
+      "team": "CLE",
+      "wins": 48,
+      "losses": 34,
+      "playoffs": "Won R1 4-3 vs ORL; lost R2 1-4 to BOS",
+      "notes": "First Cavs series win without LeBron since 1993; fired May 2024."
+    },
+    {
+      "season": "2024-25",
+      "team": "DET",
+      "wins": 44,
+      "losses": 38,
+      "playoffs": "Lost R1 2-4 to NYK",
+      "notes": "30-win improvement from 14-68; first Pistons playoff win since 2008; COY runner-up; Cunningham All-NBA."
+    },
+    {
+      "season": "2025-26",
+      "team": "DET",
+      "wins": 60,
+      "losses": 22,
+      "playoffs": "Won R1 vs ORL (series score unverified); lost R2 3-4 to CLE (Game 7 blowout at home)",
+      "notes": "No. 1 seed in East, third-best record in franchise history; extension announced May 4, 2026."
+    },
+    {
+      "season": "2026-27",
+      "team": "DET",
+      "wins": null,
+      "losses": null,
+      "playoffs": "in progress",
+      "notes": "Early-season record not retrievable in this research pass."
+    }
+  ],
+  "defense_scheme_tags": [
+    "drop",
+    "aggressive-help",
+    "physical",
+    "switch",
+    "no-middle",
+    "two-big"
+  ],
+  "offense_scheme_tags": [
+    "heliocentric",
+    "pick-and-roll",
+    "two-big",
+    "paint-centric",
+    "offensive-glass",
+    "transition",
+    "low-3PA"
+  ],
+  "scores": {
+    "rotation": {
+      "depth": {
+        "score": 55,
+        "confidence": 0.3,
+        "evidence": [
+          "Pistons ran a conventional 9-10 man rotation in 2024-25 and 2025-26 with veteran role players (Beasley, Hardaway, Harris, Robinson, LeVert) absorbing bench minutes; Cavaliers rotations under him were 9 deep with a fixed top eight (background knowledge; not re-verified)."
+        ],
+        "sources": []
+      },
+      "star_minutes_load": {
+        "score": 65,
+        "confidence": 0.3,
+        "evidence": [
+          "Cade Cunningham averaged roughly 35 mpg in 2024-25 and Donovan Mitchell/Darius Garland played 35-36 mpg in Cleveland under Bickerstaff; he leans on his stars heavily when healthy (background knowledge; not re-verified)."
+        ],
+        "sources": []
+      },
+      "consistency": {
+        "score": 65,
+        "confidence": 0.3,
+        "evidence": [
+          "Prefers a fixed starting five and set roles (Cleveland's double-big lineup for three seasons; Detroit's Cunningham-Thompson-Duren core); rotation changes are usually injury-driven rather than matchup churn (background knowledge)."
+        ],
+        "sources": []
+      },
+      "youth_trust": {
+        "score": 55,
+        "confidence": 0.3,
+        "evidence": [
+          "Started Ausar Thompson and Jalen Duren (both 22 or younger) and gave 19-20-year-old Ron Holland a rotation role in Detroit, and trusted rookie Evan Mobley in Cleveland; but favored veterans Beasley/Hardaway over Ivey/Holland in 2024-25 closing lineups (background knowledge)."
+        ],
+        "sources": [
+          "https://www.hoopsrumors.com/2026/05/pistons-notes-game-7-loss-bickerstaff-thompson-offseason.html"
+        ]
+      },
+      "load_management": {
+        "score": 45,
+        "confidence": 0.25,
+        "evidence": [
+          "Cleveland frequently rested Mitchell/Garland for injury management; in Detroit, Cunningham played most games and the Pistons' 60-win pursuit of the top seed left little room for rest (inferred)."
+        ],
+        "sources": []
+      },
+      "closing_flexibility": {
+        "score": 40,
+        "confidence": 0.3,
+        "evidence": [
+          "Closing group has been stable: Cunningham plus Thompson, Duren and two shooters; Cleveland closed with the Mitchell-Garland-Mobley-Allen core regardless of matchup, a point of playoff criticism (background knowledge)."
+        ],
+        "sources": []
+      }
+    },
+    "offense": {
+      "pace": {
+        "score": 40,
+        "confidence": 0.3,
+        "evidence": [
+          "Cavaliers under Bickerstaff ranked in the bottom third in pace (methodical, half-court); Pistons have been closer to league average, driven by Thompson/Cunningham transition off turnovers (background knowledge; 2025-26 rank not retrieved)."
+        ],
+        "sources": []
+      },
+      "three_point_emphasis": {
+        "score": 30,
+        "confidence": 0.3,
+        "evidence": [
+          "Pistons ranked in the bottom tier of three-point attempt rate in 2024-25 and 2025-26 with two traditional bigs (Duren, Stewart) often sharing the floor; Cleveland's Allen-Mobley teams were also below average in 3PA rate (background knowledge)."
+        ],
+        "sources": []
+      },
+      "ball_movement": {
+        "score": 35,
+        "confidence": 0.3,
+        "evidence": [
+          "Offense is Cunningham-centric (roughly 9 assists per game on very high usage) with heavy on-ball pick-and-roll; Cleveland's offense was Mitchell/Garland isolation-heavy and criticized for stagnation in the 2023 playoffs (background knowledge)."
+        ],
+        "sources": []
+      },
+      "transition_emphasis": {
+        "score": 52,
+        "confidence": 0.25,
+        "evidence": [
+          "Detroit converts steals from its physical defense into transition (Thompson), but the base system is half-court; Cleveland teams were slow (inferred)."
+        ],
+        "sources": []
+      },
+      "offensive_rebounding": {
+        "score": 75,
+        "confidence": 0.3,
+        "evidence": [
+          "Pistons have been among the league's best offensive-rebounding teams with Duren, Stewart and Thompson crashing, and Cleveland's Allen/Mobley double-big also ranked highly on the offensive glass (background knowledge; exact ranks not retrieved)."
+        ],
+        "sources": []
+      },
+      "paint_post_emphasis": {
+        "score": 72,
+        "confidence": 0.3,
+        "evidence": [
+          "Two-big lineups, Duren rim-running, Cunningham downhill drives and second-chance points make Detroit one of the most paint-centric offenses; low 3PA volume reinforces this (background knowledge)."
+        ],
+        "sources": []
+      },
+      "playcalling_ato_quality": {
+        "score": 42,
+        "confidence": 0.3,
+        "evidence": [
+          "Persistent criticism in Cleveland of predictable, iso-heavy late-game and after-timeout offense, especially in the 2023 series vs New York; Detroit's offense ranked well below its defense in 2024-25 (background knowledge)."
+        ],
+        "sources": []
+      }
+    },
+    "defense": {
+      "aggressiveness": {
+        "score": 65,
+        "confidence": 0.3,
+        "evidence": [
+          "Detroit's defense under Bickerstaff is built on physicality, point-of-attack pressure from Thompson/Holland and heavy contact at the rim; Cleveland was a conservative drop/wall-off team with elite rim protection (background knowledge)."
+        ],
+        "sources": []
+      },
+      "perimeter_priority": {
+        "score": 38,
+        "confidence": 0.3,
+        "evidence": [
+          "Drop coverage with Duren (DET) and Allen/Mobley (CLE) prioritizes the paint and concedes some threes; the Cavs' No. 1 defense in 2022-23 was a rim-protection scheme (background knowledge)."
+        ],
+        "sources": []
+      },
+      "foul_discipline": {
+        "score": 25,
+        "confidence": 0.3,
+        "evidence": [
+          "Pistons were among the league leaders in personal fouls and opponent free-throw attempts in 2024-25, an accepted cost of their physical identity (background knowledge; not re-verified)."
+        ],
+        "sources": []
+      },
+      "zone_usage": {
+        "score": 35,
+        "confidence": 0.25,
+        "evidence": [
+          "Occasional zone possessions in both Cleveland and Detroit, but primarily a man-to-man drop team (inferred)."
+        ],
+        "sources": []
+      },
+      "scheme_adaptability": {
+        "score": 42,
+        "confidence": 0.3,
+        "evidence": [
+          "Criticized for rigidity in playoff series (Cleveland 2023 vs NYK, 2024 vs BOS; Detroit's Game 7 blowout loss to Cleveland in 2026); tends to trust base scheme and personnel rather than change coverages (background knowledge plus 2026 Game 7 reporting)."
+        ],
+        "sources": [
+          "https://www.hoopsrumors.com/2026/05/pistons-notes-game-7-loss-bickerstaff-thompson-offseason.html"
+        ]
+      }
+    },
+    "endgame": {
+      "timeout_aggressiveness": {
+        "score": 55,
+        "confidence": 0.25,
+        "evidence": [
+          "No systematic reporting found; impression is of a conventional timeout user who stops runs promptly (inferred)."
+        ],
+        "sources": []
+      },
+      "foul_up_three": {
+        "score": 50,
+        "confidence": 0.2,
+        "evidence": [
+          "No direct evidence found; estimate league average."
+        ],
+        "sources": []
+      },
+      "late_lineup_shrink": {
+        "score": 60,
+        "confidence": 0.25,
+        "evidence": [
+          "Tends to shrink to his core (Cunningham, Thompson, Duren plus two shooters) in close games, consistent with his fixed-closer approach (inferred)."
+        ],
+        "sources": []
+      },
+      "challenge_quality": {
+        "score": 50,
+        "confidence": 0.2,
+        "evidence": [
+          "No published data on challenge frequency or success found; estimate league average."
+        ],
+        "sources": []
+      },
+      "two_for_one_awareness": {
+        "score": 45,
+        "confidence": 0.2,
+        "evidence": [
+          "Half-court, low-3PA style suggests limited emphasis on end-of-quarter 2-for-1 hunting (inferred)."
+        ],
+        "sources": []
+      },
+      "risk_appetite": {
+        "score": 40,
+        "confidence": 0.25,
+        "evidence": [
+          "Conservative late-game profile: safe sets for Cunningham, few gambles; Cleveland late-game offense was criticized as predictable rather than reckless (inferred)."
+        ],
+        "sources": []
+      },
+      "clutch_reputation": {
+        "score": 48,
+        "confidence": 0.3,
+        "evidence": [
+          "Detroit won many close games in 2024-25 behind Cunningham's clutch scoring, but the franchise's 2025 first-round loss to New York featured several narrow late collapses, and Cleveland-era late-game execution was a recurring criticism (background knowledge)."
+        ],
+        "sources": []
+      }
+    },
+    "overall": {
+      "adaptability": {
+        "score": 45,
+        "confidence": 0.35,
+        "evidence": [
+          "Second-round exit as a 60-win No. 1 seed with a home Game 7 blowout (May 2026) renewed questions about in-series adjustments that followed him from Cleveland.",
+          "Regular-season adaptability is better: he reshaped Detroit's identity within one season."
+        ],
+        "sources": [
+          "https://www.hoopsrumors.com/2026/05/pistons-notes-game-7-loss-bickerstaff-thompson-offseason.html",
+          "https://www.9and10news.com/sports/2026/05/04/pistons-reward-jb-bickerstaff-with-contract-extension-after-playoff-breakthrough/"
+        ]
+      },
+      "player_development": {
+        "score": 70,
+        "confidence": 0.45,
+        "evidence": [
+          "Oversaw Cunningham's All-NBA leap, Duren's and Thompson's growth and Holland's emergence in Detroit; in Cleveland developed Garland, Mobley and Allen into All-Stars/All-Defense players.",
+          "SI (2025): 'History says J.B. Bickerstaff will improve Detroit Pistons in 2025-26' - he has improved every team in year two."
+        ],
+        "sources": [
+          "https://www.si.com/nba/pistons/onsi/news/history-says-j-b-bickerstaff-will-improve-detroit-pistons-in-2025-26-01k44egzmn1c",
+          "https://www.tsn.ca/nba/article/pistons-extend-bickerstaff-after-rare-series-victory-n1-48678738/"
+        ]
+      },
+      "analytics_adoption": {
+        "score": 40,
+        "confidence": 0.3,
+        "evidence": [
+          "Two-big lineups, bottom-tier three-point volume and a physical, foul-heavy defense run against prevailing analytics trends, though the Pistons' offensive-glass and rim-pressure emphasis is defensible on efficiency grounds (background knowledge)."
+        ],
+        "sources": []
+      },
+      "reputation": {
+        "score": 70,
+        "confidence": 0.55,
+        "evidence": [
+          "104-60 in two Detroit seasons with two playoff trips and the franchise's first series win since 2008; 2025 COY runner-up; extended May 2026 with Trajan Langdon praising the culture.",
+          "Career playoff record is poor (roughly 10-21 through 2026) and he was fired in Cleveland in 2024 despite 48 wins."
+        ],
+        "sources": [
+          "https://www.9and10news.com/sports/2026/05/04/pistons-reward-jb-bickerstaff-with-contract-extension-after-playoff-breakthrough/",
+          "https://www.nbcsports.com/nba/news/detroit-pistons-announce-extension-with-coach-j-b-bickerstaff",
+          "https://fox2detroit.com/news/pistons-extend-contract-coach-j-b-bickerstaff-after-playoff-round-win"
+        ]
+      }
+    }
+  },
+  "notable_quotes": [
+    {
+      "quote": "Pistons reward J.B. Bickerstaff with contract extension after playoff breakthrough.",
+      "speaker": "9and10news (headline)",
+      "context": "May 4, 2026, after Detroit's first series win since 2008",
+      "source": "https://www.9and10news.com/sports/2026/05/04/pistons-reward-jb-bickerstaff-with-contract-extension-after-playoff-breakthrough/"
+    },
+    {
+      "quote": "Detroit's playoff run ended abruptly on Sunday night with a blowout home loss to the Cavaliers in Game 7.",
+      "speaker": "Hoops Rumors",
+      "context": "second round, May 2026",
+      "source": "https://www.hoopsrumors.com/2026/05/pistons-notes-game-7-loss-bickerstaff-thompson-offseason.html"
+    }
+  ],
+  "key_criticisms": [
+    "Half-court offense: low three-point volume, Cunningham-dependent creation and predictable late-game/after-timeout sets (a criticism that dates to his Cleveland tenure).",
+    "Playoff adjustments: 1-4 vs NYK (2023), 1-4 vs BOS (2024), 2-4 vs NYK (2025) and a home Game 7 blowout loss to CLE as a 60-win No. 1 seed (2026).",
+    "Foul-prone, physical defense that sends opponents to the line at a high rate.",
+    "Fixed closers and veteran preference in crunch time limited development minutes for Ivey/Holland in 2024-25."
+  ],
+  "key_strengths": [
+    "Culture and defensive identity builder: 30-win turnaround in Detroit year one, 60 wins in year two; No. 1 defense in Cleveland (2022-23).",
+    "Player development: Cunningham (All-NBA), Duren, Thompson, Holland; Garland, Mobley, Allen in Cleveland.",
+    "Physical, aggressive, offensive-glass-dominant style that wins the possession battle.",
+    "Stable, predictable rotations and strong locker-room trust; consistently improves teams in his second season."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/J._B._Bickerstaff",
+    "https://en.wikipedia.org/wiki/2024%E2%80%9325_Detroit_Pistons_season",
+    "https://www.9and10news.com/sports/2026/05/04/pistons-reward-jb-bickerstaff-with-contract-extension-after-playoff-breakthrough/",
+    "https://www.tsn.ca/nba/article/pistons-extend-bickerstaff-after-rare-series-victory-n1-48678738/",
+    "https://fox2detroit.com/news/pistons-extend-contract-coach-j-b-bickerstaff-after-playoff-round-win",
+    "https://www.hoopsrumors.com/2026/05/pistons-notes-game-7-loss-bickerstaff-thompson-offseason.html",
+    "https://www.nbcsports.com/nba/news/detroit-pistons-announce-extension-with-coach-j-b-bickerstaff",
+    "https://www.si.com/nba/pistons/onsi/news/history-says-j-b-bickerstaff-will-improve-detroit-pistons-in-2025-26-01k44egzmn1c",
+    "https://api-hub.nba.com/news/pistons-jb-bickerstaff-contract-extension"
+  ],
+  "research_notes": "IMPORTANT: the shared WebSearch budget was exhausted after the first Bickerstaff query, so only his record/extension search ran. Detroit records (44-38 in 2024-25, lost R1 to NYK in six; 60-22 in 2025-26 as No. 1 seed, beat ORL in R1, lost R2 Game 7 to CLE; 104-60 total; extension May 4, 2026) are sourced. The 2025-26 first-round series score vs Orlando was not found. Cleveland records (44-38, 51-31, 48-34) and all scheme, rotation and end-game characterizations come from background knowledge through mid-2026 and are NOT independently sourced here; every such dimension is capped at confidence 0.3 with empty sources per the rubric. The 2026-27 opening record was not retrievable. One fan-analysis figure of a 10-21 career playoff record is approximate. Follow-up searches recommended: Pistons 2025-26 pace/3PA-rate/OREB%/opponent FT-rate ranks, Bickerstaff's challenge usage, fouling-up-three habits, and beat-writer commentary (Detroit Free Press, Detroit News, The Athletic) on his rotation and late-game decisions.",
+  "researched_at": "2026-11-02"
+}

@@ -1,0 +1,524 @@
+{
+  "coach": "Steve Kerr",
+  "slug": "steve-kerr",
+  "team": "GSW",
+  "team_name": "Golden State Warriors",
+  "head_coach_since": "2014-15",
+  "age": 61,
+  "background": "Five-time champion as a player (Bulls, Spurs), Phoenix Suns GM (2007-10) and TNT analyst before taking the Warriors job in May 2014 with no prior coaching experience. Won titles in 2015, 2017, 2018 and 2022, set the 73-9 record in 2015-16 (Coach of the Year) and built a motion/split-cut offense that reshaped the league. Coached Team USA to Olympic gold in Paris 2024. Career regular-season record 604-353 through 2025-26 (567-308 through 2024-25 per StatMuse), playoffs 104-48. The post-2022 Warriors have been a play-in-level team: 2023-24 and 2025-26 play-in exits, 2024-25 second-round exit after Curry's hamstring injury. Signed a two-year extension in May 2026 running through 2027-28; he has said the 2026-27 roster is not a title contender but should be competitive.",
+  "prior_head_coaching": [],
+  "record_last5": [
+    {
+      "season": "2021-22",
+      "team": "GSW",
+      "wins": 53,
+      "losses": 29,
+      "playoffs": "Won NBA title (beat DEN 4-1, MEM 4-2, DAL 4-1, BOS 4-2)",
+      "notes": "16-6 playoff record"
+    },
+    {
+      "season": "2022-23",
+      "team": "GSW",
+      "wins": 44,
+      "losses": 38,
+      "playoffs": "Lost WCSF 2-4 to LAL (beat SAC 4-3)",
+      "notes": "6-7 playoff record; 0-? road struggles all season"
+    },
+    {
+      "season": "2023-24",
+      "team": "GSW",
+      "wins": 46,
+      "losses": 36,
+      "playoffs": "Missed playoffs: lost 9-vs-10 play-in game at SAC 118-94",
+      "notes": "Draymond Green indefinite suspension mid-season"
+    },
+    {
+      "season": "2024-25",
+      "team": "GSW",
+      "wins": 48,
+      "losses": 34,
+      "playoffs": "Won play-in vs MEM for No. 7 seed; beat HOU 4-3; lost WCSF 1-4 to MIN",
+      "notes": "5-7 playoff record; Jimmy Butler acquired Feb 2025; Curry hamstring injury in Game 1 vs MIN"
+    },
+    {
+      "season": "2025-26",
+      "team": "GSW",
+      "wins": 37,
+      "losses": 45,
+      "playoffs": "Missed playoffs: won first play-in game vs LAC, lost 8th-seed game to PHX",
+      "notes": "10th in West; first losing season since 2020; Butler season-ending ACL tear Jan 19, 2026; Green ejected in the final seconds of the play-in loss"
+    }
+  ],
+  "defense_scheme_tags": [
+    "switch",
+    "drop",
+    "zone",
+    "aggressive-help"
+  ],
+  "offense_scheme_tags": [
+    "motion",
+    "split-cuts",
+    "dribble-handoff",
+    "five-out",
+    "pace-and-space",
+    "read-and-react",
+    "off-ball-screening"
+  ],
+  "scores": {
+    "rotation": {
+      "depth": {
+        "score": 85,
+        "confidence": 0.85,
+        "evidence": [
+          "Opened 2024-25 with a 12-man rotation and said he could not justify cutting to 10; later admitted 'Yeah, we gotta think about shortening it'",
+          "Curry publicly hinted at a 'more traditional rotation' ('We probably need to be more predictable'); Kerr has long favored 10-11 players with real minutes"
+        ],
+        "sources": [
+          "https://africa.espn.com/nba/story/_/id/41973637/kerr-flaunts-warriors-depth-12-man-rotation-opener",
+          "https://www.nbcsports.com/nba/news/is-it-time-for-steve-kerr-to-shorten-warriors-rotation-curry-others-hint-yes",
+          "https://www.cbssports.com/nba/news/stephen-curry-hints-that-warriors-should-trim-rotation-we-probably-need-to-be-more-predictable/"
+        ]
+      },
+      "star_minutes_load": {
+        "score": 30,
+        "confidence": 0.8,
+        "evidence": [
+          "Kerr said he would hold Curry to '34, 35ish on a nightly basis' and not chase wins; Curry's 4th-quarter minutes were among the lowest on the team (2024-25)",
+          "After Curry and Butler played a combined 82 minutes in a 2025 playoff game, Kerr said 'I thought I played him too much in the second half'"
+        ],
+        "sources": [
+          "https://www.cbssports.com/nba/news/warriors-steve-kerr-smart-not-to-stretch-stephen-currys-minutes-but-he-could-distribute-them-differently",
+          "https://www.si.com/nba/warriors/onsi/news/steve-kerr-admits-mistake-in-warriors-rockets-playoff-game-01jsfnfa90bq"
+        ]
+      },
+      "consistency": {
+        "score": 25,
+        "confidence": 0.75,
+        "evidence": [
+          "Repeated starting-lineup changes in 2025-26, including replacing two starters at halftime for defensive communication problems (Dec 2025)",
+          "Curry's 2024-25 critique that the team needed to be 'more predictable' targeted rotation churn"
+        ],
+        "sources": [
+          "https://heavy.com/sports/nba/golden-state-warriors/warriors-steve-kerr/",
+          "https://www.nbcsportsbayarea.com/nba/golden-state-warriors/steve-kerr-rotation-changes-loss-suns/1808936/",
+          "https://www.cbssports.com/nba/news/stephen-curry-hints-that-warriors-should-trim-rotation-we-probably-need-to-be-more-predictable/"
+        ]
+      },
+      "youth_trust": {
+        "score": 35,
+        "confidence": 0.7,
+        "evidence": [
+          "Kerr: 'a lottery team can put a young player out for 35 minutes and let him make mistakes', which a competitive club cannot; Moody held to 15.9 mpg in 2024-25, Kuminga benched in the 2025 postseason",
+          "Kerr: 'Young players who are trying to find their way, if they're not in the rotation it's tricky [to build trust]'"
+        ],
+        "sources": [
+          "https://thescore.com/nba/news/3492105",
+          "https://africa.espn.com/nba/story/_/id/39236940/golden-state-warriors-trusting-young-players-amid-struggles",
+          "https://www.si.com/nba/warriors/news/young-warriors-player-voices-frustration-over-lack-of-minutes",
+          "https://hoopsrumors.com/2024/12/warriors-notes-curry-moody-kuminga-waters-tjd-looney.html"
+        ]
+      },
+      "load_management": {
+        "score": 55,
+        "confidence": 0.4,
+        "evidence": [
+          "Curry (37-38) and Green are regularly rested on back-to-backs and get hard minute limits; Kerr prioritizes keeping veterans fresh over regular-season wins",
+          "No 2025-26 rest-game count found"
+        ],
+        "sources": [
+          "https://www.cbssports.com/nba/news/warriors-steve-kerr-smart-not-to-stretch-stephen-currys-minutes-but-he-could-distribute-them-differently"
+        ]
+      },
+      "closing_flexibility": {
+        "score": 60,
+        "confidence": 0.5,
+        "evidence": [
+          "Closers vary by matchup around Curry/Green (Payton II, Looney, Podziemski, Kuminga and Moody have all closed or been pulled from closing groups)",
+          "Dec 2025 declared a fixed starting five but closing groups remained situational"
+        ],
+        "sources": [
+          "https://heavy.com/sports/nba/golden-state-warriors/warriors-steve-kerr/",
+          "https://sfstandard.com/2025/04/04/jonathan-kuminga-brandin-podziemski-keys-to-warriors-playoffs/"
+        ]
+      }
+    },
+    "offense": {
+      "pace": {
+        "score": 60,
+        "confidence": 0.5,
+        "evidence": [
+          "Kerr teams have been top-10 in pace through most of his tenure (led the league in pace in the 2014-16 era); the 2025-26 group slowed somewhat with Butler's half-court game",
+          "No 2025-26 pace rank verified"
+        ],
+        "sources": [
+          "https://bleacherreport.com/articles/2290515-how-steve-kerrs-offense-made-the-splash-brothers-completely-unguardable",
+          "https://dubnationhq.com/p/explain-how-jimmy-butler-iii-made"
+        ]
+      },
+      "three_point_emphasis": {
+        "score": 65,
+        "confidence": 0.55,
+        "evidence": [
+          "CBS: Kerr's higher three-point volume in 2024-25 was 'a necessary adjustment' in a league where Boston averaged over 51 3PA; Warriors were top-5 in 3PA that season",
+          "Kerr has historically resisted pure volume (the 'charcuterie board' offense), so he sits above average but well below Mazzulla"
+        ],
+        "sources": [
+          "https://www.cbssports.com/nba/news/warriors-have-become-the-team-you-always-thought-they-were-giving-steph-curry-a-real-shot-at-another-title",
+          "https://www.espn.com/espn/feature/story/_/page/enterpriseWarriors/how-steve-kerr-revolutionized-golden-state-warriors-offense-charcuterie-board"
+        ]
+      },
+      "ball_movement": {
+        "score": 90,
+        "confidence": 0.85,
+        "evidence": [
+          "Golden State 'has long avoided pick-and-roll-heavy play in favor of a motion offense that stresses player movement and spacing'; split cuts and off-ball screening for Curry define the system",
+          "Warriors routinely lead the league in passes and assists under Kerr; Butler's arrival added some isolation but the base remains motion"
+        ],
+        "sources": [
+          "https://www.nbcsports.com/bayarea/warriors/steve-kerr-simplifying-warriors-offense-injuries-mounting",
+          "https://www.hooperuniversity.com/breakdowns/golden-state-warriors-split-action",
+          "https://www.espn.com/espn/feature/story/_/page/enterpriseWarriors/how-steve-kerr-revolutionized-golden-state-warriors-offense-charcuterie-board"
+        ]
+      },
+      "transition_emphasis": {
+        "score": 60,
+        "confidence": 0.4,
+        "evidence": [
+          "Kerr wants early offense off defensive rebounds and quick Curry 3s, but the half-court motion system is the identity",
+          "Inferred from scheme reputation; no transition-frequency rank found"
+        ],
+        "sources": [
+          "https://bleacherreport.com/articles/2290515-how-steve-kerrs-offense-made-the-splash-brothers-completely-unguardable"
+        ]
+      },
+      "offensive_rebounding": {
+        "score": 30,
+        "confidence": 0.3,
+        "evidence": [
+          "Kerr prioritizes getting back in transition defense; Warriors have ranked bottom-third in offensive rebounding through most of his tenure, with Looney-era exceptions",
+          "No result addressed OREB directly (search gap)"
+        ],
+        "sources": []
+      },
+      "paint_post_emphasis": {
+        "score": 35,
+        "confidence": 0.4,
+        "evidence": [
+          "Perimeter and motion-based; post entries are mostly decoys for split action ('a post entry can disguise the real intent, a catch-and-shoot three off an away screen')",
+          "Butler added post-ups and midrange since Feb 2025"
+        ],
+        "sources": [
+          "https://www.hooperuniversity.com/breakdowns/golden-state-warriors-split-action",
+          "https://dubnationhq.com/p/explain-how-jimmy-butler-iii-made"
+        ]
+      },
+      "playcalling_ato_quality": {
+        "score": 70,
+        "confidence": 0.5,
+        "evidence": [
+          "Respected set-play designer (double-drag into split action, Curry decoy ATOs) with a deep playbook; analysts credit his in-game flexibility",
+          "Criticized for turnover-prone complexity and for late-game sets that take the ball out of Curry's hands"
+        ],
+        "sources": [
+          "https://dubnationhq.com/p/explain-one-play-mailbag-6-steve",
+          "https://www.mensbasketballhoopscoop.com/steve-kerr-nba-golden-state-warriors-double-drag-play/",
+          "https://www.nbcsports.com/nba/news/steve-kerr-rants-at-officials-after-loss-curry-admits-late-game-scoring-issues-make-warriors-mediocre"
+        ]
+      }
+    },
+    "defense": {
+      "aggressiveness": {
+        "score": 55,
+        "confidence": 0.45,
+        "evidence": [
+          "Switch-heavy scheme with Green as the 'Swiss army knife' that the team 'leverages into a massive advantage'; 2024-25 group forced turnovers with Butler/Payton",
+          "Not a trapping or blitzing team by default"
+        ],
+        "sources": [
+          "https://www.nbcsportsbayarea.com/nba/golden-state-warriors/warriors-defense-needs-draymond-green/1689277"
+        ]
+      },
+      "perimeter_priority": {
+        "score": 55,
+        "confidence": 0.35,
+        "evidence": [
+          "Switching 1-5 with Green/Butler/Payton prioritizes taking away 3s; drop coverage used with Post/Looney when they are on the floor",
+          "Mixed scheme; league-average lean"
+        ],
+        "sources": [
+          "https://www.nbcsportsbayarea.com/nba/golden-state-warriors/warriors-defense-needs-draymond-green/1689277"
+        ]
+      },
+      "foul_discipline": {
+        "score": 50,
+        "confidence": 0.3,
+        "evidence": [
+          "Four of Kerr's first five 2024-25 challenges were on Draymond Green fouls, a recurring source of foul trouble",
+          "No opponent FT-rate rank found; estimate average"
+        ],
+        "sources": [
+          "https://www.nbcsportsbayarea.com/nba/golden-state-warriors/draymond-green-steve-kerr-challenges-success/1800116/"
+        ]
+      },
+      "zone_usage": {
+        "score": 45,
+        "confidence": 0.3,
+        "evidence": [
+          "Kerr has used short zone stints (including in the 2025 HOU series) as a change-up more than most contenders, but far below Miami's volume",
+          "Inferred from pre-cutoff knowledge; not verified by search"
+        ],
+        "sources": []
+      },
+      "scheme_adaptability": {
+        "score": 65,
+        "confidence": 0.5,
+        "evidence": [
+          "Changed starting lineups and coverages repeatedly in 2025-26 to jump-start the defense; blamed 'misexecution of switching schemes' after a Dec 2025 loss in MIL",
+          "Kerr (2024): 'If you're quiet, switching is a lot harder' - adjustments depend heavily on Green's presence"
+        ],
+        "sources": [
+          "https://heavy.com/sports/nba/golden-state-warriors/warriors-steve-kerr/",
+          "https://www.pressreader.com/usa/san-francisco-chronicle-late-edition/20240328/281895893248222"
+        ]
+      }
+    },
+    "endgame": {
+      "timeout_aggressiveness": {
+        "score": 30,
+        "confidence": 0.75,
+        "evidence": [
+          "Kerr 'prefers the scramble situation' and has repeatedly declined to call late timeouts (2024 vs SAC: admitted he 'probably could have taken a timeout there')",
+          "2023 playoff gaffe: Curry called a timeout the team did not have; Kerr: '100 percent my fault'"
+        ],
+        "sources": [
+          "https://sports.yahoo.com/steve-kerr-reveals-why-didn-000036806.html",
+          "https://www.nbcsportsbayarea.com/bayarea/warriors/why-steve-kerr-didnt-call-timeout-warriors-last-regulation-play",
+          "https://english.stadiumastro.com/news-sports/kerr-takes-blame-curry-timeout-error-234108"
+        ]
+      },
+      "foul_up_three": {
+        "score": 45,
+        "confidence": 0.25,
+        "evidence": [
+          "No direct evidence found; Kerr has fouled up three situationally but is not identified with a systematic policy",
+          "Estimate near league average"
+        ],
+        "sources": []
+      },
+      "late_lineup_shrink": {
+        "score": 60,
+        "confidence": 0.4,
+        "evidence": [
+          "Closes with Curry, Green and Butler plus two situational pieces; deep rotation compresses to 7-8 in clutch",
+          "Inferred from rotation reporting"
+        ],
+        "sources": [
+          "https://sfstandard.com/2025/04/04/jonathan-kuminga-brandin-podziemski-keys-to-warriors-playoffs/"
+        ]
+      },
+      "challenge_quality": {
+        "score": 45,
+        "confidence": 0.6,
+        "evidence": [
+          "Golden State ranked dead last in challenge success in 2023-24, then opened 2024-25 4-for-5",
+          "League-wide success ran ~58% in 2024-25; Kerr's full-season rate not found"
+        ],
+        "sources": [
+          "https://www.nbcsportsbayarea.com/nba/golden-state-warriors/draymond-green-steve-kerr-challenges-success/1800116/",
+          "https://www.axios.com/local/san-francisco/2024/05/29/golden-state-warriors-nba-coaches-challenge-success-rate",
+          "https://www.blazersedge.com/2025/1/10/24340873/nba-coaches-challenge-stats-success-rate-2024-25-data-portland-trail-blazers-chauncey-billups"
+        ]
+      },
+      "two_for_one_awareness": {
+        "score": 65,
+        "confidence": 0.3,
+        "evidence": [
+          "Curry-led Warriors have long been among the most deliberate 2-for-1 teams (quick early-clock 3s under ~35 seconds)",
+          "Not verified by search this session"
+        ],
+        "sources": []
+      },
+      "risk_appetite": {
+        "score": 50,
+        "confidence": 0.4,
+        "evidence": [
+          "Lets players play through late scrambles rather than scripting (moderate risk), but late-game shot selection draws criticism (Curry quick 3s instead of working the clock)",
+          "Chose not to use his last timeout 'by design' in a 2026 loss to MEM"
+        ],
+        "sources": [
+          "https://sports.yahoo.com/steve-kerr-reveals-why-didn-000036806.html",
+          "https://www.si.com/nba/2023/04/23/stephen-curry-late-game-timeout-call-warriors-kings"
+        ]
+      },
+      "clutch_reputation": {
+        "score": 55,
+        "confidence": 0.5,
+        "evidence": [
+          "Four titles and historically strong clutch execution, but recent Warriors 'didn't score in the game's final three minutes' and 'late-game scoring droughts... have become a thing' (Dec 2024)",
+          "Kerr's late-game officiating rants (NBA Cup, DEN 2024) and no-timeout approach feed criticism"
+        ],
+        "sources": [
+          "https://www.nbcsports.com/nba/news/steve-kerr-rants-at-officials-after-loss-curry-admits-late-game-scoring-issues-make-warriors-mediocre",
+          "https://africa.espn.com/nba/story/_/id/42925566/steve-kerr-furious-late-call-warriors-fall-nba-cup"
+        ]
+      }
+    },
+    "overall": {
+      "adaptability": {
+        "score": 70,
+        "confidence": 0.5,
+        "evidence": [
+          "Historically elite in-series adjustments (2022 Finals, Hamptons-5 era); integrated Butler quickly in 2025 and simplified the offense when injuries mounted",
+          "Recent seasons show slower adaptation (deep rotation persisted despite results; 37-45 in 2025-26)"
+        ],
+        "sources": [
+          "https://dubnationhq.com/p/explain-one-play-mailbag-6-steve",
+          "https://www.nbcsports.com/bayarea/warriors/steve-kerr-simplifying-warriors-offense-injuries-mounting",
+          "https://bleacherreport.com/articles/25429092-steve-kerr-critical-his-performance-after-warriors-missed-2025-26-nba-playoffs"
+        ]
+      },
+      "player_development": {
+        "score": 50,
+        "confidence": 0.55,
+        "evidence": [
+          "Podziemski, Moody, Trayce Jackson-Davis and Quinten Post developed into rotation players, but Kuminga stalled and left frustrated; one exec claimed the franchise 'likes PBJ more than JK'",
+          "Kerr argues contention requires patience; critics say young players have been slow to get real roles"
+        ],
+        "sources": [
+          "https://www.nbcsportsbayarea.com/nba/golden-state-warriors/nba-exec-claims-dubs-like-pbj-more-than-jk-other-young-players/1438438",
+          "https://thescore.com/nba/news/3492105",
+          "https://sfstandard.com/2025/10/28/kuminga-moody-podziemski-warriors-grizzlies/"
+        ]
+      },
+      "analytics_adoption": {
+        "score": 55,
+        "confidence": 0.4,
+        "evidence": [
+          "Embraced more 3PA volume in 2024-25 as a 'necessary adjustment', but has publicly preferred ball movement and shot quality over pure math and resisted heliocentric trends",
+          "Mixed, roughly average adoption"
+        ],
+        "sources": [
+          "https://www.cbssports.com/nba/news/warriors-have-become-the-team-you-always-thought-they-were-giving-steph-curry-a-real-shot-at-another-title",
+          "https://www.espn.com/espn/feature/story/_/page/enterpriseWarriors/how-steve-kerr-revolutionized-golden-state-warriors-offense-charcuterie-board"
+        ]
+      },
+      "reputation": {
+        "score": 85,
+        "confidence": 0.7,
+        "evidence": [
+          "Four-time champion, 2024 Olympic gold, 604-353 career; still ranked top-5 in most preseason coach power rankings (2024-25)",
+          "Standing has slipped with three non-playoff seasons in four years and a 'rising Steve Kerr problem' narrative; team gave him a two-year extension in May 2026 rather than a long deal"
+        ],
+        "sources": [
+          "https://sircharlesincharge.com/posts/nba-power-ranking-all-30-head-coaches-heading-into-the-2024-25-season/25",
+          "https://www.cbsnews.com/sanfrancisco/news/steve-kerr-golden-state-warriors-coach-new-2-year-contract/",
+          "https://www.wsls.com/sports/2026/05/10/steve-kerr-agrees-to-a-two-year-deal-to-continue-coaching-the-warriors-ap-source-says/",
+          "https://bluemanhoop.com/warriors-have-rising-steve-kerr-problem-that-becoming-hard-ignore"
+        ]
+      }
+    }
+  },
+  "notable_quotes": [
+    {
+      "quote": "Yeah, we gotta think about shortening it.",
+      "speaker": "Steve Kerr",
+      "context": "2024-25 on his 12-man rotation",
+      "source": "https://www.nbcsports.com/nba/news/is-it-time-for-steve-kerr-to-shorten-warriors-rotation-curry-others-hint-yes"
+    },
+    {
+      "quote": "We probably need to be more predictable.",
+      "speaker": "Stephen Curry",
+      "context": "2024-25, hinting the rotation should be trimmed",
+      "source": "https://www.cbssports.com/nba/news/stephen-curry-hints-that-warriors-should-trim-rotation-we-probably-need-to-be-more-predictable/"
+    },
+    {
+      "quote": "I thought I played him too much in the second half. I definitely need to look at the rotations and make sure we're getting guys the rest they need.",
+      "speaker": "Steve Kerr",
+      "context": "2025 playoffs vs HOU, on Curry's minutes",
+      "source": "https://www.si.com/nba/warriors/onsi/news/steve-kerr-admits-mistake-in-warriors-rockets-playoff-game-01jsfnfa90bq"
+    },
+    {
+      "quote": "If you're quiet, switching is a lot harder.",
+      "speaker": "Steve Kerr",
+      "context": "March 2024 on defensive communication",
+      "source": "https://www.pressreader.com/usa/san-francisco-chronicle-late-edition/20240328/281895893248222"
+    },
+    {
+      "quote": "Young players who are trying to find their way, if they're not in the rotation it's tricky [to build trust].",
+      "speaker": "Steve Kerr",
+      "context": "2023-24 on developing young players on a contender",
+      "source": "https://africa.espn.com/nba/story/_/id/39236940/golden-state-warriors-trusting-young-players-amid-struggles"
+    },
+    {
+      "quote": "100 percent my fault.",
+      "speaker": "Steve Kerr",
+      "context": "2023 playoffs after Curry called a timeout the Warriors did not have",
+      "source": "https://english.stadiumastro.com/news-sports/kerr-takes-blame-curry-timeout-error-234108"
+    }
+  ],
+  "key_criticisms": [
+    "Over-deep, unpredictable rotations (12-man opener in 2024-25) and constant starting-lineup changes",
+    "Caps Curry's minutes and 4th-quarter usage even in must-win games; late-game offense goes stagnant",
+    "Reluctance to call late timeouts contributed to the 2023 Curry timeout error and other late losses",
+    "Slow to trust young players (Kuminga, Moody, Podziemski) while leaning on aging veterans",
+    "Challenge record was league-worst in 2023-24; frequent officiating rants after close losses"
+  ],
+  "key_strengths": [
+    "Architect of the league's premier motion/split-cut offense; elite ball movement and spacing concepts",
+    "Four championships and strong historical in-series adjustment record; culture and player buy-in",
+    "Protects stars' health with disciplined minute management over an 82-game season",
+    "Versatile switch-based defense built around Green when communication is sharp"
+  ],
+  "sources": [
+    "https://www.basketball-reference.com/coaches/kerrst01c.html",
+    "https://www.statscrew.com/basketball/stats/c-kerrst01",
+    "https://www.statmuse.com/nba/ask/warriors-coach",
+    "https://www.cbsnews.com/sanfrancisco/news/steve-kerr-golden-state-warriors-coach-new-2-year-contract/",
+    "https://en.wikipedia.org/wiki/2025%E2%80%9326_Golden_State_Warriors_season",
+    "https://www.nbcsportsbayarea.com/nba/golden-state-warriors/steph-curry-phoenix-suns-play-in-loss/1931647/",
+    "https://www.wsls.com/sports/2026/05/10/steve-kerr-agrees-to-a-two-year-deal-to-continue-coaching-the-warriors-ap-source-says/",
+    "https://www.lines.com/steve-kerr-warriors-two-year-extension-2026",
+    "https://www.nbcsportsbayarea.com/nba/golden-state-warriors/steve-kerr-optimistic-projections-upcoming-season/1960755/",
+    "https://www.newsweek.com/sports/nba/stephen-curry-injury-update-gives-clarity-for-warriors-lakers-nba-season-opener-12590418",
+    "https://africa.espn.com/nba/story/_/id/41973637/kerr-flaunts-warriors-depth-12-man-rotation-opener",
+    "https://sfstandard.com/2024/10/24/steve-kerr-12-man-rotation",
+    "https://www.nbcsports.com/nba/news/is-it-time-for-steve-kerr-to-shorten-warriors-rotation-curry-others-hint-yes",
+    "https://www.cbssports.com/nba/news/stephen-curry-hints-that-warriors-should-trim-rotation-we-probably-need-to-be-more-predictable/",
+    "https://www.cbssports.com/nba/news/warriors-steve-kerr-smart-not-to-stretch-stephen-currys-minutes-but-he-could-distribute-them-differently",
+    "https://www.si.com/nba/warriors/onsi/news/steve-kerr-admits-mistake-in-warriors-rockets-playoff-game-01jsfnfa90bq",
+    "https://www.nbcsportsbayarea.com/nba/golden-state-warriors/steve-kerr-rotation-changes-loss-suns/1808936/",
+    "https://hoopsrumors.com/2024/12/warriors-notes-curry-moody-kuminga-waters-tjd-looney.html",
+    "https://bluemanhoop.com/warriors-have-rising-steve-kerr-problem-that-becoming-hard-ignore",
+    "https://www.nbcsportsbayarea.com/bayarea/warriors/why-steve-kerr-didnt-call-timeout-warriors-last-regulation-play",
+    "https://sports.yahoo.com/steve-kerr-reveals-why-didn-000036806.html",
+    "https://www.cbsnews.com/amp/sanfrancisco/news/step-curry-timeout-blunder-golden-state-sacramento-nba-playoffs",
+    "https://english.stadiumastro.com/news-sports/kerr-takes-blame-curry-timeout-error-234108",
+    "https://www.si.com/nba/2023/04/23/stephen-curry-late-game-timeout-call-warriors-kings",
+    "https://www.nbcsports.com/nba/news/steve-kerr-rants-at-officials-after-loss-curry-admits-late-game-scoring-issues-make-warriors-mediocre",
+    "https://africa.espn.com/nba/story/_/id/42925566/steve-kerr-furious-late-call-warriors-fall-nba-cup",
+    "https://www.nbcsportsbayarea.com/nba/golden-state-warriors/draymond-green-steve-kerr-challenges-success/1800116/",
+    "https://www.axios.com/local/san-francisco/2024/05/29/golden-state-warriors-nba-coaches-challenge-success-rate",
+    "https://www.blazersedge.com/2025/1/10/24340873/nba-coaches-challenge-stats-success-rate-2024-25-data-portland-trail-blazers-chauncey-billups",
+    "https://www.nbcsports.com/bayarea/warriors/steve-kerr-simplifying-warriors-offense-injuries-mounting",
+    "https://www.espn.com/espn/feature/story/_/page/enterpriseWarriors/how-steve-kerr-revolutionized-golden-state-warriors-offense-charcuterie-board",
+    "https://www.hooperuniversity.com/breakdowns/golden-state-warriors-split-action",
+    "https://www.cbssports.com/nba/news/warriors-have-become-the-team-you-always-thought-they-were-giving-steph-curry-a-real-shot-at-another-title",
+    "https://bleacherreport.com/articles/2290515-how-steve-kerrs-offense-made-the-splash-brothers-completely-unguardable",
+    "https://dubnationhq.com/p/explain-one-play-mailbag-6-steve",
+    "https://dubnationhq.com/p/explain-how-jimmy-butler-iii-made",
+    "https://www.mensbasketballhoopscoop.com/steve-kerr-nba-golden-state-warriors-double-drag-play/",
+    "https://africa.espn.com/nba/story/_/id/39236940/golden-state-warriors-trusting-young-players-amid-struggles",
+    "https://thescore.com/nba/news/3492105",
+    "https://www.si.com/nba/warriors/news/young-warriors-player-voices-frustration-over-lack-of-minutes",
+    "https://sfstandard.com/2025/10/28/kuminga-moody-podziemski-warriors-grizzlies/",
+    "https://sfstandard.com/2025/04/04/jonathan-kuminga-brandin-podziemski-keys-to-warriors-playoffs/",
+    "https://www.nbcsportsbayarea.com/nba/golden-state-warriors/nba-exec-claims-dubs-like-pbj-more-than-jk-other-young-players/1438438",
+    "https://www.nbcsportsbayarea.com/nba/golden-state-warriors/warriors-defense-needs-draymond-green/1689277",
+    "https://heavy.com/sports/nba/golden-state-warriors/warriors-steve-kerr/",
+    "https://www.pressreader.com/usa/san-francisco-chronicle-late-edition/20240328/281895893248222",
+    "https://bleacherreport.com/articles/25429092-steve-kerr-critical-his-performance-after-warriors-missed-2025-26-nba-playoffs",
+    "https://sircharlesincharge.com/posts/nba-power-ranking-all-30-head-coaches-heading-into-the-2024-25-season/25"
+  ],
+  "research_notes": "Search budget (shared per-turn cap) ran out before Kerr's 2026-27 start, his 2025-26 self-assessment (Bleacher Report headline only), zone frequency, OREB rank, foul-up-three habits and full-season 2024-25 challenge rate could be checked. Verified by snippets: season records 2021-22 to 2025-26 (37-45, play-in loss to PHX; Butler ACL Jan 19, 2026), 12-man rotation and shortening debate, Curry minute cap quotes, no-timeout philosophy and 2023 timeout error, youth-trust quotes, challenge history (last in 2023-24; 4-for-5 start 2024-25), May 2026 two-year extension through 2027-28, and Kerr's preseason 2026-27 framing (not a contender, aims to be competitive; Butler and Moody expected back 'this winter'). No 2026-27 record row included because none was found. Age computed from Sept 27, 1965 birth date.",
+  "researched_at": "2026-11-02"
+}

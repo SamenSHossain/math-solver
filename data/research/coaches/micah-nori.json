@@ -1,0 +1,468 @@
+{
+  "coach": "Micah Nori",
+  "slug": "micah-nori",
+  "team": "POR",
+  "team_name": "Portland Trail Blazers",
+  "head_coach_since": "2026-27",
+  "age": 52,
+  "background": "Indiana-rooted lifer who went from an Indiana Pacers intern/video and scouting role to a 17-year NBA assistant career: Sacramento (2009-13), Toronto under Dwane Casey (2013-16), Denver (2016-18, where he bonded with Chris Finch), Detroit under Casey (2018-21) and Minnesota as Finch's lead assistant (2021-26). In Minnesota he helped install Finch's read-based 'free-flow' offense, served as Finch's bench voice/acting coach during the 2024 playoff run after Finch's knee injury, and became a cult figure for his comic sideline-interview analogies ('the real-life Ted Lasso'). Hired by Portland on June 23, 2026 (introduced June 26) on a one-year guaranteed deal with two option years, over finalists Tyler Lashbrook and Tiago Splitter. Inherits a 42-40 playoff roster reshaped by Damian Lillard's return and a Ja Morant trade, plus Jrue Holiday, Scoot Henderson, All-Star Deni Avdija, Toumani Camara, Donovan Clingan and Yang Hansen. Stated identity: fast 'concept basketball' flow offense with multiple ballhandlers, heavy defensive pressure with a 'high line of scrimmage', a 10-man rotation, and 'play hard, smart and together for 48-plus.'",
+  "prior_head_coaching": [],
+  "record_last5": [
+    {
+      "season": "2021-22",
+      "team": "MIN (lead assistant)",
+      "wins": 46,
+      "losses": 36,
+      "playoffs": "team lost R1 2-4 to MEM",
+      "notes": "assistant; team record"
+    },
+    {
+      "season": "2022-23",
+      "team": "MIN (lead assistant)",
+      "wins": 42,
+      "losses": 40,
+      "playoffs": "team lost R1 1-4 to DEN",
+      "notes": "assistant; team record"
+    },
+    {
+      "season": "2023-24",
+      "team": "MIN (lead assistant)",
+      "wins": 56,
+      "losses": 26,
+      "playoffs": "team lost West finals 1-4 to DAL",
+      "notes": "assistant; acted as sideline head coach after Finch's patellar-tendon injury in Round 1 (prior knowledge)"
+    },
+    {
+      "season": "2024-25",
+      "team": "MIN (lead assistant)",
+      "wins": 49,
+      "losses": 33,
+      "playoffs": "team lost West finals 1-4 to OKC",
+      "notes": "assistant; team record"
+    },
+    {
+      "season": "2025-26",
+      "team": "MIN (lead assistant)",
+      "wins": null,
+      "losses": null,
+      "playoffs": "not verified",
+      "notes": "assistant; team record not verified in this pass"
+    }
+  ],
+  "defense_scheme_tags": [
+    "aggressive-help",
+    "switch",
+    "drop",
+    "blitz",
+    "zone"
+  ],
+  "offense_scheme_tags": [
+    "motion",
+    "pace-and-space",
+    "transition",
+    "five-out",
+    "dribble-handoff"
+  ],
+  "scores": {
+    "rotation": {
+      "depth": {
+        "score": 70,
+        "confidence": 0.5,
+        "evidence": [
+          "Nori said he imagines a 10-man rotation (Rose Garden Report, summer 2026).",
+          "Previews note a guard glut (Lillard, Morant, Holiday, Henderson, Sharpe) forcing a 9-10 man structure; 'if Nori goes nine, Cissoko is the odd man out' (2026 preview)."
+        ],
+        "sources": [
+          "https://www.rosegardenreport.com/micah-nori-talks-plans-for-trail-blazers-offense-rotations/",
+          "https://www.si.com/nba/trailblazers/onsi/predicting-portland-trail-blazers-top-10-players",
+          "https://fansided.com/nba/projected-trail-blazers-starting-lineup-and-rotation-after-devastating-shaedon-sharpe-injury"
+        ]
+      },
+      "star_minutes_load": {
+        "score": 42,
+        "confidence": 0.35,
+        "evidence": [
+          "Lillard (36, returning from Achilles) and Morant (durability) argue for capped minutes; multiple ballhandlers let him spread the load (2026 media day).",
+          "Wolves under Finch/Nori kept Edwards around 35-36 mpg but managed veterans (Gobert, Conley) in the low 30s (2021-26, prior knowledge)."
+        ],
+        "sources": [
+          "https://www.yardbarker.com/nba/articles/4_takeaways_from_the_blazers_2026_27_media_day/s1_16763_44363357",
+          "https://www.rosegardenreport.com/micah-nori-talks-plans-for-trail-blazers-offense-rotations/"
+        ]
+      },
+      "consistency": {
+        "score": 50,
+        "confidence": 0.2,
+        "evidence": [
+          "No regular-season evidence yet; Shaedon Sharpe's 'devastating' preseason injury already forced lineup re-projection (FanSided, Oct 2026)."
+        ],
+        "sources": [
+          "https://fansided.com/nba/projected-trail-blazers-starting-lineup-and-rotation-after-devastating-shaedon-sharpe-injury"
+        ]
+      },
+      "youth_trust": {
+        "score": 48,
+        "confidence": 0.3,
+        "evidence": [
+          "Veteran guard additions (Lillard, Morant, Holiday) push Scoot Henderson and Sharpe down the pecking order (2026 previews).",
+          "Still expected to feature Clingan, Yang Hansen and Camara; Nori's Wolves tenure developed young players (Edwards, McDaniels)."
+        ],
+        "sources": [
+          "https://www.si.com/nba/trailblazers/onsi/predicting-portland-trail-blazers-top-10-players",
+          "https://fansided.com/nba/projected-trail-blazers-starting-lineup-and-rotation-after-devastating-shaedon-sharpe-injury",
+          "https://roundtable.io/sports/nba/trailblazers/opinion/trail-blazers-give-micah-nori-everything-a-first-year-coach-could-ask-for"
+        ]
+      },
+      "load_management": {
+        "score": 60,
+        "confidence": 0.3,
+        "evidence": [
+          "Lillard's post-Achilles return and Morant's injury history make scheduled rest and back-to-back sits likely (inferred from roster coverage).",
+          "Minnesota managed Gobert/Conley rest days during his tenure (prior knowledge)."
+        ],
+        "sources": [
+          "https://www.foxsports.com/articles/nba/blazers-hire-wolves-assistant-micah-nori-as-head-coach-a-year-after-chauncey-billups-sudden-exit",
+          "https://vsin.com/nba/portland-trail-blazers-2026-27-nba-preview-burning-questions-analysis-win-total-prediction/"
+        ]
+      },
+      "closing_flexibility": {
+        "score": 52,
+        "confidence": 0.2,
+        "evidence": [
+          "Deep guard room (Lillard/Morant/Holiday/Henderson) suggests matchup-based closers; no games verified (inferred)."
+        ],
+        "sources": [
+          "https://www.si.com/nba/trailblazers/onsi/predicting-portland-trail-blazers-top-10-players"
+        ]
+      }
+    },
+    "offense": {
+      "pace": {
+        "score": 75,
+        "confidence": 0.5,
+        "evidence": [
+          "Envisions Portland 'playing fast in concept basketball' and says he can 'push the pace relentlessly thanks to his bevy of ballhandlers' (Summer League interview, 2026).",
+          "Media day 2026: wants to avoid a slow pace conducive to isolation basketball."
+        ],
+        "sources": [
+          "https://www.rosegardenreport.com/micah-nori-talks-plans-for-trail-blazers-offense-rotations/",
+          "https://www.yardbarker.com/nba/articles/4_takeaways_from_the_blazers_2026_27_media_day/s1_16763_44363357"
+        ]
+      },
+      "three_point_emphasis": {
+        "score": 60,
+        "confidence": 0.4,
+        "evidence": [
+          "Finch/Nori Wolves offenses were above-average in 3PA volume (2021-26, prior knowledge); Nori named 3-point percentage an area to fix at his intro (June 2026).",
+          "Roster adds Lillard and shooters around Avdija; Morant lowers volume somewhat (inferred)."
+        ],
+        "sources": [
+          "https://wtop.com/sports/2026/06/micah-nori-takes-over-as-trail-blazers-head-coach-says-portland-will-play-hard-smart-and-together/",
+          "https://roundtable.io/sports/nba/trailblazers/opinion/what-will-the-trail-blazers-offense-look-like-under-micah-nori"
+        ]
+      },
+      "ball_movement": {
+        "score": 72,
+        "confidence": 0.5,
+        "evidence": [
+          "Helped implement Finch's 'free-flow' offense emphasizing reads and ball movement over set plays (MinnPost, 2022).",
+          "Portland plan: 'flow offense' with 'sharp movement, crisp passing and smart decision-making' (2026)."
+        ],
+        "sources": [
+          "https://www.minnpost.com/sports/2022/02/the-balloon-artist-how-wolves-assistant-coach-micah-nori-became-chris-finchs-most-trusted-confidante/",
+          "https://www.rosegardenreport.com/micah-nori-talks-plans-for-trail-blazers-offense-rotations/"
+        ]
+      },
+      "transition_emphasis": {
+        "score": 70,
+        "confidence": 0.45,
+        "evidence": [
+          "Pace-first with multiple handlers and a pressure defense designed to create live-ball turnovers (2026 media day)."
+        ],
+        "sources": [
+          "https://www.yardbarker.com/nba/articles/4_takeaways_from_the_blazers_2026_27_media_day/s1_16763_44363357",
+          "https://www.rosegardenreport.com/micah-nori-talks-plans-for-trail-blazers-offense-rotations/"
+        ]
+      },
+      "offensive_rebounding": {
+        "score": 45,
+        "confidence": 0.2,
+        "evidence": [
+          "Flow/pace teams typically prioritize getting back; Clingan/Yang Hansen give size but no scheme evidence (inferred)."
+        ],
+        "sources": []
+      },
+      "paint_post_emphasis": {
+        "score": 40,
+        "confidence": 0.25,
+        "evidence": [
+          "Perimeter-handler-driven roster and flow concepts; post-ups not a stated feature (inferred from 2026 interviews)."
+        ],
+        "sources": [
+          "https://www.rosegardenreport.com/micah-nori-talks-plans-for-trail-blazers-offense-rotations/"
+        ]
+      },
+      "playcalling_ato_quality": {
+        "score": 56,
+        "confidence": 0.3,
+        "evidence": [
+          "Finch's staff, with Nori as offensive right hand, was regarded as creative in half-court design and ATOs (2021-26); Belgian outlet Sporza called him a 'master tactician' (June 2026).",
+          "Wolves offense held steady (115.2 vs 116.2 ORtg) without Edwards during his tenure (Roundtable, 2026)."
+        ],
+        "sources": [
+          "https://sporza.be/nl/2026/06/23/assistent-van-minnesota-timberwolves-en-meester-tacticus-micah-nori-wordt-de-nieuwe-coach-van-toumani-camara~1782234661506/",
+          "https://roundtable.io/sports/nba/trailblazers/opinion/what-will-the-trail-blazers-offense-look-like-under-micah-nori",
+          "https://www.minnpost.com/sports/2022/02/the-balloon-artist-how-wolves-assistant-coach-micah-nori-became-chris-finchs-most-trusted-confidante/"
+        ]
+      }
+    },
+    "defense": {
+      "aggressiveness": {
+        "score": 66,
+        "confidence": 0.45,
+        "evidence": [
+          "Wants to 'apply heavy pressure and establish a high line of scrimmage' (media day, Sep 2026).",
+          "Inherits personnel (Camara, Avdija, Holiday, Clingan) that pressed heavily under Splitter in 2025-26."
+        ],
+        "sources": [
+          "https://www.yardbarker.com/nba/articles/4_takeaways_from_the_blazers_2026_27_media_day/s1_16763_44363357",
+          "https://www.foxsports.com/articles/nba/blazers-hire-wolves-assistant-micah-nori-as-head-coach-a-year-after-chauncey-billups-sudden-exit"
+        ]
+      },
+      "perimeter_priority": {
+        "score": 58,
+        "confidence": 0.35,
+        "evidence": [
+          "'High line of scrimmage' means picking up ball-handlers early and contesting the perimeter (2026); Minnesota's Gobert-anchored scheme was drop-based, so his own preference is only partly revealed."
+        ],
+        "sources": [
+          "https://www.yardbarker.com/nba/articles/4_takeaways_from_the_blazers_2026_27_media_day/s1_16763_44363357"
+        ]
+      },
+      "foul_discipline": {
+        "score": 45,
+        "confidence": 0.25,
+        "evidence": [
+          "Pressure schemes tend to foul more; Portland was physical/foul-prone in 2025-26 (inferred, no 2026-27 data)."
+        ],
+        "sources": [
+          "https://www.yardbarker.com/nba/articles/4_takeaways_from_the_blazers_2026_27_media_day/s1_16763_44363357"
+        ]
+      },
+      "zone_usage": {
+        "score": 35,
+        "confidence": 0.25,
+        "evidence": [
+          "Minnesota under Finch/Nori mixed in occasional zone; no statement of zone plans in Portland (inferred)."
+        ],
+        "sources": []
+      },
+      "scheme_adaptability": {
+        "score": 55,
+        "confidence": 0.3,
+        "evidence": [
+          "Finch's staff was known for in-series adjustments (2024 upset of Denver); Nori's own head-coaching adjustments are untested (inferred)."
+        ],
+        "sources": [
+          "https://www.si.com/college/indiana/baseball/former-indiana-baseball-coach-micah-nori-now-with-minnesota-timberwolves-in-western-conference-finals-nba-playoffs-01hye4znknp1",
+          "https://www.minnpost.com/sports/2022/02/the-balloon-artist-how-wolves-assistant-coach-micah-nori-became-chris-finchs-most-trusted-confidante/"
+        ]
+      }
+    },
+    "endgame": {
+      "timeout_aggressiveness": {
+        "score": 50,
+        "confidence": 0.15,
+        "evidence": [
+          "No head-coaching sample (inferred)."
+        ],
+        "sources": []
+      },
+      "foul_up_three": {
+        "score": 50,
+        "confidence": 0.15,
+        "evidence": [
+          "No evidence (inferred)."
+        ],
+        "sources": []
+      },
+      "late_lineup_shrink": {
+        "score": 55,
+        "confidence": 0.2,
+        "evidence": [
+          "Likely closes with Lillard/Morant/Holiday/Avdija/Camara + big when healthy, shrinking from a 10-man base (inferred)."
+        ],
+        "sources": [
+          "https://www.si.com/nba/trailblazers/onsi/predicting-portland-trail-blazers-top-10-players"
+        ]
+      },
+      "challenge_quality": {
+        "score": 50,
+        "confidence": 0.15,
+        "evidence": [
+          "No head-coaching sample (inferred)."
+        ],
+        "sources": []
+      },
+      "two_for_one_awareness": {
+        "score": 58,
+        "confidence": 0.2,
+        "evidence": [
+          "Casey described him as a coach who values analytics and stays 'up on all the new trends' (June 2026), suggesting 2-for-1 awareness (inferred)."
+        ],
+        "sources": [
+          "https://www.nba.com/news/micah-nori-introduced-blazers"
+        ]
+      },
+      "risk_appetite": {
+        "score": 55,
+        "confidence": 0.2,
+        "evidence": [
+          "Pace-and-pressure identity implies above-average variance tolerance; no late-game sample (inferred)."
+        ],
+        "sources": [
+          "https://www.yardbarker.com/nba/articles/4_takeaways_from_the_blazers_2026_27_media_day/s1_16763_44363357"
+        ]
+      },
+      "clutch_reputation": {
+        "score": 50,
+        "confidence": 0.2,
+        "evidence": [
+          "No head-coaching sample; as acting coach in the 2024 playoffs Minnesota won a Game 7 in Denver (prior knowledge)."
+        ],
+        "sources": [
+          "https://www.si.com/college/indiana/baseball/former-indiana-baseball-coach-micah-nori-now-with-minnesota-timberwolves-in-western-conference-finals-nba-playoffs-01hye4znknp1"
+        ]
+      }
+    },
+    "overall": {
+      "adaptability": {
+        "score": 56,
+        "confidence": 0.3,
+        "evidence": [
+          "Nori has coached under Casey, Malone and Finch across five franchises, adapting to varied systems (2009-26); said day one he would tailor to 'a bevy of ballhandlers' (2026)."
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/Micah_Nori",
+          "https://www.rosegardenreport.com/micah-nori-talks-plans-for-trail-blazers-offense-rotations/",
+          "https://clutchpoints.com/nba/portland-trail-blazers/blazers-news-micah-nori-makes-promises-day-1-head-coach"
+        ]
+      },
+      "player_development": {
+        "score": 60,
+        "confidence": 0.3,
+        "evidence": [
+          "Part of the Wolves staff that developed Anthony Edwards, Jaden McDaniels and Naz Reid (2021-26); Connelly said he 'would make a great head coach' (2026).",
+          "Portland job hinges on blending All-Star Avdija with Lillard/Morant (SI, June 2026)."
+        ],
+        "sources": [
+          "https://www.foxsports.com/articles/nba/blazers-hire-wolves-assistant-micah-nori-as-head-coach-a-year-after-chauncey-billups-sudden-exit",
+          "https://www.si.com/nba/trailblazers/onsi/blazers-hire-micah-nori-head-coach-portland"
+        ]
+      },
+      "analytics_adoption": {
+        "score": 65,
+        "confidence": 0.4,
+        "evidence": [
+          "Dwane Casey: Nori values analytics and stays 'up and on all the new trends' (June 2026).",
+          "Named turnovers and 3-point percentage as the two statistical fixes at his intro (June 2026)."
+        ],
+        "sources": [
+          "https://www.nba.com/news/micah-nori-introduced-blazers",
+          "https://wtop.com/sports/2026/06/micah-nori-takes-over-as-trail-blazers-head-coach-says-portland-will-play-hard-smart-and-together/"
+        ]
+      },
+      "reputation": {
+        "score": 50,
+        "confidence": 0.4,
+        "evidence": [
+          "Long-time top assistant, 'premier target' per GM Joe Cronin and a 'home run hire' per local columnist (June 2026), but the one-year guaranteed deal signals organizational caution.",
+          "Known league-wide as an elite communicator (Finch's 'most trusted confidante', 2022; 'real-life Ted Lasso', 2023)."
+        ],
+        "sources": [
+          "https://katu.com/news/local/story/blazers-introduce-new-head-coach-micah-nori-ripcity-portland-tualatin-oregon-multnomah-county-moda-center-chauncey-billups",
+          "https://www.heraldandnews.com/sports/worth-the-wait-micah-nori-a-home-run-hire-for-portland-trail-blazers/article_e72c6c0d-c410-4aa5-a0a3-0242a4b29203.html",
+          "https://katu.com/newsletter-daily/portland-trail-blazers-hire-micah-nori-as-teams-new-head-coach-one-year-deal-two-year-option-moda-center-renovations-nba-draft-chauncey-billups-fbi-investigation",
+          "https://www.minnpost.com/sports/2022/02/the-balloon-artist-how-wolves-assistant-coach-micah-nori-became-chris-finchs-most-trusted-confidante/",
+          "https://awfulannouncing.com/local-networks/minnesota-timberwolves-assistant-coach-is-the-real-life-ted-lasso.html"
+        ]
+      }
+    }
+  },
+  "notable_quotes": [
+    {
+      "quote": "We will play hard for 48-plus, we're going to play smart for 48-plus and we will play together for 48-plus.",
+      "speaker": "Micah Nori",
+      "context": "Trail Blazers introductory press conference, 2026-06-26",
+      "source": "https://wtop.com/sports/2026/06/micah-nori-takes-over-as-trail-blazers-head-coach-says-portland-will-play-hard-smart-and-together/"
+    },
+    {
+      "quote": "He wants to apply heavy pressure and establish a high line of scrimmage.",
+      "speaker": "Micah Nori (paraphrased by Yardbarker)",
+      "context": "Blazers media day, Sep 2026, on defensive identity",
+      "source": "https://www.yardbarker.com/nba/articles/4_takeaways_from_the_blazers_2026_27_media_day/s1_16763_44363357"
+    },
+    {
+      "quote": "He can push the pace relentlessly thanks to his bevy of ballhandlers ... playing fast in 'concept basketball'.",
+      "speaker": "Micah Nori (paraphrased by Rose Garden Report)",
+      "context": "Summer League interview, July 2026",
+      "source": "https://www.rosegardenreport.com/micah-nori-talks-plans-for-trail-blazers-offense-rotations/"
+    },
+    {
+      "quote": "We hired the coach we wanted to. Micah was a premier target and he's here now.",
+      "speaker": "Joe Cronin (Blazers GM)",
+      "context": "Introductory press conference, 2026-06-26",
+      "source": "https://katu.com/news/local/story/blazers-introduce-new-head-coach-micah-nori-ripcity-portland-tualatin-oregon-multnomah-county-moda-center-chauncey-billups"
+    },
+    {
+      "quote": "[Nori] values analytics and stays up and on all the new trends.",
+      "speaker": "Dwane Casey",
+      "context": "NBA.com introduction feature, June 2026",
+      "source": "https://www.nba.com/news/micah-nori-introduced-blazers"
+    }
+  ],
+  "key_criticisms": [
+    "No head-coaching experience; one-year guaranteed contract reflects uncertainty from the front office.",
+    "Must manage an overloaded, aging guard room (Lillard, Morant, Holiday, Henderson, Sharpe) with limited roles for young players.",
+    "Inherits the league's worst turnover team (17.3/game in 2025-26) while promising to push pace even harder.",
+    "Minnesota's offense under Finch/Nori was criticized for late-game stagnation in the 2024 and 2025 West finals (prior knowledge)."
+  ],
+  "key_strengths": [
+    "Elite communicator and culture-setter; helped build Minnesota's read-based flow offense (2021-26).",
+    "Clear modern identity: pace, ball movement, multiple handlers, pressure defense with a high pickup point.",
+    "Analytics-friendly, trend-aware (per Casey); plans a 10-man rotation that suits Portland's depth.",
+    "Steady under pressure as Finch's acting bench coach in the 2024 playoffs (Game 7 win in Denver)."
+  ],
+  "sources": [
+    "https://www.nba.com/news/blazers-hire-micah-nori-coach",
+    "https://www.nba.com/news/micah-nori-introduced-blazers",
+    "https://www.foxsports.com/articles/nba/blazers-hire-wolves-assistant-micah-nori-as-head-coach-a-year-after-chauncey-billups-sudden-exit",
+    "https://www.opb.org/article/2026/06/23/micah-nori-trail-blazers-coach/",
+    "https://katu.com/newsletter-daily/portland-trail-blazers-hire-micah-nori-as-teams-new-head-coach-one-year-deal-two-year-option-moda-center-renovations-nba-draft-chauncey-billups-fbi-investigation",
+    "https://katu.com/news/local/story/blazers-introduce-new-head-coach-micah-nori-ripcity-portland-tualatin-oregon-multnomah-county-moda-center-chauncey-billups",
+    "https://wtop.com/sports/2026/06/micah-nori-takes-over-as-trail-blazers-head-coach-says-portland-will-play-hard-smart-and-together/",
+    "https://www.rosegardenreport.com/micah-nori-talks-plans-for-trail-blazers-offense-rotations/",
+    "https://www.yardbarker.com/nba/articles/4_takeaways_from_the_blazers_2026_27_media_day/s1_16763_44363357",
+    "https://clutchpoints.com/nba/portland-trail-blazers/blazers-news-micah-nori-makes-promises-day-1-head-coach",
+    "https://www.heraldandnews.com/sports/worth-the-wait-micah-nori-a-home-run-hire-for-portland-trail-blazers/article_e72c6c0d-c410-4aa5-a0a3-0242a4b29203.html",
+    "https://www.heraldandnews.com/sports/a-whirlwind-2-weeks-new-trail-blazers-coach-micah-nori-hits-the-ground-running/article_bf141b19-8639-437e-9b53-c1398b4f846b.html",
+    "https://www.minnpost.com/sports/2022/02/the-balloon-artist-how-wolves-assistant-coach-micah-nori-became-chris-finchs-most-trusted-confidante/",
+    "https://awfulannouncing.com/local-networks/minnesota-timberwolves-assistant-coach-is-the-real-life-ted-lasso.html",
+    "https://roundtable.io/sports/nba/trailblazers/opinion/what-will-the-trail-blazers-offense-look-like-under-micah-nori",
+    "https://www.si.com/nba/trailblazers/onsi/blazers-hire-micah-nori-head-coach-portland",
+    "https://en.wikipedia.org/wiki/Micah_Nori",
+    "https://www.portlandobserver.com/post/from-nba-intern-to-head-coach",
+    "https://fansided.com/nba/projected-trail-blazers-starting-lineup-and-rotation-after-devastating-shaedon-sharpe-injury",
+    "https://www.si.com/nba/trailblazers/onsi/predicting-portland-trail-blazers-top-10-players",
+    "https://vsin.com/nba/portland-trail-blazers-2026-27-nba-preview-burning-questions-analysis-win-total-prediction/",
+    "https://roundtable.io/sports/nba/trailblazers/opinion/trail-blazers-give-micah-nori-everything-a-first-year-coach-could-ask-for",
+    "https://www.nba.com/news/2026-27-season-preview-por",
+    "https://kstp.com/?p=3401429",
+    "https://www.si.com/college/indiana/baseball/former-indiana-baseball-coach-micah-nori-now-with-minnesota-timberwolves-in-western-conference-finals-nba-playoffs-01hye4znknp1",
+    "https://sporza.be/nl/2026/06/23/assistent-van-minnesota-timberwolves-en-meester-tacticus-micah-nori-wordt-de-nieuwe-coach-van-toumani-camara~1782234661506/",
+    "https://www.eurohoops.net/en/nba-news/2022822/deni-avdija-talks-portland-trail-blazers-nba-2/",
+    "https://roundtable.io/sports/nba/trailblazers/players/shaedon-sharpe-is-portland-trail-blazers-wildcard"
+  ],
+  "research_notes": "The session's web-search budget was exhausted before searches for (a) Portland's 2026-27 regular-season record, starting lineup and minutes (omitted from record_last5), (b) details of the Ja Morant trade and Shaedon Sharpe injury, (c) Nori's 2024 acting-head-coach stint, and (d) Minnesota's 2025-26 record. Career stops (Kings 2009-13, Raptors 2013-16, Nuggets 2016-18, Pistons 2018-21, Wolves 2021-26) and Minnesota team records 2021-25 are prior knowledge consistent with search snippets; verify exact years. All endgame dimensions and most defensive dimensions are inferred (confidence <= 0.3) because he has no head-coaching sample; offense dimensions rest on his own 2026 statements. Age 52 per OPB; exact birth date not verified.",
+  "researched_at": "2026-11-02"
+}

@@ -1,0 +1,494 @@
+{
+  "coach": "Kenny Atkinson",
+  "slug": "kenny-atkinson",
+  "team": "CLE",
+  "team_name": "Cleveland Cavaliers",
+  "head_coach_since": "2024-25",
+  "age": 59,
+  "background": "Richmond point guard who played 14 years professionally in Europe, then rose through NBA staffs as a player-development specialist (Knicks under D'Antoni, Atlanta under Budenholzer) before his first head job in Brooklyn (2016-20), where he rebuilt a gutted roster into a 2019 playoff team by developing Jarrett Allen, Caris LeVert, Spencer Dinwiddie and Joe Harris, then resigned in March 2020 amid friction with newly arrived stars. Assistant for the Clippers (2020-21) and Warriors (2021-24, 2022 title), where Steve Kerr credited him with fusing the analytics department and coaching staff. Hired by Cleveland in June 2024, he installed a faster, more egalitarian offense with Evan Mobley as a hub, went 64-18 and won 2025 Coach of the Year, but lost in Round 2 to Indiana. In 2025-26 the Cavs went 52-30 (Harden acquired midseason for Garland), beat Toronto and rallied from 0-2 to beat top-seeded Detroit before being swept by New York in the Eastern Conference Finals; his timeout philosophy during a blown 22-point lead in Game 1 became a national talking point. Retained for 2026-27.",
+  "prior_head_coaching": [
+    {
+      "team": "BKN",
+      "seasons": "2016-17 to 2019-20",
+      "record": "118-190 regular season, 1-4 playoffs",
+      "notes": "20-62, 28-54, 42-40 (2019 playoffs, lost 1-4 to PHI), 28-34 before resigning Mar 7, 2020. Praised for player development and culture; reportedly clashed with Durant/Irving camp."
+    }
+  ],
+  "record_last5": [
+    {
+      "season": "2021-22",
+      "team": "GSW (assistant)",
+      "wins": null,
+      "losses": null,
+      "playoffs": "Not a head coach; Warriors won 2022 title",
+      "notes": "Assistant to Steve Kerr; integrated analytics with coaching staff."
+    },
+    {
+      "season": "2022-23",
+      "team": "GSW (assistant)",
+      "wins": null,
+      "losses": null,
+      "playoffs": "Not a head coach",
+      "notes": "Accepted then declined the Charlotte head job in June 2022, staying in Golden State."
+    },
+    {
+      "season": "2023-24",
+      "team": "GSW (assistant)",
+      "wins": null,
+      "losses": null,
+      "playoffs": "Not a head coach",
+      "notes": "Hired by Cleveland June 2024."
+    },
+    {
+      "season": "2024-25",
+      "team": "CLE",
+      "wins": 64,
+      "losses": 18,
+      "playoffs": "1st seed; beat MIA 4-0; lost R2 1-4 to IND",
+      "notes": "Coach of the Year; No. 1 offense; 15-0 start. Garland/Mobley/Hunter injuries in IND series."
+    },
+    {
+      "season": "2025-26",
+      "team": "CLE",
+      "wins": 52,
+      "losses": 30,
+      "playoffs": "4th seed; beat TOR 4-3; beat DET 4-3 (from 0-2 down); lost ECF 0-4 to NYK",
+      "notes": "Injury-hit regular season; Lonzo Ball/Larry Nance Jr. added; James Harden acquired midseason (Garland to LAC). Blew 22-point lead in ECF Game 1 while holding timeouts. Cavs playoff record under Atkinson 13-14."
+    }
+  ],
+  "defense_scheme_tags": [
+    "drop",
+    "switch",
+    "hedge",
+    "zone",
+    "two-big",
+    "aggressive-help"
+  ],
+  "offense_scheme_tags": [
+    "pace-and-space",
+    "motion",
+    "five-out",
+    "split-action",
+    "dribble-handoff",
+    "transition",
+    "two-big"
+  ],
+  "scores": {
+    "rotation": {
+      "depth": {
+        "score": 85,
+        "confidence": 0.75,
+        "evidence": [
+          "A dozen Cavaliers averaged at least 19 minutes per game in 2024-25; Atkinson 'limited each star player's minutes, relying on the second unit'.",
+          "Said he would 'expand the rotation right away' on arrival (Sept 2024) and kept 9-10 in the 2026 playoffs ('leaner, meaner' but still deep)."
+        ],
+        "sources": [
+          "https://www.si.com/nba/cavaliers/news/the-most-impressive-part-of-the-cleveland-cavaliers-dominance",
+          "https://www.fearthesword.com/2024/9/27/24256205/kenny-atkinson-says-he-will-expand-cleveland-cavaliers-rotation-right-away",
+          "https://heavy.com/sports/nba/cleveland-cavaliers/cavaliers-are-preparing-for-playoffs-with-a-leaner-meaner-rotation/"
+        ]
+      },
+      "star_minutes_load": {
+        "score": 25,
+        "confidence": 0.7,
+        "evidence": [
+          "Donovan Mitchell played a career-low ~31.4 mpg in 2024-25 as Atkinson capped star minutes; 'lessening the load' was an explicit strategy given injury concerns."
+        ],
+        "sources": [
+          "https://www.si.com/nba/cavaliers/news/the-most-impressive-part-of-the-cleveland-cavaliers-dominance",
+          "https://kingjamesgospel.com/kenny-atkinson-cant-afford-to-change-bold-strategy-amid-cavaliers-injuries"
+        ]
+      },
+      "consistency": {
+        "score": 55,
+        "confidence": 0.5,
+        "evidence": [
+          "Deep but defined roles when healthy; 2025-26 injuries forced constant lineup shuffling ('players popping in and out of the lineup... Atkinson's offense went missing')."
+        ],
+        "sources": [
+          "https://kingjamesgospel.com/kenny-atkinson-cant-afford-to-change-bold-strategy-amid-cavaliers-injuries",
+          "https://www.si.com/nba/cavaliers/onsi/news/kenny-atkinson-reveals-what-the-cavaliers-to-work-on-after-beating-nuggets-01ke24xrgrc5"
+        ]
+      },
+      "youth_trust": {
+        "score": 60,
+        "confidence": 0.55,
+        "evidence": [
+          "Career identity is player development (Allen, LeVert, Dinwiddie in Brooklyn; Mobley's leap, Jaylon Tyson minutes in Cleveland); but Cavs' roster is prime-age so opportunities for rookies are limited."
+        ],
+        "sources": [
+          "https://www.espn.com/blog/nba/post/_/id/17984/hawks-players-detail-why-nets-hire-of-kenny-atkinson-is-a-slam-dunk",
+          "https://www.si.com/nba/hornets/news/bio-blast-of-new-hornets-head-coach-kenny-atkinson"
+        ]
+      },
+      "load_management": {
+        "score": 60,
+        "confidence": 0.55,
+        "evidence": [
+          "Proactively staggers and caps star minutes and uses rest to protect Mitchell/Garland/Mobley; praised for 'finding the best opportunities to maximize players' rest' (2024-25)."
+        ],
+        "sources": [
+          "https://kingjamesgospel.com/kenny-atkinson-cant-afford-to-change-bold-strategy-amid-cavaliers-injuries",
+          "https://www.si.com/nba/cavaliers/news/the-most-impressive-part-of-the-cleveland-cavaliers-dominance"
+        ]
+      },
+      "closing_flexibility": {
+        "score": 50,
+        "confidence": 0.45,
+        "evidence": [
+          "Mitchell/Mobley/Allen anchor closing units with Wade, Hunter, Strus or Jerome rotating by matchup; Harden's late-game role in 2026 was a debated question."
+        ],
+        "sources": [
+          "https://kingjamesgospel.com/cavaliers-most-pressing-playoffs-question-is-one-fans-won-t-mind-at-all-rotation-harden-atkinson",
+          "https://www.si.com/nba/cavaliers/onsi/cleveland-cavaliers-playoff-rotation-what-s-changing-vs-toronto-raptors-01kpe4r2vbak"
+        ]
+      }
+    },
+    "offense": {
+      "pace": {
+        "score": 70,
+        "confidence": 0.7,
+        "evidence": [
+          "Installed 'Autobahn pace' in 2024-25 (Cavs ~10th in pace after being bottom-five under Bickerstaff); preached 'faster pace, quicker decisions, constant off-ball movement'."
+        ],
+        "sources": [
+          "https://www.fearthesword.com/2024/10/15/24269278/cavs-offense-autobahn-pace-cleveland-cavaliers-nba-donovan-mitchell-georges-niang-kenny-atkinson",
+          "https://theanalyst.com/2025/01/cleveland-cavaliers-best-team-in-the-nba",
+          "https://cavaliersnation.com/?p=65604"
+        ]
+      },
+      "three_point_emphasis": {
+        "score": 70,
+        "confidence": 0.65,
+        "evidence": [
+          "2024-25 Cavs led the NBA in 3P% with top-tier attempt volume; Atkinson pushed Garland to shoot more threes citing studies. 2025-26 saw 'less reliance on three-point shooting' with Lonzo Ball/Nance additions and more forced iso threes."
+        ],
+        "sources": [
+          "https://www.fearthesword.com/2024/10/7/24263627/cavs-embracing-analytics-kenny-atkinson-alex-sarama-constrants-led-approach-nba-cleveland-cavaliers",
+          "https://www.si.com/nba/cavaliers/onsi/news/three-lessons-from-cleveland-cavs-opening-week-01k8p30pah4d",
+          "https://www.si.com/nba/cavaliers/onsi/news/kenny-atkinson-reveals-what-the-cavaliers-to-work-on-after-beating-nuggets-01ke24xrgrc5"
+        ]
+      },
+      "ball_movement": {
+        "score": 75,
+        "confidence": 0.7,
+        "evidence": [
+          "Kerr-derived split actions, Mobley as a hub, 'less dependence on Donovan Mitchell'; Atkinson called the Dec 2025 offense 'really bad' because of 'over-reliance on isolation plays' and lack of ball movement, showing movement is the standard."
+        ],
+        "sources": [
+          "https://www.fearthesword.com/2024/11/9/24291937/warriors-arent-surprised-by-kenny-atkinsons-strong-start-with-cavs-hes-a-maniac-in-a-good-way",
+          "https://www.si.com/nba/cavaliers/onsi/news/kenny-atkinson-reveals-what-the-cavaliers-to-work-on-after-beating-nuggets-01ke24xrgrc5",
+          "https://africa.espn.com/nba/story/_/id/42455306/the-offseason-plan-fueling-cleveland-cavaliers-top-nba"
+        ]
+      },
+      "transition_emphasis": {
+        "score": 70,
+        "confidence": 0.6,
+        "evidence": [
+          "Fast-pace identity; Atkinson cites tempo as a key fix whenever the offense stalls ('lack of ball movement and tempo', Dec 2025)."
+        ],
+        "sources": [
+          "https://www.si.com/nba/cavaliers/onsi/news/kenny-atkinson-reveals-what-the-cavaliers-to-work-on-after-beating-nuggets-01ke24xrgrc5",
+          "https://www.si.com/nba/cavaliers/onsi/three-keys-for-cavaliers-to-continue-fast-pace-offense-throughout-season-01ja4bafjnqs"
+        ]
+      },
+      "offensive_rebounding": {
+        "score": 45,
+        "confidence": 0.35,
+        "evidence": [
+          "Allen/Mobley two-big lineups produce some second chances but the system prioritizes floor balance and transition defense (inferred; Mobley rebounding cited as an analytics focus)."
+        ],
+        "sources": [
+          "https://www.fearthesword.com/2024/10/7/24263627/cavs-embracing-analytics-kenny-atkinson-alex-sarama-constrants-led-approach-nba-cleveland-cavaliers"
+        ]
+      },
+      "paint_post_emphasis": {
+        "score": 45,
+        "confidence": 0.4,
+        "evidence": [
+          "Two-big alignment yields rim finishes and Mobley short-roll play, but little traditional post-up volume; perimeter-initiated motion offense."
+        ],
+        "sources": [
+          "https://www.thescore.com/news/2252168"
+        ]
+      },
+      "playcalling_ato_quality": {
+        "score": 60,
+        "confidence": 0.5,
+        "evidence": [
+          "Runs a sophisticated Kerr/Budenholzer-influenced playbook and his team led the NBA in offense in 2024-25; but SI identified 'three coaching blunders' in the 2026 ECF Game 1 collapse and critics cite a lack of late-game adjustments."
+        ],
+        "sources": [
+          "https://www.si.com/nba/playoffs/cavaliers-meltdown-three-coaching-blunders-cleveland-led-epic-collapse-knicks",
+          "https://theanalyst.com/2025/01/cleveland-cavaliers-best-team-in-the-nba"
+        ]
+      }
+    },
+    "defense": {
+      "aggressiveness": {
+        "score": 50,
+        "confidence": 0.5,
+        "evidence": [
+          "Allen asked 'to switch out onto guards more frequently', Mobley at the top of a 3-2 zone 'lets the guards on the ball be aggressive'; otherwise a contain-and-protect two-big scheme."
+        ],
+        "sources": [
+          "https://kingjamesgospel.com/cavaliers-made-stunning-change-no-one-even-noticed",
+          "https://www.fearthesword.com/2025/5/10/24427607/cavs-evan-mobley-zone-cleveland-cavaliers-indiana-pacers-nba-playoffs-kenny-atkinson-dean-wade"
+        ]
+      },
+      "perimeter_priority": {
+        "score": 60,
+        "confidence": 0.55,
+        "evidence": [
+          "2024-25 Cavs ranked 4th in opponent 3PA rate (run shooters off the line) while relying on Allen/Mobley at the rim; Knicks' Brunson turned their switching into 'a switching nightmare' in 2026."
+        ],
+        "sources": [
+          "https://theanalyst.com/2025/01/cleveland-cavaliers-best-team-in-the-nba",
+          "https://lastwordonsports.com/basketball/2026/05/23/jalen-brunsons-adjustment-mechanics/"
+        ]
+      },
+      "foul_discipline": {
+        "score": 60,
+        "confidence": 0.3,
+        "evidence": [
+          "Two elite, low-foul bigs and a contain scheme keep opponent FT rate modest (inferred; no hard data retrieved)."
+        ],
+        "sources": []
+      },
+      "zone_usage": {
+        "score": 55,
+        "confidence": 0.6,
+        "evidence": [
+          "Used a 2-3 and then a 3-2 zone with Mobley at the top extensively in the 2025 IND series ('briefly showed in Game 1, fully unleashed' in Game 3); Allen/Mobley 'run all manner of coverages... top or bottom of a zone'."
+        ],
+        "sources": [
+          "https://www.fearthesword.com/2025/5/10/24427607/cavs-evan-mobley-zone-cleveland-cavaliers-indiana-pacers-nba-playoffs-kenny-atkinson-dean-wade",
+          "https://www.nba.com/watch/video/cavaliers-coach-kenny-atkinson-rattles-pacers-zone-defense-game-3",
+          "https://www.fearthesword.com/2024/10/16/24271439/cup-of-cavs-the-defense-wants-to-be-more-of-the-same-jarrett-allen-evan-mobley-cleveland-cavaliers"
+        ]
+      },
+      "scheme_adaptability": {
+        "score": 55,
+        "confidence": 0.5,
+        "evidence": [
+          "Mixes drop, hedge, switch and zone by matchup; credited for zone adjustment vs IND (2025) and for the 0-2 comeback vs DET (2026), but faulted for 'failure to find the right defensive adjustments' in the NYK sweep."
+        ],
+        "sources": [
+          "https://kingjamesgospel.com/cavaliers-made-stunning-change-no-one-even-noticed",
+          "https://heavy.com/sports/nba/cleveland-cavaliers/kenny-atkinsons-explanation-lack-of-timeout-calls-infuriate-cavaliers-fans/"
+        ]
+      }
+    },
+    "endgame": {
+      "timeout_aggressiveness": {
+        "score": 10,
+        "confidence": 0.9,
+        "evidence": [
+          "ECF Game 1 (May 2026): up 17, let NYK cut it to 5 before calling his first timeout during a blown 22-point lead; 'Yeah, I like to hold my timeouts... One or two-point game, I try to hold them.'",
+          "Similar timeout criticism after Game 2 vs IND in 2025 ('how Kenny Atkinson's move could haunt Cleveland')."
+        ],
+        "sources": [
+          "https://www.espn.com/nba/player/news/_/id/821",
+          "https://bleacherreport.com/articles/25429662-kenny-atkinson-explains-controversial-timeout-strategy-cavs-blew-22-point-lead-vs-knicks",
+          "https://www.hitc.com/timeout-controversy-how-kenny-atkinsons-move-could-haunt-cleveland-in-game-2"
+        ]
+      },
+      "foul_up_three": {
+        "score": 55,
+        "confidence": 0.3,
+        "evidence": [
+          "Analytics-forward staff (Sarama) likely favors fouling up three in most end-game states, but no direct evidence found (inferred)."
+        ],
+        "sources": [
+          "https://www.fearthesword.com/2024/10/7/24263627/cavs-embracing-analytics-kenny-atkinson-alex-sarama-constrants-led-approach-nba-cleveland-cavaliers"
+        ]
+      },
+      "late_lineup_shrink": {
+        "score": 45,
+        "confidence": 0.45,
+        "evidence": [
+          "Deep-rotation philosophy carries into close games more than most coaches; still closes with core five plus one matchup piece."
+        ],
+        "sources": [
+          "https://www.si.com/nba/cavaliers/news/the-most-impressive-part-of-the-cleveland-cavaliers-dominance"
+        ]
+      },
+      "challenge_quality": {
+        "score": 45,
+        "confidence": 0.45,
+        "evidence": [
+          "Lost a 2025-26 game to TOR without a challenge available for a key call and 'questioned challenge rules'; his animated challenge signal vs a ref went viral ('comical challenge') but outcomes were mixed."
+        ],
+        "sources": [
+          "https://www.inkl.com/news/cavaliers-inability-to-review-key-call-in-raptors-loss-made-kenny-atkinson-question-challenge-rules",
+          "https://www.si.com/nba/kenny-atkinson-cavs-coaches-challenge"
+        ]
+      },
+      "two_for_one_awareness": {
+        "score": 65,
+        "confidence": 0.3,
+        "evidence": [
+          "Fast-pace, analytics-integrated staff; 2-for-1 hunting is standard in Kerr/Atkinson systems (inferred, no direct evidence)."
+        ],
+        "sources": []
+      },
+      "risk_appetite": {
+        "score": 40,
+        "confidence": 0.5,
+        "evidence": [
+          "Conservative late-game posture: hoards timeouts for a possible final possession, prefers letting players play through runs; not known for gambles."
+        ],
+        "sources": [
+          "https://www.si.com/nba/cavaliers/onsi/cavs-coach-kenny-atkinson-gives-bizarre-defense-of-timeout-strategy-in-game-1-loss-01ks1qyq2a9v"
+        ]
+      },
+      "clutch_reputation": {
+        "score": 35,
+        "confidence": 0.65,
+        "evidence": [
+          "Blown 22-point lead in 2026 ECF Game 1 branded 'the worst coaching job in league history' by some fans; Cleveland radio (Ken Carman) blasted his timeout refusal; 'three coaching blunders' per SI.",
+          "Playoff results (1-seed R2 exit 2025; ECF sweep 2026) reinforce doubts about his late-game/series management."
+        ],
+        "sources": [
+          "https://heavy.com/sports/nba/cleveland-cavaliers/kenny-atkinsons-explanation-lack-of-timeout-calls-infuriate-cavaliers-fans/",
+          "https://www.si.com/nba/playoffs/cavaliers-meltdown-three-coaching-blunders-cleveland-led-epic-collapse-knicks",
+          "https://www.castfox.net/podcast/wine-and-gold-talk-podcast-902250/episode/is-kenny-atkinson-coaching-for-his-job-in-the-eastern-conference-finals-hey-chris-1553716"
+        ]
+      }
+    },
+    "overall": {
+      "adaptability": {
+        "score": 55,
+        "confidence": 0.55,
+        "evidence": [
+          "Rallied from 0-2 to beat top-seeded Detroit (2026) and deployed a 3-2 zone to win Game 3 vs IND (2025); but was swept by NYK with critics citing no answers for Brunson, and the 2025 1-seed lost in Round 2."
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Cleveland_Cavaliers_season",
+          "https://www.fearthesword.com/2025/5/10/24427607/cavs-evan-mobley-zone-cleveland-cavaliers-indiana-pacers-nba-playoffs-kenny-atkinson-dean-wade",
+          "https://lastwordonsports.com/basketball/2026/05/23/jalen-brunsons-adjustment-mechanics/"
+        ]
+      },
+      "player_development": {
+        "score": 85,
+        "confidence": 0.8,
+        "evidence": [
+          "'Primarily a player development coach' (SI); built Brooklyn's culture around Allen, LeVert, Dinwiddie, Harris; Mobley won DPOY and became an All-NBA hub in his first Cavs season; former Warriors/Nets players praise his 'direct approach'."
+        ],
+        "sources": [
+          "https://www.si.com/nba/hornets/news/bio-blast-of-new-hornets-head-coach-kenny-atkinson",
+          "https://www.espn.com/blog/nba/post/_/id/17984/hawks-players-detail-why-nets-hire-of-kenny-atkinson-is-a-slam-dunk",
+          "https://www.aol.com/news/cavs-coach-kenny-atkinsons-former-110550585.html"
+        ]
+      },
+      "analytics_adoption": {
+        "score": 90,
+        "confidence": 0.8,
+        "evidence": [
+          "Hired Alex Sarama to run a constraints-led, data-driven development program; players say the staff 'explain the reasoning behind drills, citing studies'; Kerr credits him with merging the Warriors' analytics department with the coaching staff."
+        ],
+        "sources": [
+          "https://www.fearthesword.com/2024/10/7/24263627/cavs-embracing-analytics-kenny-atkinson-alex-sarama-constrants-led-approach-nba-cleveland-cavaliers",
+          "https://www.fearthesword.com/2024/11/9/24291937/warriors-arent-surprised-by-kenny-atkinsons-strong-start-with-cavs-hes-a-maniac-in-a-good-way"
+        ]
+      },
+      "reputation": {
+        "score": 65,
+        "confidence": 0.6,
+        "evidence": [
+          "2025 Coach of the Year after a 64-win, No. 1-offense season; respected systems/analytics coach ('a maniac in a good way' - Warriors staff).",
+          "Playoff disappointments (R2 exit as 1-seed, ECF sweep) and the timeout controversy prompted 'coaching for his job' talk before Cleveland retained him."
+        ],
+        "sources": [
+          "https://www.si.com/nba/nets/news/cleveland-cavaliers-kenny-atkinson-wins-coach-of-the-year-did-brooklyn-nets-make-mistake",
+          "https://www.news5cleveland.com/sports/basketball/cavaliers/kenny-atkinson-to-remain-cavs-head-coach-after-sweep-in-eastern-conference-finals",
+          "https://www.castfox.net/podcast/wine-and-gold-talk-podcast-902250/episode/is-kenny-atkinson-coaching-for-his-job-in-the-eastern-conference-finals-hey-chris-1553716"
+        ]
+      }
+    }
+  },
+  "notable_quotes": [
+    {
+      "quote": "Yeah, I like to hold my timeouts. I didn't want to have one timeout at the end of the game. One or two-point game, I try to hold them.",
+      "speaker": "Kenny Atkinson",
+      "context": "After blowing a 22-point lead in ECF Game 1 vs Knicks, May 2026",
+      "source": "https://www.espn.com/nba/player/news/_/id/821"
+    },
+    {
+      "quote": "Really bad.",
+      "speaker": "Kenny Atkinson",
+      "context": "Describing the Cavs' isolation-heavy offense after a Dec 2025 loss to Denver",
+      "source": "https://www.si.com/nba/cavaliers/onsi/news/kenny-atkinson-reveals-what-the-cavaliers-to-work-on-after-beating-nuggets-01ke24xrgrc5"
+    },
+    {
+      "quote": "He's a maniac, in a good way.",
+      "speaker": "Warriors staff/players (via Fear the Sword)",
+      "context": "On Atkinson's strong start in Cleveland, Nov 2024",
+      "source": "https://www.fearthesword.com/2024/11/9/24291937/warriors-arent-surprised-by-kenny-atkinsons-strong-start-with-cavs-hes-a-maniac-in-a-good-way"
+    },
+    {
+      "quote": "I'll expand the rotation right away.",
+      "speaker": "Kenny Atkinson (paraphrased)",
+      "context": "Training camp, Sept 2024",
+      "source": "https://www.fearthesword.com/2024/9/27/24256205/kenny-atkinson-says-he-will-expand-cleveland-cavaliers-rotation-right-away"
+    }
+  ],
+  "key_criticisms": [
+    "Extreme reluctance to call timeouts during opponent runs (2026 ECF Game 1 collapse; 2025 Game 2 vs IND), defended with a philosophy critics called 'bizarre'.",
+    "Playoff underachievement: 64-win 1-seed lost in Round 2 (2025); swept in the 2026 ECF with no answer for Brunson.",
+    "Offense regressed to isolation-heavy stretches in 2025-26 when injuries hit; 'catch-and-shoot success... has not been replicated'.",
+    "Challenge management (no challenge available for a decisive call vs TOR) and questions about star-dynamics handling dating to Brooklyn."
+  ],
+  "key_strengths": [
+    "Elite player development and culture-building (Brooklyn rebuild, Mobley's leap).",
+    "League-leading analytics integration (Sarama constraints-led program; Kerr-praised data fluency).",
+    "Modern, fast, egalitarian offense that produced the NBA's No. 1 offense and 64 wins in year one; deep rotation that protects star health.",
+    "Flexible big-man coverages (drop/hedge/switch/zone) with Allen and Mobley."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025%E2%80%9326_Cleveland_Cavaliers_season",
+    "https://en.wikipedia.org/wiki/Kenny_Atkinson",
+    "https://www.news5cleveland.com/sports/basketball/cavaliers/kenny-atkinson-to-remain-cavs-head-coach-after-sweep-in-eastern-conference-finals",
+    "https://bleacherreport.com/articles/25431178-cavs-reportedly-make-decision-kenny-atkinsons-future-after-knicks-sweep-ends-nba-playoff-run",
+    "https://www.si.com/nba/nets/news/cleveland-cavaliers-kenny-atkinson-wins-coach-of-the-year-did-brooklyn-nets-make-mistake",
+    "https://www.si.com/nba/hornets/news/bio-blast-of-new-hornets-head-coach-kenny-atkinson",
+    "https://www.fearthesword.com/2024/10/15/24269278/cavs-offense-autobahn-pace-cleveland-cavaliers-nba-donovan-mitchell-georges-niang-kenny-atkinson",
+    "https://africa.espn.com/nba/story/_/id/42455306/the-offseason-plan-fueling-cleveland-cavaliers-top-nba",
+    "https://www.si.com/nba/cavaliers/onsi/news/kenny-atkinson-reveals-what-the-cavaliers-to-work-on-after-beating-nuggets-01ke24xrgrc5",
+    "https://www.si.com/nba/cavaliers/onsi/news/three-lessons-from-cleveland-cavs-opening-week-01k8p30pah4d",
+    "https://cavaliersnation.com/?p=65604",
+    "https://www.si.com/nba/cavaliers/onsi/three-keys-for-cavaliers-to-continue-fast-pace-offense-throughout-season-01ja4bafjnqs",
+    "https://theanalyst.com/2025/01/cleveland-cavaliers-best-team-in-the-nba",
+    "https://thef5.substack.com/p/pushing-buttons",
+    "https://www.thescore.com/news/3129495",
+    "https://www.thescore.com/news/2252168",
+    "https://kingjamesgospel.com/cavaliers-made-stunning-change-no-one-even-noticed",
+    "https://www.fearthesword.com/2025/5/10/24427607/cavs-evan-mobley-zone-cleveland-cavaliers-indiana-pacers-nba-playoffs-kenny-atkinson-dean-wade",
+    "https://www.nba.com/watch/video/cavaliers-coach-kenny-atkinson-rattles-pacers-zone-defense-game-3",
+    "https://www.fearthesword.com/2024/10/16/24271439/cup-of-cavs-the-defense-wants-to-be-more-of-the-same-jarrett-allen-evan-mobley-cleveland-cavaliers",
+    "https://lastwordonsports.com/basketball/2026/05/23/jalen-brunsons-adjustment-mechanics/",
+    "https://kingjamesgospel.com/kenny-atkinson-cant-afford-to-change-bold-strategy-amid-cavaliers-injuries",
+    "https://www.si.com/nba/cavaliers/news/the-most-impressive-part-of-the-cleveland-cavaliers-dominance",
+    "https://heavy.com/sports/nba/cleveland-cavaliers/cavaliers-are-preparing-for-playoffs-with-a-leaner-meaner-rotation/",
+    "https://www.si.com/nba/cavaliers/onsi/cleveland-cavaliers-playoff-rotation-what-s-changing-vs-toronto-raptors-01kpe4r2vbak",
+    "https://www.fearthesword.com/2024/9/27/24256205/kenny-atkinson-says-he-will-expand-cleveland-cavaliers-rotation-right-away",
+    "https://kingjamesgospel.com/cavaliers-most-pressing-playoffs-question-is-one-fans-won-t-mind-at-all-rotation-harden-atkinson",
+    "https://www.easternprogress.com/cavs-atkinson-defends-harden-rues-collective-defensive-woes/article_f6437add-561c-507c-8883-cf5a2866b722.html",
+    "https://www.espn.com/nba/player/news/_/id/821",
+    "https://bleacherreport.com/articles/25429662-kenny-atkinson-explains-controversial-timeout-strategy-cavs-blew-22-point-lead-vs-knicks",
+    "https://www.si.com/nba/playoffs/cavaliers-meltdown-three-coaching-blunders-cleveland-led-epic-collapse-knicks",
+    "https://www.si.com/nba/cavaliers/onsi/cavs-coach-kenny-atkinson-gives-bizarre-defense-of-timeout-strategy-in-game-1-loss-01ks1qyq2a9v",
+    "https://heavy.com/sports/nba/cleveland-cavaliers/kenny-atkinsons-explanation-lack-of-timeout-calls-infuriate-cavaliers-fans/",
+    "https://www.hitc.com/timeout-controversy-how-kenny-atkinsons-move-could-haunt-cleveland-in-game-2",
+    "https://www.inkl.com/news/cavaliers-inability-to-review-key-call-in-raptors-loss-made-kenny-atkinson-question-challenge-rules",
+    "https://www.si.com/nba/kenny-atkinson-cavs-coaches-challenge",
+    "https://www.castfox.net/podcast/wine-and-gold-talk-podcast-902250/episode/is-kenny-atkinson-coaching-for-his-job-in-the-eastern-conference-finals-hey-chris-1553716",
+    "https://www.fearthesword.com/2024/10/7/24263627/cavs-embracing-analytics-kenny-atkinson-alex-sarama-constrants-led-approach-nba-cleveland-cavaliers",
+    "https://www.fearthesword.com/2024/11/9/24291937/warriors-arent-surprised-by-kenny-atkinsons-strong-start-with-cavs-hes-a-maniac-in-a-good-way",
+    "https://www.aol.com/news/cavs-coach-kenny-atkinsons-former-110550585.html",
+    "https://www.espn.com/blog/nba/post/_/id/17984/hawks-players-detail-why-nets-hire-of-kenny-atkinson-is-a-slam-dunk",
+    "https://www.fearthesword.com/2024/5/31/24168331/cleveland-cavaliers-coaching-dossier-kenny-atkinson-just-fits"
+  ],
+  "research_notes": "Search-only environment; search budget exhausted before any 2026-27 Cavaliers result could be checked, so no current-season record is included. 2025-26 (52-30, 4th seed, beat TOR and DET from 0-2 down, swept 0-4 by NYK in the ECF) is confirmed by Wikipedia and local coverage; the 13-14 Cavs playoff record implies 4-3 vs TOR and 4-3 vs DET (series scores inferred, not directly reported). James Harden's presence on the 2025-26 Cavaliers (and Garland's move to the Clippers) is inferred from multiple article references ('Atkinson defends Harden', 'rotation harden atkinson', Garland quoted as a Clipper in Mar 2026) rather than a retrieved trade report; verify terms/date. Brooklyn season-by-season figures and 2024-25 details (64-18, COY, 1-4 to IND) are from my knowledge plus partial confirmation (Wikipedia Nets snippets, SI COY piece). Mitchell's ~31.4 mpg figure is from memory, not retrieved. No data found on foul-up-3, 2-for-1 frequency or challenge success rate; those are inferred with confidence <= 0.45. The 'Pacers' timeout controversy (2025 Game 2) was referenced only by headline; the detailed timeout quotes are from the 2026 ECF Game 1 vs NYK.",
+  "researched_at": "2026-11-02"
+}

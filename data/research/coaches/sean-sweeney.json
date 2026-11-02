@@ -1,0 +1,464 @@
+{
+  "coach": "Sean Sweeney",
+  "slug": "sean-sweeney",
+  "team": "ORL",
+  "team_name": "Orlando Magic",
+  "head_coach_since": "2026-27",
+  "age": 41,
+  "background": "Minnesota-raised career assistant who started as Brooklyn's video coordinator (2011-13), became a Nets assistant under Jason Kidd in 2013, and followed Kidd to Milwaukee (2014-18). Ran the defense for Dwane Casey in Detroit (2018-21), then was Kidd's defensive coordinator in Dallas (2021-25), where the Mavericks reached the 2022 West finals and 2024 NBA Finals with a switch-heavy, zone-mixing, rim-protected scheme. Joined San Antonio as associate head coach in June 2025 and is credited as the architect of a defense that jumped from 25th to 3rd in rating around DPOY Victor Wembanyama as the Spurs reached the 2026 Finals (lost to New York). Hired by Orlando on June 1, 2026 (introduced June 18) over finalists Jeff Van Gundy and Billy Donovan; first head-coaching job. Self-described identity: 'aggressive with balance', communication, 'trust is earned', daily habits; expected to keep Orlando's defensive foundation while modernizing a historically stagnant offense.",
+  "prior_head_coaching": [],
+  "record_last5": [
+    {
+      "season": "2021-22",
+      "team": "DAL (assistant/defensive coordinator)",
+      "wins": 52,
+      "losses": 30,
+      "playoffs": "team lost West finals 1-4 to GSW",
+      "notes": "assistant; team record; Mavs top-7 defense"
+    },
+    {
+      "season": "2022-23",
+      "team": "DAL (assistant/defensive coordinator)",
+      "wins": 38,
+      "losses": 44,
+      "playoffs": "",
+      "notes": "assistant; team record"
+    },
+    {
+      "season": "2023-24",
+      "team": "DAL (assistant/defensive coordinator)",
+      "wins": 50,
+      "losses": 32,
+      "playoffs": "team lost NBA Finals 1-4 to BOS",
+      "notes": "assistant; team record; post-deadline defensive surge with Gafford/Lively"
+    },
+    {
+      "season": "2024-25",
+      "team": "DAL (assistant/defensive coordinator)",
+      "wins": 39,
+      "losses": 43,
+      "playoffs": "team lost in play-in",
+      "notes": "assistant; team record"
+    },
+    {
+      "season": "2025-26",
+      "team": "SAS (associate head coach)",
+      "wins": null,
+      "losses": null,
+      "playoffs": "team lost NBA Finals to NYK",
+      "notes": "assistant; Spurs defense 25th to 3rd; Wembanyama DPOY; W-L not verified in this pass"
+    }
+  ],
+  "defense_scheme_tags": [
+    "drop",
+    "switch",
+    "zone",
+    "aggressive-help",
+    "no-middle",
+    "ice"
+  ],
+  "offense_scheme_tags": [
+    "pace-and-space",
+    "motion",
+    "five-out",
+    "transition"
+  ],
+  "scores": {
+    "rotation": {
+      "depth": {
+        "score": 58,
+        "confidence": 0.3,
+        "evidence": [
+          "Preseason projections had a 10-man rotation: Suggs, Bane, F. Wagner, Banchero, W. Carter starting with Black, Richardson, J. Carter, da Silva, Isaac/Vucevic/Bitadze behind (SI/FantasyAlarm, Sep-Oct 2026).",
+          "No regular-season minutes data located; Spurs 2025-26 under his staff ran a 9-10 man rotation (inferred)."
+        ],
+        "sources": [
+          "https://www.si.com/nba/magic/onsi/rotation-orlando-magic-top-10-players",
+          "https://www.fantasyalarm.com/articles/nba/nba-offseason/orlando-magic-2026-27-season-preview/197145"
+        ]
+      },
+      "star_minutes_load": {
+        "score": 55,
+        "confidence": 0.25,
+        "evidence": [
+          "Banchero and Wagner missed 58 combined games in 2025-26, so health rather than philosophy will govern their loads (2026 previews).",
+          "No evidence of extreme minute loads in his assistant stops (inferred)."
+        ],
+        "sources": [
+          "https://www.fantasyalarm.com/articles/nba/nba-offseason/orlando-magic-2026-27-season-preview/197145",
+          "https://www.nba.com/news/2026-27-season-preview-orl"
+        ]
+      },
+      "consistency": {
+        "score": 50,
+        "confidence": 0.2,
+        "evidence": [
+          "No regular-season evidence; a report that Banchero was set to miss time early in 2026-27 implies forced lineup changes (Roundtable, undated).",
+          "Spurs/Mavs staffs he served on were relatively stable in starting lineups (inferred)."
+        ],
+        "sources": [
+          "https://roundtable.io/sports/nba/magic/players/the-two-players-who-must-step-up-in-paolo-bancheros-absence"
+        ]
+      },
+      "youth_trust": {
+        "score": 52,
+        "confidence": 0.25,
+        "evidence": [
+          "Expected to give rookie-scale Jase Richardson and Anthony Black rotation roles (2026 previews); in San Antonio, Castle and Harper were trusted heavily under the staff he led defensively (2025-26).",
+          "Also chose veteran Vucevic as backup big (2026)."
+        ],
+        "sources": [
+          "https://www.si.com/nba/magic/onsi/rotation-orlando-magic-top-10-players",
+          "https://www.fantasyalarm.com/articles/nba/nba-offseason/orlando-magic-2026-27-season-preview/197145"
+        ]
+      },
+      "load_management": {
+        "score": 50,
+        "confidence": 0.2,
+        "evidence": [
+          "No evidence; Orlando's injury-prone stars make managed loads likely (inferred)."
+        ],
+        "sources": [
+          "https://www.fantasyalarm.com/articles/nba/nba-offseason/orlando-magic-2026-27-season-preview/197145"
+        ]
+      },
+      "closing_flexibility": {
+        "score": 62,
+        "confidence": 0.3,
+        "evidence": [
+          "Matchup-driven defensive mind; in Dallas and San Antonio closing groups toggled between size (Gafford/Lively, Kornet/Wemby) and small/switch units by opponent (2024-26, inferred from scheme coverage).",
+          "Finals 2026: Spurs used Kornet in drop and Wemby as a roaming corner defender depending on lineup (LWOS, June 2026)."
+        ],
+        "sources": [
+          "https://lastwordonsports.com/basketball/2026/06/15/san-antonio-spurs-defense-cost-nba-finals/"
+        ]
+      }
+    },
+    "offense": {
+      "pace": {
+        "score": 55,
+        "confidence": 0.3,
+        "evidence": [
+          "Previews expect a faster, better-spaced offense than Mosley's bottom-third pace (TheLead, Orlando Magic Daily, 2026).",
+          "Sweeney: 'We want to be a team that's aggressive with balance' (June 18, 2026)."
+        ],
+        "sources": [
+          "https://theleadsm.com/can-sean-sweeney-fix-the-magics-offensive-woes/",
+          "https://orlandomagicdaily.com/sean-sweeneys-offensive-philosophy-hints-vision-orlando-magic",
+          "https://clutchpoints.com/nba/orlando-magic/magic-news-sean-sweeney-reveals-identity-orlando-to-establish-2026-27"
+        ]
+      },
+      "three_point_emphasis": {
+        "score": 60,
+        "confidence": 0.3,
+        "evidence": [
+          "Orlando acquired Bane (2025) and Sweeney's prior teams (Dallas 2021-25, San Antonio 2025-26) were above-average 3PA-volume offenses; previews expect spacing to be the fix for Orlando's 27th-ranked 3P% (2026).",
+          "No regular-season shot-profile data yet."
+        ],
+        "sources": [
+          "https://theleadsm.com/can-sean-sweeney-fix-the-magics-offensive-woes/",
+          "https://orlandomagicdaily.com/sean-sweeneys-offensive-philosophy-hints-vision-orlando-magic"
+        ]
+      },
+      "ball_movement": {
+        "score": 55,
+        "confidence": 0.25,
+        "evidence": [
+          "Said he 'worked extensively with the offense on some of his stops' and ties offense to defense (June 2026); analysts expect more movement than Mosley's isolation-heavy sets.",
+          "Still built around two ball-dominant forwards (Banchero, Wagner) plus Bane (inferred)."
+        ],
+        "sources": [
+          "https://www.si.com/nba/magic/onsi/sweeney-shares-coaching-philosophies-as-magic-introduce-new-head-coach-01kve80gmjkq",
+          "https://orlandomagicdaily.com/sean-sweeneys-offensive-philosophy-hints-vision-orlando-magic"
+        ]
+      },
+      "transition_emphasis": {
+        "score": 55,
+        "confidence": 0.25,
+        "evidence": [
+          "Aggressive defensive identity (turnover creation) typically feeds transition; Spurs 2025-26 scored heavily off turnovers (inferred)."
+        ],
+        "sources": [
+          "https://www.dunkest.com/en/nba/news/239635/sean-sweeney-is-the-thunders-nightmare"
+        ]
+      },
+      "offensive_rebounding": {
+        "score": 42,
+        "confidence": 0.25,
+        "evidence": [
+          "Defense-first coaches from the Kidd/Casey tree generally prioritize transition defense over crashing; Orlando's bigs (Carter, Vucevic, Bitadze) still rebound (inferred)."
+        ],
+        "sources": [
+          "https://www.fantasyalarm.com/articles/nba/nba-offseason/orlando-magic-2026-27-season-preview/197145"
+        ]
+      },
+      "paint_post_emphasis": {
+        "score": 48,
+        "confidence": 0.2,
+        "evidence": [
+          "Banchero's post/drive game will remain central, but Sweeney's stated goal is 'balance' and spacing (June 2026)."
+        ],
+        "sources": [
+          "https://clutchpoints.com/nba/orlando-magic/magic-news-sean-sweeney-reveals-identity-orlando-to-establish-2026-27",
+          "https://orlandomagicdaily.com/sean-sweeneys-offensive-philosophy-hints-vision-orlando-magic"
+        ]
+      },
+      "playcalling_ato_quality": {
+        "score": 50,
+        "confidence": 0.2,
+        "evidence": [
+          "No head-coaching ATO sample; offense is not his specialty (defense-first reputation), though he claims extensive offensive work (June 2026)."
+        ],
+        "sources": [
+          "https://www.si.com/nba/magic/onsi/sweeney-shares-coaching-philosophies-as-magic-introduce-new-head-coach-01kve80gmjkq",
+          "https://wtop.com/nba/2026/06/magic-hire-sean-sweeney-as-teams-coach-hell-stay-with-spurs-through-the-nba-finals/"
+        ]
+      }
+    },
+    "defense": {
+      "aggressiveness": {
+        "score": 68,
+        "confidence": 0.45,
+        "evidence": [
+          "Spurs 2025-26 under Sweeney paired Wembanyama's rim protection with heavy on-ball pressure from Castle, forcing turnovers; dubbed 'the Thunder's nightmare' (Dunkest, 2026).",
+          "Sweeney: 'aggressive with balance' (June 2026); Orlando analysts expect the defense to 'return to dominance'."
+        ],
+        "sources": [
+          "https://www.dunkest.com/en/nba/news/239635/sean-sweeney-is-the-thunders-nightmare",
+          "https://clutchpoints.com/nba/orlando-magic/magic-news-sean-sweeney-reveals-identity-orlando-to-establish-2026-27",
+          "https://roundtable.io/sports/nba/magic/opinion/orlando-magics-defense-must-return-to-dominance-under-sweeney"
+        ]
+      },
+      "perimeter_priority": {
+        "score": 50,
+        "confidence": 0.35,
+        "evidence": [
+          "Base coverage is drop behind an elite rim protector (Wemby 2025-26; Gafford/Lively 2024) but with high pickup points and switching on the perimeter (2024-26).",
+          "Finals 2026 Game 1: Kornet dropped vs Brunson pick-and-rolls rather than hedging at half court (LWOS)."
+        ],
+        "sources": [
+          "https://lastwordonsports.com/basketball/2026/06/15/san-antonio-spurs-defense-cost-nba-finals/",
+          "https://www.si.com/nba/how-defenses-have-forced-victor-wembanyama-into-his-first-slump-of-the-season"
+        ]
+      },
+      "foul_discipline": {
+        "score": 55,
+        "confidence": 0.3,
+        "evidence": [
+          "Spurs 2025-26 were a top-3 defense without being among the most foul-prone teams; Sweeney's Dallas defenses were middling in opponent FT rate (prior knowledge, moderate)."
+        ],
+        "sources": [
+          "https://roundtable.io/sports/nba/spurs/news/spurs-expected-to-overcome-significant-loss"
+        ]
+      },
+      "zone_usage": {
+        "score": 65,
+        "confidence": 0.45,
+        "evidence": [
+          "Dallas under Kidd/Sweeney (2021-25) was among the league's heaviest zone users, including in the 2024 playoff run (prior knowledge).",
+          "Spurs 2025-26 mixed zone looks around Wembanyama's length (inferred)."
+        ],
+        "sources": [
+          "https://wtop.com/nba/2026/06/magic-hire-sean-sweeney-as-teams-coach-hell-stay-with-spurs-through-the-nba-finals/"
+        ]
+      },
+      "scheme_adaptability": {
+        "score": 75,
+        "confidence": 0.5,
+        "evidence": [
+          "Credited with turning the Spurs from 25th to 3rd in defensive rating in one season by rebuilding the scheme around Wembanyama (2025-26).",
+          "Dallas 2024 post-deadline defensive overhaul (drop with Gafford/Lively, zone, switching) was attributed to his staff."
+        ],
+        "sources": [
+          "https://roundtable.io/sports/nba/spurs/news/spurs-expected-to-overcome-significant-loss",
+          "https://www.nba.com/news/magic-hire-sean-sweeney-coach",
+          "https://heavy.com/sports/nba/orlando-magic/magic-reported-sean-sweeney-hire-signals-new-era-for-orlando/"
+        ]
+      }
+    },
+    "endgame": {
+      "timeout_aggressiveness": {
+        "score": 50,
+        "confidence": 0.15,
+        "evidence": [
+          "No head-coaching sample (inferred)."
+        ],
+        "sources": []
+      },
+      "foul_up_three": {
+        "score": 50,
+        "confidence": 0.15,
+        "evidence": [
+          "No evidence (inferred)."
+        ],
+        "sources": []
+      },
+      "late_lineup_shrink": {
+        "score": 55,
+        "confidence": 0.2,
+        "evidence": [
+          "Likely shrinks to Suggs/Bane/Wagner/Banchero + one big when healthy, as most coaches would with this roster (inferred)."
+        ],
+        "sources": [
+          "https://www.si.com/nba/magic/onsi/rotation-orlando-magic-top-10-players"
+        ]
+      },
+      "challenge_quality": {
+        "score": 50,
+        "confidence": 0.15,
+        "evidence": [
+          "No head-coaching sample; as a defensive coordinator he would have advised on challenges in Dallas/San Antonio (inferred)."
+        ],
+        "sources": []
+      },
+      "two_for_one_awareness": {
+        "score": 50,
+        "confidence": 0.15,
+        "evidence": [
+          "No evidence (inferred)."
+        ],
+        "sources": []
+      },
+      "risk_appetite": {
+        "score": 50,
+        "confidence": 0.2,
+        "evidence": [
+          "'Aggressive with balance' framing suggests measured rather than high-variance decision-making (June 2026)."
+        ],
+        "sources": [
+          "https://clutchpoints.com/nba/orlando-magic/magic-news-sean-sweeney-reveals-identity-orlando-to-establish-2026-27"
+        ]
+      },
+      "clutch_reputation": {
+        "score": 50,
+        "confidence": 0.2,
+        "evidence": [
+          "No head-coaching sample. Spurs' 2026 Finals loss was attributed partly to defensive lapses (LWOS, June 2026), but that is a staff-level critique."
+        ],
+        "sources": [
+          "https://lastwordonsports.com/basketball/2026/06/15/san-antonio-spurs-defense-cost-nba-finals/"
+        ]
+      }
+    },
+    "overall": {
+      "adaptability": {
+        "score": 68,
+        "confidence": 0.4,
+        "evidence": [
+          "Rebuilt defenses around very different personnel in Detroit, Dallas and San Antonio (2018-26); one-season jump from 25th to 3rd in San Antonio."
+        ],
+        "sources": [
+          "https://roundtable.io/sports/nba/spurs/news/spurs-expected-to-overcome-significant-loss",
+          "https://www.nba.com/news/magic-hire-sean-sweeney-coach"
+        ]
+      },
+      "player_development": {
+        "score": 58,
+        "confidence": 0.3,
+        "evidence": [
+          "Worked closely with Stephon Castle (DROY 2025) and Wembanyama (DPOY 2026) in San Antonio and with Gafford/Lively in Dallas; defensive development emphasis (2024-26).",
+          "Hired G League head coach Mfon Udofia (Long Island's winningest coach) to his staff (June 2026)."
+        ],
+        "sources": [
+          "https://www.si.com/nba/magic/onsi/sean-sweeney-begins-to-fill-out-orlando-s-coaching-staff-01kvcdtsy8wj",
+          "https://roundtable.io/sports/nba/spurs/news/spurs-expected-to-overcome-significant-loss"
+        ]
+      },
+      "analytics_adoption": {
+        "score": 60,
+        "confidence": 0.3,
+        "evidence": [
+          "Spurs and Mavericks front offices are analytics-forward; his schemes (deep drop + rim protection, zone when efficient) reflect data-informed shot-suppression (inferred)."
+        ],
+        "sources": [
+          "https://lastwordonsports.com/basketball/2026/06/15/san-antonio-spurs-defense-cost-nba-finals/"
+        ]
+      },
+      "reputation": {
+        "score": 58,
+        "confidence": 0.45,
+        "evidence": [
+          "Called the 'architect' of the league's No. 3 defense and a DPOY season; chosen over Jeff Van Gundy and Billy Donovan (June 2026); fans/analysts 'should be excited' (Heavy).",
+          "First-time head coach; 'Reactions' pieces note the offensive unknowns (SI, June 2026)."
+        ],
+        "sources": [
+          "https://wtop.com/nba/2026/06/magic-hire-sean-sweeney-as-teams-coach-hell-stay-with-spurs-through-the-nba-finals/",
+          "https://heavy.com/sports/nba/orlando-magic/magic-reported-sean-sweeney-hire-signals-new-era-for-orlando/",
+          "https://www.si.com/nba/magic/onsi/reactions-magic-hire-sean-sweeney",
+          "https://cbssports.com/nba/news/magic-hire-spurs-sean-sweeney-for-head-coach"
+        ]
+      }
+    }
+  },
+  "notable_quotes": [
+    {
+      "quote": "We want to be a team that's aggressive with balance.",
+      "speaker": "Sean Sweeney",
+      "context": "Magic introductory press conference, 2026-06-18",
+      "source": "https://clutchpoints.com/nba/orlando-magic/magic-news-sean-sweeney-reveals-identity-orlando-to-establish-2026-27"
+    },
+    {
+      "quote": "Offense works with defense.",
+      "speaker": "Sean Sweeney",
+      "context": "Magic introductory press conference, 2026-06-18",
+      "source": "https://www.si.com/nba/magic/onsi/sweeney-shares-coaching-philosophies-as-magic-introduce-new-head-coach-01kve80gmjkq"
+    },
+    {
+      "quote": "Trust is earned.",
+      "speaker": "Sean Sweeney",
+      "context": "Magic introductory press conference, 2026-06-18, on daily habits and process",
+      "source": "https://roundtable.io/sports/nba/magic/news/orlando-magics-sean-sweeney-details-various-keys-to-success"
+    },
+    {
+      "quote": "Under him, the Spurs' defense went from porous a year earlier to one of the league's most airtight, with a scheme centered around Victor Wembanyama.",
+      "speaker": "AP report",
+      "context": "Hiring announcement, 2026-06-01",
+      "source": "https://wtop.com/nba/2026/06/magic-hire-sean-sweeney-as-teams-coach-hell-stay-with-spurs-through-the-nba-finals/"
+    }
+  ],
+  "key_criticisms": [
+    "Never a head coach at any level; offense is not his specialty and Orlando has not had an above-average offense since 2012.",
+    "Took over late (stayed with Spurs through the June 2026 Finals), compressing his first offseason.",
+    "Spurs' 2026 Finals defensive breakdowns vs Brunson/Knicks were pinned partly on the scheme (LWOS, June 2026).",
+    "Inherits an injury-prone star duo (Banchero/Wagner missed 58 games combined in 2025-26)."
+  ],
+  "key_strengths": [
+    "Elite defensive schemer: Spurs 25th to 3rd in one season (2025-26); Dallas 2024 Finals defense; Detroit under Casey.",
+    "Flexible, matchup-based coverages including heavy zone and drop/switch toggling.",
+    "Communication and culture emphasis ('trust is earned'); well regarded by peers, beat two experienced finalists for the job.",
+    "Inherits a ready-made defensive roster (Suggs, Wagner, Isaac, Carter) suited to his principles."
+  ],
+  "sources": [
+    "https://www.nba.com/news/magic-hire-sean-sweeney-coach",
+    "https://wtop.com/nba/2026/06/magic-hire-sean-sweeney-as-teams-coach-hell-stay-with-spurs-through-the-nba-finals/",
+    "https://cbssports.com/nba/news/magic-hire-spurs-sean-sweeney-for-head-coach",
+    "https://mynews13.com/fl/orlando/sports/2026/06/01/magic-make-it-official--announce-hiring-of-spurs--sweeney-as-head-coach",
+    "https://www.si.com/nba/magic/onsi/sweeney-shares-coaching-philosophies-as-magic-introduce-new-head-coach-01kve80gmjkq",
+    "https://clutchpoints.com/nba/orlando-magic/magic-news-sean-sweeney-reveals-identity-orlando-to-establish-2026-27",
+    "https://roundtable.io/sports/nba/magic/news/orlando-magics-sean-sweeney-details-various-keys-to-success",
+    "https://orlandomagicdaily.com/sean-sweeneys-offensive-philosophy-hints-vision-orlando-magic",
+    "https://orlandomagicdaily.com/sean-sweeneys-first-mission-will-define-orlando-magics-foundation",
+    "https://www.nba.com/magic/videos/sean-sweeney-orlando-magic-head-coach-introductory-press-conference-20260618",
+    "https://lastwordonsports.com/basketball/2026/06/15/san-antonio-spurs-defense-cost-nba-finals/",
+    "https://www.dunkest.com/en/nba/news/239635/sean-sweeney-is-the-thunders-nightmare",
+    "https://roundtable.io/sports/nba/spurs/news/spurs-expected-to-overcome-significant-loss",
+    "https://theleadsm.com/can-sean-sweeney-fix-the-magics-offensive-woes/",
+    "https://www.fantasyalarm.com/articles/nba/nba-offseason/orlando-magic-2026-27-season-preview/197145",
+    "https://www.si.com/nba/magic/onsi/rotation-orlando-magic-top-10-players",
+    "https://roundtable.io/sports/nba/magic/opinion/orlando-magics-defense-must-return-to-dominance-under-sweeney",
+    "https://www.si.com/nba/magic/onsi/reactions-magic-hire-sean-sweeney",
+    "https://www.si.com/nba/magic/onsi/sean-sweeney-begins-to-fill-out-orlando-s-coaching-staff-01kvcdtsy8wj",
+    "https://heavy.com/sports/nba/orlando-magic/magic-reported-sean-sweeney-hire-signals-new-era-for-orlando/",
+    "https://roundtable.io/sports/nba/magic/players/the-two-players-who-must-step-up-in-paolo-bancheros-absence",
+    "https://www.yardbarker.com/nba/articles/how_the_magic_lost_even_with_paolo_banchero_dominating/s1_17411_44457919",
+    "https://www.si.com/nba/how-defenses-have-forced-victor-wembanyama-into-his-first-slump-of-the-season",
+    "https://roundtable.io/sports/nba/magic/news/orlando-magics-sean-sweeney-could-be-perfect-fit",
+    "https://roundtable.io/sports/nba/magic/news/how-sean-sweeney-is-prepared-to-transform-the-orlando-magic",
+    "https://www.si.com/nba/magic/onsi/expectations-for-sean-sweeney-in-year-1-after-leaving-spurs-for-magic-01kt7ek5bkbt",
+    "https://clutchpoints.com/nba/orlando-magic/magic-news-sean-sweeney-paolo-banchero-franz-wagner-admission-will-catch-fans-attention",
+    "https://www.nba.com/news/2026-27-season-preview-orl",
+    "https://vsin.com/nba/orlando-magic-2026-27-nba-preview-burning-questions-analysis-win-total-prediction/"
+  ],
+  "research_notes": "The session's web-search budget ran out before searches on (a) Orlando's 2026-27 regular-season record, starting lineup and minutes (omitted from record_last5; one undated Roundtable piece mentions a 111-102 win over the Knicks as the Magic's first win and Banchero missing time, unverified), (b) Sweeney's Dallas zone usage and 2024 Finals defensive role, (c) detailed Spurs 2025-26 coverage breakdowns, and (d) any challenge/timeout data. Dallas team records 2021-25 and the Spurs' 25th-to-3rd jump are from AP/NBA.com and prior knowledge; Spurs 2025-26 W-L not verified. The claim that Dallas was a heavy zone team under Kidd/Sweeney is prior knowledge (confidence ~0.45). All endgame dimensions are inferred (confidence <= 0.2) because he has no head-coaching sample. Birth date not verified; AP lists him as 41.",
+  "researched_at": "2026-11-02"
+}

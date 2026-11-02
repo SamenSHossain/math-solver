@@ -1,0 +1,476 @@
+{
+  "coach": "Jamahl Mosley",
+  "slug": "jamahl-mosley",
+  "team": "NOP",
+  "team_name": "New Orleans Pelicans",
+  "head_coach_since": "2026-27",
+  "age": 48,
+  "background": "Former Colorado forward who played professionally overseas before a long assistant apprenticeship: Denver (2005-10, player development under George Karl), Cleveland (2010-14) and Dallas (2014-21 under Rick Carlisle, where he ran the defense). Orlando Magic head coach 2021-26 (189-221): rebuilt a 22-win team into a perennial top-3 defense and three straight playoff appearances (2024, 2025, 2026), all first-round exits, including blowing a 3-1 lead and a 24-point Game 6 home lead to Detroit in 2026. Fired May 4, 2026 ('time for a new perspective, a fresh voice' - Jeff Weltman) amid four straight bottom-10 offenses and reported friction with Paolo Banchero. Hired by the Pelicans on May 18, 2026 on a five-year deal by Joe Dumars, beating out Darvin Ham, Steve Hetzel and Rajon Rondo, to lead a 'cultural reset' around Zion Williamson, Trey Murphy, Herb Jones, Jeremiah Fears and Derik Queen. Identity: physical, paint-first drop defense with heavy ball pressure and length; slow, drive-and-kick/paint-heavy offense with low 3-point volume and strong offensive rebounding; culture and development strengths; weak late-game and offensive-adjustment reputation.",
+  "prior_head_coaching": [
+    {
+      "team": "Orlando Magic",
+      "seasons": "2021-22 to 2025-26",
+      "record": "189-221 (.461)",
+      "notes": "Three consecutive first-round playoff exits (2024 vs CLE in 7, 2025 vs BOS 1-4, 2026 vs DET in 7 after leading 3-1). Top-3 defenses 2023-25; offense bottom-10 in each of his last four seasons."
+    }
+  ],
+  "record_last5": [
+    {
+      "season": "2021-22",
+      "team": "ORL",
+      "wins": 22,
+      "losses": 60,
+      "playoffs": "",
+      "notes": "first season; full rebuild"
+    },
+    {
+      "season": "2022-23",
+      "team": "ORL",
+      "wins": 34,
+      "losses": 48,
+      "playoffs": "",
+      "notes": "Banchero ROY season"
+    },
+    {
+      "season": "2023-24",
+      "team": "ORL",
+      "wins": 47,
+      "losses": 35,
+      "playoffs": "Lost R1 3-4 to CLE",
+      "notes": "5th seed; top-3 defense; COY finalist"
+    },
+    {
+      "season": "2024-25",
+      "team": "ORL",
+      "wins": 41,
+      "losses": 41,
+      "playoffs": "Lost R1 1-4 to BOS",
+      "notes": "7th seed via play-in; Banchero/Wagner missed long stretches"
+    },
+    {
+      "season": "2025-26",
+      "team": "ORL",
+      "wins": 45,
+      "losses": 37,
+      "playoffs": "Lost R1 3-4 to DET after leading 3-1",
+      "notes": "27th in 3P%; Wagner missed final three playoff games; fired May 4, 2026"
+    }
+  ],
+  "defense_scheme_tags": [
+    "drop",
+    "aggressive-help",
+    "no-middle",
+    "zone"
+  ],
+  "offense_scheme_tags": [
+    "post-centric",
+    "heliocentric",
+    "two-big",
+    "dribble-handoff"
+  ],
+  "scores": {
+    "rotation": {
+      "depth": {
+        "score": 62,
+        "confidence": 0.5,
+        "evidence": [
+          "Orlando regularly used 9-10 players, partly by necessity through constant injuries to Banchero/Wagner/Suggs (2022-26).",
+          "Derik Queen described Mosley telling him about a 'unique rotation' plan for 2026-27 (ClutchPoints, Oct 2026)."
+        ],
+        "sources": [
+          "https://clutchpoints.com/nba/new-orleans-pelicans/pelicans-news-derik-queen-defends-jamahl-mosley-process-told-dream-about-unique-rotation",
+          "https://www.si.com/nba/magic/onsi/firing-jamahl-mosley-who-set-magic-standard-is-shortsighted-mistake-01kqsnksgmek"
+        ]
+      },
+      "star_minutes_load": {
+        "score": 60,
+        "confidence": 0.45,
+        "evidence": [
+          "Banchero and Franz Wagner routinely played 34-36 mpg when healthy under Mosley (2023-26).",
+          "Zion's history makes heavy loads unlikely in New Orleans; Mosley used Zion, Murphy and Jones off the bench in one preseason game (Oct 2026), suggesting managed usage early."
+        ],
+        "sources": [
+          "https://www.si.com/nba/pelicans/onsi/pelicans-depth-chart-after-quiet-offseason-01kxkzynvve9",
+          "https://roundtable.io/sports/nba/pelicans/news/four-biggest-winners-from-new-orleans-pelicans-first-two-preseason-games"
+        ]
+      },
+      "consistency": {
+        "score": 42,
+        "confidence": 0.45,
+        "evidence": [
+          "Used three different starting groups in the 2026 preseason, including one with Fears, Mathurin, Bey, Matkovic and Missi while Zion, Murphy and Jones came off the bench (Oct 2026).",
+          "In Orlando, closing lineups and bench roles shifted frequently, a recurring beat-writer complaint (2024-26)."
+        ],
+        "sources": [
+          "https://roundtable.io/sports/nba/pelicans/news/four-biggest-winners-from-new-orleans-pelicans-first-two-preseason-games",
+          "https://www.si.com/nba/magic/onsi/news/one-clear-change-the-magic-must-make-in-second-half-of-the-season-01kfmfky6czy"
+        ]
+      },
+      "youth_trust": {
+        "score": 65,
+        "confidence": 0.5,
+        "evidence": [
+          "Gave Anthony Black, Tristan da Silva and Jase Richardson real minutes in Orlando (2024-26).",
+          "Fears (20) started preseason games in 2026 but Queen did not start once in the preseason and was slated to open the year off the bench (Yardbarker, Oct 2026)."
+        ],
+        "sources": [
+          "https://www.yardbarker.com/nba/articles/derik_queens_pelicans_preseason_was_a_total_mixed_bag/s1_17412_44453337",
+          "https://roundtable.io/sports/nba/pelicans/news/four-biggest-winners-from-new-orleans-pelicans-first-two-preseason-games",
+          "https://www.si.com/nba/magic/onsi/firing-jamahl-mosley-who-set-magic-standard-is-shortsighted-mistake-01kqsnksgmek"
+        ]
+      },
+      "load_management": {
+        "score": 50,
+        "confidence": 0.3,
+        "evidence": [
+          "Orlando sat stars mostly for injuries rather than planned rest (2023-26); Zion's medical plan will likely dictate rest in 2026-27 (inferred)."
+        ],
+        "sources": [
+          "https://africa.espn.com/nba/story/_/id/49537991/new-orleans-pelicans-2026-27-season-preview-stats-roster"
+        ]
+      },
+      "closing_flexibility": {
+        "score": 55,
+        "confidence": 0.35,
+        "evidence": [
+          "Orlando's closing five was generally fixed (Suggs/Wagner/Banchero/Carter + one) when healthy, but shifted often with injuries (2024-26).",
+          "Preseason 2026 bench usage of Zion/Murphy/Jones suggests willingness to experiment (low signal)."
+        ],
+        "sources": [
+          "https://roundtable.io/sports/nba/pelicans/news/four-biggest-winners-from-new-orleans-pelicans-first-two-preseason-games"
+        ]
+      }
+    },
+    "offense": {
+      "pace": {
+        "score": 30,
+        "confidence": 0.6,
+        "evidence": [
+          "Orlando ranked in the bottom third in pace in each of Mosley's playoff seasons (2023-26), grinding through half-court drives (prior knowledge; consistent with 'offense bottom 10' coverage).",
+          "Mosley's own preseason 2026 framing emphasized defensive habits over tempo."
+        ],
+        "sources": [
+          "https://africa.espn.com/nba/story/_/id/48675305/sources-magic-fire-head-coach-jamahl-mosley-5-seasons",
+          "https://www.audacy.com/wwl/local-sports/new-orleans-pelicans/jamahl-mosley-top-quotes"
+        ]
+      },
+      "three_point_emphasis": {
+        "score": 30,
+        "confidence": 0.6,
+        "evidence": [
+          "Orlando was among the NBA's lowest-volume 3-point teams in 2023-24 and 2024-25 and shot 27th in 3P% in 2025-26 even after adding Bane (ESPN, May 2026).",
+          "Shooting and spacing were the central offensive criticisms throughout his tenure."
+        ],
+        "sources": [
+          "https://africa.espn.com/nba/story/_/id/48675305/sources-magic-fire-head-coach-jamahl-mosley-5-seasons",
+          "https://www.smdailyjournal.com/sports/magic-fire-jamahl-mosley-after-5-seasons-as-coach-3-first-round-playoff-appearances/article_0e5cb08c-6563-5f12-aec7-2dbdb5f1d80b.html",
+          "https://www.si.com/nba/magic/onsi/news/former-nba-assistant-destroys-magic-s-offense-process-01kg2z2zjy2v"
+        ]
+      },
+      "ball_movement": {
+        "score": 35,
+        "confidence": 0.55,
+        "evidence": [
+          "Offense ran through Banchero/Wagner isolation drives and post-ups; a former NBA assistant publicly 'destroyed' the Magic's offensive process in 2025-26 (SI).",
+          "Orlando was bottom-10 in offense four straight years (2022-26)."
+        ],
+        "sources": [
+          "https://www.si.com/nba/magic/onsi/news/former-nba-assistant-destroys-magic-s-offense-process-01kg2z2zjy2v",
+          "https://africa.espn.com/nba/story/_/id/48675305/sources-magic-fire-head-coach-jamahl-mosley-5-seasons"
+        ]
+      },
+      "transition_emphasis": {
+        "score": 40,
+        "confidence": 0.4,
+        "evidence": [
+          "Defense-first team that prioritized getting back; Mosley repeatedly cited transition defense as a problem area (2025-26), implying conservative running (inferred)."
+        ],
+        "sources": [
+          "https://orlandomagicdaily.com/posts/jamahl-mosley-reveals-biggest-improvement-magic-must-make-defensively",
+          "https://www.talkbasket.net/208086-jamahl-mosley-on-magics-defensive-struggles-and-lessons-from-nba-cup-semifinal-loss"
+        ]
+      },
+      "offensive_rebounding": {
+        "score": 65,
+        "confidence": 0.45,
+        "evidence": [
+          "Orlando's big, two-center looks (Carter/Bitadze/Mo Wagner) consistently ranked top-10 in offensive rebounding rate (2023-26, prior knowledge).",
+          "Pelicans frontcourt of Missi/Queen/Matkovic fits the same template (2026 depth chart)."
+        ],
+        "sources": [
+          "https://www.si.com/nba/pelicans/onsi/pelicans-depth-chart-after-quiet-offseason-01kxkzynvve9"
+        ]
+      },
+      "paint_post_emphasis": {
+        "score": 72,
+        "confidence": 0.55,
+        "evidence": [
+          "Offense built on Banchero post-ups/drives and paint touches; opponents 'congest the paint' against Orlando (2025-26 coverage).",
+          "Low 3PA volume and heavy FT generation define the shot profile (2023-26)."
+        ],
+        "sources": [
+          "https://www.si.com/nba/magic/onsi/news/former-nba-assistant-destroys-magic-s-offense-process-01kg2z2zjy2v",
+          "https://africa.espn.com/nba/story/_/id/48675305/sources-magic-fire-head-coach-jamahl-mosley-5-seasons"
+        ]
+      },
+      "playcalling_ato_quality": {
+        "score": 30,
+        "confidence": 0.5,
+        "evidence": [
+          "Commentary on his dismissal cites 'offensive stagnation' and 'lack of in-game adjustments' (May 2026).",
+          "Blew a 24-point second-half home lead in Game 6 vs Detroit (April 2026)."
+        ],
+        "sources": [
+          "https://www.audible.de/pd/B0GZJPV6TZ",
+          "https://www.smdailyjournal.com/sports/magic-fire-jamahl-mosley-after-5-seasons-as-coach-3-first-round-playoff-appearances/article_0e5cb08c-6563-5f12-aec7-2dbdb5f1d80b.html"
+        ]
+      }
+    },
+    "defense": {
+      "aggressiveness": {
+        "score": 62,
+        "confidence": 0.5,
+        "evidence": [
+          "'I think it all starts with our ball pressure' (Mosley, 2025-26); Orlando's length generated turnovers while protecting the paint.",
+          "Preseason 2026: 'defense is a five-man job', graded his defense a C- (Oct 2026)."
+        ],
+        "sources": [
+          "https://www.talkbasket.net/208086-jamahl-mosley-on-magics-defensive-struggles-and-lessons-from-nba-cup-semifinal-loss",
+          "https://www.si.com/nba/magic/news/orlando-magic-lacking-defensive-pressure-says-coach-jamahl-mosley",
+          "https://www.audacy.com/wwl/local-sports/new-orleans-pelicans/jamahl-mosley-top-quotes",
+          "https://roundtable.io/sports/nba/pelicans/news/jeremiah-fears-leads-new-orleans-pelicans-to-win-over-mavericks-on-his-birthday"
+        ]
+      },
+      "perimeter_priority": {
+        "score": 35,
+        "confidence": 0.55,
+        "evidence": [
+          "Paint defense 'has always been the central tenet' of the Magic's scheme; big drop coverage with Carter/Bitadze conceded 3s (2023-26).",
+          "Pelicans 2026-27 bigs (Missi, Queen) point to the same drop-first approach (inferred)."
+        ],
+        "sources": [
+          "https://orlandomagicdaily.com/posts/jamahl-mosley-reveals-biggest-improvement-magic-must-make-defensively",
+          "https://orlandomagicdaily.com/posts/orlando-magic-have-seen-defense-slip-but-have-chances-to-improve-again-01hjv8cv5138"
+        ]
+      },
+      "foul_discipline": {
+        "score": 22,
+        "confidence": 0.55,
+        "evidence": [
+          "Orlando was among the league's most foul-prone teams under Mosley, consistently top-5 in personal fouls and opponent free-throw rate (2023-26, prior knowledge).",
+          "Physicality was deliberate; refs' whistles were a recurring Mosley complaint in pressers."
+        ],
+        "sources": [
+          "https://www.si.com/nba/magic/news/orlando-magic-lacking-defensive-pressure-says-coach-jamahl-mosley"
+        ]
+      },
+      "zone_usage": {
+        "score": 38,
+        "confidence": 0.3,
+        "evidence": [
+          "Orlando mixed in occasional zone looks with its length but was primarily a man drop team (2023-26, inferred)."
+        ],
+        "sources": []
+      },
+      "scheme_adaptability": {
+        "score": 35,
+        "confidence": 0.45,
+        "evidence": [
+          "Criticized for lack of in-game adjustments (2026); Orlando's scheme barely changed across series (CLE 2024, BOS 2025, DET 2026).",
+          "Said defense slipped when ball pressure dropped rather than changing coverages (2025-26)."
+        ],
+        "sources": [
+          "https://www.audible.de/pd/B0GZJPV6TZ",
+          "https://www.talkbasket.net/208086-jamahl-mosley-on-magics-defensive-struggles-and-lessons-from-nba-cup-semifinal-loss"
+        ]
+      }
+    },
+    "endgame": {
+      "timeout_aggressiveness": {
+        "score": 50,
+        "confidence": 0.2,
+        "evidence": [
+          "No systematic reporting; Mosley was not noted as unusually quick or slow with timeouts (inferred)."
+        ],
+        "sources": []
+      },
+      "foul_up_three": {
+        "score": 50,
+        "confidence": 0.15,
+        "evidence": [
+          "No evidence found (inferred)."
+        ],
+        "sources": []
+      },
+      "late_lineup_shrink": {
+        "score": 62,
+        "confidence": 0.3,
+        "evidence": [
+          "Leaned on Banchero/Wagner/Suggs heavily in clutch minutes, shrinking to a core 6-7 (2023-26, inferred from minutes patterns)."
+        ],
+        "sources": [
+          "https://www.si.com/nba/magic/onsi/firing-jamahl-mosley-who-set-magic-standard-is-shortsighted-mistake-01kqsnksgmek"
+        ]
+      },
+      "challenge_quality": {
+        "score": 45,
+        "confidence": 0.25,
+        "evidence": [
+          "Orlando's challenge success was middling during his tenure; no standout reputation either way (prior knowledge, low confidence)."
+        ],
+        "sources": []
+      },
+      "two_for_one_awareness": {
+        "score": 40,
+        "confidence": 0.2,
+        "evidence": [
+          "Slow, half-court team that rarely hunted extra possessions (inferred)."
+        ],
+        "sources": []
+      },
+      "risk_appetite": {
+        "score": 40,
+        "confidence": 0.25,
+        "evidence": [
+          "Conservative late-game posture: paint-first, slow tempo, reliance on star isolations (2023-26, inferred)."
+        ],
+        "sources": [
+          "https://www.si.com/nba/magic/onsi/news/former-nba-assistant-destroys-magic-s-offense-process-01kg2z2zjy2v"
+        ]
+      },
+      "clutch_reputation": {
+        "score": 33,
+        "confidence": 0.5,
+        "evidence": [
+          "Lost a 3-1 series lead and a 24-point Game 6 home lead to Detroit (2026); late-game offense was a repeated criticism.",
+          "Three straight first-round exits despite elite regular-season defense (2024-26)."
+        ],
+        "sources": [
+          "https://www.smdailyjournal.com/sports/magic-fire-jamahl-mosley-after-5-seasons-as-coach-3-first-round-playoff-appearances/article_0e5cb08c-6563-5f12-aec7-2dbdb5f1d80b.html",
+          "https://africa.espn.com/nba/story/_/id/48675305/sources-magic-fire-head-coach-jamahl-mosley-5-seasons",
+          "https://www.audible.de/pd/B0GZJPV6TZ"
+        ]
+      }
+    },
+    "overall": {
+      "adaptability": {
+        "score": 35,
+        "confidence": 0.5,
+        "evidence": [
+          "'Lack of in-game adjustments' cited at his firing (May 2026); offense remained bottom-10 for four straight seasons despite roster changes.",
+          "Weltman: 'it just seems like it's time for a new perspective, a fresh voice' (May 4, 2026)."
+        ],
+        "sources": [
+          "https://www.audible.de/pd/B0GZJPV6TZ",
+          "https://www.cfpublic.org/2026-05-04/magic-fire-jamahl-mosley-after-5-seasons-as-coach"
+        ]
+      },
+      "player_development": {
+        "score": 70,
+        "confidence": 0.55,
+        "evidence": [
+          "Developed Franz Wagner, Jalen Suggs, Wendell Carter Jr., Anthony Black and Banchero (ROY 2023) into a playoff core (2021-26).",
+          "Dumars cited leadership and player relationships; SI called firing him 'shortsighted' for setting the Magic standard (2026)."
+        ],
+        "sources": [
+          "https://www.nba.com/news/pelicans-hire-jamahl-mosley-as-coach",
+          "https://www.si.com/nba/magic/onsi/firing-jamahl-mosley-who-set-magic-standard-is-shortsighted-mistake-01kqsnksgmek"
+        ]
+      },
+      "analytics_adoption": {
+        "score": 38,
+        "confidence": 0.45,
+        "evidence": [
+          "Shot profile ran counter to league trends: bottom-tier 3PA volume, heavy mid-range/post usage (2023-26).",
+          "Orlando's defensive scheme (deep drop conceding 3s) was effective but old-school."
+        ],
+        "sources": [
+          "https://africa.espn.com/nba/story/_/id/48675305/sources-magic-fire-head-coach-jamahl-mosley-5-seasons",
+          "https://www.si.com/nba/magic/onsi/news/former-nba-assistant-destroys-magic-s-offense-process-01kg2z2zjy2v"
+        ]
+      },
+      "reputation": {
+        "score": 42,
+        "confidence": 0.5,
+        "evidence": [
+          "Fired after five seasons but rehired within two weeks on a five-year deal, beating out three finalists (May 2026).",
+          "Respected culture/defense builder; widely criticized offensive mind. Yardbarker (2026): 'Pelicans are setting Jamahl Mosley up to fail' (roster, not coach)."
+        ],
+        "sources": [
+          "https://africa.espn.com/nba/story/_/id/48806473/sources-pelicans-hiring-jamahl-mosley-head-coach",
+          "https://www.yardbarker.com/nba/articles/pelicans_are_setting_jamahl_mosley_up_to_fail/s1_17412_44044641",
+          "https://www.si.com/nba/magic/onsi/firing-jamahl-mosley-who-set-magic-standard-is-shortsighted-mistake-01kqsnksgmek"
+        ]
+      }
+    }
+  },
+  "notable_quotes": [
+    {
+      "quote": "I think it all starts with our ball pressure.",
+      "speaker": "Jamahl Mosley",
+      "context": "Orlando Magic 2025-26 season, explaining a defensive slide",
+      "source": "https://www.talkbasket.net/208086-jamahl-mosley-on-magics-defensive-struggles-and-lessons-from-nba-cup-semifinal-loss"
+    },
+    {
+      "quote": "Defense is a five-man job.",
+      "speaker": "Jamahl Mosley",
+      "context": "Pelicans training camp, Oct 2026 (Audacy 'top quotes')",
+      "source": "https://www.audacy.com/wwl/local-sports/new-orleans-pelicans/jamahl-mosley-top-quotes"
+    },
+    {
+      "quote": "[The defense is ahead of the offense; I'd give it a] C-.",
+      "speaker": "Jamahl Mosley",
+      "context": "Pelicans preseason practice, St. Augustine, Oct 2026",
+      "source": "https://roundtable.io/sports/nba/pelicans/news/jeremiah-fears-leads-new-orleans-pelicans-to-win-over-mavericks-on-his-birthday"
+    },
+    {
+      "quote": "It just seems like it's time for a new perspective, a fresh voice.",
+      "speaker": "Jeff Weltman (Magic president)",
+      "context": "Announcing Mosley's firing, 2026-05-04",
+      "source": "https://www.cfpublic.org/2026-05-04/magic-fire-jamahl-mosley-after-5-seasons-as-coach"
+    }
+  ],
+  "key_criticisms": [
+    "Bottom-10 offense in each of his last four Orlando seasons; low 3-point volume and stagnant, isolation-heavy half-court sets.",
+    "Late-game and series management: lost a 3-1 lead and a 24-point Game 6 home lead to Detroit (2026); 'lack of in-game adjustments'.",
+    "Foul-prone, physical defensive scheme that concedes high opponent free-throw rates.",
+    "Reported friction with franchise star Paolo Banchero (2025-26); preseason 2026 lineup churn (three starting groups)."
+  ],
+  "key_strengths": [
+    "Elite defensive culture builder: Orlando top-3 in defensive rating 2023-25.",
+    "Player development and relationships (Wagner, Suggs, Black, Carter); Dumars hired him for leadership.",
+    "Strong offensive rebounding and paint presence; teams play hard and physical.",
+    "Turned a 22-win team into three straight playoff teams (2021-26)."
+  ],
+  "sources": [
+    "https://africa.espn.com/nba/story/_/id/48806473/sources-pelicans-hiring-jamahl-mosley-head-coach",
+    "https://www.nba.com/news/pelicans-hire-jamahl-mosley-as-coach",
+    "https://www.nbcsports.com/nba/news/new-orleans-pelicans-hire-former-orlando-coach-jamahl-mosley-as-next-head-coach",
+    "https://africa.espn.com/nba/story/_/id/48675305/sources-magic-fire-head-coach-jamahl-mosley-5-seasons",
+    "https://www.cfpublic.org/2026-05-04/magic-fire-jamahl-mosley-after-5-seasons-as-coach",
+    "https://www.smdailyjournal.com/sports/magic-fire-jamahl-mosley-after-5-seasons-as-coach-3-first-round-playoff-appearances/article_0e5cb08c-6563-5f12-aec7-2dbdb5f1d80b.html",
+    "https://www.si.com/nba/magic/onsi/firing-jamahl-mosley-who-set-magic-standard-is-shortsighted-mistake-01kqsnksgmek",
+    "https://www.si.com/nba/magic/onsi/news/former-nba-assistant-destroys-magic-s-offense-process-01kg2z2zjy2v",
+    "https://www.talkbasket.net/208086-jamahl-mosley-on-magics-defensive-struggles-and-lessons-from-nba-cup-semifinal-loss",
+    "https://www.si.com/nba/magic/news/orlando-magic-lacking-defensive-pressure-says-coach-jamahl-mosley",
+    "https://orlandomagicdaily.com/posts/jamahl-mosley-reveals-biggest-improvement-magic-must-make-defensively",
+    "https://orlandomagicdaily.com/posts/orlando-magic-have-seen-defense-slip-but-have-chances-to-improve-again-01hjv8cv5138",
+    "https://www.audible.de/pd/B0GZJPV6TZ",
+    "https://www.si.com/nba/magic/onsi/news/one-clear-change-the-magic-must-make-in-second-half-of-the-season-01kfmfky6czy",
+    "https://africa.espn.com/nba/story/_/id/49537991/new-orleans-pelicans-2026-27-season-preview-stats-roster",
+    "https://www.nba.com/news/2026-27-season-preview-nop",
+    "https://www.si.com/nba/pelicans/onsi/pelicans-depth-chart-after-quiet-offseason-01kxkzynvve9",
+    "https://roundtable.io/sports/nba/pelicans/players/key-takeaways-from-new-orleans-pelicans-preseason-opening-win-over-thunder",
+    "https://www.yardbarker.com/nba/articles/derik_queens_pelicans_preseason_was_a_total_mixed_bag/s1_17412_44453337",
+    "https://clutchpoints.com/nba/new-orleans-pelicans/pelicans-news-derik-queen-defends-jamahl-mosley-process-told-dream-about-unique-rotation",
+    "https://www.audacy.com/wwl/local-sports/new-orleans-pelicans/jamahl-mosley-top-quotes",
+    "https://clutchpoints.com/nba/new-orleans-pelicans/exclusive-inside-jamahl-mosley-cultural-reset-zion-williamson-season-pelicans",
+    "https://www.yardbarker.com/nba/articles/pelicans_are_setting_jamahl_mosley_up_to_fail/s1_17412_44044641",
+    "https://roundtable.io/sports/nba/pelicans/news/four-biggest-winners-from-new-orleans-pelicans-first-two-preseason-games",
+    "https://roundtable.io/sports/nba/pelicans/news/jeremiah-fears-leads-new-orleans-pelicans-to-win-over-mavericks-on-his-birthday",
+    "https://roundtable.io/sports/nba/magic/news/inside-paolo-banchero-s-comments-following-magic-s-fourth-straight-loss",
+    "https://bleacherreport.com/articles/25294955-jamahl-mosley-pelicans-agree-new-hc-contract-following-rajon-rondo-rumors"
+  ],
+  "research_notes": "Season-by-season Orlando records (22-60, 34-48, 47-35, 41-41, 45-37; total 189-221 matches ESPN's figure) are from prior knowledge plus the AP/ESPN firing reports. Pace, 3PA-rate, offensive-rebound and foul-rate rankings are prior knowledge consistent with search snippets ('bottom 10 offense four straight years', '27th in 3P%'), not freshly verified because the session's web-search budget ran out before those queries. Not found: Pelicans' 2026-27 regular-season record and opening-night starting lineup (omitted from record_last5), Mosley's challenge success rate, timeout habits, and any Pelicans-specific scheme reporting beyond preseason quotes. Preseason lineup notes (Zion/Murphy/Jones off the bench in one game; Queen never started) may reflect preseason experimentation rather than regular-season intent.",
+  "researched_at": "2026-11-02"
+}

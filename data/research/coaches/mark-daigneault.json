@@ -1,0 +1,521 @@
+{
+  "coach": "Mark Daigneault",
+  "slug": "mark-daigneault",
+  "team": "OKC",
+  "team_name": "Oklahoma City Thunder",
+  "head_coach_since": "2020-21",
+  "age": 41,
+  "background": "A former UConn student manager and Holy Cross/Florida assistant (under Billy Donovan), Daigneault coached the Oklahoma City Blue in the G League from 2014-19, joined the Thunder bench in 2019-20 and was promoted to head coach in November 2020 at age 35. He oversaw the full teardown (22-50, 24-58) and the rise: a play-in in 2022-23, the West's No. 1 seed and Coach of the Year in 2023-24, a franchise-record 68-14 and the 2025 NBA championship, and a 64-18 season (inferred) in 2025-26 that ended with a Game 7 Western Conference Finals loss to San Antonio. Career marks of 275-207 (regular season) and 26-11 (playoffs) through the 2026 first round; he has never lost a first-round series. Signed a contract extension in 2024. Known for a problem-solving, experiment-heavy approach, a league-best pressure defense, a data-driven challenge system and heavy trust in young players.",
+  "prior_head_coaching": [
+    {
+      "team": "OKC Blue (G League)",
+      "seasons": "2014-15 to 2018-19",
+      "record": "143-107 (approx.)",
+      "notes": "G League affiliate head coach; record approximate from pre-cutoff knowledge"
+    }
+  ],
+  "record_last5": [
+    {
+      "season": "2021-22",
+      "team": "OKC",
+      "wins": 24,
+      "losses": 58,
+      "playoffs": "Missed playoffs",
+      "notes": "Second straight tanking/rebuild year"
+    },
+    {
+      "season": "2022-23",
+      "team": "OKC",
+      "wins": 40,
+      "losses": 42,
+      "playoffs": "Missed playoffs: won play-in at NOP, lost 8th-seed game at MIN",
+      "notes": "Holmgren missed the whole season (foot)"
+    },
+    {
+      "season": "2023-24",
+      "team": "OKC",
+      "wins": 57,
+      "losses": 25,
+      "playoffs": "Lost WCSF 2-4 to DAL (swept NOP 4-0); No. 1 seed in West",
+      "notes": "NBA Coach of the Year"
+    },
+    {
+      "season": "2024-25",
+      "team": "OKC",
+      "wins": 68,
+      "losses": 14,
+      "playoffs": "Won NBA title (beat MEM 4-0, DEN 4-3, MIN 4-1, IND 4-3)",
+      "notes": "Franchise-record wins; No. 1 defense (106.6 DRtg); SGA MVP"
+    },
+    {
+      "season": "2025-26",
+      "team": "OKC",
+      "wins": 64,
+      "losses": 18,
+      "playoffs": "Lost WCF 3-4 to SAS (beat PHX 4-0, LAL 4-0); 11-4 playoff record",
+      "notes": "W-L INFERRED by subtracting prior seasons from SI's cumulative 275-207 (published after the 2026 first round); seed not verified (likely No. 1). Game 7 loss 103-111 at home on May 30, 2026; NYK won the 2026 title over SAS"
+    }
+  ],
+  "defense_scheme_tags": [
+    "switch",
+    "aggressive-help",
+    "blitz",
+    "ice",
+    "no-middle",
+    "zone"
+  ],
+  "offense_scheme_tags": [
+    "five-out",
+    "drive-and-kick",
+    "heliocentric",
+    "pace-and-space",
+    "transition",
+    "midrange-hunting"
+  ],
+  "scores": {
+    "rotation": {
+      "depth": {
+        "score": 80,
+        "confidence": 0.7,
+        "evidence": [
+          "Regular season features 10-11 man rotations and deliberately unpredictable lineups; SGA praised the tinkering as 'strategic... Keeps teams on their heels... Throw them a curveball'",
+          "Preview: 'the regular season provides Daigneault with considerably more freedom to experiment'; bench depth was decisive in the 2025 WCF"
+        ],
+        "sources": [
+          "https://www.cbssports.com/nba/news/unpredictable-thunder-host-wilting-wizards",
+          "https://www.si.com/nba/thunder/news/okc-thunder-playoff-rotation-daigneault",
+          "https://cbssports.com/nba/news/thunders-wcf-bench-dominance-mark-daigneault"
+        ]
+      },
+      "star_minutes_load": {
+        "score": 45,
+        "confidence": 0.65,
+        "evidence": [
+          "No hard cap on SGA, but minutes are managed 'through stint length and closing decisions'; Daigneault: 'We will extend [his minutes] earlier in the year, sometimes it is contextual to the schedule, sometimes it is contextual to the game'",
+          "SGA's regular-season pattern: most of Q1/Q3, closes Q2/Q4 (~34 mpg); 37 minutes used selectively (Apr 2025 vs LAL)"
+        ],
+        "sources": [
+          "https://heavy.com/sports/nba/oklahoma-city-thunder/shai-gilgeous-alexander-minutes-nuggets-espn/",
+          "https://www.si.com/nba/thunder/news/mark-daigneault-okc-thunder-shai-gilgeous-alexander-minutes-lakers-april-10",
+          "https://www.si.com/nba/thunder/news/stiles-points-okc-thunder-star-shows-leadership-with-shifted-rotation-pattern-dec-24"
+        ]
+      },
+      "consistency": {
+        "score": 30,
+        "confidence": 0.7,
+        "evidence": [
+          "Rotation patterns described as 'unpredictable' and experimental in the regular season, with stints and pairings varied by game",
+          "Tightens to 8-9 and becomes matchup-driven in the playoffs"
+        ],
+        "sources": [
+          "https://www.cbssports.com/nba/news/unpredictable-thunder-host-wilting-wizards",
+          "https://www.si.com/nba/thunder/news/okc-thunder-playoff-rotation-daigneault"
+        ]
+      },
+      "youth_trust": {
+        "score": 85,
+        "confidence": 0.75,
+        "evidence": [
+          "Rookie Cason Wallace started playoff games in 2024; second-year Ajay Mitchell became a core rotation ballhawk (1.5 spg) in 2025-26; Holmgren and Jalen Williams were handed major roles immediately",
+          "Navigated a 'short-handed season perfectly' in 2025-26 by plugging in young reserves"
+        ],
+        "sources": [
+          "https://www.si.com/nba/thunder/onsi/news/okc-thunder-s-defense-is-leading-the-way-once-again-01k9tpm2xhj6",
+          "https://www.si.com/nba/thunder/onsi/news/okc-thunder-navigating-short-handed-season-perfectly-01kbr63sg4p2",
+          "https://www.si.com/nba/thunder/news/okc-thunder-playoff-rotation-daigneault"
+        ]
+      },
+      "load_management": {
+        "score": 65,
+        "confidence": 0.5,
+        "evidence": [
+          "Thunder routinely sit stars on back-to-backs and manage returning players conservatively (SGA 9-game absence handled with no stated minutes number)",
+          "Daigneault: play-in positioning is 'not so important that it's gonna distract us from our way of doing things' (2023)"
+        ],
+        "sources": [
+          "https://heavy.com/sports/nba/oklahoma-city-thunder/shai-gilgeous-alexander-minutes-nuggets-espn/",
+          "https://www.cbssports.com/nba/news/thunders-mark-daigneault-play-in-not-so-important-that-its-gonna-distract-us-from-our-way-of-doing-things"
+        ]
+      },
+      "closing_flexibility": {
+        "score": 70,
+        "confidence": 0.6,
+        "evidence": [
+          "Closing groups shift by matchup: Caruso, Wallace, Hartenstein, Holmgren and Dort rotate in/out of clutch lineups; 2025 WCF bench units closed stretches",
+          "Playoff previews describe lineup decisions becoming 'much more dependent on matchups'"
+        ],
+        "sources": [
+          "https://cbssports.com/nba/news/thunders-wcf-bench-dominance-mark-daigneault",
+          "https://www.si.com/nba/thunder/news/thunder-playoff-rotation-sga"
+        ]
+      }
+    },
+    "offense": {
+      "pace": {
+        "score": 65,
+        "confidence": 0.55,
+        "evidence": [
+          "Thunder ranked 'near the top of the NBA in pace and transition points' (SI); 2019-20 OKC pace was 7th-highest and the team has stayed top-10 most years",
+          "Playoff pace slows as SGA-centric half-court offense takes over"
+        ],
+        "sources": [
+          "https://www.si.com/nba/thunder/onsi/news/thunder-near-top-of-the-nba-in-pace-transition-points",
+          "https://www.nba.com/thunder/story/offensive-philosophy-211105"
+        ]
+      },
+      "three_point_emphasis": {
+        "score": 55,
+        "confidence": 0.55,
+        "evidence": [
+          "Climbed from 16th (32.4 3PA) to 11th (38.7) in 3PA; Daigneault frames volume as a way to 'manipulate the pickup point' against defenders who gap the drive",
+          "Still a drive/midrange-first team relative to Boston-style volume"
+        ],
+        "sources": [
+          "https://www.nbcsports.com/nba/news/why-are-thunder-jacking-up-more-3s-because-they-want-to-win",
+          "https://www.si.com/nba/thunder/news/why-the-okc-thunder-shooting-more-3-pointers"
+        ]
+      },
+      "ball_movement": {
+        "score": 50,
+        "confidence": 0.55,
+        "evidence": [
+          "Offense is 'predicated on drives, kickouts, then secondary drives against closeouts' - a drive-and-kick system rather than motion",
+          "SGA carries ~33-34% usage and the half-court offense is heliocentric around his midrange game, offset by Williams/Holmgren secondary creation"
+        ],
+        "sources": [
+          "https://www.nba.com/thunder/news/driveanddish-240104",
+          "https://www.si.com/nba/thunder/onsi/news/okc-thunder-playoff-offense-hums-along-despite-poor-shooting"
+        ]
+      },
+      "transition_emphasis": {
+        "score": 65,
+        "confidence": 0.5,
+        "evidence": [
+          "Led NBA in points off turnovers in 2024-25 and ranks near the top in transition points; 'every player... can grab a defensive rebound and go'",
+          "Transition is steal-driven rather than push-after-every-make"
+        ],
+        "sources": [
+          "https://www.si.com/nba/thunder/onsi/news/thunder-near-top-of-the-nba-in-pace-transition-points",
+          "https://api-hub.nba.com/news/the-athletic-why-the-thunders-dominant-defense-makes-them-historically-great"
+        ]
+      },
+      "offensive_rebounding": {
+        "score": 35,
+        "confidence": 0.4,
+        "evidence": [
+          "2024 playoff analysis: 'middle-of-the-pack offensive rebounding' while posting a strong ORtg; Thunder prioritize getting back and have ranked near the bottom in a notable team stat (OREB believed) per a 2025 blog",
+          "Hartenstein's arrival (2024-25) added some crash, but transition defense remains the priority"
+        ],
+        "sources": [
+          "https://www.si.com/nba/thunder/onsi/news/okc-thunder-playoff-offense-hums-along-despite-poor-shooting",
+          "https://thunderousintentions.com/okc-thunder-rank-near-bottom-of-league-in-surprising-statistic"
+        ]
+      },
+      "paint_post_emphasis": {
+        "score": 50,
+        "confidence": 0.45,
+        "evidence": [
+          "Paint touches via drives are the offense's engine; SGA and Williams live in the midrange and at the line (Daigneault has discussed how OKC can 'earn more free throws')",
+          "Few true post-ups; score reflects paint attacks rather than post play"
+        ],
+        "sources": [
+          "https://www.nba.com/thunder/news/driveanddish-240104",
+          "https://www.si.com/nba/thunder/news/mark-daigneault-explains-how-okc-thunder-can-earn-more-free-throws"
+        ]
+      },
+      "playcalling_ato_quality": {
+        "score": 75,
+        "confidence": 0.5,
+        "evidence": [
+          "Praised for creative set design and the 2025 Finals adjustment that 'delivered a punch to the Pacers' (changing the attack mid-series)",
+          "Reputation-based; no ATO efficiency data found"
+        ],
+        "sources": [
+          "https://www.aol.com/sports/nba-finals-2025-behind-change-131712107.html",
+          "https://www.si.com/nba/thunder/onsi/news/mark-daigneault-wants-the-thunder-to-be-an-ever-evolving-problem-solving-group"
+        ]
+      }
+    },
+    "defense": {
+      "aggressiveness": {
+        "score": 95,
+        "confidence": 0.9,
+        "evidence": [
+          "2024-25: led NBA in steals, deflections, loose balls recovered and points off turnovers; 'constant ball pressure applied by the perimeter players'; players 'can gamble because they'll be covered on a mistake'",
+          "2025-26: No. 1 defensive efficiency (104.1 through week 7) built on 'ball pressure from several point-of-attack defenders'"
+        ],
+        "sources": [
+          "https://api-hub.nba.com/news/the-athletic-why-the-thunders-dominant-defense-makes-them-historically-great",
+          "https://welcometoloudcity.substack.com/p/analysis-of-the-oklahoma-citys-thunder-approach-to-defense",
+          "https://www.si.com/nba/thunder/onsi/news/okc-thunder-s-defense-is-leading-the-way-once-again-01k9tpm2xhj6"
+        ]
+      },
+      "perimeter_priority": {
+        "score": 70,
+        "confidence": 0.6,
+        "evidence": [
+          "'Switch everything' approach enabled by Caruso/Dort/Wallace; pressure at the point of attack is the identity, with Holmgren/Hartenstein as rim backstop",
+          "2025-26 opponents shot better from three (22nd in opp 3P%), suggesting some concession of 3s while pressuring the ball"
+        ],
+        "sources": [
+          "https://www.si.com/nba/thunder/news/how-mark-daigneault-powered-the-nba-best-defense",
+          "https://www.si.com/nba/thunder/onsi/news/okc-thunder-s-defense-is-leading-the-way-once-again-01k9tpm2xhj6"
+        ]
+      },
+      "foul_discipline": {
+        "score": 45,
+        "confidence": 0.35,
+        "evidence": [
+          "Hyper-aggressive ball pressure produces above-average foul counts; Dort/Wallace physicality and 'take fouls' are accepted costs",
+          "No opponent FT-rate rank found; estimate slightly below average discipline"
+        ],
+        "sources": [
+          "https://www.talkbasket.net/195138-a-contender-built-on-ambition-how-the-thunders-defence-disrupts-everything"
+        ]
+      },
+      "zone_usage": {
+        "score": 35,
+        "confidence": 0.3,
+        "evidence": [
+          "Uses occasional zone/matchup-zone possessions as a change-up (notably in 2023-24), but man pressure is the base",
+          "Inferred from pre-cutoff knowledge; not verified by search"
+        ],
+        "sources": []
+      },
+      "scheme_adaptability": {
+        "score": 85,
+        "confidence": 0.7,
+        "evidence": [
+          "Changed coverages series to series in 2025 (Dort on Murray 'critical', Caruso minutes on Jokic, altered attack vs IND); SI: he wants an 'ever-evolving problem-solving group'",
+          "Observers praise 'switching, loading up to help, and rotations' tailored to opponents"
+        ],
+        "sources": [
+          "https://www.news9.com/story/680d682b926a0f501cd8f9a2/mark-daigneault-okc-thunder-storm-into-round-two",
+          "https://www.si.com/nba/thunder/onsi/news/mark-daigneault-wants-the-thunder-to-be-an-ever-evolving-problem-solving-group",
+          "https://www.aol.com/sports/nba-finals-2025-behind-change-131712107.html"
+        ]
+      }
+    },
+    "endgame": {
+      "timeout_aggressiveness": {
+        "score": 50,
+        "confidence": 0.35,
+        "evidence": [
+          "Mixed: willing to burn timeouts on challenges (a failed 2024 challenge vs DAL cost his final timeout), otherwise tends to let young players play through runs",
+          "No systematic timeout tracking found"
+        ],
+        "sources": [
+          "https://larrybrownsports.com/basketball/thunder-mark-daigneault-challenge-mavericks-game-6/633290"
+        ]
+      },
+      "foul_up_three": {
+        "score": 70,
+        "confidence": 0.3,
+        "evidence": [
+          "Thunder have repeatedly fouled up three and used tactical 'take fouls' late in the 2024-25 playoffs; consistent with his analytics-first approach",
+          "Pre-cutoff knowledge; the dedicated search did not run"
+        ],
+        "sources": []
+      },
+      "late_lineup_shrink": {
+        "score": 70,
+        "confidence": 0.55,
+        "evidence": [
+          "Playoff rotation 'could likely shrink to nine and maybe even eight in tighter games'; clutch lineups center on SGA, Williams, Dort, Caruso plus one big",
+          "Regular season remains deep until the final minutes"
+        ],
+        "sources": [
+          "https://www.si.com/nba/thunder/news/okc-thunder-playoff-rotation-daigneault",
+          "https://www.si.com/nba/thunder/news/thunder-playoff-rotation-sga"
+        ]
+      },
+      "challenge_quality": {
+        "score": 85,
+        "confidence": 0.7,
+        "evidence": [
+          "Built a point system that scores each potential challenge by play type, time remaining and reward; players give input (SGA/Dort talked him out of a low-value Q3 challenge)",
+          "Known as one of the league's most frequent and successful challengers, though late failed challenges (2024 vs DAL, 2025 vs DEN) drew criticism"
+        ],
+        "sources": [
+          "https://sports.yahoo.com/inside-okc-thunders-mark-daigneaults-113017723.html",
+          "https://www.deseret.com/sports/2024/04/22/nba-coaches-challenge-mark-daigneault-thunder-pelicans",
+          "https://www.yardbarker.com/nba/articles/mark_daigneaults_coaching_may_end_thunders_season/s1_17659_42180446"
+        ]
+      },
+      "two_for_one_awareness": {
+        "score": 70,
+        "confidence": 0.3,
+        "evidence": [
+          "Thunder hunt early-clock 2-for-1s at ends of quarters, consistent with their possession-maximizing, steal-driven style",
+          "Not verified by search this session"
+        ],
+        "sources": []
+      },
+      "risk_appetite": {
+        "score": 65,
+        "confidence": 0.45,
+        "evidence": [
+          "Gambles on steals and full-court pressure late; willing to spend timeouts on challenges and to use unconventional closing lineups",
+          "Balanced by disciplined minute management"
+        ],
+        "sources": [
+          "https://welcometoloudcity.substack.com/p/analysis-of-the-oklahoma-citys-thunder-approach-to-defense",
+          "https://larrybrownsports.com/basketball/thunder-mark-daigneault-challenge-mavericks-game-6/633290"
+        ]
+      },
+      "clutch_reputation": {
+        "score": 70,
+        "confidence": 0.55,
+        "evidence": [
+          "Won two Game 7s and a title in 2025; 'steady hand' narrative through the 2025 run",
+          "Criticized for late collapses vs DEN 2025 and the 2024 DAL series ('Daigneault's coaching may end Thunder's season'); lost a home Game 7 to SAS in 2026"
+        ],
+        "sources": [
+          "https://www.news9.com/story/680d682b926a0f501cd8f9a2/mark-daigneault-okc-thunder-storm-into-round-two",
+          "https://www.yardbarker.com/nba/articles/mark_daigneaults_coaching_may_end_thunders_season/s1_17659_42180446",
+          "https://www.si.com/nba/thunder/onsi/shai-gilgeous-alexander-heroics-not-enough-as-okc-thunder-fall-in-game-7-to-spurs"
+        ]
+      }
+    },
+    "overall": {
+      "adaptability": {
+        "score": 88,
+        "confidence": 0.7,
+        "evidence": [
+          "Mid-series offensive change in the 2025 Finals; coverage shifts vs DEN; SI describes him wanting an 'ever-evolving problem-solving group'",
+          "Handled a short-handed 2025-26 regular season with constant lineup adaptation"
+        ],
+        "sources": [
+          "https://www.aol.com/sports/nba-finals-2025-behind-change-131712107.html",
+          "https://www.si.com/nba/thunder/onsi/news/mark-daigneault-wants-the-thunder-to-be-an-ever-evolving-problem-solving-group",
+          "https://www.si.com/nba/thunder/onsi/news/okc-thunder-navigating-short-handed-season-perfectly-01kbr63sg4p2"
+        ]
+      },
+      "player_development": {
+        "score": 85,
+        "confidence": 0.65,
+        "evidence": [
+          "G League background; developed Dort (undrafted), Wallace, Ajay Mitchell (2nd round), Jaylin Williams and Joe into playoff contributors while SGA grew into MVP",
+          "Sam Presti credits Daigneault's foundation for the team's success"
+        ],
+        "sources": [
+          "https://www.si.com/nba/thunder/news/sam-presti-foundation-mark-daigneault-success-okc-thunder",
+          "https://www.si.com/nba/thunder/onsi/news/okc-thunder-s-defense-is-leading-the-way-once-again-01k9tpm2xhj6"
+        ]
+      },
+      "analytics_adoption": {
+        "score": 90,
+        "confidence": 0.7,
+        "evidence": [
+          "Data-driven challenge point system; explicit math framing of 3PA volume ('because they want to win'); the Thunder are the league's model analytics organization",
+          "Steal/turnover-maximizing defense is possession-math driven"
+        ],
+        "sources": [
+          "https://sports.yahoo.com/inside-okc-thunders-mark-daigneaults-113017723.html",
+          "https://www.nbcsports.com/nba/news/why-are-thunder-jacking-up-more-3s-because-they-want-to-win"
+        ]
+      },
+      "reputation": {
+        "score": 92,
+        "confidence": 0.8,
+        "evidence": [
+          "2024 Coach of the Year, 2025 champion, youngest coach in a generation to win a title; 'joins elite coaching ranks' for postseason record; never lost a first-round series",
+          "Consensus top-3 coach; 2025-26 COY case called an 'uphill battle' only because of voter fatigue"
+        ],
+        "sources": [
+          "https://www.knbr.com/news/thunders-mark-daigneault-tabbed-nba-coach-of-the-year/",
+          "https://www.si.com/nba/thunder/news/mark-daigneault-joins-elite-coaching-ranks-postseason-record",
+          "https://www.si.com/nba/thunder/onsi/okc-thunder-coach-mark-daigneault-still-unbeaten-in-first-round-01kq96fej9jx",
+          "https://www.si.com/nba/thunder/news/okc-thunder-dissecting-mark-daigneault-s-uphill-battle-for-2025-26-coach-of-the-year"
+        ]
+      }
+    }
+  },
+  "notable_quotes": [
+    {
+      "quote": "We will extend [Shai Gilgeous-Alexander's minutes] earlier in the year, sometimes it is contextual to the schedule, sometimes it is contextual to the game.",
+      "speaker": "Mark Daigneault",
+      "context": "April 2025, after a 37-minute, 42-point SGA game vs LAL",
+      "source": "https://www.si.com/nba/thunder/news/mark-daigneault-okc-thunder-shai-gilgeous-alexander-minutes-lakers-april-10"
+    },
+    {
+      "quote": "Keeps teams on their heels... Throw them a curveball.",
+      "speaker": "Shai Gilgeous-Alexander",
+      "context": "on Daigneault's lineup experimentation",
+      "source": "https://www.cbssports.com/nba/news/unpredictable-thunder-host-wilting-wizards"
+    },
+    {
+      "quote": "Not so important that it's gonna distract us from our way of doing things.",
+      "speaker": "Mark Daigneault",
+      "context": "2023 on chasing play-in seeding vs. resting/developing",
+      "source": "https://www.cbssports.com/nba/news/thunders-mark-daigneault-play-in-not-so-important-that-its-gonna-distract-us-from-our-way-of-doing-things"
+    },
+    {
+      "quote": "Critical.",
+      "speaker": "Mark Daigneault",
+      "context": "2025 WCSF, describing Dort's point-of-attack defense on Jamal Murray",
+      "source": "https://www.news9.com/story/680d682b926a0f501cd8f9a2/mark-daigneault-okc-thunder-storm-into-round-two"
+    }
+  ],
+  "key_criticisms": [
+    "Late-game execution lapses in big spots (2024 DAL series, 2025 DEN series, 2026 home Game 7 loss to SAS)",
+    "Over-experimentation and unpredictable regular-season rotations can leave players without defined roles",
+    "Failed late challenges have cost timeouts in close playoff games",
+    "Aggressive, foul-heavy pressure defense and SGA's foul-drawing style draw officiating complaints from opponents"
+  ],
+  "key_strengths": [
+    "League's best and most aggressive defense: ball pressure, switching, turnover creation (No. 1 DRtg 2024-25 and early 2025-26)",
+    "Elite trust in and development of young players; deep, flexible rotations",
+    "Data-driven decision-making (challenge point system, 3PA philosophy) and strong in-series adjustments",
+    "2024 Coach of the Year and 2025 champion with a 26-11 playoff record through the 2026 first round"
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mark_Daigneault",
+    "https://www.statscrew.com/basketball/stats/c-daignma01",
+    "https://en.wikipedia.org/wiki/2023%E2%80%9324_Oklahoma_City_Thunder_season",
+    "https://www.si.com/nba/thunder/onsi/okc-thunder-coach-mark-daigneault-still-unbeaten-in-first-round-01kq96fej9jx",
+    "https://www.knbr.com/news/thunders-mark-daigneault-tabbed-nba-coach-of-the-year/",
+    "https://www.nba.com/news/thunder-sign-mark-daigneault-extension",
+    "https://www.si.com/nba/thunder/news/mark-daigneault-joins-elite-coaching-ranks-postseason-record",
+    "https://en.wikipedia.org/wiki/2026_NBA_playoffs",
+    "https://www.si.com/nba/thunder/onsi/shai-gilgeous-alexander-heroics-not-enough-as-okc-thunder-fall-in-game-7-to-spurs",
+    "https://www.click2houston.com/gallery/sports/2026/05/31/thunder-a-day-after-playoff-elimination-in-west-finals-start-process-of-looking-ahead/",
+    "https://www.landofbasketball.com/results_by_team/2025_2026_thunder.htm",
+    "https://www.ksl.com/article/51489779/thunder-breeze-through-the-first-round-for-a-3rd-straight-year-and-brace-for-tougher-games-ahead",
+    "https://www.si.com/nba/thunder/onsi/okc-thunder-make-history-with-sweep-of-lakers-01kree6rpwkg",
+    "https://www.si.com/nba/thunder/news/mark-daigneault-okc-thunder-shai-gilgeous-alexander-minutes-lakers-april-10",
+    "https://heavy.com/sports/nba/oklahoma-city-thunder/shai-gilgeous-alexander-minutes-nuggets-espn/",
+    "https://www.si.com/nba/thunder/news/stiles-points-okc-thunder-star-shows-leadership-with-shifted-rotation-pattern-dec-24",
+    "https://www.si.com/nba/thunder/news/okc-thunder-playoff-rotation-daigneault",
+    "https://www.si.com/nba/thunder/news/thunder-playoff-rotation-sga",
+    "https://www.cbssports.com/nba/news/unpredictable-thunder-host-wilting-wizards",
+    "https://cbssports.com/nba/news/thunders-wcf-bench-dominance-mark-daigneault",
+    "https://www.cbssports.com/nba/news/thunders-mark-daigneault-play-in-not-so-important-that-its-gonna-distract-us-from-our-way-of-doing-things",
+    "https://www.si.com/nba/thunder/onsi/news/okc-thunder-navigating-short-handed-season-perfectly-01kbr63sg4p2",
+    "https://api-hub.nba.com/news/the-athletic-why-the-thunders-dominant-defense-makes-them-historically-great",
+    "https://welcometoloudcity.substack.com/p/analysis-of-the-oklahoma-citys-thunder-approach-to-defense",
+    "https://www.si.com/nba/thunder/news/how-mark-daigneault-powered-the-nba-best-defense",
+    "https://www.si.com/nba/thunder/onsi/news/okc-thunder-s-defense-is-leading-the-way-once-again-01k9tpm2xhj6",
+    "https://www.talkbasket.net/195138-a-contender-built-on-ambition-how-the-thunders-defence-disrupts-everything",
+    "https://www.news9.com/story/680d682b926a0f501cd8f9a2/mark-daigneault-okc-thunder-storm-into-round-two",
+    "https://www.aol.com/sports/nba-finals-2025-behind-change-131712107.html",
+    "https://www.aol.com/sports/nba-finals-2025-pacers-going-032735541.html",
+    "https://sports.yahoo.com/inside-okc-thunders-mark-daigneaults-113017723.html",
+    "https://www.deseret.com/sports/2024/04/22/nba-coaches-challenge-mark-daigneault-thunder-pelicans",
+    "https://larrybrownsports.com/basketball/thunder-mark-daigneault-challenge-mavericks-game-6/633290",
+    "https://www.yardbarker.com/nba/articles/mark_daigneaults_coaching_may_end_thunders_season/s1_17659_42180446",
+    "https://www.si.com/nba/thunder/news/okc-thunder-dissecting-mark-daigneault-s-uphill-battle-for-2025-26-coach-of-the-year",
+    "https://www.si.com/nba/thunder/news/sam-presti-foundation-mark-daigneault-success-okc-thunder",
+    "https://www.nba.com/thunder/story/offensive-philosophy-211105",
+    "https://www.nbcsports.com/nba/news/why-are-thunder-jacking-up-more-3s-because-they-want-to-win",
+    "https://www.si.com/nba/thunder/news/why-the-okc-thunder-shooting-more-3-pointers",
+    "https://www.si.com/nba/thunder/onsi/news/thunder-near-top-of-the-nba-in-pace-transition-points",
+    "https://www.si.com/nba/thunder/onsi/news/okc-thunder-playoff-offense-hums-along-despite-poor-shooting",
+    "https://www.nba.com/thunder/news/driveanddish-240104",
+    "https://thunderousintentions.com/okc-thunder-rank-near-bottom-of-league-in-surprising-statistic",
+    "https://www.si.com/nba/thunder/onsi/news/mark-daigneault-wants-the-thunder-to-be-an-ever-evolving-problem-solving-group",
+    "https://www.si.com/nba/thunder/news/mark-daigneault-explains-how-okc-thunder-can-earn-more-free-throws"
+  ],
+  "research_notes": "Search budget (shared per-turn cap) ran out before verifying: the exact 2025-26 regular-season record (64-18 is arithmetic from SI's cumulative 275-207 minus known prior seasons; seed assumed No. 1), the 2026-27 start (no row included), OREB/pace/3PA league ranks for 2025-26, zone frequency, foul-up-three and two-for-one habits (pre-cutoff knowledge, confidence <=0.3), opponent FT rate, and a league challenge leaderboard. Verified by snippets: 2020-21 through 2024-25 records and COY/title, 2026 playoff path (PHX 4-0, LAL 4-0, lost WCF 3-4 to SAS; NYK champion), defensive identity and rankings (No. 1 DRtg 2024-25; 104.1 through week 7 of 2025-26), SGA minutes philosophy quotes, lineup-experimentation quotes, the challenge point system and its late-game controversies. G League record is approximate. Age computed from Mar 18, 1985 birth date.",
+  "researched_at": "2026-11-02"
+}

@@ -1,0 +1,2230 @@
+[
+ {
+  "team": "ATL",
+  "coach": "Nate McMillan",
+  "start_date": "2021-03-01",
+  "end_date": "2023-02-21",
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2021-22",
+    "wins": 43,
+    "losses": 39,
+    "notes": "8th East via play-in (beat CHA, CLE); lost R1 1-4 MIA"
+   },
+   {
+    "season": "2022-23",
+    "wins": 29,
+    "losses": 30,
+    "notes": "fired Feb 21 2023 at 29-30"
+   }
+  ],
+  "sources": [
+   "https://foxsports.com/articles/nba/hawks-hire-snyder-as-coach-to-replace-fired-mcmillan"
+  ],
+  "notes": "Took over as interim Mar 1 2021 (interim tag removed later in 2021, date not verified). Fired Feb 21 2023 (confirmed by search: 29-30 at firing; 99-80 overall with ATL). Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "ATL",
+  "coach": "Joe Prunty",
+  "start_date": "2023-02-21",
+  "end_date": "2023-02-26",
+  "interim": true,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2022-23",
+    "wins": 2,
+    "losses": 0,
+    "notes": "interim; team went from 29-30 to 31-30 before Snyder was hired (Feb 24 W vs CLE, Feb 26 W vs BKN)"
+   }
+  ],
+  "sources": [
+   "https://foxsports.com/articles/nba/hawks-hire-snyder-as-coach-to-replace-fired-mcmillan",
+   "https://www.bostonglobe.com/2023/02/26/sports/hawks-turn-coaching-reins-over-quin-snyder-team-battles-playoff-spot"
+  ],
+  "notes": "Interim between McMillan firing and Snyder hire; 2-0 confirmed by search (team 31-30 when Snyder hired)."
+ },
+ {
+  "team": "ATL",
+  "coach": "Quin Snyder",
+  "start_date": "2023-02-26",
+  "end_date": null,
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2022-23",
+    "wins": 10,
+    "losses": 11,
+    "notes": "team finished 41-41; 7th via play-in (beat MIA); lost R1 2-4 BOS. Snyder first game Feb 28 2023"
+   },
+   {
+    "season": "2023-24",
+    "wins": 36,
+    "losses": 46,
+    "notes": "lost play-in (10th, lost at CHI)"
+   },
+   {
+    "season": "2024-25",
+    "wins": 40,
+    "losses": 42,
+    "notes": "lost play-in (8th; lost to ORL then MIA)"
+   },
+   {
+    "season": "2025-26",
+    "wins": null,
+    "losses": null,
+    "notes": "finished 6th in East per ESPN standings snippet; playoff result not retrieved. 2025-26 final record not retrieved (search budget exhausted); fill from standings."
+   },
+   {
+    "season": "2026-27",
+    "wins": 3,
+    "losses": 4,
+    "notes": "Approximate snapshot ~Oct 31-Nov 1 2026 from standings snippets (Yahoo / Basketball-Reference / Fox); sources differed by <=1 game."
+   }
+  ],
+  "sources": [
+   "https://foxsports.com/articles/nba/hawks-hire-snyder-as-coach-to-replace-fired-mcmillan",
+   "https://www.bostonglobe.com/2023/02/26/sports/hawks-turn-coaching-reins-over-quin-snyder-team-battles-playoff-spot",
+   "https://sports.yahoo.com/nba/standings/",
+   "https://www.basketball-reference.com/leagues/NBA_2027_standings.html",
+   "https://www.foxsports.com/nba/standings?type=division"
+  ],
+  "notes": "Hired Sun Feb 26 2023 (5-yr deal), confirmed by search. Current head coach per 2026-27 roster feed. Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "BOS",
+  "coach": "Ime Udoka",
+  "start_date": "2021-06-23",
+  "end_date": "2022-09-22",
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2021-22",
+    "wins": 51,
+    "losses": 31,
+    "notes": "2nd East; beat BKN 4-0, MIL 4-3, MIA 4-3; lost Finals 2-4 GSW"
+   }
+  ],
+  "sources": [
+   "https://www.cbssports.com/nba/news/ime-udoka-suspension-celtics-name-joe-mazzulla-interim-head-coach-brad-stevens-had-no-plans-to-step-in-again",
+   "https://www.si.com/nba/2023/02/16/ime-udoka-no-longer-employed-celtics-joe-mazzulla"
+  ],
+  "notes": "Hire agreed Jun 23 2021 (official Jun 28). Suspended for the entire 2022-23 season on Sep 22 2022 (coached 0 games that season); formally no longer employed by BOS Feb 16 2023. end_date = suspension date (last day as active HC). Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "BOS",
+  "coach": "Joe Mazzulla",
+  "start_date": "2022-09-22",
+  "end_date": null,
+  "interim": false,
+  "interim_until": "2023-02-16",
+  "seasons": [
+   {
+    "season": "2022-23",
+    "wins": 57,
+    "losses": 25,
+    "notes": "2nd East; beat ATL 4-2, PHI 4-3; lost ECF 3-4 MIA. Interim until Feb 16 2023 (42-17 at that point)"
+   },
+   {
+    "season": "2023-24",
+    "wins": 64,
+    "losses": 18,
+    "notes": "NBA champion (beat MIA 4-1, CLE 4-1, IND 4-0, DAL 4-1)"
+   },
+   {
+    "season": "2024-25",
+    "wins": 61,
+    "losses": 21,
+    "notes": "beat ORL 4-1; lost R2 2-4 NYK"
+   },
+   {
+    "season": "2025-26",
+    "wins": null,
+    "losses": null,
+    "notes": "finished 2nd in East (y- division winner) per ESPN standings snippet; playoff result not retrieved. 2025-26 final record not retrieved (search budget exhausted); fill from standings."
+   },
+   {
+    "season": "2026-27",
+    "wins": 5,
+    "losses": 1,
+    "notes": "Approximate snapshot ~Oct 31-Nov 1 2026 from standings snippets (Yahoo / Basketball-Reference / Fox); sources differed by <=1 game. (Yahoo/B-R standings page showed 4-1, Fox/B-R summary 5-1)"
+   }
+  ],
+  "sources": [
+   "https://www.si.com/nba/2023/02/16/ime-udoka-no-longer-employed-celtics-joe-mazzulla",
+   "https://www.nba.com/news/celtics-name-joe-mazzulla-coach-gets-extension",
+   "https://www.cbssports.com/nba/news/ime-udoka-suspension-celtics-name-joe-mazzulla-interim-head-coach-brad-stevens-had-no-plans-to-step-in-again",
+   "https://sports.yahoo.com/nba/standings/",
+   "https://www.basketball-reference.com/leagues/NBA_2027_standings.html",
+   "https://www.foxsports.com/nba/standings?type=division"
+  ],
+  "notes": "Named interim HC Sep 22 2022 after Udoka suspension; interim tag removed / named permanent HC Feb 16 2023 (both confirmed by search). Single continuous stint. Current head coach per 2026-27 roster feed."
+ },
+ {
+  "team": "BKN",
+  "coach": "Steve Nash",
+  "start_date": "2020-09-03",
+  "end_date": "2022-11-01",
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2021-22",
+    "wins": 44,
+    "losses": 38,
+    "notes": "7th via play-in (beat CLE); lost R1 0-4 BOS"
+   },
+   {
+    "season": "2022-23",
+    "wins": 2,
+    "losses": 5,
+    "notes": "fired Nov 1 2022 at 2-5"
+   }
+  ],
+  "sources": [],
+  "notes": "Fired Nov 1 2022 (mid-season change NOT in caller's list). Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "BKN",
+  "coach": "Jacque Vaughn",
+  "start_date": "2022-11-01",
+  "end_date": "2024-02-19",
+  "interim": false,
+  "interim_until": "2022-11-09",
+  "seasons": [
+   {
+    "season": "2022-23",
+    "wins": 43,
+    "losses": 32,
+    "notes": "team finished 45-37, 6th East; lost R1 0-4 PHI. Interim Nov 1-9 2022, then permanent"
+   },
+   {
+    "season": "2023-24",
+    "wins": 21,
+    "losses": 33,
+    "notes": "fired Feb 19 2024 at 21-33"
+   }
+  ],
+  "sources": [
+   "https://sports.yahoo.com/nets-fire-head-coach-jacque-152438711.html",
+   "https://www.cbssports.com/nba/news/nets-promote-kevin-ollie-to-interim-head-coach-after-firing-jacque-vaughn-per-report"
+  ],
+  "notes": "Interim from Nov 1 2022; named permanent HC Nov 9 2022 (date from memory, not re-verified). Firing date Feb 19 2024 and 21-33 record confirmed by search (64-65 overall with BKN)."
+ },
+ {
+  "team": "BKN",
+  "coach": "Kevin Ollie",
+  "start_date": "2024-02-20",
+  "end_date": "2024-04-22",
+  "interim": true,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2023-24",
+    "wins": 11,
+    "losses": 17,
+    "notes": "interim; team finished 32-50 (28 games remaining when named, confirmed by search)"
+   }
+  ],
+  "sources": [
+   "https://www.cbssports.com/nba/news/nets-promote-kevin-ollie-to-interim-head-coach-after-firing-jacque-vaughn-per-report",
+   "https://www.espn.com/nba/story/_/id/39558023"
+  ],
+  "notes": "Named interim Feb 20 2024 (day after Vaughn firing). 11-17 derived from 32-50 final minus Vaughn 21-33. Stint ended when Jordi Fernandez was hired Apr 22 2024."
+ },
+ {
+  "team": "BKN",
+  "coach": "Jordi Fernandez",
+  "start_date": "2024-04-22",
+  "end_date": null,
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2024-25",
+    "wins": 26,
+    "losses": 56,
+    "notes": ""
+   },
+   {
+    "season": "2025-26",
+    "wins": null,
+    "losses": null,
+    "notes": "2025-26 final record not retrieved (search budget exhausted); fill from standings."
+   },
+   {
+    "season": "2026-27",
+    "wins": 1,
+    "losses": 5,
+    "notes": "Approximate snapshot ~Oct 31-Nov 1 2026 from standings snippets (Yahoo / Basketball-Reference / Fox); sources differed by <=1 game. (one snapshot showed 0-5)"
+   }
+  ],
+  "sources": [
+   "https://www.foxsports.com/stories/nba/2024-nba-coaching-tracker-vacancies-rumors-firings",
+   "https://www.espn.co.uk/nba/story/_/id/40113315/next-nba-2024-coaching-carousel",
+   "https://sports.yahoo.com/nba/standings/",
+   "https://www.basketball-reference.com/leagues/NBA_2027_standings.html",
+   "https://www.foxsports.com/nba/standings?type=division"
+  ],
+  "notes": "Hired Apr 22 2024. Current head coach per 2026-27 roster feed. Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "CHA",
+  "coach": "James Borrego",
+  "start_date": "2018-05-10",
+  "end_date": "2022-04-22",
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2021-22",
+    "wins": 43,
+    "losses": 39,
+    "notes": "10th East; lost play-in at ATL"
+   }
+  ],
+  "sources": [],
+  "notes": "Fired Apr 22 2022. (Became NOP interim HC in Nov 2025, see NOP.) Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "CHA",
+  "coach": "Steve Clifford",
+  "start_date": "2022-06-24",
+  "end_date": "2024-04-25",
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2022-23",
+    "wins": 27,
+    "losses": 55,
+    "notes": ""
+   },
+   {
+    "season": "2023-24",
+    "wins": 21,
+    "losses": 61,
+    "notes": ""
+   }
+  ],
+  "sources": [],
+  "notes": "Hired Jun 24 2022 (after Kenny Atkinson backed out). Announced Apr 25 2024 he was stepping down to a front-office role. Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "CHA",
+  "coach": "Charles Lee",
+  "start_date": "2024-05-09",
+  "end_date": null,
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2024-25",
+    "wins": 19,
+    "losses": 63,
+    "notes": ""
+   },
+   {
+    "season": "2025-26",
+    "wins": null,
+    "losses": null,
+    "notes": "2025-26 final record not retrieved (search budget exhausted); fill from standings."
+   },
+   {
+    "season": "2026-27",
+    "wins": 3,
+    "losses": 4,
+    "notes": "Approximate snapshot ~Oct 31-Nov 1 2026 from standings snippets (Yahoo / Basketball-Reference / Fox); sources differed by <=1 game."
+   }
+  ],
+  "sources": [
+   "https://www.foxsports.com/stories/nba/2024-nba-coaching-tracker-vacancies-rumors-firings",
+   "https://www.espn.co.uk/nba/story/_/id/40113315/next-nba-2024-coaching-carousel",
+   "https://sports.yahoo.com/nba/standings/",
+   "https://www.basketball-reference.com/leagues/NBA_2027_standings.html",
+   "https://www.foxsports.com/nba/standings?type=division"
+  ],
+  "notes": "Agreement reported May 9 2024 (formal announcement followed; exact official date not verified). Current head coach per 2026-27 roster feed. Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "CHI",
+  "coach": "Billy Donovan",
+  "start_date": "2020-09-22",
+  "end_date": "2026-04-21",
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2021-22",
+    "wins": 46,
+    "losses": 36,
+    "notes": "6th East; lost R1 1-4 MIL"
+   },
+   {
+    "season": "2022-23",
+    "wins": 40,
+    "losses": 42,
+    "notes": "lost play-in (beat TOR, lost at MIA)"
+   },
+   {
+    "season": "2023-24",
+    "wins": 39,
+    "losses": 43,
+    "notes": "lost play-in (beat ATL, lost at MIA)"
+   },
+   {
+    "season": "2024-25",
+    "wins": 39,
+    "losses": 43,
+    "notes": "lost play-in (lost at MIA)"
+   },
+   {
+    "season": "2025-26",
+    "wins": 31,
+    "losses": 51,
+    "notes": "missed playoffs 4th straight year (confirmed by search)"
+   }
+  ],
+  "sources": [
+   "https://roundtable.io/sports/nba/bulls/news/former-bulls-coach-billy-donovan-opens-up-about-chicago-departure",
+   "https://news.wttw.com/2026/06/15/chicago-bulls-finalizing-hire-tiago-splitter-new-head-coach-ap-source-says"
+  ],
+  "notes": "Stepped down / mutually parted ways Apr 21 2026 after front office (Karnisovas, Eversley) fired Apr 6 2026; 226-256 with CHI (confirmed by search). Earlier-season records Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "CHI",
+  "coach": "Tiago Splitter",
+  "start_date": "2026-06-16",
+  "end_date": null,
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2026-27",
+    "wins": 1,
+    "losses": 5,
+    "notes": "Approximate snapshot ~Oct 31-Nov 1 2026 from standings snippets (Yahoo / Basketball-Reference / Fox); sources differed by <=1 game."
+   }
+  ],
+  "sources": [
+   "https://www.wifr.com/2026/06/15/bulls-hire-tiago-splitter-new-head-coach/",
+   "https://news.wttw.com/2026/06/15/chicago-bulls-finalizing-hire-tiago-splitter-new-head-coach-ap-source-says",
+   "https://prod.beinsports.com/en-mena/basketball/nba/articles-video/bulls-appoint-splitter-as-new-head-coach-2026-06-16",
+   "https://sports.yahoo.com/nba/standings/",
+   "https://www.basketball-reference.com/leagues/NBA_2027_standings.html",
+   "https://www.foxsports.com/nba/standings?type=division"
+  ],
+  "notes": "Deal reported Jun 15 2026; officially announced Jun 16 2026 (new 2026). Current head coach per 2026-27 roster feed."
+ },
+ {
+  "team": "CLE",
+  "coach": "J.B. Bickerstaff",
+  "start_date": "2020-02-19",
+  "end_date": "2024-05-23",
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2021-22",
+    "wins": 44,
+    "losses": 38,
+    "notes": "8th East; lost both play-in games (BKN, ATL)"
+   },
+   {
+    "season": "2022-23",
+    "wins": 51,
+    "losses": 31,
+    "notes": "4th East; lost R1 1-4 NYK"
+   },
+   {
+    "season": "2023-24",
+    "wins": 48,
+    "losses": 34,
+    "notes": "beat ORL 4-3; lost R2 1-4 BOS"
+   }
+  ],
+  "sources": [
+   "https://www.foxsports.com/stories/nba/2024-nba-coaching-tracker-vacancies-rumors-firings",
+   "https://www.espn.co.uk/nba/story/_/id/40113315/next-nba-2024-coaching-carousel"
+  ],
+  "notes": "Fired May 23 2024. Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "CLE",
+  "coach": "Kenny Atkinson",
+  "start_date": "2024-06-24",
+  "end_date": null,
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2024-25",
+    "wins": 64,
+    "losses": 18,
+    "notes": "1st East; beat MIA 4-0; lost R2 1-4 IND; Atkinson COY"
+   },
+   {
+    "season": "2025-26",
+    "wins": null,
+    "losses": null,
+    "notes": "2025-26 final record not retrieved (search budget exhausted); fill from standings."
+   },
+   {
+    "season": "2026-27",
+    "wins": 4,
+    "losses": 2,
+    "notes": "Approximate snapshot ~Oct 31-Nov 1 2026 from standings snippets (Yahoo / Basketball-Reference / Fox); sources differed by <=1 game."
+   }
+  ],
+  "sources": [
+   "https://www.foxsports.com/stories/nba/2024-nba-coaching-tracker-vacancies-rumors-firings",
+   "https://www.espn.co.uk/nba/story/_/id/40113315/next-nba-2024-coaching-carousel",
+   "https://sports.yahoo.com/nba/standings/",
+   "https://www.basketball-reference.com/leagues/NBA_2027_standings.html",
+   "https://www.foxsports.com/nba/standings?type=division"
+  ],
+  "notes": "Agreement reported Jun 24 2024 (official announcement a few days later; exact date not verified). Current head coach per 2026-27 roster feed. Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "DAL",
+  "coach": "Jason Kidd",
+  "start_date": "2021-06-25",
+  "end_date": "2026-05-19",
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2021-22",
+    "wins": 52,
+    "losses": 30,
+    "notes": "4th West; beat UTA 4-2, PHX 4-3; lost WCF 1-4 GSW"
+   },
+   {
+    "season": "2022-23",
+    "wins": 38,
+    "losses": 44,
+    "notes": ""
+   },
+   {
+    "season": "2023-24",
+    "wins": 50,
+    "losses": 32,
+    "notes": "beat LAC 4-2, OKC 4-2, MIN 4-1; lost Finals 1-4 BOS"
+   },
+   {
+    "season": "2024-25",
+    "wins": 39,
+    "losses": 43,
+    "notes": "lost play-in (beat SAC, lost at MEM)"
+   },
+   {
+    "season": "2025-26",
+    "wins": 26,
+    "losses": 56,
+    "notes": "missed playoffs; GM Nico Harrison fired Nov 11 2025 (confirmed by search)"
+   }
+  ],
+  "sources": [
+   "https://www.tsn.ca/nba/article/mavericks-head-coach-kidd-mutually-part-ways-after-five-years-with-the-team/",
+   "https://basketball.realgm.com/wiretap/285714/Jason-Kidd-Mavericks-Agree-To-Part-Ways"
+  ],
+  "notes": "Hire agreed Jun 25 2021 (official Jun 28). Mutually parted ways May 19 2026, ~2 weeks after Masai Ujiri hired as president (confirmed by search). Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "DAL",
+  "coach": "Dusty May",
+  "start_date": "2026-06-23",
+  "end_date": null,
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2026-27",
+    "wins": null,
+    "losses": null,
+    "notes": "2026-27 record not found in search snippets"
+   }
+  ],
+  "sources": [
+   "https://www.newstribune.com/news/2026/jun/24/mavericks-announce-may-as-next-head-coach/",
+   "https://www.gmanetwork.com/news/sports/basketball/992500/nba-mavericks-announce-hire-of-dusty-may-as-next-head-coach/story/",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Dallas_Mavericks_season"
+  ],
+  "notes": "Hired from Michigan; first reported Mon Jun 22 2026, officially announced Tue Jun 23 2026 (Wikipedia also lists Jun 23). New 2026. Current head coach per 2026-27 roster feed."
+ },
+ {
+  "team": "DEN",
+  "coach": "Michael Malone",
+  "start_date": "2015-06-15",
+  "end_date": "2025-04-08",
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2021-22",
+    "wins": 48,
+    "losses": 34,
+    "notes": "6th West; lost R1 1-4 GSW"
+   },
+   {
+    "season": "2022-23",
+    "wins": 53,
+    "losses": 29,
+    "notes": "NBA champion (beat MIN 4-1, PHX 4-2, LAL 4-0, MIA 4-1)"
+   },
+   {
+    "season": "2023-24",
+    "wins": 57,
+    "losses": 25,
+    "notes": "beat LAL 4-1; lost R2 3-4 MIN"
+   },
+   {
+    "season": "2024-25",
+    "wins": 47,
+    "losses": 32,
+    "notes": "fired Apr 8 2025 with 3 games left (GM Calvin Booth also fired)"
+   }
+  ],
+  "sources": [
+   "https://www.hoopsrumors.com/2025/05/several-teams-promoting-interim-head-coaches-forgoing-searches.html",
+   "https://1075thefan.com/playlist/list-of-nba-coaches-gms-fired-this-season/",
+   "https://www.aol.com/nba-coaching-carousel-nuggets-fire-214953924.html"
+  ],
+  "notes": "Fired Apr 8 2025 (confirmed by search). Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "DEN",
+  "coach": "David Adelman",
+  "start_date": "2025-04-08",
+  "end_date": null,
+  "interim": false,
+  "interim_until": "2025-05-22",
+  "seasons": [
+   {
+    "season": "2024-25",
+    "wins": 3,
+    "losses": 0,
+    "notes": "interim; team finished 50-32 (4th West); beat LAC 4-3; lost R2 3-4 OKC"
+   },
+   {
+    "season": "2025-26",
+    "wins": null,
+    "losses": null,
+    "notes": "2025-26 final record not retrieved (search budget exhausted); fill from standings."
+   },
+   {
+    "season": "2026-27",
+    "wins": null,
+    "losses": null,
+    "notes": "2026-27 record not found in search snippets"
+   }
+  ],
+  "sources": [
+   "https://www.hoopsrumors.com/2025/05/several-teams-promoting-interim-head-coaches-forgoing-searches.html",
+   "https://1075thefan.com/playlist/list-of-nba-coaches-gms-fired-this-season/",
+   "https://www.aol.com/nba-coaching-carousel-nuggets-fire-214953924.html"
+  ],
+  "notes": "Interim from Apr 8 2025; interim tag removed in May 2025 (caller lists 'Adelman permanent 2025'; exact date not verified by search - believed late May 2025, after Game 7 loss to OKC on May 18). interim_until is approximate. Current head coach per 2026-27 roster feed."
+ },
+ {
+  "team": "DET",
+  "coach": "Dwane Casey",
+  "start_date": "2018-06-11",
+  "end_date": "2023-04-09",
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2021-22",
+    "wins": 23,
+    "losses": 59,
+    "notes": ""
+   },
+   {
+    "season": "2022-23",
+    "wins": 17,
+    "losses": 65,
+    "notes": ""
+   }
+  ],
+  "sources": [],
+  "notes": "Stepped down Apr 9 2023 (after season finale) into front-office role. Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "DET",
+  "coach": "Monty Williams",
+  "start_date": "2023-06-02",
+  "end_date": "2024-06-19",
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2023-24",
+    "wins": 14,
+    "losses": 68,
+    "notes": "worst record in franchise history; 28-game losing streak"
+   }
+  ],
+  "sources": [
+   "https://www.foxsports.com/stories/nba/2023-nba-coaching-tracker-news-rumors-interviews-personnel-changes",
+   "https://www.foxsports.com/stories/nba/2024-nba-coaching-tracker-vacancies-rumors-firings",
+   "https://www.espn.co.uk/nba/story/_/id/40113315/next-nba-2024-coaching-carousel"
+  ],
+  "notes": "Hire agreed Jun 1 2023, announced Jun 2 2023. Fired Jun 19 2024. Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "DET",
+  "coach": "J.B. Bickerstaff",
+  "start_date": "2024-07-02",
+  "end_date": null,
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2024-25",
+    "wins": 44,
+    "losses": 38,
+    "notes": "6th East; lost R1 2-4 NYK"
+   },
+   {
+    "season": "2025-26",
+    "wins": null,
+    "losses": null,
+    "notes": "finished 1st in East (z-) per ESPN standings snippet; beat ORL 4-3 in R1 after trailing 1-3 (per search); later rounds not retrieved. 2025-26 final record not retrieved (search budget exhausted); fill from standings."
+   },
+   {
+    "season": "2026-27",
+    "wins": 5,
+    "losses": 1,
+    "notes": "Approximate snapshot ~Oct 31-Nov 1 2026 from standings snippets (Yahoo / Basketball-Reference / Fox); sources differed by <=1 game."
+   }
+  ],
+  "sources": [
+   "https://www.foxsports.com/stories/nba/2024-nba-coaching-tracker-vacancies-rumors-firings",
+   "https://www.espn.co.uk/nba/story/_/id/40113315/next-nba-2024-coaching-carousel",
+   "https://www.espn.co.uk/nba/story/_/id/40113315/next-nba-2024-coaching-carousel",
+   "https://sports.yahoo.com/nba/standings/",
+   "https://www.basketball-reference.com/leagues/NBA_2027_standings.html",
+   "https://www.foxsports.com/nba/standings?type=division"
+  ],
+  "notes": "Agreement reported Jul 2 2024 (official announcement ~Jul 8; exact date not verified). Current head coach per 2026-27 roster feed. Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "GSW",
+  "coach": "Steve Kerr",
+  "start_date": "2014-05-14",
+  "end_date": null,
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2021-22",
+    "wins": 53,
+    "losses": 29,
+    "notes": "NBA champion (beat DEN 4-1, MEM 4-2, DAL 4-1, BOS 4-2)"
+   },
+   {
+    "season": "2022-23",
+    "wins": 44,
+    "losses": 38,
+    "notes": "6th West; beat SAC 4-3; lost R2 2-4 LAL"
+   },
+   {
+    "season": "2023-24",
+    "wins": 46,
+    "losses": 36,
+    "notes": "10th; lost play-in at SAC"
+   },
+   {
+    "season": "2024-25",
+    "wins": 48,
+    "losses": 34,
+    "notes": "7th via play-in (beat MEM); beat HOU 4-3; lost R2 1-4 MIN"
+   },
+   {
+    "season": "2025-26",
+    "wins": null,
+    "losses": null,
+    "notes": "2025-26 final record not retrieved (search budget exhausted); fill from standings."
+   },
+   {
+    "season": "2026-27",
+    "wins": null,
+    "losses": null,
+    "notes": "2026-27 record not found in search snippets"
+   }
+  ],
+  "sources": [],
+  "notes": "No change in window. Current head coach per 2026-27 roster feed. Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "HOU",
+  "coach": "Stephen Silas",
+  "start_date": "2020-10-30",
+  "end_date": "2023-04-10",
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2021-22",
+    "wins": 20,
+    "losses": 62,
+    "notes": ""
+   },
+   {
+    "season": "2022-23",
+    "wins": 22,
+    "losses": 60,
+    "notes": ""
+   }
+  ],
+  "sources": [],
+  "notes": "Fired Apr 10 2023 (day after season ended). Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "HOU",
+  "coach": "Ime Udoka",
+  "start_date": "2023-04-24",
+  "end_date": null,
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2023-24",
+    "wins": 41,
+    "losses": 41,
+    "notes": ""
+   },
+   {
+    "season": "2024-25",
+    "wins": 52,
+    "losses": 30,
+    "notes": "2nd West; lost R1 3-4 GSW"
+   },
+   {
+    "season": "2025-26",
+    "wins": null,
+    "losses": null,
+    "notes": "2025-26 final record not retrieved (search budget exhausted); fill from standings."
+   },
+   {
+    "season": "2026-27",
+    "wins": null,
+    "losses": null,
+    "notes": "2026-27 record not found in search snippets"
+   }
+  ],
+  "sources": [
+   "https://www.foxsports.com/stories/nba/2023-nba-coaching-tracker-news-rumors-interviews-personnel-changes"
+  ],
+  "notes": "Agreement reported Apr 24 2023 (official Apr 25). Current head coach per 2026-27 roster feed. Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "IND",
+  "coach": "Rick Carlisle",
+  "start_date": "2021-06-24",
+  "end_date": null,
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2021-22",
+    "wins": 25,
+    "losses": 57,
+    "notes": ""
+   },
+   {
+    "season": "2022-23",
+    "wins": 35,
+    "losses": 47,
+    "notes": ""
+   },
+   {
+    "season": "2023-24",
+    "wins": 47,
+    "losses": 35,
+    "notes": "6th East; beat MIL 4-2, NYK 4-3; lost ECF 0-4 BOS"
+   },
+   {
+    "season": "2024-25",
+    "wins": 50,
+    "losses": 32,
+    "notes": "4th East; beat MIL 4-1, CLE 4-1, NYK 4-2; lost Finals 3-4 OKC"
+   },
+   {
+    "season": "2025-26",
+    "wins": null,
+    "losses": null,
+    "notes": "2025-26 final record not retrieved (search budget exhausted); fill from standings."
+   },
+   {
+    "season": "2026-27",
+    "wins": null,
+    "losses": null,
+    "notes": "snippet said 'around 2-4 or 2-5' (too vague to record). Approximate snapshot ~Oct 31-Nov 1 2026 from standings snippets (Yahoo / Basketball-Reference / Fox); sources differed by <=1 game."
+   }
+  ],
+  "sources": [
+   "https://sports.yahoo.com/nba/standings/",
+   "https://www.basketball-reference.com/leagues/NBA_2027_standings.html",
+   "https://www.foxsports.com/nba/standings?type=division"
+  ],
+  "notes": "Hired Jun 24 2021 (second IND stint). No change in window. Current head coach per 2026-27 roster feed. Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "LAC",
+  "coach": "Tyronn Lue",
+  "start_date": "2020-10-15",
+  "end_date": null,
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2021-22",
+    "wins": 42,
+    "losses": 40,
+    "notes": "8th; lost both play-in games (MIN, NOP)"
+   },
+   {
+    "season": "2022-23",
+    "wins": 44,
+    "losses": 38,
+    "notes": "5th West; lost R1 1-4 PHX"
+   },
+   {
+    "season": "2023-24",
+    "wins": 51,
+    "losses": 31,
+    "notes": "4th West; lost R1 2-4 DAL"
+   },
+   {
+    "season": "2024-25",
+    "wins": 50,
+    "losses": 32,
+    "notes": "5th West; lost R1 3-4 DEN"
+   },
+   {
+    "season": "2025-26",
+    "wins": 42,
+    "losses": 40,
+    "notes": "INFERRED: 9th West, lost tiebreaker to POR (42-40) for 8th per Wikipedia POR season snippet; play-in result not retrieved - verify"
+   },
+   {
+    "season": "2026-27",
+    "wins": null,
+    "losses": null,
+    "notes": "2026-27 record not found in search snippets"
+   }
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Portland_Trail_Blazers_season"
+  ],
+  "notes": "Hire agreed Oct 15 2020 (official Oct 20). No change in window. Current head coach per 2026-27 roster feed. Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "LAL",
+  "coach": "Frank Vogel",
+  "start_date": "2019-05-13",
+  "end_date": "2022-04-11",
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2021-22",
+    "wins": 33,
+    "losses": 49,
+    "notes": "11th West, missed play-in"
+   }
+  ],
+  "sources": [],
+  "notes": "Fired Apr 11 2022. Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "LAL",
+  "coach": "Darvin Ham",
+  "start_date": "2022-05-27",
+  "end_date": "2024-05-03",
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2022-23",
+    "wins": 43,
+    "losses": 39,
+    "notes": "7th via play-in (beat MIN); beat MEM 4-2, GSW 4-2; lost WCF 0-4 DEN"
+   },
+   {
+    "season": "2023-24",
+    "wins": 47,
+    "losses": 35,
+    "notes": "7th via play-in (beat NOP); lost R1 1-4 DEN; won inaugural In-Season Tournament"
+   }
+  ],
+  "sources": [],
+  "notes": "Agreement reported May 27 2022 (official Jun 3 2022). Fired May 3 2024. Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "LAL",
+  "coach": "JJ Redick",
+  "start_date": "2024-06-20",
+  "end_date": null,
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2024-25",
+    "wins": 50,
+    "losses": 32,
+    "notes": "3rd West; lost R1 1-4 MIN"
+   },
+   {
+    "season": "2025-26",
+    "wins": null,
+    "losses": null,
+    "notes": "2025-26 final record not retrieved (search budget exhausted); fill from standings."
+   },
+   {
+    "season": "2026-27",
+    "wins": null,
+    "losses": null,
+    "notes": "2026-27 record not found in search snippets"
+   }
+  ],
+  "sources": [
+   "https://www.foxsports.com/stories/nba/2024-nba-coaching-tracker-vacancies-rumors-firings",
+   "https://www.espn.co.uk/nba/story/_/id/40113315/next-nba-2024-coaching-carousel"
+  ],
+  "notes": "Agreement reported Jun 20 2024 (official Jun 24 2024). Current head coach per 2026-27 roster feed. Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "MEM",
+  "coach": "Taylor Jenkins",
+  "start_date": "2019-06-11",
+  "end_date": "2025-03-28",
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2021-22",
+    "wins": 56,
+    "losses": 26,
+    "notes": "2nd West; beat MIN 4-2; lost R2 2-4 GSW"
+   },
+   {
+    "season": "2022-23",
+    "wins": 51,
+    "losses": 31,
+    "notes": "2nd West; lost R1 2-4 LAL"
+   },
+   {
+    "season": "2023-24",
+    "wins": 27,
+    "losses": 55,
+    "notes": ""
+   },
+   {
+    "season": "2024-25",
+    "wins": 44,
+    "losses": 29,
+    "notes": "fired Mar 28 2025 with 9 games left"
+   }
+  ],
+  "sources": [
+   "https://www.hoopsrumors.com/2025/05/several-teams-promoting-interim-head-coaches-forgoing-searches.html",
+   "https://1075thefan.com/playlist/list-of-nba-coaches-gms-fired-this-season/",
+   "https://www.aol.com/nba-coaching-carousel-nuggets-fire-214953924.html"
+  ],
+  "notes": "Fired Mar 28 2025 (confirmed by search; 250-214 with MEM). Hired by MIL Apr 30 2026 (see MIL). Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "MEM",
+  "coach": "Tuomas Iisalo",
+  "start_date": "2025-03-28",
+  "end_date": null,
+  "interim": false,
+  "interim_until": "2025-04-22",
+  "seasons": [
+   {
+    "season": "2024-25",
+    "wins": 4,
+    "losses": 5,
+    "notes": "interim; team finished 48-34 (8th via play-in: lost to GSW, beat DAL); lost R1 0-4 OKC"
+   },
+   {
+    "season": "2025-26",
+    "wins": null,
+    "losses": null,
+    "notes": "2025-26 final record not retrieved (search budget exhausted); fill from standings."
+   },
+   {
+    "season": "2026-27",
+    "wins": null,
+    "losses": null,
+    "notes": "2026-27 record not found in search snippets"
+   }
+  ],
+  "sources": [
+   "https://www.hoopsrumors.com/2025/05/several-teams-promoting-interim-head-coaches-forgoing-searches.html",
+   "https://1075thefan.com/playlist/list-of-nba-coaches-gms-fired-this-season/",
+   "https://www.aol.com/nba-coaching-carousel-nuggets-fire-214953924.html"
+  ],
+  "notes": "Interim from Mar 28 2025; interim tag removed ~Apr 22 2025 (date approximate, not verified by search). Current head coach per 2026-27 roster feed."
+ },
+ {
+  "team": "MIA",
+  "coach": "Erik Spoelstra",
+  "start_date": "2008-04-28",
+  "end_date": null,
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2021-22",
+    "wins": 53,
+    "losses": 29,
+    "notes": "1st East; beat ATL 4-1, PHI 4-2; lost ECF 3-4 BOS"
+   },
+   {
+    "season": "2022-23",
+    "wins": 44,
+    "losses": 38,
+    "notes": "8th via play-in (lost to ATL, beat CHI); beat MIL 4-1, NYK 4-2, BOS 4-3; lost Finals 1-4 DEN"
+   },
+   {
+    "season": "2023-24",
+    "wins": 46,
+    "losses": 36,
+    "notes": "8th via play-in (lost to PHI, beat CHI); lost R1 1-4 BOS"
+   },
+   {
+    "season": "2024-25",
+    "wins": 37,
+    "losses": 45,
+    "notes": "10th via play-in (beat CHI, ATL); lost R1 0-4 CLE"
+   },
+   {
+    "season": "2025-26",
+    "wins": null,
+    "losses": null,
+    "notes": "2025-26 final record not retrieved (search budget exhausted); fill from standings."
+   },
+   {
+    "season": "2026-27",
+    "wins": null,
+    "losses": null,
+    "notes": "snippet said 'around 2-4 or 2-5' (too vague to record). Approximate snapshot ~Oct 31-Nov 1 2026 from standings snippets (Yahoo / Basketball-Reference / Fox); sources differed by <=1 game."
+   }
+  ],
+  "sources": [
+   "https://sports.yahoo.com/nba/standings/",
+   "https://www.basketball-reference.com/leagues/NBA_2027_standings.html",
+   "https://www.foxsports.com/nba/standings?type=division"
+  ],
+  "notes": "No change in window. Current head coach per 2026-27 roster feed. Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "MIL",
+  "coach": "Mike Budenholzer",
+  "start_date": "2018-05-17",
+  "end_date": "2023-05-04",
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2021-22",
+    "wins": 51,
+    "losses": 31,
+    "notes": "3rd East; beat CHI 4-1; lost R2 3-4 BOS"
+   },
+   {
+    "season": "2022-23",
+    "wins": 58,
+    "losses": 24,
+    "notes": "1st overall; lost R1 1-4 MIA"
+   }
+  ],
+  "sources": [
+   "https://www.foxsports.com/stories/nba/2023-nba-coaching-tracker-news-rumors-interviews-personnel-changes"
+  ],
+  "notes": "Fired May 4 2023. Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "MIL",
+  "coach": "Adrian Griffin",
+  "start_date": "2023-06-05",
+  "end_date": "2024-01-23",
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2023-24",
+    "wins": 30,
+    "losses": 13,
+    "notes": "fired Jan 23 2024 at 30-13 (43 games, 2nd in East)"
+   }
+  ],
+  "sources": [
+   "https://tsn.ca/milwaukee-bucks-fire-first-year-head-coach-adrian-griffin-1.2066619",
+   "https://www.cbssports.com/nba/news/bucks-hire-doc-rivers-veteran-coach-finalizes-deal-to-take-over-after-adrian-griffins-firing"
+  ],
+  "notes": "Hire reported May 27 2023, official Jun 5 2023. Fired Jan 23 2024 (confirmed by search)."
+ },
+ {
+  "team": "MIL",
+  "coach": "Joe Prunty",
+  "start_date": "2024-01-23",
+  "end_date": "2024-01-26",
+  "interim": true,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2023-24",
+    "wins": 2,
+    "losses": 1,
+    "notes": "interim; coached Jan 24 (W vs CLE) and Jan 26 (L at NOP) at minimum. DERIVED as 49-33 final minus Griffin 30-13 minus Rivers 17-19; if Rivers was actually 18-19/17-20 then Prunty was 1-1 - verify"
+   }
+  ],
+  "sources": [
+   "https://tsn.ca/milwaukee-bucks-fire-first-year-head-coach-adrian-griffin-1.2066619"
+  ],
+  "notes": "Interim between Griffin firing (Jan 23) and Rivers' first game (Jan 29 at DEN). Rivers officially announced Jan 26 2024."
+ },
+ {
+  "team": "MIL",
+  "coach": "Doc Rivers",
+  "start_date": "2024-01-26",
+  "end_date": "2026-04-13",
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2023-24",
+    "wins": 17,
+    "losses": 19,
+    "notes": "team finished 49-33, 3rd East; lost R1 2-4 IND. Rivers debut Jan 29 2024"
+   },
+   {
+    "season": "2024-25",
+    "wins": 48,
+    "losses": 34,
+    "notes": "5th East; won NBA Cup; lost R1 1-4 IND"
+   },
+   {
+    "season": "2025-26",
+    "wins": 32,
+    "losses": 50,
+    "notes": "missed playoffs, ending 9-year streak (confirmed by search)"
+   }
+  ],
+  "sources": [
+   "https://www.cbssports.com/nba/news/bucks-hire-doc-rivers-veteran-coach-finalizes-deal-to-take-over-after-adrian-griffins-firing",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Milwaukee_Bucks_season",
+   "https://www.nba.com/news/bucks-hire-taylor-jenkins"
+  ],
+  "notes": "Deal agreed Jan 24 2024, announced Jan 26 2024. Resigned Apr 13 2026 (Wikipedia; NBA.com tracker snippet said Apr 12). 97-103 with MIL (confirmed by search; consistent with 17-19/48-34/32-50)."
+ },
+ {
+  "team": "MIL",
+  "coach": "Taylor Jenkins",
+  "start_date": "2026-04-30",
+  "end_date": null,
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2026-27",
+    "wins": 1,
+    "losses": 5,
+    "notes": "Approximate snapshot ~Oct 31-Nov 1 2026 from standings snippets (Yahoo / Basketball-Reference / Fox); sources differed by <=1 game. (Wikipedia 2026-27 Bucks page also showed 1-5)"
+   }
+  ],
+  "sources": [
+   "https://www.nba.com/news/bucks-hire-taylor-jenkins",
+   "https://www.clickorlando.com/sports/2026/04/23/bucks-are-finalizing-a-deal-with-taylor-jenkins-to-take-over-as-coach-ap-source-says/",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Milwaukee_Bucks_season",
+   "https://sports.yahoo.com/nba/standings/",
+   "https://www.basketball-reference.com/leagues/NBA_2027_standings.html",
+   "https://www.foxsports.com/nba/standings?type=division"
+  ],
+  "notes": "Deal reported Apr 23 2026; officially hired Apr 30 2026 (first 2026 vacancy filled). New 2026. Current head coach per 2026-27 roster feed."
+ },
+ {
+  "team": "MIN",
+  "coach": "Chris Finch",
+  "start_date": "2021-02-22",
+  "end_date": null,
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2021-22",
+    "wins": 46,
+    "losses": 36,
+    "notes": "7th via play-in (beat LAC); lost R1 2-4 MEM"
+   },
+   {
+    "season": "2022-23",
+    "wins": 42,
+    "losses": 40,
+    "notes": "8th via play-in (lost to LAL, beat OKC); lost R1 1-4 DEN"
+   },
+   {
+    "season": "2023-24",
+    "wins": 56,
+    "losses": 26,
+    "notes": "3rd West; beat PHX 4-0, DEN 4-3; lost WCF 1-4 DAL"
+   },
+   {
+    "season": "2024-25",
+    "wins": 49,
+    "losses": 33,
+    "notes": "6th West; beat LAL 4-1, GSW 4-1; lost WCF 1-4 OKC"
+   },
+   {
+    "season": "2025-26",
+    "wins": null,
+    "losses": null,
+    "notes": "2025-26 final record not retrieved (search budget exhausted); fill from standings."
+   },
+   {
+    "season": "2026-27",
+    "wins": null,
+    "losses": null,
+    "notes": "2026-27 record not found in search snippets"
+   }
+  ],
+  "sources": [],
+  "notes": "No change in window. Current head coach per 2026-27 roster feed. Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "NOP",
+  "coach": "Willie Green",
+  "start_date": "2021-07-22",
+  "end_date": "2025-11-15",
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2021-22",
+    "wins": 36,
+    "losses": 46,
+    "notes": "9th via play-in (beat SAS, LAC); lost R1 2-4 PHX"
+   },
+   {
+    "season": "2022-23",
+    "wins": 42,
+    "losses": 40,
+    "notes": "9th; lost play-in at OKC"
+   },
+   {
+    "season": "2023-24",
+    "wins": 49,
+    "losses": 33,
+    "notes": "7th via play-in (lost to LAL, beat SAC); lost R1 0-4 OKC"
+   },
+   {
+    "season": "2024-25",
+    "wins": 21,
+    "losses": 61,
+    "notes": ""
+   },
+   {
+    "season": "2025-26",
+    "wins": 2,
+    "losses": 10,
+    "notes": "fired Nov 15 2025 after 2-10 start"
+   }
+  ],
+  "sources": [
+   "https://www.nba.com/news/pelicans-willie-green-out-as-head-coach",
+   "https://www.news4jax.com/sports/2025/11/15/pelicans-fire-coach-willie-green-12-games-into-his-fifth-season/"
+  ],
+  "notes": "Fired Sat Nov 15 2025 by EVP Joe Dumars (confirmed by search; 150-190 with NOP, consistent with season records). Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "NOP",
+  "coach": "James Borrego",
+  "start_date": "2025-11-15",
+  "end_date": "2026-05-18",
+  "interim": true,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2025-26",
+    "wins": 24,
+    "losses": 46,
+    "notes": "interim; team finished 26-56 (confirmed by search). Borrego split derived as 26-56 minus Green 2-10"
+   }
+  ],
+  "sources": [
+   "https://www.nba.com/news/pelicans-willie-green-out-as-head-coach",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_New_Orleans_Pelicans_season",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_NBA_season"
+  ],
+  "notes": "Named interim Nov 15 2025 (associate HC). Not retained; replaced by Mosley."
+ },
+ {
+  "team": "NOP",
+  "coach": "Jamahl Mosley",
+  "start_date": "2026-05-18",
+  "end_date": null,
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2026-27",
+    "wins": null,
+    "losses": null,
+    "notes": "2026-27 record not found in search snippets"
+   }
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Jamahl_Mosley",
+   "https://www.nba.com/news/2026-coaching-tracker",
+   "https://www.hoopsrumors.com/2026/05/2026-nba-head-coaching-search-tracker.html",
+   "https://www.espn.com/nba/story/_/id/48413861/nba-coaching-carousel-firings-hirings-next-job"
+  ],
+  "notes": "Hire date DERIVED: Wikipedia snippet says he was hired by NOP 'exactly two weeks after' his May 4 2026 ORL firing -> May 18 2026 (not independently confirmed; ESPN carousel also says he replaced interim Borrego). New 2026. Current head coach per 2026-27 roster feed."
+ },
+ {
+  "team": "NYK",
+  "coach": "Tom Thibodeau",
+  "start_date": "2020-07-30",
+  "end_date": "2025-06-03",
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2021-22",
+    "wins": 37,
+    "losses": 45,
+    "notes": ""
+   },
+   {
+    "season": "2022-23",
+    "wins": 47,
+    "losses": 35,
+    "notes": "5th East; beat CLE 4-1; lost R2 2-4 MIA"
+   },
+   {
+    "season": "2023-24",
+    "wins": 50,
+    "losses": 32,
+    "notes": "2nd East; beat PHI 4-2; lost R2 3-4 IND"
+   },
+   {
+    "season": "2024-25",
+    "wins": 51,
+    "losses": 31,
+    "notes": "3rd East; beat DET 4-2, BOS 4-2; lost ECF 2-4 IND; fired Jun 3 2025"
+   }
+  ],
+  "sources": [
+   "https://www.hoopsrumors.com/2025/05/several-teams-promoting-interim-head-coaches-forgoing-searches.html",
+   "https://1075thefan.com/playlist/list-of-nba-coaches-gms-fired-this-season/",
+   "https://www.aol.com/nba-coaching-carousel-nuggets-fire-214953924.html"
+  ],
+  "notes": "Fired Jun 3 2025 (confirmed by search). Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "NYK",
+  "coach": "Mike Brown",
+  "start_date": "2025-07-01",
+  "end_date": null,
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2025-26",
+    "wins": null,
+    "losses": null,
+    "notes": "finished 3rd in East (x-) per ESPN standings snippet; playoff result not retrieved. 2025-26 final record not retrieved (search budget exhausted); fill from standings."
+   },
+   {
+    "season": "2026-27",
+    "wins": null,
+    "losses": null,
+    "notes": "snippet said 'around 2-4 or 2-5' (too vague to record). Approximate snapshot ~Oct 31-Nov 1 2026 from standings snippets (Yahoo / Basketball-Reference / Fox); sources differed by <=1 game."
+   }
+  ],
+  "sources": [
+   "https://www.hoopsrumors.com/2025/05/several-teams-promoting-interim-head-coaches-forgoing-searches.html",
+   "https://1075thefan.com/playlist/list-of-nba-coaches-gms-fired-this-season/",
+   "https://www.aol.com/nba-coaching-carousel-nuggets-fire-214953924.html",
+   "https://sports.yahoo.com/nba/standings/",
+   "https://www.basketball-reference.com/leagues/NBA_2027_standings.html",
+   "https://www.foxsports.com/nba/standings?type=division"
+  ],
+  "notes": "Agreement reported Jul 1 2025 (official Jul 2). Current head coach per 2026-27 roster feed."
+ },
+ {
+  "team": "OKC",
+  "coach": "Mark Daigneault",
+  "start_date": "2020-11-11",
+  "end_date": null,
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2021-22",
+    "wins": 24,
+    "losses": 58,
+    "notes": ""
+   },
+   {
+    "season": "2022-23",
+    "wins": 40,
+    "losses": 42,
+    "notes": "10th; play-in: beat NOP, lost at MIN"
+   },
+   {
+    "season": "2023-24",
+    "wins": 57,
+    "losses": 25,
+    "notes": "1st West; beat NOP 4-0; lost R2 2-4 DAL; Daigneault COY"
+   },
+   {
+    "season": "2024-25",
+    "wins": 68,
+    "losses": 14,
+    "notes": "NBA champion (beat MEM 4-0, DEN 4-3, MIN 4-1, IND 4-3)"
+   },
+   {
+    "season": "2025-26",
+    "wins": null,
+    "losses": null,
+    "notes": "2025-26 final record not retrieved (search budget exhausted); fill from standings."
+   },
+   {
+    "season": "2026-27",
+    "wins": 4,
+    "losses": 2,
+    "notes": "Approximate snapshot ~Oct 31-Nov 1 2026 from standings snippets (Yahoo / Basketball-Reference / Fox); sources differed by <=1 game. (Basketball-Reference snippet)"
+   }
+  ],
+  "sources": [
+   "https://sports.yahoo.com/nba/standings/",
+   "https://www.basketball-reference.com/leagues/NBA_2027_standings.html",
+   "https://www.foxsports.com/nba/standings?type=division"
+  ],
+  "notes": "No change in window. Current head coach per 2026-27 roster feed. Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "ORL",
+  "coach": "Jamahl Mosley",
+  "start_date": "2021-07-11",
+  "end_date": "2026-05-04",
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2021-22",
+    "wins": 22,
+    "losses": 60,
+    "notes": ""
+   },
+   {
+    "season": "2022-23",
+    "wins": 34,
+    "losses": 48,
+    "notes": ""
+   },
+   {
+    "season": "2023-24",
+    "wins": 47,
+    "losses": 35,
+    "notes": "5th East; lost R1 3-4 CLE"
+   },
+   {
+    "season": "2024-25",
+    "wins": 41,
+    "losses": 41,
+    "notes": "7th via play-in (beat ATL); lost R1 1-4 BOS"
+   },
+   {
+    "season": "2025-26",
+    "wins": 45,
+    "losses": 37,
+    "notes": "DERIVED from AP figure 189-221 with ORL minus prior seasons (144-184). 8th seed; lost R1 3-4 to DET after leading 3-1 (confirmed by search)"
+   }
+  ],
+  "sources": [
+   "https://www.hoopsrumors.com/2026/05/magic-fire-jamahl-mosley.html",
+   "https://www.clickorlando.com/sports/2026/05/04/orlando-magic-fire-head-coach-jamahl-mosley-after-getting-knocked-out-of-the-playoffs/",
+   "https://www.foxsports.com/articles/nba/jamahl-mosley-fired-as-coach-of-orlando-magic-ap-source-says"
+  ],
+  "notes": "Fired Mon May 4 2026, one day after R1 elimination (confirmed by search). Hired by NOP ~May 18 2026. Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "ORL",
+  "coach": "Sean Sweeney",
+  "start_date": "2026-06-01",
+  "end_date": null,
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2026-27",
+    "wins": 2,
+    "losses": 4,
+    "notes": "Approximate snapshot ~Oct 31-Nov 1 2026 from standings snippets (Yahoo / Basketball-Reference / Fox); sources differed by <=1 game. (one snapshot showed 2-3)"
+   }
+  ],
+  "sources": [
+   "https://www.espn.com/nba/story/_/id/48413861/nba-coaching-carousel-firings-hirings-next-job",
+   "https://www.aroundosceola.com/index.php/sports/its-official-spurs-assistant-sean-sweeney-orlando-magics-next-head-coach",
+   "https://www.flashscore.com/news/spurs-sean-sweeney-hired-as-magic-new-head-coach/6c1Cg5b6/",
+   "https://sports.yahoo.com/nba/standings/",
+   "https://www.basketball-reference.com/leagues/NBA_2027_standings.html",
+   "https://www.foxsports.com/nba/standings?type=division"
+  ],
+  "notes": "Spurs assistant; hire reported Fri May 29 2026, announced Jun 1 2026 (per ESPN snippet) while SAS was in the Finals. New 2026. Current head coach per 2026-27 roster feed."
+ },
+ {
+  "team": "PHI",
+  "coach": "Doc Rivers",
+  "start_date": "2020-10-03",
+  "end_date": "2023-05-16",
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2021-22",
+    "wins": 51,
+    "losses": 31,
+    "notes": "4th East; beat TOR 4-2; lost R2 2-4 MIA"
+   },
+   {
+    "season": "2022-23",
+    "wins": 54,
+    "losses": 28,
+    "notes": "3rd East; beat BKN 4-0; lost R2 3-4 BOS"
+   }
+  ],
+  "sources": [
+   "https://www.foxsports.com/stories/nba/2023-nba-coaching-tracker-news-rumors-interviews-personnel-changes"
+  ],
+  "notes": "Fired May 16 2023. Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "PHI",
+  "coach": "Nick Nurse",
+  "start_date": "2023-06-01",
+  "end_date": null,
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2023-24",
+    "wins": 47,
+    "losses": 35,
+    "notes": "7th via play-in (beat MIA); lost R1 2-4 NYK"
+   },
+   {
+    "season": "2024-25",
+    "wins": 24,
+    "losses": 58,
+    "notes": ""
+   },
+   {
+    "season": "2025-26",
+    "wins": null,
+    "losses": null,
+    "notes": "2025-26 final record not retrieved (search budget exhausted); fill from standings."
+   },
+   {
+    "season": "2026-27",
+    "wins": 6,
+    "losses": 1,
+    "notes": "Approximate snapshot ~Oct 31-Nov 1 2026 from standings snippets (Yahoo / Basketball-Reference / Fox); sources differed by <=1 game. (Yahoo and Fox both 6-1)"
+   }
+  ],
+  "sources": [
+   "https://www.foxsports.com/stories/nba/2023-nba-coaching-tracker-news-rumors-interviews-personnel-changes",
+   "https://sports.yahoo.com/nba/standings/",
+   "https://www.basketball-reference.com/leagues/NBA_2027_standings.html",
+   "https://www.foxsports.com/nba/standings?type=division"
+  ],
+  "notes": "Agreement reported May 29 2023, official Jun 1 2023. Current head coach per 2026-27 roster feed. Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "PHX",
+  "coach": "Monty Williams",
+  "start_date": "2019-05-03",
+  "end_date": "2023-05-13",
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2021-22",
+    "wins": 64,
+    "losses": 18,
+    "notes": "1st overall; beat NOP 4-2; lost R2 3-4 DAL"
+   },
+   {
+    "season": "2022-23",
+    "wins": 45,
+    "losses": 37,
+    "notes": "4th West; beat LAC 4-1; lost R2 2-4 DEN"
+   }
+  ],
+  "sources": [
+   "https://www.foxsports.com/stories/nba/2023-nba-coaching-tracker-news-rumors-interviews-personnel-changes"
+  ],
+  "notes": "Fired May 13 2023. Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "PHX",
+  "coach": "Frank Vogel",
+  "start_date": "2023-06-06",
+  "end_date": "2024-05-09",
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2023-24",
+    "wins": 49,
+    "losses": 33,
+    "notes": "6th West; lost R1 0-4 MIN"
+   }
+  ],
+  "sources": [
+   "https://www.foxsports.com/stories/nba/2023-nba-coaching-tracker-news-rumors-interviews-personnel-changes",
+   "https://www.foxsports.com/stories/nba/2024-nba-coaching-tracker-vacancies-rumors-firings",
+   "https://www.espn.co.uk/nba/story/_/id/40113315/next-nba-2024-coaching-carousel"
+  ],
+  "notes": "Agreed Jun 2 2023, official Jun 6 2023. Fired May 9 2024. Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "PHX",
+  "coach": "Mike Budenholzer",
+  "start_date": "2024-05-10",
+  "end_date": "2025-04-14",
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2024-25",
+    "wins": 36,
+    "losses": 46,
+    "notes": "11th West, missed play-in; fired Apr 14 2025"
+   }
+  ],
+  "sources": [
+   "https://www.foxsports.com/stories/nba/2024-nba-coaching-tracker-vacancies-rumors-firings",
+   "https://www.espn.co.uk/nba/story/_/id/40113315/next-nba-2024-coaching-carousel",
+   "https://www.hoopsrumors.com/2025/05/several-teams-promoting-interim-head-coaches-forgoing-searches.html",
+   "https://1075thefan.com/playlist/list-of-nba-coaches-gms-fired-this-season/",
+   "https://www.aol.com/nba-coaching-carousel-nuggets-fire-214953924.html"
+  ],
+  "notes": "Agreement reported May 10 2024 (official May 17 2024). Fired Apr 14 2025 (confirmed by search). Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "PHX",
+  "coach": "Jordan Ott",
+  "start_date": "2025-06-03",
+  "end_date": null,
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2025-26",
+    "wins": null,
+    "losses": null,
+    "notes": "finished 7th in West; lost 7-8 play-in game to POR (per search); 8th-seed game result not retrieved. 2025-26 final record not retrieved (search budget exhausted); fill from standings."
+   },
+   {
+    "season": "2026-27",
+    "wins": null,
+    "losses": null,
+    "notes": "2026-27 record not found in search snippets"
+   }
+  ],
+  "sources": [
+   "https://www.hoopsrumors.com/2025/05/several-teams-promoting-interim-head-coaches-forgoing-searches.html",
+   "https://1075thefan.com/playlist/list-of-nba-coaches-gms-fired-this-season/",
+   "https://www.aol.com/nba-coaching-carousel-nuggets-fire-214953924.html",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Portland_Trail_Blazers_season"
+  ],
+  "notes": "Agreement reported Jun 3 2025 (official Jun 4). Current head coach per 2026-27 roster feed."
+ },
+ {
+  "team": "POR",
+  "coach": "Chauncey Billups",
+  "start_date": "2021-06-27",
+  "end_date": "2025-10-23",
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2021-22",
+    "wins": 27,
+    "losses": 55,
+    "notes": ""
+   },
+   {
+    "season": "2022-23",
+    "wins": 33,
+    "losses": 49,
+    "notes": ""
+   },
+   {
+    "season": "2023-24",
+    "wins": 21,
+    "losses": 61,
+    "notes": ""
+   },
+   {
+    "season": "2024-25",
+    "wins": 36,
+    "losses": 46,
+    "notes": ""
+   },
+   {
+    "season": "2025-26",
+    "wins": 0,
+    "losses": 1,
+    "notes": "coached only the Oct 22 2025 opener (L at MIN) before arrest/leave"
+   }
+  ],
+  "sources": [
+   "https://www.smdailyjournal.com/sports/tiago-splitter-named-interim-coach-of-blazers-with-chauncey-billups-on-leave-after-indictment/article_5f228749-4280-5b43-b73d-a2639540aef6.html",
+   "https://www.foxsports.com/articles/nba/blazers-hire-wolves-assistant-micah-nori-as-head-coach-a-year-after-chauncey-billups-sudden-exit"
+  ],
+  "notes": "Hire agreed Jun 27 2021 (official Jun 29). Arrested in federal gambling case and placed on leave Oct 23 2025 (confirmed by search); team later formally parted ways - exact separation date NOT verified. end_date = leave date. Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "POR",
+  "coach": "Tiago Splitter",
+  "start_date": "2025-10-23",
+  "end_date": "2026-06-16",
+  "interim": true,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2025-26",
+    "wins": 42,
+    "losses": 39,
+    "notes": "interim; team 42-40, 8th West (tiebreaker over LAC); won 7-8 play-in vs PHX for 7th seed; lost R1 1-4 SAS; first playoffs since 2021 (confirmed by search)"
+   }
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Portland_Trail_Blazers_season",
+   "https://www.smdailyjournal.com/sports/tiago-splitter-named-interim-coach-of-blazers-with-chauncey-billups-on-leave-after-indictment/article_5f228749-4280-5b43-b73d-a2639540aef6.html",
+   "https://www.wifr.com/2026/06/15/bulls-hire-tiago-splitter-new-head-coach/"
+  ],
+  "notes": "Named interim Oct 23 2025; never made permanent; left to become CHI head coach (reported Jun 15, official Jun 16 2026). end_date = CHI hire date."
+ },
+ {
+  "team": "POR",
+  "coach": "Micah Nori",
+  "start_date": "2026-06-23",
+  "end_date": null,
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2026-27",
+    "wins": 4,
+    "losses": 1,
+    "notes": "Approximate snapshot ~Oct 31-Nov 1 2026 from standings snippets (Yahoo / Basketball-Reference / Fox); sources differed by <=1 game. (Basketball-Reference snippet)"
+   }
+  ],
+  "sources": [
+   "https://www.opb.org/article/2026/06/23/micah-nori-trail-blazers-coach/",
+   "https://www.foxsports.com/articles/nba/blazers-hire-wolves-assistant-micah-nori-as-head-coach-a-year-after-chauncey-billups-sudden-exit",
+   "https://sports.yahoo.com/nba/standings/",
+   "https://www.basketball-reference.com/leagues/NBA_2027_standings.html",
+   "https://www.foxsports.com/nba/standings?type=division"
+  ],
+  "notes": "Hired Jun 23 2026 (AP); ex-MIN lead assistant; 1-year deal plus two team options. New 2026. Current head coach per 2026-27 roster feed."
+ },
+ {
+  "team": "SAC",
+  "coach": "Luke Walton",
+  "start_date": "2019-04-13",
+  "end_date": "2021-11-21",
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2021-22",
+    "wins": 6,
+    "losses": 11,
+    "notes": "fired Nov 21 2021 at 6-11 (17 games)"
+   }
+  ],
+  "sources": [
+   "https://www.si.com/nba/2021/11/21/kings-fire-luke-walton-slow-start-2021-season",
+   "https://www.nbcsportsbayarea.com/nba/sacramento-kings/gentry-named-kings-interim-coach-after-walton-fired/1169365"
+  ],
+  "notes": "Fired Sun Nov 21 2021 (confirmed by search; 68-93 with SAC). Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "SAC",
+  "coach": "Alvin Gentry",
+  "start_date": "2021-11-21",
+  "end_date": "2022-04-11",
+  "interim": true,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2021-22",
+    "wins": 24,
+    "losses": 41,
+    "notes": "interim; team finished 30-52 (confirmed by search)"
+   }
+  ],
+  "sources": [
+   "https://www.nbcsportsbayarea.com/nba/sacramento-kings/gentry-named-kings-interim-coach-after-walton-fired/1169365",
+   "https://www.nbcsportsbayarea.com/nba/sacramento-kings/kings-announce-gentry-wont-return-as-coach-next-season/1179746/",
+   "https://en.wikipedia.org/wiki/2021%E2%80%9322_Sacramento_Kings_season"
+  ],
+  "notes": "Interim Nov 21 2021 to end of season; team announced Apr 11 2022 he would not return (date from memory; search confirms he was not retained)."
+ },
+ {
+  "team": "SAC",
+  "coach": "Mike Brown",
+  "start_date": "2022-05-09",
+  "end_date": "2024-12-27",
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2022-23",
+    "wins": 48,
+    "losses": 34,
+    "notes": "3rd West, ended 16-yr playoff drought; lost R1 3-4 GSW; Brown unanimous COY"
+   },
+   {
+    "season": "2023-24",
+    "wins": 46,
+    "losses": 36,
+    "notes": "9th; play-in: beat GSW, lost at NOP"
+   },
+   {
+    "season": "2024-25",
+    "wins": 13,
+    "losses": 18,
+    "notes": "fired Dec 27 2024 at 13-18"
+   }
+  ],
+  "sources": [
+   "https://www.hoopsrumors.com/2025/05/several-teams-promoting-interim-head-coaches-forgoing-searches.html",
+   "https://1075thefan.com/playlist/list-of-nba-coaches-gms-fired-this-season/",
+   "https://www.aol.com/nba-coaching-carousel-nuggets-fire-214953924.html",
+   "https://1075thefan.com/playlist/list-of-nba-coaches-gms-fired-this-season/"
+  ],
+  "notes": "Agreed May 8 2022, official May 9 2022. Fired Dec 27 2024 (confirmed by search; first in-season firing of 2024-25). Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "SAC",
+  "coach": "Doug Christie",
+  "start_date": "2024-12-27",
+  "end_date": null,
+  "interim": false,
+  "interim_until": "2025-04-21",
+  "seasons": [
+   {
+    "season": "2024-25",
+    "wins": 27,
+    "losses": 24,
+    "notes": "interim; team finished 40-42, 9th; lost play-in at DAL"
+   },
+   {
+    "season": "2025-26",
+    "wins": null,
+    "losses": null,
+    "notes": "2025-26 final record not retrieved (search budget exhausted); fill from standings."
+   },
+   {
+    "season": "2026-27",
+    "wins": null,
+    "losses": null,
+    "notes": "2026-27 record not found in search snippets"
+   }
+  ],
+  "sources": [
+   "https://www.hoopsrumors.com/2025/05/several-teams-promoting-interim-head-coaches-forgoing-searches.html",
+   "https://1075thefan.com/playlist/list-of-nba-coaches-gms-fired-this-season/",
+   "https://www.aol.com/nba-coaching-carousel-nuggets-fire-214953924.html"
+  ],
+  "notes": "Interim from Dec 27 2024 (confirmed by search); interim tag removed ~Apr 21 2025 (date approximate, from memory). Current head coach per 2026-27 roster feed."
+ },
+ {
+  "team": "SAS",
+  "coach": "Gregg Popovich",
+  "start_date": "1996-12-10",
+  "end_date": "2024-11-02",
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2021-22",
+    "wins": 34,
+    "losses": 48,
+    "notes": "10th; lost play-in at NOP"
+   },
+   {
+    "season": "2022-23",
+    "wins": 22,
+    "losses": 60,
+    "notes": ""
+   },
+   {
+    "season": "2023-24",
+    "wins": 22,
+    "losses": 60,
+    "notes": ""
+   },
+   {
+    "season": "2024-25",
+    "wins": 2,
+    "losses": 3,
+    "notes": "coached first 5 games; suffered stroke Nov 2 2024 and did not coach again"
+   }
+  ],
+  "sources": [
+   "https://www.cbssports.com/nba/news/gregg-popovich-steps-down-as-spurs-coach-will-remain-with-franchise-as-team-president",
+   "https://www.poundingtherock.com/2025/5/2/24422432/gregg-popovich-is-stepping-down-as-san-antonio-spurs-head-coach-nba-playoff-championship-history"
+  ],
+  "notes": "Active coaching ended Nov 2 2024 (stroke); formally stepped down May 2 2025 to become team president (confirmed by search). end_date = last day as active HC. 2024-25 split (2-3 / 32-45 over 77 games) consistent with search snippet that Johnson coached 77 games. Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "SAS",
+  "coach": "Mitch Johnson",
+  "start_date": "2024-11-02",
+  "end_date": null,
+  "interim": false,
+  "interim_until": "2025-05-02",
+  "seasons": [
+   {
+    "season": "2024-25",
+    "wins": 32,
+    "losses": 45,
+    "notes": "acting/interim HC for 77 games; team finished 34-48"
+   },
+   {
+    "season": "2025-26",
+    "wins": null,
+    "losses": null,
+    "notes": "2nd seed in West; beat POR 4-1 in R1; reached the NBA Finals (per search) - Finals result and record not retrieved. 2025-26 final record not retrieved (search budget exhausted); fill from standings."
+   },
+   {
+    "season": "2026-27",
+    "wins": null,
+    "losses": null,
+    "notes": "2026-27 record not found in search snippets"
+   }
+  ],
+  "sources": [
+   "https://www.cbssports.com/nba/news/gregg-popovich-steps-down-as-spurs-coach-will-remain-with-franchise-as-team-president",
+   "https://www.hoopsrumors.com/2025/05/several-teams-promoting-interim-head-coaches-forgoing-searches.html"
+  ],
+  "notes": "Acting HC from Nov 2 2024; named permanent HC May 2 2025 when Popovich stepped down (confirmed by search). Current head coach per 2026-27 roster feed."
+ },
+ {
+  "team": "TOR",
+  "coach": "Nick Nurse",
+  "start_date": "2018-06-14",
+  "end_date": "2023-04-21",
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2021-22",
+    "wins": 48,
+    "losses": 34,
+    "notes": "5th East; lost R1 2-4 PHI"
+   },
+   {
+    "season": "2022-23",
+    "wins": 41,
+    "losses": 41,
+    "notes": "9th; lost play-in at CHI"
+   }
+  ],
+  "sources": [
+   "https://www.foxsports.com/stories/nba/2023-nba-coaching-tracker-news-rumors-interviews-personnel-changes"
+  ],
+  "notes": "Fired Apr 21 2023. Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "TOR",
+  "coach": "Darko Rajakovic",
+  "start_date": "2023-06-13",
+  "end_date": null,
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2023-24",
+    "wins": 25,
+    "losses": 57,
+    "notes": ""
+   },
+   {
+    "season": "2024-25",
+    "wins": 30,
+    "losses": 52,
+    "notes": ""
+   },
+   {
+    "season": "2025-26",
+    "wins": null,
+    "losses": null,
+    "notes": "finished 5th in East per ESPN standings snippet; playoff result not retrieved. 2025-26 final record not retrieved (search budget exhausted); fill from standings."
+   },
+   {
+    "season": "2026-27",
+    "wins": 3,
+    "losses": 3,
+    "notes": "Approximate snapshot ~Oct 31-Nov 1 2026 from standings snippets (Yahoo / Basketball-Reference / Fox); sources differed by <=1 game. (one snapshot showed 3-2)"
+   }
+  ],
+  "sources": [
+   "https://www.foxsports.com/stories/nba/2023-nba-coaching-tracker-news-rumors-interviews-personnel-changes",
+   "https://sports.yahoo.com/nba/standings/",
+   "https://www.basketball-reference.com/leagues/NBA_2027_standings.html",
+   "https://www.foxsports.com/nba/standings?type=division"
+  ],
+  "notes": "Agreement reported Jun 10 2023, official Jun 13 2023. Current head coach per 2026-27 roster feed. Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "UTA",
+  "coach": "Quin Snyder",
+  "start_date": "2014-06-06",
+  "end_date": "2022-06-05",
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2021-22",
+    "wins": 49,
+    "losses": 33,
+    "notes": "5th West; lost R1 2-4 DAL"
+   }
+  ],
+  "sources": [],
+  "notes": "Resigned Jun 5 2022. (Hired by ATL Feb 26 2023.) Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "UTA",
+  "coach": "Will Hardy",
+  "start_date": "2022-06-29",
+  "end_date": null,
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2022-23",
+    "wins": 37,
+    "losses": 45,
+    "notes": ""
+   },
+   {
+    "season": "2023-24",
+    "wins": 31,
+    "losses": 51,
+    "notes": ""
+   },
+   {
+    "season": "2024-25",
+    "wins": 17,
+    "losses": 65,
+    "notes": ""
+   },
+   {
+    "season": "2025-26",
+    "wins": null,
+    "losses": null,
+    "notes": "2025-26 final record not retrieved (search budget exhausted); fill from standings."
+   },
+   {
+    "season": "2026-27",
+    "wins": null,
+    "losses": null,
+    "notes": "2026-27 record not found in search snippets"
+   }
+  ],
+  "sources": [],
+  "notes": "Agreement reported Jun 28 2022, official Jun 29 2022. Current head coach per 2026-27 roster feed. Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "WAS",
+  "coach": "Wes Unseld Jr.",
+  "start_date": "2021-07-17",
+  "end_date": "2024-01-25",
+  "interim": false,
+  "interim_until": null,
+  "seasons": [
+   {
+    "season": "2021-22",
+    "wins": 35,
+    "losses": 47,
+    "notes": ""
+   },
+   {
+    "season": "2022-23",
+    "wins": 35,
+    "losses": 47,
+    "notes": ""
+   },
+   {
+    "season": "2023-24",
+    "wins": 7,
+    "losses": 36,
+    "notes": "removed Jan 25 2024 at 7-36, moved to front-office advisory role"
+   }
+  ],
+  "sources": [
+   "https://www.ksl.com/article/50856093/wes-unseld-jr-out-as-wizards-coach-moving-to-front-office-brian-keefe-named-interim-replacement",
+   "https://m.washingtontimes.com/news/2024/jan/25/wes-unseld-jr-out-as-washington-wizards-coach-tran/"
+  ],
+  "notes": "Hire agreed Jul 17 2021 (official Jul 19). Removed Jan 25 2024 (confirmed by search; 77-130 with WAS). Dates/records for 2021-22 through 2024-25 are from the established public record and were NOT re-verified by web search in this session (search budget exhausted)."
+ },
+ {
+  "team": "WAS",
+  "coach": "Brian Keefe",
+  "start_date": "2024-01-25",
+  "end_date": null,
+  "interim": false,
+  "interim_until": "2024-05-15",
+  "seasons": [
+   {
+    "season": "2023-24",
+    "wins": 8,
+    "losses": 31,
+    "notes": "interim; team finished 15-67 (confirmed by search)"
+   },
+   {
+    "season": "2024-25",
+    "wins": 18,
+    "losses": 64,
+    "notes": ""
+   },
+   {
+    "season": "2025-26",
+    "wins": null,
+    "losses": null,
+    "notes": "2025-26 final record not retrieved (search budget exhausted); fill from standings."
+   },
+   {
+    "season": "2026-27",
+    "wins": null,
+    "losses": null,
+    "notes": "2026-27 record not found in search snippets"
+   }
+  ],
+  "sources": [
+   "https://www.ksl.com/article/50856093/wes-unseld-jr-out-as-wizards-coach-moving-to-front-office-brian-keefe-named-interim-replacement",
+   "https://www.si.com/nba/wizards-promote-interim-coach-brian-keefe-head-role",
+   "https://bleacherreport.com/articles/10120820-brian-keefe-named-wizards-hc-after-replacing-wes-unseld-jr-on-interim-basis"
+  ],
+  "notes": "Interim from Jan 25 2024. Interim tag removed in 2024 offseason: best recollection is Wed May 15 2024, but a search snippet suggested April 2024 - UNVERIFIED; interim_until is approximate. Current head coach per 2026-27 roster feed."
+ }
+]

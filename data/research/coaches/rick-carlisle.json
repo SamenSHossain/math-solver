@@ -1,0 +1,439 @@
+{
+  "coach": "Rick Carlisle",
+  "slug": "rick-carlisle",
+  "team": "IND",
+  "team_name": "Indiana Pacers",
+  "head_coach_since": "2021-22",
+  "age": 67,
+  "background": "A Virginia alum and 1986 champion as a Celtics reserve, Carlisle became a head coach in 2001 with Detroit (100-64, 2002 Coach of the Year), then Indiana (2003-07, 181-147, 61-win 2004 team), then Dallas (2008-21, 555-478, 2011 NBA champion), before returning to Indiana in 2021-22. He entered his second Pacers stint with an 836-689 career record and has since passed 1,000 regular-season wins (reached in 2025-26, pre-cutoff knowledge). After 25-57 and 35-47 rebuilding years, the Haliburton-led Pacers reached the 2024 East finals and the 2025 NBA Finals (lost Game 7 at OKC, Haliburton tearing his Achilles in that game). With Haliburton out for all of 2025-26 and Myles Turner gone to Milwaukee, Indiana fell to the bottom of the East (record unverified). He is president of the NBA Coaches Association and holds a multi-year extension signed in 2025. His current teams play the league's fastest, most egalitarian pass-heavy offense with a deep 10-11 man rotation and, since 2024-25, aggressive ball-pressure defense.",
+  "prior_head_coaching": [
+    {
+      "team": "DET",
+      "seasons": "2001-02 to 2002-03",
+      "record": "100-64",
+      "notes": "2002 Coach of the Year; reached 2003 East finals; fired after two 50-win seasons"
+    },
+    {
+      "team": "IND",
+      "seasons": "2003-04 to 2006-07",
+      "record": "181-147",
+      "notes": "61 wins and East finals in 2004; tenure derailed by the 2004 Palace brawl"
+    },
+    {
+      "team": "DAL",
+      "seasons": "2008-09 to 2020-21",
+      "record": "555-478",
+      "notes": "2011 NBA champion; franchise's winningest coach; resigned June 2021 after friction with Luka Doncic's camp"
+    }
+  ],
+  "record_last5": [
+    {
+      "season": "2021-22",
+      "team": "IND",
+      "wins": 25,
+      "losses": 57,
+      "playoffs": "Missed playoffs",
+      "notes": "First season of second Pacers stint; Sabonis traded for Haliburton in Feb 2022"
+    },
+    {
+      "season": "2022-23",
+      "team": "IND",
+      "wins": 35,
+      "losses": 47,
+      "playoffs": "Missed playoffs",
+      "notes": "Haliburton first All-Star season"
+    },
+    {
+      "season": "2023-24",
+      "team": "IND",
+      "wins": 47,
+      "losses": 35,
+      "playoffs": "Lost ECF 0-4 to BOS (beat MIL 4-2, NYK 4-3); 8-9",
+      "notes": "Led NBA in pace and scoring; NBA Cup finalist; Siakam acquired Jan 2024"
+    },
+    {
+      "season": "2024-25",
+      "team": "IND",
+      "wins": 50,
+      "losses": 32,
+      "playoffs": "Lost NBA Finals 3-4 to OKC (beat MIL 4-1, CLE 4-1, NYK 4-2); 15-8",
+      "notes": "Five comebacks from 15+ down in the playoffs; Haliburton Achilles tear in Finals Game 7"
+    },
+    {
+      "season": "2025-26",
+      "team": "IND",
+      "wins": 26,
+      "losses": 56,
+      "playoffs": "Missed playoffs (UNVERIFIED)",
+      "notes": "W-L IS AN UNVERIFIED ESTIMATE (search budget exhausted). Haliburton missed the entire season (Achilles); Turner left for MIL; heavy injuries to Nembhard, Mathurin, Nesmith; Carlisle reached 1,000 career wins during the season (pre-cutoff knowledge)"
+    }
+  ],
+  "defense_scheme_tags": [
+    "aggressive-help",
+    "full-court-pressure",
+    "switch",
+    "drop",
+    "zone"
+  ],
+  "offense_scheme_tags": [
+    "pace-and-space",
+    "transition",
+    "motion",
+    "five-out",
+    "egalitarian",
+    "dribble-handoff",
+    "early-offense"
+  ],
+  "scores": {
+    "rotation": {
+      "depth": {
+        "score": 80,
+        "confidence": 0.5,
+        "evidence": [
+          "Carlisle's Pacers routinely play 10-11 players with real minutes to sustain their pace; bench units (McConnell, Toppin, Mathurin) were central to the 2025 Finals run",
+          "Pre-cutoff knowledge; the 2025 Finals coverage describes a pace-and-depth 'puzzle' for OKC"
+        ],
+        "sources": [
+          "https://www.aol.com/sports/nba-finals-2025-pacers-going-032735541.html"
+        ]
+      },
+      "star_minutes_load": {
+        "score": 50,
+        "confidence": 0.3,
+        "evidence": [
+          "Haliburton averaged ~33-34 mpg when healthy; Siakam ~33; Carlisle spreads minutes to keep the pace up rather than riding stars 38 minutes",
+          "Pre-cutoff knowledge"
+        ],
+        "sources": []
+      },
+      "consistency": {
+        "score": 50,
+        "confidence": 0.3,
+        "evidence": [
+          "Core starting five was stable in 2024-25, but Carlisle has a long history (Dallas) of in-season lineup churn and situational substitutions",
+          "2025-26 injuries forced constant change"
+        ],
+        "sources": []
+      },
+      "youth_trust": {
+        "score": 45,
+        "confidence": 0.35,
+        "evidence": [
+          "Benched Mathurin in parts of the 2024 playoffs and limited Jarace Walker; in Dallas, friction with young Doncic over control of the offense",
+          "Yet Nembhard, Nesmith and Toppin earned big playoff roles early in their careers; 2025-26 necessity expanded young players' minutes"
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/Rick_Carlisle"
+        ]
+      },
+      "load_management": {
+        "score": 45,
+        "confidence": 0.3,
+        "evidence": [
+          "Pacers rested Haliburton selectively for his hamstring/back issues in 2024-25 but did not schedule routine rest for healthy stars",
+          "Estimate; not verified"
+        ],
+        "sources": []
+      },
+      "closing_flexibility": {
+        "score": 65,
+        "confidence": 0.4,
+        "evidence": [
+          "McConnell, Toppin and Mathurin have all closed playoff games depending on matchup; Carlisle swapped Turner/Toppin and Nesmith/Mathurin situationally in 2025",
+          "Pre-cutoff knowledge"
+        ],
+        "sources": [
+          "https://www.aol.com/sports/nba-finals-2025-pacers-going-032735541.html"
+        ]
+      }
+    },
+    "offense": {
+      "pace": {
+        "score": 95,
+        "confidence": 0.7,
+        "evidence": [
+          "Indiana led the NBA in pace and scoring in 2023-24 and remained a top-3 pace team in 2024-25; a Heat player in 2025 called the Pacers 'the perfect offensive model' for playing fast",
+          "The 2025 Finals previews framed the Pacers' pace as a distinct 'puzzle' for OKC"
+        ],
+        "sources": [
+          "https://www.si.com/nba/heat/news/one-heat-player-sees-the-indiana-pacers-as-perfect-offensive-model-01k6ny7afw7e",
+          "https://www.aol.com/sports/nba-finals-2025-pacers-going-032735541.html"
+        ]
+      },
+      "three_point_emphasis": {
+        "score": 60,
+        "confidence": 0.3,
+        "evidence": [
+          "Above-average 3PA volume (top-10 range) built from drive-and-kick and pick-and-pop, but the Pacers also take many rim and midrange shots in transition",
+          "Pre-cutoff knowledge; rank not verified"
+        ],
+        "sources": []
+      },
+      "ball_movement": {
+        "score": 90,
+        "confidence": 0.6,
+        "evidence": [
+          "Pacers led the league in assists and passes in 2023-24 and 2024-25; the system is egalitarian, with Haliburton as a pass-first hub and 0.5-second decisions",
+          "Miami explicitly copied the Pacers' pass-and-pace model in 2025-26 (SI)"
+        ],
+        "sources": [
+          "https://www.si.com/nba/heat/news/one-heat-player-sees-the-indiana-pacers-as-perfect-offensive-model-01k6ny7afw7e",
+          "https://www.si.com/nba/heat/onsi/news/the-now-not-so-secret-influence-behind-the-new-miami-heat-offense-01k93129qpf0"
+        ]
+      },
+      "transition_emphasis": {
+        "score": 95,
+        "confidence": 0.65,
+        "evidence": [
+          "Push after every make and miss; Indiana has ranked first in transition frequency under Carlisle's Haliburton-era teams",
+          "2025 Finals coverage centered on OKC's need to slow Indiana's transition game"
+        ],
+        "sources": [
+          "https://www.aol.com/sports/nba-finals-2025-pacers-going-032735541.html"
+        ]
+      },
+      "offensive_rebounding": {
+        "score": 30,
+        "confidence": 0.3,
+        "evidence": [
+          "Pacers send everyone back to protect against transition and keep their own pace; bottom-third offensive rebounding in the Haliburton era",
+          "Pre-cutoff knowledge"
+        ],
+        "sources": []
+      },
+      "paint_post_emphasis": {
+        "score": 40,
+        "confidence": 0.3,
+        "evidence": [
+          "Siakam's midrange/post game and rim runs in transition provide paint scoring, but the system is perimeter-and-pace driven rather than post-centric",
+          "Pre-cutoff knowledge"
+        ],
+        "sources": []
+      },
+      "playcalling_ato_quality": {
+        "score": 70,
+        "confidence": 0.4,
+        "evidence": [
+          "Long-respected set designer ('flow' offense in Dallas 2011; Pacers' inbound and ATO sets in the 2025 run); analysts credit his late-game play design for several 2025 comebacks",
+          "Reputation-based"
+        ],
+        "sources": [
+          "https://www.si.com/nba/pacers/history/what-rick-carlisle-accomplished-during-his-first-stint-with-the-indiana-pacers"
+        ]
+      }
+    },
+    "defense": {
+      "aggressiveness": {
+        "score": 70,
+        "confidence": 0.45,
+        "evidence": [
+          "2024-25 Pacers added full-court and extended ball pressure (Nembhard, McConnell) that harassed Cleveland and New York in the playoffs and forced turnovers in the Finals",
+          "Pre-2024 Carlisle defenses were more conservative; score reflects the current identity"
+        ],
+        "sources": [
+          "https://www.aol.com/sports/nba-finals-2025-pacers-going-032735541.html"
+        ]
+      },
+      "perimeter_priority": {
+        "score": 60,
+        "confidence": 0.3,
+        "evidence": [
+          "Ball pressure and switching at the point of attack with Turner (now gone) as drop/rim protector; perimeter-leaning by design",
+          "Estimate"
+        ],
+        "sources": []
+      },
+      "foul_discipline": {
+        "score": 45,
+        "confidence": 0.3,
+        "evidence": [
+          "Pressure scheme produces average-to-high foul counts; Pacers were mid-pack or worse in opponent FT rate",
+          "Estimate"
+        ],
+        "sources": []
+      },
+      "zone_usage": {
+        "score": 40,
+        "confidence": 0.3,
+        "evidence": [
+          "Carlisle has deployed 2-3 zone stints as a change-up for years (Dallas and Indiana), more than average but not a core scheme",
+          "Pre-cutoff knowledge"
+        ],
+        "sources": []
+      },
+      "scheme_adaptability": {
+        "score": 65,
+        "confidence": 0.4,
+        "evidence": [
+          "Shifted the Pacers from a conservative defense to a pressing, turnover-forcing scheme in 2024-25; adjusted coverages on Brunson and Mitchell during the 2025 run",
+          "Reputation for in-series tactical tweaks dating to the 2011 title"
+        ],
+        "sources": [
+          "https://www.aol.com/sports/nba-finals-2025-pacers-going-032735541.html",
+          "https://en.wikipedia.org/wiki/Rick_Carlisle"
+        ]
+      }
+    },
+    "endgame": {
+      "timeout_aggressiveness": {
+        "score": 65,
+        "confidence": 0.3,
+        "evidence": [
+          "Conventional-to-quick with timeouts: calls them to stop runs and to advance the ball late, in contrast to Mazzulla and Kerr",
+          "Pre-cutoff knowledge; no tracking data"
+        ],
+        "sources": []
+      },
+      "foul_up_three": {
+        "score": 55,
+        "confidence": 0.25,
+        "evidence": [
+          "Situational; no systematic policy identified",
+          "Estimate near average"
+        ],
+        "sources": []
+      },
+      "late_lineup_shrink": {
+        "score": 50,
+        "confidence": 0.3,
+        "evidence": [
+          "Shrinks to 7-8 in the playoffs but keeps McConnell/Toppin bench pieces in clutch lineups more than most coaches",
+          "Estimate"
+        ],
+        "sources": []
+      },
+      "challenge_quality": {
+        "score": 60,
+        "confidence": 0.3,
+        "evidence": [
+          "Generally regarded as a competent, moderately frequent challenger; no league-rank data found",
+          "Estimate"
+        ],
+        "sources": []
+      },
+      "two_for_one_awareness": {
+        "score": 70,
+        "confidence": 0.3,
+        "evidence": [
+          "Pace-first teams under Carlisle consistently attack end-of-quarter 2-for-1s with Haliburton",
+          "Pre-cutoff knowledge"
+        ],
+        "sources": []
+      },
+      "risk_appetite": {
+        "score": 65,
+        "confidence": 0.4,
+        "evidence": [
+          "Plays fast regardless of score, trusts Haliburton to take game-winners (2025 playoffs produced multiple buzzer-beaters and a 7-point comeback in the final minute at MSG)",
+          "Willing to go for wins in regulation on the road"
+        ],
+        "sources": [
+          "https://www.aol.com/sports/nba-finals-2025-pacers-going-032735541.html"
+        ]
+      },
+      "clutch_reputation": {
+        "score": 75,
+        "confidence": 0.5,
+        "evidence": [
+          "2025 playoff run featured historic late comebacks and a composed Finals Game 7 push; 2011 title run remains a tactical benchmark",
+          "Earned praise for steadiness while the 2025-26 team collapsed through injuries"
+        ],
+        "sources": [
+          "https://www.aol.com/sports/nba-finals-2025-pacers-going-032735541.html",
+          "https://en.wikipedia.org/wiki/Rick_Carlisle"
+        ]
+      }
+    },
+    "overall": {
+      "adaptability": {
+        "score": 75,
+        "confidence": 0.5,
+        "evidence": [
+          "Rebuilt his approach around Haliburton's pace after years of slower Dallas teams; added pressure defense in 2024-25; won a title in 2011 with zone and flow-offense adjustments vs Miami",
+          "In-series: adjusted to OKC's pressure by changing the 2025 Finals attack after Game 1"
+        ],
+        "sources": [
+          "https://www.aol.com/sports/nba-finals-2025-behind-change-131712107.html",
+          "https://en.wikipedia.org/wiki/Rick_Carlisle"
+        ]
+      },
+      "player_development": {
+        "score": 65,
+        "confidence": 0.4,
+        "evidence": [
+          "Nembhard, Nesmith, Toppin, Mathurin and Haliburton all improved sharply in Indiana; earlier Dallas tenure produced Brunson's development but strained the Doncic relationship",
+          "Mixed historical record; strong recent results"
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/Rick_Carlisle"
+        ]
+      },
+      "analytics_adoption": {
+        "score": 70,
+        "confidence": 0.4,
+        "evidence": [
+          "Early adopter in Dallas (analyst Roland Beech on the bench during the 2011 title run); the Pacers' pace-and-3s, shot-profile approach is analytics-aligned",
+          "Pre-cutoff knowledge"
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/Rick_Carlisle"
+        ]
+      },
+      "reputation": {
+        "score": 78,
+        "confidence": 0.55,
+        "evidence": [
+          "2002 Coach of the Year, 2011 champion, 2025 Finals, 1,000+ wins, NBCA president; Jan 2025 Coach of the Month; multi-year extension in 2025",
+          "Viewed as a Hall of Fame-track tactician but with critics citing his Dallas exit and 2021-23 Pacers struggles"
+        ],
+        "sources": [
+          "https://basketball.realgm.com/staff/wd/Summary/737",
+          "https://en.wikipedia.org/wiki/Rick_Carlisle",
+          "https://www.beinsports.com/en/nba/news/nba-pacers-agree-to-terms-to-bring-back-carli/1709343"
+        ]
+      }
+    }
+  },
+  "notable_quotes": [
+    {
+      "quote": "Over 19 seasons as an NBA head coach... Carlisle has compiled a record of 836-689.",
+      "speaker": "Pacers/beIN report",
+      "context": "June 2021 on his return to Indiana",
+      "source": "https://www.beinsports.com/en/nba/news/nba-pacers-agree-to-terms-to-bring-back-carli/1709343"
+    },
+    {
+      "quote": "One Heat player sees the Indiana Pacers as the perfect offensive model.",
+      "speaker": "SI (Inside the Heat)",
+      "context": "Oct 2025, on Miami emulating Indiana's pace-and-pass style",
+      "source": "https://www.si.com/nba/heat/news/one-heat-player-sees-the-indiana-pacers-as-perfect-offensive-model-01k6ny7afw7e"
+    }
+  ],
+  "key_criticisms": [
+    "Friction with young stars over offensive control (Doncic in Dallas); slow to trust some young players (Mathurin, Walker)",
+    "Pace-at-all-costs system can produce leaky transition defense and low offensive rebounding",
+    "Two losing rebuild seasons (2021-23) and a bottom-of-the-East 2025-26 without Haliburton",
+    "History of in-season lineup churn and prickly media relations"
+  ],
+  "key_strengths": [
+    "Architect of the league's fastest, most egalitarian pass-and-pace offense (led NBA in pace, points and assists 2023-24)",
+    "Deep 10-11 man rotations that sustain tempo; bench units as weapons",
+    "Elite late-game poise: historic comebacks and buzzer-beaters throughout the 2025 run; 2011 title adjustments",
+    "Veteran credibility: 1,000+ wins, Coach of the Year, champion, NBCA president"
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Rick_Carlisle",
+    "https://www.statscrew.com/basketball/stats/c-carliri01",
+    "https://www.beinsports.com/en/nba/news/nba-pacers-agree-to-terms-to-bring-back-carli/1709343",
+    "https://www.si.com/nba/pacers/history/what-rick-carlisle-accomplished-during-his-first-stint-with-the-indiana-pacers",
+    "https://basketball.realgm.com/staff/wd/Summary/737",
+    "https://sportsnaut.com/indiana-pacers-hire-rick-carlisle",
+    "https://sportsbusinessclassroom.com/speaker-biography-rick-carlisle/",
+    "https://www.aol.com/sports/nba-finals-2025-pacers-going-032735541.html",
+    "https://www.aol.com/sports/nba-finals-2025-behind-change-131712107.html",
+    "https://www.si.com/nba/heat/news/one-heat-player-sees-the-indiana-pacers-as-perfect-offensive-model-01k6ny7afw7e",
+    "https://www.si.com/nba/heat/onsi/news/the-now-not-so-secret-influence-behind-the-new-miami-heat-offense-01k93129qpf0",
+    "https://www.si.com/nba/heat/onsi/news/pacers-embarrass-heat-who-need-lineup-and-rotation-changes-01ken5chs1ea"
+  ],
+  "research_notes": "LOW-COVERAGE PROFILE: the shared per-turn web-search cap was reached after a single Carlisle-specific search (career stints and conflicting career totals: 836-689 on his 2021 return; 943-828 through 2023-24). Season records 2021-22 through 2024-25 are from pre-cutoff knowledge and consistent with those totals (836+25+35+47 = 943 wins), but were not individually confirmed by a session URL. The 2025-26 record (26-56) is an UNVERIFIED ESTIMATE; only the Haliburton Achilles injury (June 2025) and Turner's departure are known with confidence. No 2026-27 record found. Scheme, rotation and end-game scores rest on pre-cutoff knowledge plus 2025 Finals coverage and Miami's 2025-26 emulation of the Pacers' system; dimensions with empty sources are capped at confidence <=0.3. The 1,000th-win milestone timing is pre-cutoff recollection, not verified here. Age computed from Oct 27, 1959 birth date.",
+  "researched_at": "2026-11-02"
+}

@@ -1,0 +1,541 @@
+{
+  "coach": "Erik Spoelstra",
+  "slug": "erik-spoelstra",
+  "team": "MIA",
+  "team_name": "Miami Heat",
+  "head_coach_since": "2008-09",
+  "age": 56,
+  "background": "Spoelstra joined the Heat as video coordinator in 1995, rose through the scouting and assistant ranks under Pat Riley, and became head coach in April 2008; he has coached only Miami. Six Finals trips (2011-14, 2020, 2023), two titles (2012, 2013), roughly 830 regular-season wins through 2025-26, and Finals runs as a No. 5 seed (2020) and No. 8 seed (2023). Signed a record-setting eight-year extension in January 2024 and was named USA Basketball men's head coach for the 2028 Olympic cycle (reported 2025). League executives repeatedly vote him the NBA's best coach; CBS Sports ranked him the third-best coach of the 21st century. 2024-25 (37-45, swept in R1) and 2025-26 (43-39, play-in loss to Charlotte) were a down cycle, though he rebuilt the offense around pace in 2025-26 (2nd in NBA in points per game). The 2026 offseason brought Giannis Antetokounmpo and the loss of All-Star Norman Powell to Chicago; Miami opened 2026-27 0-4 for the first time since 2007-08.",
+  "prior_head_coaching": [],
+  "record_last5": [
+    {
+      "season": "2021-22",
+      "team": "MIA",
+      "wins": 53,
+      "losses": 29,
+      "playoffs": "Lost ECF 3-4 to BOS (beat ATL 4-1, PHI 4-2); No. 1 seed in East",
+      "notes": "11-7 playoff record"
+    },
+    {
+      "season": "2022-23",
+      "team": "MIA",
+      "wins": 44,
+      "losses": 38,
+      "playoffs": "Lost NBA Finals 1-4 to DEN as No. 8 seed via play-in (beat MIL 4-1, NYK 4-2, BOS 4-3)",
+      "notes": "13-10 in playoff series games; statscrew lists 14-11 including play-in"
+    },
+    {
+      "season": "2023-24",
+      "team": "MIA",
+      "wins": 46,
+      "losses": 36,
+      "playoffs": "Lost R1 1-4 to BOS as No. 8 seed via play-in",
+      "notes": "Butler missed the series (knee)"
+    },
+    {
+      "season": "2024-25",
+      "team": "MIA",
+      "wins": 37,
+      "losses": 45,
+      "playoffs": "Won two road play-in games (CHI, ATL) for No. 8 seed; swept 0-4 by CLE in R1",
+      "notes": "Butler suspended then traded in-season; Game 4 was a 55-point loss"
+    },
+    {
+      "season": "2025-26",
+      "team": "MIA",
+      "wins": 43,
+      "losses": 39,
+      "playoffs": "Missed playoffs: lost 9-vs-10 play-in game 126-127 in OT to CHA (Apr 14, 2026)",
+      "notes": "10th in East; 2nd in NBA in points per game behind DEN; Powell All-Star; Herro missed the early season after ankle surgery; first playoff miss since 2019"
+    },
+    {
+      "season": "2026-27",
+      "team": "MIA",
+      "wins": 1,
+      "losses": 4,
+      "playoffs": "in progress",
+      "notes": "PARTIAL and possibly stale (snippets dated ~Oct 30, 2026: 0-4 start was first since 2007-08, Squawka then listed 1-4). Giannis Antetokounmpo acquired in 2026 offseason; Powell signed with CHI."
+    }
+  ],
+  "defense_scheme_tags": [
+    "zone",
+    "switch",
+    "aggressive-help",
+    "no-middle",
+    "blitz",
+    "drop"
+  ],
+  "offense_scheme_tags": [
+    "dribble-handoff",
+    "five-out",
+    "motion",
+    "transition",
+    "pace-and-space",
+    "elbow-hub-big"
+  ],
+  "scores": {
+    "rotation": {
+      "depth": {
+        "score": 60,
+        "confidence": 0.6,
+        "evidence": [
+          "Oct 2025: said he wants to use depth 'as a weapon' and rotate depth regularly depending on opponent; typically a 9-10 man regular-season rotation",
+          "Dec 2025 columnists called for lineup/rotation changes after a lopsided loss to IND, reflecting frequent shuffling of who is in/out"
+        ],
+        "sources": [
+          "https://www.talkbasket.net/207168-erik-spoelstra-plans-matchup-based-lineups-rotating-depth-regularly",
+          "https://www.si.com/nba/heat/onsi/news/who-s-outside-the-rotation-for-the-miami-heat-01k7zjxcd2kf",
+          "https://www.si.com/nba/heat/onsi/news/pacers-embarrass-heat-who-need-lineup-and-rotation-changes-01ken5chs1ea"
+        ]
+      },
+      "star_minutes_load": {
+        "score": 55,
+        "confidence": 0.4,
+        "evidence": [
+          "Adebayo and Herro typically land around 33-35 mpg when healthy; Butler's lighter workload in 2023-25 was largely player-driven",
+          "No evidence of strict minute caps; plays stars heavily in playoffs (2023 run)"
+        ],
+        "sources": [
+          "https://www.nba.com/heat/bio/erik-spoelstra"
+        ]
+      },
+      "consistency": {
+        "score": 30,
+        "confidence": 0.7,
+        "evidence": [
+          "Oct 2025 quote: 'None of it will be in cement... whether it's the starting lineup or whether it's the rotation once we get into the bench'",
+          "Starting lineups and roles have shifted by opponent and game situation; moved Kel'el Ware to the bench for a smaller first unit in Dec 2025"
+        ],
+        "sources": [
+          "https://www.talkbasket.net/207168-erik-spoelstra-plans-matchup-based-lineups-rotating-depth-regularly",
+          "https://www.si.com/nba/heat/onsi/news/pacers-embarrass-heat-who-need-lineup-and-rotation-changes-01ken5chs1ea",
+          "https://www.si.com/nba/heat/onsi/news/erik-spoelstra-makes-surprising-starting-lineup-decision-01kj1epy3kc5"
+        ]
+      },
+      "youth_trust": {
+        "score": 60,
+        "confidence": 0.5,
+        "evidence": [
+          "Long record of playing undrafted/young players in high-leverage games (Herro as rookie in 2020 bubble; Vincent, Strus, Martin starting in 2023 Finals run); rookie Jakucionis filled in at PG in 2025-26",
+          "Counter-evidence: benched rookie-contract center Ware at times in 2025-26 and historically leaned on veterans like Lowry"
+        ],
+        "sources": [
+          "https://www.si.com/nba/heat/heat-s-erik-spoelstra-earns-legendary-honor-among-best-coaches-this-century-01k43eqg6287",
+          "https://sportsethos.com/top-posts/season-wrap-the-2025-26-miami-heat/"
+        ]
+      },
+      "load_management": {
+        "score": 30,
+        "confidence": 0.4,
+        "evidence": [
+          "Heat organizational culture (Riley) is publicly anti-rest; healthy stars rarely sit scheduled games, Butler's rest days were a point of friction rather than policy",
+          "Inferred mostly from organizational reputation; no 2025-26 rest-day count found"
+        ],
+        "sources": [
+          "https://heavy.com/sports/nba/miami-heat/max-strus-on-heat-culture/amp/"
+        ]
+      },
+      "closing_flexibility": {
+        "score": 70,
+        "confidence": 0.6,
+        "evidence": [
+          "Closing groups are matchup-driven: 2023 playoffs closed with undrafted Vincent/Strus/Martin; 2025-26 closers rotated among Powell, Herro, Wiggins, Mitchell, Jovic, Ware around Adebayo",
+          "Oct 2025: who finishes 'could depend heavily on specific opponents and game situations'"
+        ],
+        "sources": [
+          "https://www.talkbasket.net/207168-erik-spoelstra-plans-matchup-based-lineups-rotating-depth-regularly",
+          "https://www.si.com/nba/heat/onsi/news/what-s-the-likely-miami-heat-rotation-01k72er7qm4t"
+        ]
+      }
+    },
+    "offense": {
+      "pace": {
+        "score": 78,
+        "confidence": 0.6,
+        "evidence": [
+          "2025-26: deliberate shift to an up-tempo, push-after-every-rebound offense with no traditional PG; Powell: 'That has been the main focus, sustaining this pace'; Heat and Spurs flagged by NBA.com as early statistical outliers; finished 2nd in NBA in PPG",
+          "Historically (2014-2025) Spoelstra teams were bottom-third in pace, so this is a recent, roster-driven change; league rank for 2025-26 pace not verified (search budget)"
+        ],
+        "sources": [
+          "https://allucanheat.com/heat-s-new-look-offense-could-unlock-all-star-version-of-norman-powell-01k6zfrrdx2j",
+          "https://hothothoops.com/2025/10/08/miami-heat-played-fast-pace-preseason-erik-spoelstra/",
+          "https://www.nba.com/news/10-numbers-know-first-10-days-2025-26",
+          "https://sportsethos.com/top-posts/season-wrap-the-2025-26-miami-heat/"
+        ]
+      },
+      "three_point_emphasis": {
+        "score": 62,
+        "confidence": 0.4,
+        "evidence": [
+          "Heat have been an above-average 3PA team most of Spoelstra's modern era (top-5 in 3PA in 2019-20; DHO/Robinson-driven volume); ESPN team table implied ~37 3PA/game in 2025-26",
+          "Exact 2025-26 league rank not verified"
+        ],
+        "sources": [
+          "https://www.espn.com/nba/team/stats/_/name/mia"
+        ]
+      },
+      "ball_movement": {
+        "score": 70,
+        "confidence": 0.6,
+        "evidence": [
+          "Offense built on dribble-handoffs, Adebayo as elbow/post hub and 0.5-second decisions rather than a single heliocentric creator (CelticsBlog 2022 breakdown of Miami's DHO attack)",
+          "2025-26 offense modeled partly on Indiana's egalitarian pace-and-pass system; one Heat player called the Pacers 'the perfect offensive model'"
+        ],
+        "sources": [
+          "https://www.celticsblog.com/2022/5/17/23078750/cooling-off-heat-stopping-miamis-dribble-handoff-attack-boston-celtics-marcus-smart-derrick-white",
+          "https://www.si.com/nba/heat/news/one-heat-player-sees-the-indiana-pacers-as-perfect-offensive-model-01k6ny7afw7e",
+          "https://www.si.com/nba/heat/onsi/news/the-now-not-so-secret-influence-behind-the-new-miami-heat-offense-01k93129qpf0"
+        ]
+      },
+      "transition_emphasis": {
+        "score": 75,
+        "confidence": 0.55,
+        "evidence": [
+          "2025-26: players told to push after rebounds; Jovic said the team was 'finally doing what Spoelstra has been promising since 2022' (playing fast)",
+          "Pre-2025 Heat were a half-court, grind team; score reflects current approach"
+        ],
+        "sources": [
+          "https://www.yardbarker.com/nba/articles/nikola_jovic_says_miami_heat_are_finally_doing_what_erik_spoelstra_has_been_promising_since_2022/s1_17149_42963065",
+          "https://allucanheat.com/erik-spoelstra-went-outside-his-comfort-zone-to-craft-perfect-heat-approach"
+        ]
+      },
+      "offensive_rebounding": {
+        "score": 50,
+        "confidence": 0.3,
+        "evidence": [
+          "No 2025-26 OREB rank found before the search budget ran out; Adebayo/Ware frontcourt crashed selectively, but Spoelstra traditionally prioritizes transition defense",
+          "Estimate: league-average"
+        ],
+        "sources": []
+      },
+      "paint_post_emphasis": {
+        "score": 50,
+        "confidence": 0.4,
+        "evidence": [
+          "Adebayo used as an elbow/post playmaking hub and short-roll scorer; Butler-era offense featured post-ups and midrange",
+          "2026-27 addition of Giannis should push paint emphasis up, but no data yet"
+        ],
+        "sources": [
+          "https://www.nba.com/heat/everything-everywhere-bam-adebayo-defensive-player-year",
+          "https://clutchpoints.com/nba/miami-heat/heat-news-giannis-antetokounmpo-led-miami-off-to-worst-start-in-19-years"
+        ]
+      },
+      "playcalling_ato_quality": {
+        "score": 88,
+        "confidence": 0.6,
+        "evidence": [
+          "Widely regarded by analysts as one of the league's best after-timeout and inbound-play designers (2020, 2023 playoff runs); Miami Herald 2024: 'Everything you want a coach to be, he is'",
+          "Reputation-based; no 2025-26 ATO efficiency numbers found"
+        ],
+        "sources": [
+          "https://www.pressreader.com/usa/miami-herald/20240427/281694029846320",
+          "https://www.si.com/nba/heat/news/is-there-an-nba-coach-better-than-erik-spoelstra-01k7mhgy67ze"
+        ]
+      }
+    },
+    "defense": {
+      "aggressiveness": {
+        "score": 65,
+        "confidence": 0.6,
+        "evidence": [
+          "Spoelstra: wants a defense that 'dictates the terms of engagement no matter how aggressive they need to be'; Heat switch almost every ball screen and mix in blitzes and zone to disrupt rhythm",
+          "Not a gambling/steal-hunting team; aggressiveness expressed through physicality and scheme variety"
+        ],
+        "sources": [
+          "https://www.fivereasonssports.com/?p=23897",
+          "https://thescore.com/nba/news/1934008"
+        ]
+      },
+      "perimeter_priority": {
+        "score": 45,
+        "confidence": 0.5,
+        "evidence": [
+          "'No middle' was the Heat's defensive anthem early in his tenure; zone usage is explicitly aimed at limiting drives to the rim, conceding some 3s",
+          "Switching 1-through-4 with Adebayo balances this toward the perimeter in man coverage"
+        ],
+        "sources": [
+          "https://www.pressreader.com/usa/sun-sentinel-broward-edition/20191011/282041918887747",
+          "https://thescore.com/nba/news/1934008",
+          "https://www.si.com/nba/heat/miami-news/next-step-for-miami-heats-bam-adebayo-is-adjusting-to-new-defensive-schemes"
+        ]
+      },
+      "foul_discipline": {
+        "score": 55,
+        "confidence": 0.3,
+        "evidence": [
+          "Zone-heavy, contain-oriented approach tends to limit fouls; Heat have generally been mid-pack or better in opponent FT rate",
+          "Mostly inferred; no 2025-26 opponent FTA rank found"
+        ],
+        "sources": []
+      },
+      "zone_usage": {
+        "score": 95,
+        "confidence": 0.85,
+        "evidence": [
+          "Heat led the NBA in zone possessions (1,053 in 2018-19 vs 638 league-wide the prior year) and were 'lapping the field' for consecutive seasons at ~12% of possessions",
+          "Zone remained a go-to playoff weapon (2020 ECF vs BOS: 90.3 pts/100 allowed in zone vs 109.2 in man); 2025-26 usage not re-verified but staff/identity unchanged"
+        ],
+        "sources": [
+          "https://global.espn.com/nba/story/_/id/29963960/nba-playoffs-why-teams-combating-offensive-revolution-going-zone-defense",
+          "https://thescore.com/nba/news/1934008",
+          "https://defector.com/celtics-heat-nba-playoffs-zone-defense",
+          "https://www.breakthroughbasketball.com/coaching/tough-zone-defense"
+        ]
+      },
+      "scheme_adaptability": {
+        "score": 90,
+        "confidence": 0.75,
+        "evidence": [
+          "Changed Adebayo's coverage mid-series vs PHI in 2022, eliminating switching for Game 5; reverted to zone only in the 2020 ECF after not using it earlier in the playoffs",
+          "Adebayo described the defense as 'a switching-type approach now, one through four' - the scheme changes year to year with personnel"
+        ],
+        "sources": [
+          "https://www.pressreader.com/usa/miami-herald-sunday/20220515/281981791187680",
+          "https://defector.com/celtics-heat-nba-playoffs-zone-defense",
+          "https://www.si.com/nba/heat/miami-news/next-step-for-miami-heats-bam-adebayo-is-adjusting-to-new-defensive-schemes"
+        ]
+      }
+    },
+    "endgame": {
+      "timeout_aggressiveness": {
+        "score": 65,
+        "confidence": 0.6,
+        "evidence": [
+          "CBS (2024): Spoelstra 'uses his timeouts aggressively when things aren't going according to plan', in contrast to Mazzulla",
+          "Nov 2024: called a timeout Miami did not have late vs DET, conceding the deciding technical FT; he called it 'a serious mental error'"
+        ],
+        "sources": [
+          "https://www.cbssports.com/nba/news/in-celtics-vs-heat-when-mazzulla-and-spoelstra-use-their-timeouts-is-a-game-within-the-game",
+          "https://www.nba.com/news/erik-spoelstra-timeout-mistake",
+          "https://www.si.com/nba/erik-spoelstra-admits-made-horrendous-mistake-cost-heat-vs-pistons"
+        ]
+      },
+      "foul_up_three": {
+        "score": 45,
+        "confidence": 0.35,
+        "evidence": [
+          "2010: said fouling up three on a last possession is 'not part of Miami's defensive philosophy' after not fouling Pierce; situational rather than systematic",
+          "2018: planned to intentionally foul 57% FT shooter Ben Simmons to get the ball back, showing willingness to use European-style tactical fouls"
+        ],
+        "sources": [
+          "https://www.columbian.com/news/2010/apr/24/spoelstra-defends-decision-to-not-foul-pierce/",
+          "https://www.espn.com/nba/recap/_/gameId/400975655"
+        ]
+      },
+      "late_lineup_shrink": {
+        "score": 65,
+        "confidence": 0.4,
+        "evidence": [
+          "Playoff rotations shrink to 7-8 with matchup-picked closers; regular-season clutch lineups still vary by opponent",
+          "Inferred from rotation reporting; no clutch-lineup tracking found"
+        ],
+        "sources": [
+          "https://www.si.com/nba/heat/onsi/news/what-s-the-likely-miami-heat-rotation-01k72er7qm4t"
+        ]
+      },
+      "challenge_quality": {
+        "score": 40,
+        "confidence": 0.65,
+        "evidence": [
+          "2024-25: fewest challenges in NBA (18) at 55.6% success, sixth-worst; an earlier stretch had him near 70%",
+          "Philosophy: hoards challenges for crunch time and calls the process a distraction ('To me, it hurts the flow', Nov 2022)"
+        ],
+        "sources": [
+          "https://inkl.com/news/ira-winderman-how-the-heat-have-mastered-the-nba-coach-s-challenge-game-98ec1da0-9bb7-4540-967b-7b9151e4c8e2",
+          "https://allucanheat.com/miami-heat-erik-spoelstra-not-using-challenges",
+          "https://www.pressreader.com/usa/sun-sentinel-broward-edition/20201012/282016149797150"
+        ]
+      },
+      "two_for_one_awareness": {
+        "score": 50,
+        "confidence": 0.25,
+        "evidence": [
+          "No direct evidence found; Heat end-of-quarter play is conventional, neither notably aggressive nor negligent",
+          "Estimate: league-average"
+        ],
+        "sources": []
+      },
+      "risk_appetite": {
+        "score": 60,
+        "confidence": 0.4,
+        "evidence": [
+          "Known for creative 'trickery' inbound plays and gambling on zone/blitz looks in big moments; 2023 run featured aggressive late-game play-calling",
+          "Balanced by conservative stances such as declining to foul up three (2010)"
+        ],
+        "sources": [
+          "https://www.pressreader.com/usa/sun-sentinel-broward-edition/20200805/282020444636868",
+          "https://www.columbian.com/news/2010/apr/24/spoelstra-defends-decision-to-not-foul-pierce/"
+        ]
+      },
+      "clutch_reputation": {
+        "score": 70,
+        "confidence": 0.5,
+        "evidence": [
+          "Consensus elite playoff tactician (2020 and 2023 Finals runs as low seeds); CBS ranked him 3rd-best coach since 2000",
+          "Recent dents: 2024 timeout error vs DET, poor 2024-25 clutch record during a 10-game losing streak, and the 2026 OT play-in loss"
+        ],
+        "sources": [
+          "https://www.si.com/nba/heat/heat-s-erik-spoelstra-earns-legendary-honor-among-best-coaches-this-century-01k43eqg6287",
+          "https://www.nba.com/news/erik-spoelstra-timeout-mistake",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Miami_Heat_season"
+        ]
+      }
+    },
+    "overall": {
+      "adaptability": {
+        "score": 92,
+        "confidence": 0.75,
+        "evidence": [
+          "Reinvented Miami's offense around pace in 2025-26 after a decade of slow, grind basketball ('went outside his comfort zone')",
+          "Serial mid-series scheme changes (2020 zone, 2022 PHI coverage change, 2023 Finals run as 8 seed)"
+        ],
+        "sources": [
+          "https://allucanheat.com/erik-spoelstra-went-outside-his-comfort-zone-to-craft-perfect-heat-approach",
+          "https://www.pressreader.com/usa/miami-herald-sunday/20220515/281981791187680",
+          "https://www.aol.com/coach-erik-spoelstra-reaches-record-033654422.html"
+        ]
+      },
+      "player_development": {
+        "score": 92,
+        "confidence": 0.75,
+        "evidence": [
+          "Took more undrafted players to the Finals than any coach in history (twice); Vincent, Strus, Martin, Robinson became starters; Strus: staff 'take pride in finding the undrafted guy'",
+          "Adebayo and Herro developed from mid/late picks into All-Stars under his staff"
+        ],
+        "sources": [
+          "https://www.si.com/nba/heat/heat-s-erik-spoelstra-earns-legendary-honor-among-best-coaches-this-century-01k43eqg6287",
+          "https://heavy.com/sports/nba/miami-heat/max-strus-on-heat-culture/amp/",
+          "https://caplinnews.fiu.edu/miami-heat-adebayo-gardner-spoelstra-hawks-knicks/"
+        ]
+      },
+      "analytics_adoption": {
+        "score": 75,
+        "confidence": 0.45,
+        "evidence": [
+          "Early mass adopter of zone defense and high 3PA volume; data-driven roster/lineup experimentation; publicly skeptical only of the challenge mechanic, not of analytics",
+          "Inferred from scheme choices and Heat's large analytics staff rather than a direct quote"
+        ],
+        "sources": [
+          "https://global.espn.com/nba/story/_/id/29963960/nba-playoffs-why-teams-combating-offensive-revolution-going-zone-defense"
+        ]
+      },
+      "reputation": {
+        "score": 95,
+        "confidence": 0.85,
+        "evidence": [
+          "League executives again named him the best coach in their annual survey; CBS Sports: 3rd-best coach of the 21st century behind Jackson and Popovich",
+          "Record eight-year extension (2024); named USA Basketball head coach for the 2028 cycle"
+        ],
+        "sources": [
+          "https://www.si.com/nba/heat/heat-s-erik-spoelstra-earns-legendary-honor-among-best-coaches-this-century-01k43eqg6287",
+          "https://www.si.com/nba/heat/news/is-there-an-nba-coach-better-than-erik-spoelstra-01k7mhgy67ze",
+          "https://www.aol.com/coach-erik-spoelstra-reaches-record-033654422.html"
+        ]
+      }
+    }
+  },
+  "notable_quotes": [
+    {
+      "quote": "None of it will be in cement and I don't feel pressure to make it cement, whether it's the starting lineup or whether it's the rotation once we get into the bench.",
+      "speaker": "Erik Spoelstra",
+      "context": "preseason/early 2025-26 on matchup-based lineups",
+      "source": "https://www.talkbasket.net/207168-erik-spoelstra-plans-matchup-based-lineups-rotating-depth-regularly"
+    },
+    {
+      "quote": "To me, it hurts the flow.",
+      "speaker": "Erik Spoelstra",
+      "context": "on the coach's challenge, Nov 2022",
+      "source": "https://inkl.com/news/ira-winderman-how-the-heat-have-mastered-the-nba-coach-s-challenge-game-98ec1da0-9bb7-4540-967b-7b9151e4c8e2"
+    },
+    {
+      "quote": "I made just a serious mental error there at the end.",
+      "speaker": "Erik Spoelstra",
+      "context": "postgame Nov 2024 after calling a timeout Miami did not have vs DET",
+      "source": "https://www.nba.com/news/erik-spoelstra-timeout-mistake"
+    },
+    {
+      "quote": "We did it because our man [defense] wasn't working.",
+      "speaker": "Erik Spoelstra",
+      "context": "2018, on why Miami began playing heavy zone",
+      "source": "https://global.espn.com/nba/story/_/id/29963960/nba-playoffs-why-teams-combating-offensive-revolution-going-zone-defense"
+    },
+    {
+      "quote": "That has been the main focus, sustaining this pace.",
+      "speaker": "Norman Powell",
+      "context": "Oct 2025 on the Heat's new up-tempo offense",
+      "source": "https://allucanheat.com/heat-s-new-look-offense-could-unlock-all-star-version-of-norman-powell-01k6zfrrdx2j"
+    },
+    {
+      "quote": "The most important thing about that is not about the scheme, it's about our identity.",
+      "speaker": "Erik Spoelstra",
+      "context": "on Heat defense and physicality",
+      "source": "https://www.fivereasonssports.com/?p=23897"
+    }
+  ],
+  "key_criticisms": [
+    "Late-game clock/timeout lapses (Nov 2024 timeout Miami did not have vs DET; 2024-25 clutch collapses during a 10-game losing streak)",
+    "Stingy and relatively unsuccessful with coach's challenges (fewest in NBA, 55.6% in 2024-25)",
+    "Constant lineup/rotation tinkering can leave roles unclear; 2024-25 and 2025-26 Heat underachieved relative to reputation",
+    "Loyalty to declining veterans at times (Lowry) and a slow transition to pace until 2025-26",
+    "0-4 start to 2026-27 with a reshaped Giannis roster raised early integration questions"
+  ],
+  "key_strengths": [
+    "Elite scheme adaptability: league's heaviest zone user, switches coverages mid-series, reinvented offense around pace in 2025-26",
+    "Best-in-class after-timeout and inbound play design; consistently praised playoff tactician (2020, 2023 Finals as low seeds)",
+    "Unmatched development of undrafted and young players (Robinson, Vincent, Strus, Martin, Adebayo, Herro)",
+    "Consensus top-tier reputation among executives and peers; USA Basketball head coach"
+  ],
+  "sources": [
+    "https://www.statscrew.com/basketball/stats/c-spoeler01",
+    "https://www.espn.com/nba/coaches/_/id/6749",
+    "https://www.wikiwand.com/en/articles/2024%E2%80%9325_Miami_Heat_season",
+    "https://www.aol.com/coach-erik-spoelstra-reaches-record-033654422.html",
+    "https://heatnation.com/?p=80594",
+    "https://www.nba.com/heat/bio/erik-spoelstra",
+    "https://en.wikipedia.org/wiki/2025%E2%80%9326_Miami_Heat_season",
+    "https://www.landofbasketball.com/results_by_team/2025_2026_heat.htm",
+    "https://defector.com/celtics-heat-nba-playoffs-zone-defense",
+    "https://thescore.com/nba/news/1934008",
+    "https://global.espn.com/nba/story/_/id/29963960/nba-playoffs-why-teams-combating-offensive-revolution-going-zone-defense",
+    "https://www.breakthroughbasketball.com/coaching/tough-zone-defense",
+    "https://www.talkbasket.net/207168-erik-spoelstra-plans-matchup-based-lineups-rotating-depth-regularly",
+    "https://www.si.com/nba/heat/onsi/news/pacers-embarrass-heat-who-need-lineup-and-rotation-changes-01ken5chs1ea",
+    "https://www.si.com/nba/heat/onsi/news/what-s-the-likely-miami-heat-rotation-01k72er7qm4t",
+    "https://www.si.com/nba/heat/onsi/news/who-s-outside-the-rotation-for-the-miami-heat-01k7zjxcd2kf",
+    "https://www.si.com/nba/heat/onsi/news/erik-spoelstra-makes-surprising-starting-lineup-decision-01kj1epy3kc5",
+    "https://inkl.com/news/ira-winderman-how-the-heat-have-mastered-the-nba-coach-s-challenge-game-98ec1da0-9bb7-4540-967b-7b9151e4c8e2",
+    "https://allucanheat.com/miami-heat-erik-spoelstra-not-using-challenges",
+    "https://www.cbssports.com/nba/news/in-celtics-vs-heat-when-mazzulla-and-spoelstra-use-their-timeouts-is-a-game-within-the-game",
+    "https://www.nba.com/news/erik-spoelstra-timeout-mistake",
+    "https://www.si.com/nba/erik-spoelstra-admits-made-horrendous-mistake-cost-heat-vs-pistons",
+    "https://www.pressreader.com/usa/sun-sentinel-broward-edition/20201012/282016149797150",
+    "https://www.pressreader.com/usa/sun-sentinel-broward-edition/20200805/282020444636868",
+    "https://www.espn.com/nba/recap/_/gameId/400975655",
+    "https://www.columbian.com/news/2010/apr/24/spoelstra-defends-decision-to-not-foul-pierce/",
+    "https://allucanheat.com/heat-s-new-look-offense-could-unlock-all-star-version-of-norman-powell-01k6zfrrdx2j",
+    "https://www.si.com/nba/heat/onsi/news/the-now-not-so-secret-influence-behind-the-new-miami-heat-offense-01k93129qpf0",
+    "https://sportsethos.com/top-posts/season-wrap-the-2025-26-miami-heat/",
+    "https://hothothoops.com/2025/10/08/miami-heat-played-fast-pace-preseason-erik-spoelstra/",
+    "https://www.si.com/nba/heat/news/one-heat-player-sees-the-indiana-pacers-as-perfect-offensive-model-01k6ny7afw7e",
+    "https://allucanheat.com/erik-spoelstra-went-outside-his-comfort-zone-to-craft-perfect-heat-approach",
+    "https://www.yardbarker.com/nba/articles/nikola_jovic_says_miami_heat_are_finally_doing_what_erik_spoelstra_has_been_promising_since_2022/s1_17149_42963065",
+    "https://www.nba.com/news/10-numbers-know-first-10-days-2025-26",
+    "https://www.espn.com/nba/team/stats/_/name/mia",
+    "https://www.si.com/nba/heat/heat-s-erik-spoelstra-earns-legendary-honor-among-best-coaches-this-century-01k43eqg6287",
+    "https://www.si.com/nba/heat/news/is-there-an-nba-coach-better-than-erik-spoelstra-01k7mhgy67ze",
+    "https://caplinnews.fiu.edu/miami-heat-adebayo-gardner-spoelstra-hawks-knicks/",
+    "https://heavy.com/sports/nba/miami-heat/max-strus-on-heat-culture/amp/",
+    "https://clutchpoints.com/nba/miami-heat/heat-news-giannis-antetokounmpo-led-miami-off-to-worst-start-in-19-years",
+    "https://www.squawka.com/ca/?p=18849",
+    "https://en.wikipedia.org/wiki/2026%E2%80%9327_Miami_Heat_season",
+    "https://www.si.com/nba/heat/miami-news/next-step-for-miami-heats-bam-adebayo-is-adjusting-to-new-defensive-schemes",
+    "https://www.pressreader.com/usa/miami-herald-sunday/20220515/281981791187680",
+    "https://www.nba.com/heat/everything-everywhere-bam-adebayo-defensive-player-year",
+    "https://www.pressreader.com/usa/sun-sentinel-broward-edition/20191011/282041918887747",
+    "https://www.fivereasonssports.com/?p=23897",
+    "https://www.pressreader.com/usa/miami-herald/20240427/281694029846320",
+    "https://www.celticsblog.com/2022/5/17/23078750/cooling-off-heat-stopping-miamis-dribble-handoff-attack-boston-celtics-marcus-smart-derrick-white"
+  ],
+  "research_notes": "Web search budget (shared per-turn cap) was exhausted before all planned queries ran. Verified via search snippets: season records 2021-22 through 2025-26 (43-39, OT play-in loss to CHA), zone-usage history, challenge usage (2024-25: 18 challenges, 55.6%), timeout habits and the Nov 2024 DET error, 2025-26 pace shift (2nd in PPG), undrafted-player development, exec-survey/CBS reputation, and the 2026-27 0-4/1-4 start with Giannis acquired and Powell gone (snippets only; exact record as of Nov 2 unverified, and the Giannis acquisition is reported by secondary outlets). NOT verified: 2025-26 league ranks for pace, 3PA and offensive rebounding; opponent FT rate; two-for-one tendencies; foul-up-three frequency (only 2010 and 2018 anecdotes); 2025-26 zone frequency (assumed persistent). The 2026-27 row is partial and may be stale. Age computed from Nov 1, 1970 birth date.",
+  "researched_at": "2026-11-02"
+}

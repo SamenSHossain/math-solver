@@ -1,0 +1,491 @@
+{
+  "coach": "Tiago Splitter",
+  "slug": "tiago-splitter",
+  "team": "CHI",
+  "team_name": "Chicago Bulls",
+  "head_coach_since": "2026-27",
+  "age": 41,
+  "background": "Brazilian former NBA center (Spurs 2010-15, 2014 champion; Hawks 2015-17) who moved into coaching as a Brooklyn Nets assistant (2019-23, big-man/player development under Atkinson and Vaughn), a Houston Rockets assistant (2023-24 under Udoka), and head coach of Paris Basketball (2024-25, French Cup champion). Joined Portland as an assistant under Chauncey Billups in summer 2025 and was elevated to interim head coach on Oct. 23, 2025 after Billups' arrest; coached the Blazers to a 42-40 record (30-21 with a top-10 defense over the final 51 games), an 8th-seed playoff berth and a 1-4 first-round loss to San Antonio. Hired by the Bulls on June 16, 2026 (introduced June 17) as the first head-coaching hire of new EVP Bryson Graham, replacing Billy Donovan. Identity as a coach: up-tempo offense, extremely aggressive full-court-pressure defense, relationship-driven culture, strong trust in young players.",
+  "prior_head_coaching": [
+    {
+      "team": "Paris Basketball (LNB/EuroLeague)",
+      "seasons": "2024-25",
+      "record": "n/a (W-L not verified)",
+      "notes": "Won French Cup; first head-coaching job after Nets/Rockets assistant stints."
+    },
+    {
+      "team": "Portland Trail Blazers (interim)",
+      "seasons": "2025-26",
+      "record": "42-40 team record (Splitter coached ~81 of 82 games after Oct. 23, 2025)",
+      "notes": "30-21 with top-10 defense over final 51 games; 8th seed; lost 1-4 to Spurs in Round 1, winning Game 1 of the series. Also a finalist for the permanent Portland job."
+    }
+  ],
+  "record_last5": [
+    {
+      "season": "2021-22",
+      "team": "BKN (assistant)",
+      "wins": 44,
+      "losses": 38,
+      "playoffs": "team swept in R1 by BOS",
+      "notes": "assistant coach; team record"
+    },
+    {
+      "season": "2022-23",
+      "team": "BKN (assistant)",
+      "wins": 45,
+      "losses": 37,
+      "playoffs": "team swept in R1 by PHI",
+      "notes": "assistant coach; team record"
+    },
+    {
+      "season": "2023-24",
+      "team": "HOU (assistant)",
+      "wins": 41,
+      "losses": 41,
+      "playoffs": "",
+      "notes": "assistant coach under Ime Udoka; team record"
+    },
+    {
+      "season": "2024-25",
+      "team": "Paris Basketball (head coach)",
+      "wins": null,
+      "losses": null,
+      "playoffs": "French Cup champion",
+      "notes": "W-L not verified in this research pass"
+    },
+    {
+      "season": "2025-26",
+      "team": "POR (interim head coach)",
+      "wins": 42,
+      "losses": 40,
+      "playoffs": "Lost R1 1-4 to SAS",
+      "notes": "took over Oct. 23, 2025; 30-21 over final 51 games"
+    },
+    {
+      "season": "2026-27",
+      "team": "CHI",
+      "wins": 0,
+      "losses": 3,
+      "playoffs": "",
+      "notes": "PARTIAL/UNCERTAIN: confirmed losses to TOR (92-135, Oct 21, worst opening-night loss in Bulls history), WAS (120-124, Oct 24), NYK (127-133, Oct 29, blew 19-point 2nd-half lead). Results at MIL (Oct 23) and vs BOS (Oct 26) not verified; actual record likely 0-5 or 1-4 as of Oct 30."
+    }
+  ],
+  "defense_scheme_tags": [
+    "full-court-press",
+    "aggressive-help",
+    "blitz",
+    "switch",
+    "drop"
+  ],
+  "offense_scheme_tags": [
+    "transition",
+    "pace-and-space",
+    "motion",
+    "dribble-handoff",
+    "five-out"
+  ],
+  "scores": {
+    "rotation": {
+      "depth": {
+        "score": 78,
+        "confidence": 0.7,
+        "evidence": [
+          "Splitter said in 2026 training camp he intends to run a 9-to-11-man rotation in the regular season (Roundtable, Sep 2026).",
+          "Bulls bench framed as a 'toolbox unit' rather than a fixed second unit (Bulls Central podcast, Oct 2026).",
+          "In Portland 2025-26 the press-heavy style relied on a deep, interchangeable rotation of wings."
+        ],
+        "sources": [
+          "https://roundtable.io/sports/nba/bulls/opinion/4-priorities-for-tiago-splitter-at-chicago-bulls-training-camp",
+          "https://podcastaddict.com/chicago-bulls-central/episode/227513641",
+          "https://lastwordonsports.com/basketball/2026/02/19/diving-into-the-trail-blazers-postseason-chase/"
+        ]
+      },
+      "star_minutes_load": {
+        "score": 45,
+        "confidence": 0.35,
+        "evidence": [
+          "Up-tempo, full-court-pressure system in Portland 2025-26 distributed minutes widely; only Deni Avdija (All-Star) carried a heavy load.",
+          "No evidence yet of Bulls stars at 36+ mpg; roster lacks a traditional 36-mpg star (inferred)."
+        ],
+        "sources": [
+          "https://lastwordonsports.com/basketball/2026/02/19/diving-into-the-trail-blazers-postseason-chase/",
+          "https://www.nba.com/news/2026-27-season-preview-chi"
+        ]
+      },
+      "consistency": {
+        "score": 40,
+        "confidence": 0.35,
+        "evidence": [
+          "Portland 2025-26 lineups churned constantly due to injuries (Lillard out, Sharpe, Henderson) and the interim transition.",
+          "Bulls opened 2026-27 without starting C Nic Claxton (hamstring), forcing early lineup changes (Bleacher Nation, Oct 14, 2026).",
+          "Patrick Williams was a healthy scratch on opening night, signaling meritocratic churn (Sun-Times, Oct 21, 2026)."
+        ],
+        "sources": [
+          "https://www.bleachernation.com/bulls/2026/10/14/splitter-claxton-out/",
+          "https://chicago.suntimes.com/bulls/2026/10/21/bulls-thumped-season-debut-rebuild-demolition-site",
+          "https://lastwordonsports.com/basketball/2026/02/19/diving-into-the-trail-blazers-postseason-chase/"
+        ]
+      },
+      "youth_trust": {
+        "score": 78,
+        "confidence": 0.6,
+        "evidence": [
+          "Started rookie Caleb Wilson from Game 1 and said he would log major rotation minutes (2026 preseason/opener coverage).",
+          "Called Matas Buzelis a 'very complete player' and a key part of the franchise's future at his June 17, 2026 intro presser.",
+          "In Portland 2025-26 gave big roles to Yang Hansen, Donovan Clingan, Scoot Henderson and Toumani Camara."
+        ],
+        "sources": [
+          "https://bleacherreport.com/articles/25442001-everything-tiago-splitter-said-bulls-introduce-new-hc-replace-billy-donovan",
+          "https://chicago.suntimes.com/bulls/2026/10/24/bulls-fall-wizards-tough-love-lessons-continue-being-learned",
+          "https://www.fantasyalarm.com/articles/nba/nba-offseason/chicago-bulls-2026-27-season-preview/196844"
+        ]
+      },
+      "load_management": {
+        "score": 45,
+        "confidence": 0.25,
+        "evidence": [
+          "No reporting found on resting healthy stars; Portland 2025-26 absences were injury-driven, not scheduled rest (inferred).",
+          "Young Bulls roster gives little reason for programmed rest days (inferred)."
+        ],
+        "sources": []
+      },
+      "closing_flexibility": {
+        "score": 55,
+        "confidence": 0.3,
+        "evidence": [
+          "Benched rookie Caleb Wilson for the entire 4th quarter of a preseason game after early struggles, showing matchup/performance-based closing decisions (Roundtable, Oct 2026).",
+          "Portland 2025-26 closers varied with injuries; no fixed five was established (inferred)."
+        ],
+        "sources": [
+          "https://roundtable.io/sports/nba/bulls/opinion/4-priorities-for-tiago-splitter-at-chicago-bulls-training-camp",
+          "https://chicago.suntimes.com/bulls/2026/10/24/bulls-fall-wizards-tough-love-lessons-continue-being-learned"
+        ]
+      }
+    },
+    "offense": {
+      "pace": {
+        "score": 75,
+        "confidence": 0.6,
+        "evidence": [
+          "At his intro presser (June 17, 2026) Splitter committed to adapting 'his preferred up-tempo system' to the roster rather than forcing it.",
+          "Portland 2025-26 under Splitter played fast, with pressure defense feeding transition; league-high 17.3 turnovers/game was the cost (LWOS, Feb 2026)."
+        ],
+        "sources": [
+          "https://bleacherreport.com/articles/25442001-everything-tiago-splitter-said-bulls-introduce-new-hc-replace-billy-donovan",
+          "https://abc7chicago.com/post/splitter-looks-jordan-era-he-tackles-bulls-turnaround/19318720/",
+          "https://lastwordonsports.com/basketball/2026/02/19/diving-into-the-trail-blazers-postseason-chase/"
+        ]
+      },
+      "three_point_emphasis": {
+        "score": 52,
+        "confidence": 0.3,
+        "evidence": [
+          "Portland 2025-26 was not a high-volume 3PA team under Splitter; 3-point percentage was a stated weakness (Nori intro presser, June 2026).",
+          "Bulls roster built around Giddey/Powell/Hield/Buzelis suggests moderate-to-high volume in 2026-27 (inferred)."
+        ],
+        "sources": [
+          "https://www.nba.com/news/2026-27-season-preview-chi",
+          "https://www.fantasyalarm.com/articles/nba/nba-offseason/chicago-bulls-2026-27-season-preview/196844"
+        ]
+      },
+      "ball_movement": {
+        "score": 62,
+        "confidence": 0.4,
+        "evidence": [
+          "Portland 2025-26 had no heliocentric star; offense ran through Avdija as a point-forward with egalitarian touches.",
+          "Chicago offense runs through Josh Giddey, a pass-first initiator, in a motion-heavy system (2026-27 preview)."
+        ],
+        "sources": [
+          "https://www.nba.com/news/2026-27-season-preview-chi",
+          "https://lastwordonsports.com/basketball/2025/11/13/the-winning-formula-for-the-trail-blazers-2025-26-season/"
+        ]
+      },
+      "transition_emphasis": {
+        "score": 76,
+        "confidence": 0.55,
+        "evidence": [
+          "Full-court pressure (~25% of defensive possessions early in 2025-26) was explicitly designed to create live-ball turnovers and transition chances (Backdoor Podcast, Oct 30, 2025).",
+          "'Up-tempo' is Splitter's self-described preferred system (June 2026)."
+        ],
+        "sources": [
+          "https://www.backdoorpodcast.com/en/?p=96968",
+          "https://bleacherreport.com/articles/25442001-everything-tiago-splitter-said-bulls-introduce-new-hc-replace-billy-donovan"
+        ]
+      },
+      "offensive_rebounding": {
+        "score": 50,
+        "confidence": 0.25,
+        "evidence": [
+          "No direct evidence; Portland 2025-26 crashed moderately with Clingan/Williams but transition-first teams typically prioritize getting back (inferred)."
+        ],
+        "sources": []
+      },
+      "paint_post_emphasis": {
+        "score": 45,
+        "confidence": 0.3,
+        "evidence": [
+          "Former center who coached bigs (Claxton, Allen, Sengun) but Portland offense was perimeter/drive-based rather than post-up heavy (inferred from 2025-26 coverage)."
+        ],
+        "sources": [
+          "https://lastwordonsports.com/basketball/2025/11/13/the-winning-formula-for-the-trail-blazers-2025-26-season/"
+        ]
+      },
+      "playcalling_ato_quality": {
+        "score": 42,
+        "confidence": 0.3,
+        "evidence": [
+          "'Trail Blazers' issues in the clutch exposed in an ugly win' (LWOS, Dec 20, 2025) flagged late-game execution problems in his interim season.",
+          "Bulls blew a 19-point second-half lead to the Knicks on Oct. 29, 2026, with Brunson scoring 14 in the final 7 minutes."
+        ],
+        "sources": [
+          "https://lastwordonsports.com/basketball/2025/12/20/the-trail-blazers-issues-in-the-clutch-exposed-in-an-ugly-win/",
+          "https://www.bleachernation.com/bulls/2026/10/28/knicks-bulls-recap/"
+        ]
+      }
+    },
+    "defense": {
+      "aggressiveness": {
+        "score": 92,
+        "confidence": 0.8,
+        "evidence": [
+          "Portland full-court pressed on roughly a quarter of defensive possessions as of Oct. 30, 2025 (Backdoor Podcast).",
+          "Style described as 'uniquely aggressive, built on full-court pressure' (LWOS, Feb 2026); Blazers were among league leaders in forcing turnovers.",
+          "Top-10 defense over final 51 games of 2025-26 (30-21 span)."
+        ],
+        "sources": [
+          "https://www.backdoorpodcast.com/en/?p=96968",
+          "https://lastwordonsports.com/basketball/2026/02/19/diving-into-the-trail-blazers-postseason-chase/",
+          "https://www.espn.in/nba/story/_/id/49072541/sources-bulls-finalizing-hire-tiago-splitter-head-coach"
+        ]
+      },
+      "perimeter_priority": {
+        "score": 62,
+        "confidence": 0.4,
+        "evidence": [
+          "Press-and-pressure scheme picks up ball-handlers high and contests perimeter, accepting some rim exposure behind the pressure (2025-26 coverage).",
+          "Rip City Project (2026) criticized an 'obvious flaw' undermining the defensive identity (turnover-fed easy baskets)."
+        ],
+        "sources": [
+          "https://www.backdoorpodcast.com/en/?p=96968",
+          "https://ripcityproject.com/blazers-painfully-obvious-flaw-ruining-defensive-identity"
+        ]
+      },
+      "foul_discipline": {
+        "score": 35,
+        "confidence": 0.35,
+        "evidence": [
+          "High-pressure, trapping schemes generally produce more fouls; Portland 2025-26 was a physical, foul-prone team (inferred from style coverage).",
+          "No direct opponent-FT-rate data found in this pass."
+        ],
+        "sources": [
+          "https://lastwordonsports.com/basketball/2026/02/19/diving-into-the-trail-blazers-postseason-chase/"
+        ]
+      },
+      "zone_usage": {
+        "score": 30,
+        "confidence": 0.25,
+        "evidence": [
+          "No reporting found of regular zone usage under Splitter; identity is man-to-man pressure (inferred)."
+        ],
+        "sources": []
+      },
+      "scheme_adaptability": {
+        "score": 60,
+        "confidence": 0.35,
+        "evidence": [
+          "Dialed press frequency up/down by opponent during 2025-26 (early-season 25% press rate was not constant).",
+          "Said in June 2026 he would adapt his system to roster strengths rather than force a rigid approach."
+        ],
+        "sources": [
+          "https://www.backdoorpodcast.com/en/?p=96968",
+          "https://abc7chicago.com/post/splitter-looks-jordan-era-he-tackles-bulls-turnaround/19318720/"
+        ]
+      }
+    },
+    "endgame": {
+      "timeout_aggressiveness": {
+        "score": 50,
+        "confidence": 0.2,
+        "evidence": [
+          "No specific reporting on timeout habits found; league-average assumed (inferred)."
+        ],
+        "sources": []
+      },
+      "foul_up_three": {
+        "score": 50,
+        "confidence": 0.15,
+        "evidence": [
+          "No evidence found; league-average assumed (inferred)."
+        ],
+        "sources": []
+      },
+      "late_lineup_shrink": {
+        "score": 55,
+        "confidence": 0.25,
+        "evidence": [
+          "Deep 9-11 man regular rotation but pulled rookie Wilson for a full 4th quarter in preseason, suggesting he shrinks to trusted players late (Oct 2026)."
+        ],
+        "sources": [
+          "https://roundtable.io/sports/nba/bulls/opinion/4-priorities-for-tiago-splitter-at-chicago-bulls-training-camp"
+        ]
+      },
+      "challenge_quality": {
+        "score": 45,
+        "confidence": 0.2,
+        "evidence": [
+          "No challenge-rate or success data found for his 81-game interim stint; first-year head coaches typically grade below average (inferred)."
+        ],
+        "sources": []
+      },
+      "two_for_one_awareness": {
+        "score": 55,
+        "confidence": 0.2,
+        "evidence": [
+          "Pace-oriented coach from analytics-friendly Nets/Rockets staffs; likely hunts 2-for-1s (inferred, no direct evidence)."
+        ],
+        "sources": []
+      },
+      "risk_appetite": {
+        "score": 60,
+        "confidence": 0.25,
+        "evidence": [
+          "Pressing a quarter of possessions is itself a high-variance choice; style suggests above-average risk tolerance (2025-26)."
+        ],
+        "sources": [
+          "https://www.backdoorpodcast.com/en/?p=96968"
+        ]
+      },
+      "clutch_reputation": {
+        "score": 38,
+        "confidence": 0.35,
+        "evidence": [
+          "Dec 2025 column: Blazers' 'issues in the clutch exposed'; Portland started 12-19 before stabilizing.",
+          "Oct 29, 2026: Bulls surrendered a 19-point lead to NYK in the final quarter."
+        ],
+        "sources": [
+          "https://lastwordonsports.com/basketball/2025/12/20/the-trail-blazers-issues-in-the-clutch-exposed-in-an-ugly-win/",
+          "https://www.bleachernation.com/bulls/2026/10/28/knicks-bulls-recap/"
+        ]
+      }
+    },
+    "overall": {
+      "adaptability": {
+        "score": 60,
+        "confidence": 0.4,
+        "evidence": [
+          "Turned a 12-19 Portland start into a 30-21 finish with a top-10 defense (2025-26).",
+          "Publicly committed to fitting system to roster (June 2026)."
+        ],
+        "sources": [
+          "https://www.espn.in/nba/story/_/id/49072541/sources-bulls-finalizing-hire-tiago-splitter-head-coach",
+          "https://abc7chicago.com/post/splitter-looks-jordan-era-he-tackles-bulls-turnaround/19318720/"
+        ]
+      },
+      "player_development": {
+        "score": 70,
+        "confidence": 0.5,
+        "evidence": [
+          "Big-man development résumé: Jarrett Allen and Nic Claxton (BKN), Alperen Sengun (HOU); Avdija became an All-Star and Camara a top defender under him in 2025-26.",
+          "Bulls FO cited relationship-building and development of Buzelis/Wilson as hiring rationale (June 2026)."
+        ],
+        "sources": [
+          "https://www.click2houston.com/sports/2026/06/15/chicago-bulls-hire-former-nba-center-tiago-splitter-as-coach/",
+          "https://abc7chicago.com/post/splitter-looks-jordan-era-he-tackles-bulls-turnaround/19318720/",
+          "https://www.foxsports.com/articles/nba/blazers-hire-wolves-assistant-micah-nori-as-head-coach-a-year-after-chauncey-billups-sudden-exit"
+        ]
+      },
+      "analytics_adoption": {
+        "score": 65,
+        "confidence": 0.4,
+        "evidence": [
+          "Coaching tree runs through Kenny Atkinson's Nets and Udoka's Rockets, both analytics-forward organizations (inferred).",
+          "Pressure-and-pace style aligns with turnover-creation analytics (2025-26)."
+        ],
+        "sources": [
+          "https://www.cbssports.com/nba/news/trail-blazers-tiago-splitter-interim-coach-chauncey-billups-arrest",
+          "https://www.backdoorpodcast.com/en/?p=96968"
+        ]
+      },
+      "reputation": {
+        "score": 50,
+        "confidence": 0.5,
+        "evidence": [
+          "Pursued by two franchises in June 2026 (Bulls hire; Portland finalist) after a 42-win interim season, but 0-3+ Bulls start and 'struggles' coverage (Oct 28, 2026) temper it.",
+          "Praised for 'foxhole mentality' and communication (June 2026)."
+        ],
+        "sources": [
+          "https://www.foxsports.com/articles/nba/blazers-hire-wolves-assistant-micah-nori-as-head-coach-a-year-after-chauncey-billups-sudden-exit",
+          "https://www.bleachernation.com/bulls/2026/10/28/splitter-bulls-struggles/",
+          "https://groundnews.lakegeneva.lib.wi.us/article/tiago-splitter-brings-foxhole-mentality-to-his-new-bulls-coaching-seat"
+        ]
+      }
+    }
+  },
+  "notable_quotes": [
+    {
+      "quote": "He committed to adapting his preferred up-tempo system to the roster's strengths rather than forcing a rigid approach.",
+      "speaker": "Tiago Splitter (paraphrased by ABC7)",
+      "context": "Bulls introductory press conference, 2026-06-17",
+      "source": "https://abc7chicago.com/post/splitter-looks-jordan-era-he-tackles-bulls-turnaround/19318720/"
+    },
+    {
+      "quote": "[Matas Buzelis is a] very complete player.",
+      "speaker": "Tiago Splitter",
+      "context": "Bulls introductory press conference, 2026-06-17",
+      "source": "https://bleacherreport.com/articles/25442001-everything-tiago-splitter-said-bulls-introduce-new-hc-replace-billy-donovan"
+    },
+    {
+      "quote": "Portland was full-court pressing on about a quarter of its defensive possessions.",
+      "speaker": "Backdoor Podcast analysis",
+      "context": "2025-26 season, as of Oct. 30, 2025",
+      "source": "https://www.backdoorpodcast.com/en/?p=96968"
+    },
+    {
+      "quote": "The team needs to improve in that area and focus on it.",
+      "speaker": "Tiago Splitter (on 19 turnovers)",
+      "context": "2025-26 postgame, Feb 2026",
+      "source": "https://lastwordonsports.com/basketball/2026/02/19/diving-into-the-trail-blazers-postseason-chase/"
+    }
+  ],
+  "key_criticisms": [
+    "Pressure scheme produces league-leading turnover rates on his own team (17.3/game Portland 2025-26) and concedes easy baskets when the press is beaten.",
+    "Late-game execution questioned in Dec 2025 (Portland) and after blowing a 19-point lead to NYK on Oct. 29, 2026.",
+    "Bulls started the season 0-3+ with the worst opening-night loss in franchise history (Oct 21, 2026).",
+    "Limited head-coaching sample (one interim season); rotation and lineups churned heavily."
+  ],
+  "key_strengths": [
+    "Elite defensive aggressiveness and identity (top-10 defense over final 51 games in Portland 2025-26).",
+    "Strong trust in and development of young players (Buzelis, Wilson, Avdija, Camara, Claxton, Sengun).",
+    "Up-tempo, transition-oriented offense; deep 9-11 man rotations.",
+    "Culture/communication: 'foxhole mentality', relationships with players."
+  ],
+  "sources": [
+    "https://bleacherreport.com/articles/25442001-everything-tiago-splitter-said-bulls-introduce-new-hc-replace-billy-donovan",
+    "https://abc7chicago.com/post/splitter-looks-jordan-era-he-tackles-bulls-turnaround/19318720/",
+    "https://www.click2houston.com/sports/2026/06/15/chicago-bulls-hire-former-nba-center-tiago-splitter-as-coach/",
+    "https://www.espn.in/nba/story/_/id/49072541/sources-bulls-finalizing-hire-tiago-splitter-head-coach",
+    "https://www.cbssports.com/nba/news/trail-blazers-tiago-splitter-interim-coach-chauncey-billups-arrest",
+    "https://www.backdoorpodcast.com/en/?p=96968",
+    "https://lastwordonsports.com/basketball/2026/02/19/diving-into-the-trail-blazers-postseason-chase/",
+    "https://ripcityproject.com/blazers-just-moved-closer-to-achievement-that-is-equally-impressive-and-infuriating-turnovers",
+    "https://lastwordonsports.com/basketball/2025/11/13/the-winning-formula-for-the-trail-blazers-2025-26-season/",
+    "https://lastwordonsports.com/basketball/2025/12/20/the-trail-blazers-issues-in-the-clutch-exposed-in-an-ugly-win/",
+    "https://www.bleachernation.com/bulls/2026/10/28/splitter-bulls-struggles/",
+    "https://www.bleachernation.com/bulls/2026/10/28/knicks-bulls-recap/",
+    "https://chicago.suntimes.com/bulls/2026/10/24/bulls-fall-wizards-tough-love-lessons-continue-being-learned",
+    "https://chicago.suntimes.com/bulls/2026/10/21/bulls-thumped-season-debut-rebuild-demolition-site",
+    "https://roundtable.io/sports/nba/bulls/opinion/4-priorities-for-tiago-splitter-at-chicago-bulls-training-camp",
+    "https://www.nba.com/news/2026-27-season-preview-chi",
+    "https://www.fantasyalarm.com/articles/nba/nba-offseason/chicago-bulls-2026-27-season-preview/196844",
+    "https://www.bleachernation.com/bulls/2026/10/14/splitter-claxton-out/",
+    "https://vsin.com/nba/portland-trail-blazers-2026-27-nba-preview-burning-questions-analysis-win-total-prediction/",
+    "https://groundnews.lakegeneva.lib.wi.us/article/tiago-splitter-brings-foxhole-mentality-to-his-new-bulls-coaching-seat",
+    "https://www.foxsports.com/articles/nba/blazers-hire-wolves-assistant-micah-nori-as-head-coach-a-year-after-chauncey-billups-sudden-exit",
+    "https://podcastaddict.com/chicago-bulls-central/episode/227513641",
+    "https://ripcityproject.com/blazers-painfully-obvious-flaw-ruining-defensive-identity",
+    "https://www.blazersedge.com/trail-blazers-analysis/104259/portland-trail-blazers-minnesota-timberwolves-final-score-stats-yang-hansen-holiday-sharpe-deni-avdija-camara",
+    "https://roundtable.io/sports/nba/bulls/game-day/bulls-refuse-to-quit-but-cant-complete-comeback-against-wizards"
+  ],
+  "research_notes": "Web-search budget for this session was exhausted midway (shared 200-call cap), so several planned queries were not run: Portland 2025-26 pace/3PA rankings, Splitter's challenge rate and timeout habits, closing lineups, and the Bulls' results vs MIL (Oct 23) and BOS (Oct 26). The 2026-27 record is therefore partial (3 confirmed losses). Paris Basketball 2024-25 W-L not verified. Portland's '30-21 over final 51 games' and 'top-10 defense' come from the ESPN hiring report; the full-court-press rate (~25%) is from an Oct 30, 2025 analysis and likely varied over the season. Endgame dimensions are mostly inferred (confidence <= 0.25). Age: born Jan 1, 1985 (41 as of Nov 2026). Brooklyn/Houston team records in record_last5 are team results, not his.",
+  "researched_at": "2026-11-02"
+}

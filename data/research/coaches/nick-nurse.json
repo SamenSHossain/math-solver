@@ -1,0 +1,470 @@
+{
+  "coach": "Nick Nurse",
+  "slug": "nick-nurse",
+  "team": "PHI",
+  "team_name": "Philadelphia 76ers",
+  "head_coach_since": "2023-24",
+  "age": 59,
+  "background": "Iowa native who coached for two decades in the British Basketball League and G League (titles with Iowa Energy 2011 and Rio Grande Valley Vipers 2013, running Houston's analytics-driven system) before joining Toronto as an assistant in 2013. Promoted to Raptors head coach in 2018, he won the 2019 championship in his first season, famously improvising a box-and-one on Stephen Curry in the Finals, and won 2020 Coach of the Year (53-19). Toronto slid after Kawhi Leonard left (27-45 in the Tampa season, a 2022 first-round loss, a 2023 play-in loss) and Nurse was fired, then hired by Daryl Morey's 76ers in June 2023. Philadelphia went 47-35 and lost a tight first round to New York (2024), collapsed to 24-58 amid Embiid/George injuries (2025) with Nurse and Morey nonetheless retained, then rebounded to 45-37 in 2025-26 with Maxey and rookie VJ Edgecombe leading a faster attack, upset Boston in Round 1 and were swept by the Knicks in Round 2. Known as the league's most experimental schemer (zones, box-and-ones, presses, constant lineup tinkering) and for riding Tyrese Maxey heavy minutes.",
+  "prior_head_coaching": [
+    {
+      "team": "TOR",
+      "seasons": "2018-19 to 2022-23",
+      "record": "227-163 regular season, 27-21 playoffs",
+      "notes": "2019 NBA champion (58-24); 2020 Coach of the Year (53-19, lost R2 3-4 to BOS); 27-45 (2020-21 Tampa season); 48-34 (lost R1 2-4 to PHI); 41-41 (lost play-in to CHI); fired April 2023."
+    },
+    {
+      "team": "Iowa Energy / Rio Grande Valley Vipers (G League)",
+      "seasons": "2007-08 to 2012-13",
+      "record": "G League titles 2011 (Iowa) and 2013 (RGV)",
+      "notes": "Also long BBL career (Birmingham, Manchester, Brighton) and Great Britain assistant (2012 Olympics)."
+    }
+  ],
+  "record_last5": [
+    {
+      "season": "2021-22",
+      "team": "TOR",
+      "wins": 48,
+      "losses": 34,
+      "playoffs": "5th seed; lost R1 2-4 to PHI",
+      "notes": "Scottie Barnes Rookie of the Year; positionless, long-wing 'Vision 6-9' roster."
+    },
+    {
+      "season": "2022-23",
+      "team": "TOR",
+      "wins": 41,
+      "losses": 41,
+      "playoffs": "Lost play-in to CHI",
+      "notes": "Fired after the season; hired by Philadelphia in June 2023."
+    },
+    {
+      "season": "2023-24",
+      "team": "PHI",
+      "wins": 47,
+      "losses": 35,
+      "playoffs": "Won play-in vs MIA; lost R1 2-4 to NYK",
+      "notes": "Embiid missed ~40 games; Maxey Most Improved Player."
+    },
+    {
+      "season": "2024-25",
+      "team": "PHI",
+      "wins": 24,
+      "losses": 58,
+      "playoffs": "Missed playoffs",
+      "notes": "Embiid/George/Maxey injuries; team shut down stars late. Nurse and Morey retained despite the flop; Nurse landed in a 'bad category' of the NBA player poll."
+    },
+    {
+      "season": "2025-26",
+      "team": "PHI",
+      "wins": 45,
+      "losses": 37,
+      "playoffs": "7th seed (via play-in); beat BOS in R1; lost R2 0-4 to NYK",
+      "notes": "Embiid on a minutes restriction; more transition (1.26 PPP) and a Maxey/Edgecombe-led faster tempo; R1 series score not retrieved."
+    }
+  ],
+  "defense_scheme_tags": [
+    "zone",
+    "box-and-one",
+    "triangle-and-two",
+    "full-court-press",
+    "blitz",
+    "switch",
+    "aggressive-help",
+    "drop"
+  ],
+  "offense_scheme_tags": [
+    "pace-and-space",
+    "transition",
+    "post-centric",
+    "dribble-handoff",
+    "heliocentric",
+    "random/flow",
+    "five-out"
+  ],
+  "scores": {
+    "rotation": {
+      "depth": {
+        "score": 65,
+        "confidence": 0.5,
+        "evidence": [
+          "In Philadelphia, injuries and Nurse's experimental streak have produced 10-11-man regular-season rotations (frequent depth-chart reshuffles covered by PhillyVoice), tightened to 8-9 in the playoffs.",
+          "In Toronto he ran deep, matchup-driven benches (2019-20 'next man up')."
+        ],
+        "sources": [
+          "https://www.phillyvoice.com/sixers-schedule-news-analysis-nick-nurse-rotation-depth-chart-starting-lineup-joel-embiid-injury-update-paul-george/",
+          "https://www.phillyvoice.com/sixers-news-analysis-depth-chart-rotation-nick-nurse-tyrese-maxey-jared-mccain-quentin-grimes-kelly-oubre-trendon-watford"
+        ]
+      },
+      "star_minutes_load": {
+        "score": 80,
+        "confidence": 0.65,
+        "evidence": [
+          "Tyrese Maxey led the NBA in minutes per game (~37.7) in 2024-25 and again played heavy minutes in 2025-26 while Embiid was on a medical restriction; Nurse historically rode Kyle Lowry/Pascal Siakam 36+ mpg in Toronto."
+        ],
+        "sources": [
+          "https://www.cbssports.com/nba/news/76ers-joel-embiid-offense-minutes-restriction",
+          "https://downbeach.com/news/2025/nov/14/sixers-mailbag-is-tyrese-maxey-sneaking-up-on-one-of-the-games-very-best-guards"
+        ]
+      },
+      "consistency": {
+        "score": 20,
+        "confidence": 0.7,
+        "evidence": [
+          "Nurse is the league's most prolific lineup tinkerer: dozens of starting lineups per season in Philadelphia (partly injury-driven) and matchup-based substitution patterns that beat writers describe as unpredictable."
+        ],
+        "sources": [
+          "https://www.phillyvoice.com/sixers-schedule-news-analysis-nick-nurse-rotation-depth-chart-starting-lineup-joel-embiid-injury-update-paul-george/",
+          "https://www.inquirer.com/sixers/coach-nick-nurse-not-cause-for-sixers-failures-scapegoat-20250318.html"
+        ]
+      },
+      "youth_trust": {
+        "score": 65,
+        "confidence": 0.6,
+        "evidence": [
+          "Started rookie VJ Edgecombe and gave Jared McCain a major role as a rookie (2024-25); in Toronto developed Siakam, VanVleet, Anunoby, Barnes into core pieces."
+        ],
+        "sources": [
+          "https://www.inquirer.com/sixers/sixers-season-preview-joel-embiid-tyrese-maxey-vj-edgecombe-20251022.html",
+          "https://www.phillyvoice.com/sixers-news-analysis-vj-edgecombe-summer-league-stats-highlights-roster-nba-rumors-joel-embiid"
+        ]
+      },
+      "load_management": {
+        "score": 45,
+        "confidence": 0.45,
+        "evidence": [
+          "Embiid's restrictions are medically driven (minutes cap, no back-to-backs) rather than coach-initiated; Maxey is rarely rested; Paul George managed cautiously after 2025 knee injury."
+        ],
+        "sources": [
+          "https://www.cbssports.com/nba/news/76ers-joel-embiid-offense-minutes-restriction",
+          "https://www.phillyvoice.com/sixers-news-analysis-paul-george-role-nick-nurse-joel-embiid-tyrese-maxey-vj-edgecombe-nba-rumors-kelly-oubre-jr/"
+        ]
+      },
+      "closing_flexibility": {
+        "score": 70,
+        "confidence": 0.55,
+        "evidence": [
+          "Matchup-based closers are a Nurse hallmark (e.g., VanVleet/Powell choices in 2019, Oubre/Grimes/Edgecombe in Philly); he will bench a starter for a defensive specialist late."
+        ],
+        "sources": [
+          "https://www.theringer.com/nba/2019/6/5/18654210/warriors-raptors-final-box-and-one-defense-steph-curry-nick-nurse",
+          "https://www.phillyvoice.com/nick-nurses-sixers-76ers-head-coach-scheme-analysis-news-hire-rumors-latest/"
+        ]
+      }
+    },
+    "offense": {
+      "pace": {
+        "score": 60,
+        "confidence": 0.6,
+        "evidence": [
+          "Nurse 'wanted a much faster tempo' entering 2025-26, with Maxey/Edgecombe units playing up-tempo and Embiid units slower; Philadelphia generated 'more transition points than ever' (1.26 PPP in transition).",
+          "Raptors under Nurse were consistently top-10 in pace."
+        ],
+        "sources": [
+          "https://www.inquirer.com/sixers/sixers-season-preview-joel-embiid-tyrese-maxey-vj-edgecombe-20251022.html",
+          "https://www.cbssports.com/nba/news/76ers-joel-embiid-offense-minutes-restriction"
+        ]
+      },
+      "three_point_emphasis": {
+        "score": 45,
+        "confidence": 0.6,
+        "evidence": [
+          "Mid-2025-26 the Sixers ranked 20th in both 3PA and 3P% ('the Sixers' three-point approach is stuck in the 20th century' - SI); contrast with Nurse's high-volume Raptors (top-5 3PA 2019-21)."
+        ],
+        "sources": [
+          "https://www.si.com/nba/76ers/onsi/news/the-sixers-three-point-approach-is-stuck-in-the-20th-century-01kkth32jq3k",
+          "https://www.cbssports.com/nba/news/in-toronto-the-defending-champion-raptors-shed-light-on-the-future-of-nba-defense"
+        ]
+      },
+      "ball_movement": {
+        "score": 45,
+        "confidence": 0.5,
+        "evidence": [
+          "Philadelphia's offense runs through Maxey pick-and-rolls and Embiid post/DHO touches with modest assist rates; 'the most troubling part' of the offense without Embiid was stagnation (SI, 2026). Toronto's version was more egalitarian/random."
+        ],
+        "sources": [
+          "https://www.si.com/nba/76ers/onsi/the-most-troubling-part-of-the-sixers-offense-without-joel-embiid-01khxkf64v7b",
+          "https://www.cbssports.com/nba/news/76ers-joel-embiid-offense-minutes-restriction"
+        ]
+      },
+      "transition_emphasis": {
+        "score": 65,
+        "confidence": 0.6,
+        "evidence": [
+          "2025-26 Sixers scored 1.26 points per transition possession and ran more than in any prior Nurse-Philly season; Edgecombe/Maxey built for it."
+        ],
+        "sources": [
+          "https://www.cbssports.com/nba/news/76ers-joel-embiid-offense-minutes-restriction"
+        ]
+      },
+      "offensive_rebounding": {
+        "score": 35,
+        "confidence": 0.3,
+        "evidence": [
+          "Sixers are a get-back team with Embiid often limited; Nurse's Raptors also prioritized transition defense over crashing (inferred; no data retrieved)."
+        ],
+        "sources": []
+      },
+      "paint_post_emphasis": {
+        "score": 60,
+        "confidence": 0.5,
+        "evidence": [
+          "When Embiid plays the offense tilts to post-ups, DHOs and free-throw generation; Embiid-led units 'naturally slow down' and are paint-centric, though his availability has been limited."
+        ],
+        "sources": [
+          "https://www.phillyvoice.com/sixers-schedule-news-analysis-nick-nurse-rotation-depth-chart-starting-lineup-joel-embiid-injury-update-paul-george/",
+          "https://www.si.com/nba/76ers/onsi/the-most-troubling-part-of-the-sixers-offense-without-joel-embiid-01khxkf64v7b"
+        ]
+      },
+      "playcalling_ato_quality": {
+        "score": 65,
+        "confidence": 0.5,
+        "evidence": [
+          "Regarded as a creative set designer and improviser ('drawn up on the spot' box-and-one; 'janky' schemes); Philly late-game offense has leaned on Maxey isolation with mixed results."
+        ],
+        "sources": [
+          "https://www.theringer.com/nba/2019/6/5/18654210/warriors-raptors-final-box-and-one-defense-steph-curry-nick-nurse",
+          "https://ca.sports.yahoo.com/news/warriors-raptors-riveted-by-nick-nurses-janky-defensive-strategy-230548305.html"
+        ]
+      }
+    },
+    "defense": {
+      "aggressiveness": {
+        "score": 82,
+        "confidence": 0.75,
+        "evidence": [
+          "Signature full-court presses (down 23 entering the 4th he 'instructed the Raptors to run a full-court press'; diamond press after a 30-point deficit), traps, and gambling help; Toronto led the league in turnovers forced and was dubbed 'the future of NBA defense' (2020)."
+        ],
+        "sources": [
+          "https://www.cbssports.com/nba/news/in-toronto-the-defending-champion-raptors-shed-light-on-the-future-of-nba-defense",
+          "https://www.skysports.com/nba/news/36244/12492399/janky-defense-how-modern-nba-defenses-have-evolved-international-influence-behind-nick-nurse-and-steve-kerrs-innovative-schemes"
+        ]
+      },
+      "perimeter_priority": {
+        "score": 50,
+        "confidence": 0.45,
+        "evidence": [
+          "Mixes rim-protecting drop with Embiid and aggressive perimeter pressure/zones; Toronto scheme emphasized taking away the paint ('six of the top 10 defenses were top eight in preventing restricted-area shots')."
+        ],
+        "sources": [
+          "https://global.espn.com/nba/story/_/id/29963960/nba-playoffs-why-teams-combating-offensive-revolution-going-zone-defense",
+          "https://www.phillyvoice.com/nick-nurses-sixers-76ers-head-coach-scheme-analysis-news-hire-rumors-latest/"
+        ]
+      },
+      "foul_discipline": {
+        "score": 45,
+        "confidence": 0.3,
+        "evidence": [
+          "Gambling/pressing style and heavy-minutes guards produce above-average fouling; no hard data retrieved (inferred)."
+        ],
+        "sources": []
+      },
+      "zone_usage": {
+        "score": 92,
+        "confidence": 0.85,
+        "evidence": [
+          "The NBA's foremost zone user: 2-3 zones, box-and-one on Curry (2019 Finals), triangle-and-two, matchup zones; Nurse in 2020 noted 'Philly's getting a lot of it' as the league copied him; ESPN credited him for the playoff zone trend."
+        ],
+        "sources": [
+          "https://www.theringer.com/nba/2019/6/5/18654210/warriors-raptors-final-box-and-one-defense-steph-curry-nick-nurse",
+          "https://global.espn.com/nba/story/_/id/29963960/nba-playoffs-why-teams-combating-offensive-revolution-going-zone-defense",
+          "https://www.pressreader.com/usa/boston-herald/20200301/282089163813044"
+        ]
+      },
+      "scheme_adaptability": {
+        "score": 90,
+        "confidence": 0.8,
+        "evidence": [
+          "Changes coverages possession to possession and series to series ('janky' defense with international influences); credited by Kerr-era Warriors for the box-and-one adjustment; blamed by some for over-thinking ('blaming Nurse for thinking outside the box is a bit rich')."
+        ],
+        "sources": [
+          "https://ca.sports.yahoo.com/news/warriors-raptors-riveted-by-nick-nurses-janky-defensive-strategy-230548305.html",
+          "https://norfolkandtillsonburgnews.com/sports/basketball/nba/toronto-raptors/blaming-nurse-for-thinking-outside-the-box-is-a-bit-rich"
+        ]
+      }
+    },
+    "endgame": {
+      "timeout_aggressiveness": {
+        "score": 62,
+        "confidence": 0.5,
+        "evidence": [
+          "Infamous for calling a timeout up six with ~3 minutes left in Game 5 of the 2019 Finals (Warriors hit threes afterward) - the 'Nick Nurse timeout debacle' still cited in 2026 coverage; generally quick to use timeouts to reset the defense."
+        ],
+        "sources": [
+          "https://bendbulletin.com/?p=441673",
+          "https://www.theringer.com/nba/2019/6/5/18654210/warriors-raptors-final-box-and-one-defense-steph-curry-nick-nurse"
+        ]
+      },
+      "foul_up_three": {
+        "score": 60,
+        "confidence": 0.3,
+        "evidence": [
+          "Analytics-minded (Morey organization, Rockets-system G League background); his teams have fouled up three situationally, but no direct Sixers evidence retrieved (inferred)."
+        ],
+        "sources": []
+      },
+      "late_lineup_shrink": {
+        "score": 60,
+        "confidence": 0.45,
+        "evidence": [
+          "Shrinks to a matchup-chosen 6-7 in clutch time and plays Maxey nearly the entire fourth quarter."
+        ],
+        "sources": [
+          "https://downbeach.com/news/2025/nov/14/sixers-mailbag-is-tyrese-maxey-sneaking-up-on-one-of-the-games-very-best-guards"
+        ]
+      },
+      "challenge_quality": {
+        "score": 55,
+        "confidence": 0.3,
+        "evidence": [
+          "Among the more frequent and early challengers since 2019 (Toronto used challenges aggressively); success rate roughly average (from memory; no data retrieved)."
+        ],
+        "sources": []
+      },
+      "two_for_one_awareness": {
+        "score": 70,
+        "confidence": 0.4,
+        "evidence": [
+          "Rockets-system pedigree and Morey front office; Nurse's Raptors systematically hunted 2-for-1s and quick-trigger end-of-quarter possessions (inferred from background)."
+        ],
+        "sources": [
+          "https://www.cbssports.com/nba/news/in-toronto-the-defending-champion-raptors-shed-light-on-the-future-of-nba-defense"
+        ]
+      },
+      "risk_appetite": {
+        "score": 78,
+        "confidence": 0.65,
+        "evidence": [
+          "Willing to gamble: improvised box-and-one in the Finals, full-court presses down 20+, unconventional lineups; critics call it over-experimentation but it defines his approach."
+        ],
+        "sources": [
+          "https://www.theringer.com/nba/2019/6/5/18654210/warriors-raptors-final-box-and-one-defense-steph-curry-nick-nurse",
+          "https://ca.sports.yahoo.com/news/warriors-raptors-riveted-by-nick-nurses-janky-defensive-strategy-230548305.html"
+        ]
+      },
+      "clutch_reputation": {
+        "score": 55,
+        "confidence": 0.5,
+        "evidence": [
+          "Championship pedigree and reputation for bold late-game schemes, offset by the 2019 Game 5 timeout, a 2-4 loss in a close 2024 series vs NYK, and Philadelphia's inconsistent late-game offense; an NBA player poll (2025) placed him in an unflattering category."
+        ],
+        "sources": [
+          "https://www.si.com/nba/76ers/news/nba-player-poll-lands-76ers-nick-nurse-bad-category-01jsg52ymv8b",
+          "https://bendbulletin.com/?p=441673"
+        ]
+      }
+    },
+    "overall": {
+      "adaptability": {
+        "score": 80,
+        "confidence": 0.7,
+        "evidence": [
+          "Possibly the league's most adaptable schemer (zones, presses, box-and-one, constant coverage changes); credited with reinventing the Sixers around Maxey/Edgecombe tempo in 2025-26 after the 24-58 disaster."
+        ],
+        "sources": [
+          "https://www.skysports.com/nba/news/36244/12492399/janky-defense-how-modern-nba-defenses-have-evolved-international-influence-behind-nick-nurse-and-steve-kerrs-innovative-schemes",
+          "https://www.inquirer.com/sixers/sixers-season-preview-joel-embiid-tyrese-maxey-vj-edgecombe-20251022.html"
+        ]
+      },
+      "player_development": {
+        "score": 58,
+        "confidence": 0.5,
+        "evidence": [
+          "Toronto development machine (Siakam MIP, VanVleet, Anunoby, Barnes ROY) and Maxey's MIP (2024) and Edgecombe's rookie year in Philly; criticized for inconsistent roles that stunt bench development."
+        ],
+        "sources": [
+          "https://www.inquirer.com/sixers/sixers-season-preview-joel-embiid-tyrese-maxey-vj-edgecombe-20251022.html",
+          "https://dailyhive.com/toronto/raptors-nick-nurse-76ers-tenure"
+        ]
+      },
+      "analytics_adoption": {
+        "score": 75,
+        "confidence": 0.6,
+        "evidence": [
+          "Came up in the Rockets' G League analytics laboratory (RGV Vipers) and works for Daryl Morey; embraces shot-profile and matchup data, though the 2025-26 Sixers' low 3PA volume drew criticism."
+        ],
+        "sources": [
+          "https://www.si.com/nba/76ers/onsi/news/the-sixers-three-point-approach-is-stuck-in-the-20th-century-01kkth32jq3k",
+          "https://www.inquirer.com/sixers/sixers-nick-nurse-daryl-morey-tyrese-maxey-joel-embiid-20251029.html"
+        ]
+      },
+      "reputation": {
+        "score": 60,
+        "confidence": 0.6,
+        "evidence": [
+          "2019 champion and 2020 Coach of the Year widely respected as an innovator; but 24-58 in 2025, a 'bad category' player-poll result, and persistent hot-seat talk in Philadelphia (retained after 2025 and 2026) have dented his standing; Inquirer argued he is 'not the cause of Sixers failures'."
+        ],
+        "sources": [
+          "https://www.cbssports.com/nba/news/76ers-coach-nick-nurse-exec-daryl-morey-will-return-next-season-despite-disappointing-2024-25-campaign",
+          "https://www.si.com/nba/76ers/news/nba-player-poll-lands-76ers-nick-nurse-bad-category-01jsg52ymv8b",
+          "https://www.inquirer.com/sixers/coach-nick-nurse-not-cause-for-sixers-failures-scapegoat-20250318.html",
+          "https://www.inquirer.com/sixers/sixers-joel-embiid-tyrese-maxey-daryl-morey-nba-playoffs-offseason-20260512.html"
+        ]
+      }
+    }
+  },
+  "notable_quotes": [
+    {
+      "quote": "I think Philly's getting a lot of it, from what I've seen.",
+      "speaker": "Nick Nurse",
+      "context": "On other teams copying his zone defense, Boston Herald, Mar 2020",
+      "source": "https://www.pressreader.com/usa/boston-herald/20200301/282089163813044"
+    },
+    {
+      "quote": "Nurse essentially admitted the box-and-one was drawn up on the spot.",
+      "speaker": "The Ringer (on Nurse)",
+      "context": "2019 NBA Finals Game 2",
+      "source": "https://www.theringer.com/nba/2019/6/5/18654210/warriors-raptors-final-box-and-one-defense-steph-curry-nick-nurse"
+    },
+    {
+      "quote": "The offense changed drastically, and the defense stayed pretty much the same for a while.",
+      "speaker": "Nick Nurse",
+      "context": "On why he innovates defensively (CBS Sports, 2020)",
+      "source": "https://www.cbssports.com/nba/news/in-toronto-the-defending-champion-raptors-shed-light-on-the-future-of-nba-defense"
+    }
+  ],
+  "key_criticisms": [
+    "Constant lineup/rotation tinkering that undermines rhythm and bench development; Sixers' three-point volume 'stuck in the 20th century' (20th in 3PA, 2025-26).",
+    "Rides Tyrese Maxey extreme minutes (NBA-high ~37.7 mpg in 2024-25).",
+    "Late-game decisions: the 2019 Game 5 timeout remains a cautionary tale; Philly clutch offense leans on Maxey isolation.",
+    "Results in Philadelphia (47-35, 24-58, 45-37; one series win) have not matched his Toronto resume; player poll placed him in a 'bad' category (2025).",
+    "Over-experimentation ('janky' schemes) can backfire against disciplined offenses."
+  ],
+  "key_strengths": [
+    "Elite defensive innovator and adjuster: zones, box-and-one, presses, matchup changes; 2019 title and 2020 COY.",
+    "Comfortable trusting young players (Edgecombe, McCain, Barnes) and reinventing team identity (2025-26 tempo shift).",
+    "Analytics fluency from the Rockets/Morey ecosystem; aggressive, high-risk/high-reward late-game appetite.",
+    "Championship pedigree and calm public demeanor under organizational chaos."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025%E2%80%9326_Philadelphia_76ers_season",
+    "https://www.inquirer.com/sixers/sixers-joel-embiid-tyrese-maxey-daryl-morey-nba-playoffs-offseason-20260512.html",
+    "https://www.inquirer.com/sixers/sixers-nick-nurse-daryl-morey-tyrese-maxey-joel-embiid-20251029.html",
+    "https://www.espn.com/nba/coaches/_/id/52085",
+    "https://www.cbssports.com/nba/news/76ers-coach-nick-nurse-exec-daryl-morey-will-return-next-season-despite-disappointing-2024-25-campaign",
+    "https://www.si.com/nba/76ers-make-decisions-on-gm-daryl-morey-coach-nick-nurse-after-2025-flop",
+    "https://www.si.com/nba/76ers/news/nba-player-poll-lands-76ers-nick-nurse-bad-category-01jsg52ymv8b",
+    "https://www.inquirer.com/sixers/coach-nick-nurse-not-cause-for-sixers-failures-scapegoat-20250318.html",
+    "https://dailyhive.com/toronto/raptors-nick-nurse-76ers-tenure",
+    "https://www.inquirer.com/sixers/sixers-season-preview-joel-embiid-tyrese-maxey-vj-edgecombe-20251022.html",
+    "https://www.cbssports.com/nba/news/76ers-joel-embiid-offense-minutes-restriction",
+    "https://www.phillyvoice.com/sixers-schedule-news-analysis-nick-nurse-rotation-depth-chart-starting-lineup-joel-embiid-injury-update-paul-george/",
+    "https://www.phillyvoice.com/sixers-news-analysis-depth-chart-rotation-nick-nurse-tyrese-maxey-jared-mccain-quentin-grimes-kelly-oubre-trendon-watford",
+    "https://www.phillyvoice.com/sixers-news-analysis-vj-edgecombe-summer-league-stats-highlights-roster-nba-rumors-joel-embiid",
+    "https://www.phillyvoice.com/sixers-news-analysis-paul-george-role-nick-nurse-joel-embiid-tyrese-maxey-vj-edgecombe-nba-rumors-kelly-oubre-jr/",
+    "https://www.si.com/nba/76ers/onsi/news/the-sixers-three-point-approach-is-stuck-in-the-20th-century-01kkth32jq3k",
+    "https://www.si.com/nba/76ers/onsi/the-most-troubling-part-of-the-sixers-offense-without-joel-embiid-01khxkf64v7b",
+    "https://downbeach.com/news/2025/nov/14/sixers-mailbag-is-tyrese-maxey-sneaking-up-on-one-of-the-games-very-best-guards",
+    "https://vsin.com/nba/2025-26-philadelphia-76ers-win-total-prediction-and-season-outlook/",
+    "https://www.theringer.com/nba/2019/6/5/18654210/warriors-raptors-final-box-and-one-defense-steph-curry-nick-nurse",
+    "https://www.cbssports.com/nba/news/in-toronto-the-defending-champion-raptors-shed-light-on-the-future-of-nba-defense",
+    "https://www.skysports.com/nba/news/36244/12492399/janky-defense-how-modern-nba-defenses-have-evolved-international-influence-behind-nick-nurse-and-steve-kerrs-innovative-schemes",
+    "https://global.espn.com/nba/story/_/id/29963960/nba-playoffs-why-teams-combating-offensive-revolution-going-zone-defense",
+    "https://www.pressreader.com/usa/boston-herald/20200301/282089163813044",
+    "https://ca.sports.yahoo.com/news/warriors-raptors-riveted-by-nick-nurses-janky-defensive-strategy-230548305.html",
+    "https://norfolkandtillsonburgnews.com/sports/basketball/nba/toronto-raptors/blaming-nurse-for-thinking-outside-the-box-is-a-bit-rich",
+    "https://www.phillyvoice.com/nick-nurses-sixers-76ers-head-coach-scheme-analysis-news-hire-rumors-latest/",
+    "https://bendbulletin.com/?p=441673"
+  ],
+  "research_notes": "LOWEST-COVERAGE PROFILE: the shared web-search budget ran out after three Nurse searches (records, offense, defense); the planned rotation, end-game and reputation searches were refused, so those sections rely on my own knowledge (cutoff mid-2026) plus incidental snippets, with confidences capped accordingly. Confirmed by search: 2025-26 45-37, 7th in East, beat Boston in R1, swept 0-4 by NYK in R2 (Wikipedia; mid-season 37-32 and 43-34 snapshots are stale); 2024-25 24-58 (ESPN coach page); Nurse/Morey retained after 2025. R1 series score vs BOS and play-in details not retrieved. Toronto season records, Maxey's ~37.7 mpg league-leading figure (2024-25), Edgecombe's rookie starting role, and the 2019 Finals Game 5 timeout episode are from memory; the 'Nick Nurse timeout debacle' phrase appears in a May 2026 Bend Bulletin headline comparing Finch's situation to Nurse's, but the article body was not retrieved so the exact referent is unverified. The NBA player poll 'bad category' (2025) was not specified in the snippet. No data retrieved on challenge usage, foul-up-3, 2-for-1s, offensive rebounding or zone frequency in Philadelphia; those are inferred (confidence <= 0.4). No 2026-27 record found.",
+  "researched_at": "2026-11-02"
+}

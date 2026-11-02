@@ -1,0 +1,118 @@
+{
+  "coach": "Brian Keefe",
+  "slug": "brian-keefe",
+  "team": "WAS",
+  "team_name": "Washington Wizards",
+  "head_coach_since": "2023-24 (interim Jan 25, 2024; permanent May 29, 2024)",
+  "age": 51,
+  "background": "Longtime NBA assistant (born 1975) known as a player-development specialist. Started as a Spurs video coordinator, then spent most of 2007-15 on Scott Brooks' Oklahoma City staff working closely with Kevin Durant, Russell Westbrook and Serge Ibaka; later assistant stops with the Knicks, Nets (Kenny Atkinson), Lakers and Wizards (under Wes Unseld Jr.). Named Washington's interim head coach in Jan 2024 at 7-36 (went 8-31), then permanent head coach in May 2024 by GM Will Dawkins as the face of a full rebuild. His record through 2025-26 is 43-160 (.214, second-worst in NBA history for 150+ games): 18-64 in 2024-25 and a league-worst 17-65 in 2025-26, both intentionally development-focused seasons around Alex Sarr, Bub Carrington, Kyshawn George, Bilal Coulibaly and Tre Johnson. Dawkins retained him for 2026-27 citing individual player improvement; with an upgraded veteran roster the Wizards opened 3-3 (through Nov 1, 2026). Style: defense built on rim protection, early-offense pace and ball movement, deep experimental rotations; critics call the offense structureless and the late-game management poor.",
+  "prior_head_coaching": [],
+  "record_last5": [
+    {"season": "2021-22", "team": "Los Angeles Lakers (assistant coach, per career summaries; unverified)", "wins": null, "losses": null, "playoffs": "", "notes": "Assistant coach; not a head coach"},
+    {"season": "2022-23", "team": "Washington Wizards (assistant coach)", "wins": null, "losses": null, "playoffs": "", "notes": "Assistant under Wes Unseld Jr."},
+    {"season": "2023-24", "team": "Washington Wizards (interim HC from Jan 25, 2024)", "wins": 8, "losses": 31, "playoffs": "Missed playoffs (team 15-67)", "notes": "Took over at 7-36 when Unseld Jr. was reassigned; named permanent HC May 29, 2024"},
+    {"season": "2024-25", "team": "Washington Wizards", "wins": 18, "losses": 64, "playoffs": "Missed playoffs", "notes": "Record derived from 43-160 career total minus other seasons; rookie-heavy rotation (Sarr, Carrington, George)"},
+    {"season": "2025-26", "team": "Washington Wizards", "wins": 17, "losses": 65, "playoffs": "Missed playoffs (league-worst record; 5th straight miss)", "notes": "Calls for his job grew; GM Dawkins: 'I anticipate Brian Keefe to be here' (Apr 2026)"},
+    {"season": "2026-27", "team": "Washington Wizards", "wins": 3, "losses": 3, "playoffs": "", "notes": "As of Nov 1, 2026 (Basketball-Reference; latest a 95-79 win over Charlotte); roster upgraded with veterans (reports reference Trae Young and Deandre Ayton - unverified); ESPN projected under 35 wins"}
+  ],
+  "defense_scheme_tags": ["drop", "rim-protection-first", "conservative"],
+  "offense_scheme_tags": ["pace-and-space", "early-offense", "motion", "freelance", "transition"],
+  "scores": {
+    "rotation": {
+      "depth": {"score": 85, "confidence": 0.7, "evidence": ["Ran a 12-man rotation early in a season, cutting young players' minutes (Sarr ~25 mpg at the time)", "Noted tendency to go five or more deep off the bench (2024-26)"], "sources": ["https://roundtable.io/sports/nba/wizards/community/wizards-path-to-improvement-part-2-rotations", "https://wizofawes.com/2-washington-wizards-brian-keefe-rotation-decisions-harder"]},
+      "star_minutes_load": {"score": 25, "confidence": 0.6, "evidence": ["Cornerstone Alex Sarr averaged only ~25 mpg during a 12-man-rotation stretch; no Wizard has carried heavy minutes in his rebuild seasons (2024-26)"], "sources": ["https://roundtable.io/sports/nba/wizards/community/wizards-path-to-improvement-part-2-rotations"]},
+      "consistency": {"score": 25, "confidence": 0.6, "evidence": ["'Brian Keefe experimenting with rotations' (SI); 'We want to see guys in different situations' (Mar 2025)", "Revolving rotation with G-League assignments (AJ Johnson) and nightly changes (2025-26)"], "sources": ["https://www.si.com/nba/wizards/washington-wizards-news/washington-wizards-brian-keefe-experimenting-rotations", "https://asaptext.com/asap_media/media/1140/1530/transcripts/152838.pdf", "https://www.si.com/nba/wizards/onsi/washington-wizards-news/washington-wizards-send-aj-johnson-down-g-league"]},
+      "youth_trust": {"score": 50, "confidence": 0.5, "evidence": ["Started rookies Sarr, Carrington and George in 2024-25, but critics say he underused Tre Johnson (DNP on his 21st birthday despite injuries) and leaned on veterans (2025-26)", "'Major mistake with the young core' critiques of his developmental priorities"], "sources": ["https://www.si.com/nba/wizards/washington-wizards-news/could-wizards-add-third-rookie-kyshawn-george-starting-lineup", "https://www.si.com/nba/wizards/onsi/washington-wizards-news/washington-wizards-major-mistake-young-core", "https://thehoya.com/sports/commentary-at-seasons-end-wizards-look-forward-with-hope/"]},
+      "load_management": {"score": 55, "confidence": 0.3, "evidence": ["Rebuilding team routinely rested/limited veterans and managed Sarr's workload after foot surgery (2026); no systematic data (inferred)"], "sources": ["https://roundtable.io/sports/nba/wizards/community/wizards-path-to-improvement-part-2-rotations"]},
+      "closing_flexibility": {"score": 40, "confidence": 0.4, "evidence": ["'That's our closing lineup' when asked about late-game personnel after an Oct 28, 2025 loss to Philadelphia - indicates a set closing group", "Earlier (Mar 2025) said he wanted to 'see guys in different situations' late"], "sources": ["https://asaptext.com/asap_media/media/1140/1530/transcripts/161454.pdf", "https://asaptext.com/asap_media/media/1140/1530/transcripts/152838.pdf"]}
+    },
+    "offense": {
+      "pace": {"score": 65, "confidence": 0.5, "evidence": ["Wizards were top-10 in pace for much of 2025-26 before slipping to 21st over a nine-game stretch (reporter question to Keefe)", "Keefe defines pace as getting 'into our offense early so then we can have multiple actions'"], "sources": ["https://asaptext.com/asap_media/media/1140/1530/transcripts/162839.pdf", "https://asaptext.com/asap_media/media/1140/1530/transcripts/161013.pdf"]},
+      "three_point_emphasis": {"score": 55, "confidence": 0.35, "evidence": ["On 3PA volume: 'it depends on the teams you're playing, the coverages you're seeing'; encourages Carrington ('mid-40s three-point shooter') to fire (2025-26)"], "sources": ["https://asaptext.com/asap_media/media/1140/1530/transcripts/162158.pdf"]},
+      "ball_movement": {"score": 65, "confidence": 0.5, "evidence": ["Credited 'our pace and our ball movement, starting to establish an identity' after a win (2025-26)", "Substack critique: 2024-25 offense 'free-flowing and structureless'"], "sources": ["https://asaptext.com/asap_media/media/1140/1530/transcripts/161333.pdf", "https://waitforthescreen.substack.com/p/is-brian-keefe-building-the-wizards"]},
+      "transition_emphasis": {"score": 62, "confidence": 0.45, "evidence": ["'Getting out in transition early in the game, pushing that pace. That started with our defense and then our passing' (2025-26)"], "sources": ["https://asaptext.com/asap_media/media/1140/1530/transcripts/162698.pdf"]},
+      "offensive_rebounding": {"score": 40, "confidence": 0.25, "evidence": ["No crash-the-glass emphasis reported; team gave up the most offensive rebounds per game in the NBA (2024-25), suggesting rebounding was not schemed (inferred)"], "sources": ["https://waitforthescreen.substack.com/p/is-brian-keefe-building-the-wizards"]},
+      "paint_post_emphasis": {"score": 35, "confidence": 0.3, "evidence": ["Perimeter/early-offense system with Sarr as a floor-spacing big; little post-up usage reported (inferred, 2024-26)"], "sources": ["https://waitforthescreen.substack.com/p/is-brian-keefe-building-the-wizards"]},
+      "playcalling_ato_quality": {"score": 30, "confidence": 0.45, "evidence": ["Fans/critics: team 'got blitzed in the 4th quarter and had zero response despite several timeouts' (2025-26); offense described as structureless", "No praise found for set-play or ATO design"], "sources": ["https://www.si.com/nba/wizards/onsi/washington-wizards-news/washington-wizards-face-raptors-amidst-calls-brian-keefe-job", "https://waitforthescreen.substack.com/p/is-brian-keefe-building-the-wizards"]}
+    },
+    "defense": {
+      "aggressiveness": {"score": 35, "confidence": 0.4, "evidence": ["'The foundation of our defense is protecting the rim' - conservative, containment-first scheme (2025-26)", "Critique: defense 'reliant on individual talent rather than a systemic scheme'"], "sources": ["https://asaptext.com/asap_media/media/1140/1530/transcripts/163422.pdf", "https://waitforthescreen.substack.com/p/is-brian-keefe-building-the-wizards"]},
+      "perimeter_priority": {"score": 35, "confidence": 0.5, "evidence": ["Rim protection named as the foundation; Sarr's growth tied to learning the drop coverages (2025-26)"], "sources": ["https://asaptext.com/asap_media/media/1140/1530/transcripts/163422.pdf", "https://www.si.com/nba/wizards/washington-wizards-news/washington-wizards-brian-keefe-emphasizes-defensive-improvements"]},
+      "foul_discipline": {"score": 45, "confidence": 0.25, "evidence": ["Young roster; no FT-rate data found; 'Hornets fall amid frustrations and fouls'-type reports not found for WAS (inferred league-average-minus)"], "sources": []},
+      "zone_usage": {"score": 30, "confidence": 0.2, "evidence": ["No zone usage reported (inferred)"], "sources": []},
+      "scheme_adaptability": {"score": 30, "confidence": 0.4, "evidence": ["Columnist: Keefe's teams 'rarely schemed around' their limitations (worst in opponent offensive rebounds); defense viewed as talent-dependent rather than adjusted by matchup (2024-25)"], "sources": ["https://waitforthescreen.substack.com/p/is-brian-keefe-building-the-wizards"]}
+    },
+    "endgame": {
+      "timeout_aggressiveness": {"score": 42, "confidence": 0.25, "evidence": ["Fan criticism that the team had 'zero response despite several timeouts' during 4th-quarter runs suggests timeouts were used but ineffective (2025-26); no systematic data"], "sources": ["https://www.si.com/nba/wizards/onsi/washington-wizards-news/washington-wizards-face-raptors-amidst-calls-brian-keefe-job"]},
+      "foul_up_three": {"score": 50, "confidence": 0.2, "evidence": ["No direct evidence; the documented late-game foul mishap was fouling while DOWN three, not up (inferred average)"], "sources": ["https://lastwordonsports.com/basketball/?p=166415"]},
+      "late_lineup_shrink": {"score": 50, "confidence": 0.25, "evidence": ["Set 'closing lineup' referenced (Oct 2025) but with deep regular rotation; no clear shrink pattern documented"], "sources": ["https://asaptext.com/asap_media/media/1140/1530/transcripts/161454.pdf"]},
+      "challenge_quality": {"score": 45, "confidence": 0.2, "evidence": ["No challenge data found (inferred slightly below average given situational-awareness criticisms)"], "sources": []},
+      "two_for_one_awareness": {"score": 45, "confidence": 0.2, "evidence": ["No evidence found (inferred)"], "sources": []},
+      "risk_appetite": {"score": 45, "confidence": 0.25, "evidence": ["Conservative containment defense and set closing group; no documented go-for-the-win gambles (inferred)"], "sources": []},
+      "clutch_reputation": {"score": 25, "confidence": 0.55, "evidence": ["Last Word on Sports: struggles 'fallen almost solely on bad coaching and poor late-game management'; had Kyshawn George foul down three late vs Detroit and admitted it was a bad decision", "SI: public criticism of Keefe went 'from occasional to commonplace' (2025-26)"], "sources": ["https://lastwordonsports.com/basketball/?p=166415", "https://www.si.com/nba/wizards/onsi/washington-wizards-news/washington-wizards-face-raptors-amidst-calls-brian-keefe-job", "https://www.si.com/nba/wizards/onsi/washington-wizards-news/washington-wizards-have-important-late-game-decisions-make"]}
+    },
+    "overall": {
+      "adaptability": {"score": 30, "confidence": 0.4, "evidence": ["Teams rarely schemed around weaknesses; 4th-quarter runs went unanswered (2024-26 critiques)", "Did show a 'successful stretch' earning trust early in 2025-26 (SI)"], "sources": ["https://waitforthescreen.substack.com/p/is-brian-keefe-building-the-wizards", "https://www.si.com/nba/wizards/onsi/washington-wizards-news/washington-wizards-brian-keefe-earning-trust-successful-stretch"]},
+      "player_development": {"score": 55, "confidence": 0.5, "evidence": ["Hired and retained specifically for development; GM Dawkins praised him and cited 'individual improvement in a losing season' (Apr 2026); Durant/Westbrook development pedigree in OKC", "Critics argue Tre Johnson and Carrington were underused and question his 'developmental priorities' (2025-26)"], "sources": ["https://www.si.com/nba/wizards/washington-wizards-news/washinton-wizards-will-dawkins-praises-coach-brian-keefe", "https://roundtable.io/sports/nba/wizards/news/brian-keefe-sees-individual-improvement-in-wizards-losing-season", "https://thehoya.com/sports/commentary-at-seasons-end-wizards-look-forward-with-hope/"]},
+      "analytics_adoption": {"score": 40, "confidence": 0.3, "evidence": ["Front office (Dawkins/Winger) is analytics-driven, but Keefe's own public framing is matchup/feel-based ('depends on the coverages you're seeing'); offense described as structureless (inferred)"], "sources": ["https://asaptext.com/asap_media/media/1140/1530/transcripts/162158.pdf", "https://waitforthescreen.substack.com/p/is-brian-keefe-building-the-wizards"]},
+      "reputation": {"score": 20, "confidence": 0.6, "evidence": ["43-160 (.214), second-worst winning percentage in NBA history for 150+ games; fans called for his firing in 2025-26", "Retained for 2026-27 by GM citing development; ESPN projected under 35 wins"], "sources": ["https://bleacherreport.com/articles/25416512-brian-keefes-future-wizards-hc-2026-27-nba-season-revealed-gm", "https://www.si.com/nba/wizards/onsi/washington-wizards-news/what-will-take-washington-wizards-fire-brian-keefe", "https://sports.yahoo.com/articles/pessimism-surrounding-wizards-head-coach-024543787.html"]}
+    }
+  },
+  "notable_quotes": [
+    {"quote": "The foundation of our defense is protecting the rim.", "speaker": "Brian Keefe", "context": "Press conference, 2025-26", "source": "https://asaptext.com/asap_media/media/1140/1530/transcripts/163422.pdf"},
+    {"quote": "We want to get into our offense early so then we can have multiple actions.", "speaker": "Brian Keefe", "context": "On defining pace, 2025-26", "source": "https://asaptext.com/asap_media/media/1140/1530/transcripts/161013.pdf"},
+    {"quote": "That's our closing lineup.", "speaker": "Brian Keefe", "context": "Asked about late-game personnel after loss to Philadelphia, Oct 28, 2025", "source": "https://asaptext.com/asap_media/media/1140/1530/transcripts/161454.pdf"},
+    {"quote": "Yeah, I anticipate Brian Keefe to be here.", "speaker": "Will Dawkins (Wizards GM)", "context": "End-of-season presser, Apr 2026", "source": "https://www.foxsports.com/articles/nba/wizards-gm-says-he-expects-coach-brian-keefe-to-return-next-season"}
+  ],
+  "key_criticisms": [
+    "Historic losing: 43-160 (.214) entering 2026-27, league-worst 17-65 in 2025-26",
+    "Poor late-game management (fouling down three vs Detroit, no answers to 4th-quarter runs)",
+    "Offense called 'free-flowing and structureless'; defense talent-dependent, worst in opponent offensive rebounds (2024-25)",
+    "Deep, experimental 12-man rotations and questionable developmental priorities (Tre Johnson DNPs)"
+  ],
+  "key_strengths": [
+    "Respected player-development background (Durant, Westbrook, Ibaka in OKC); GM credits individual improvement of Sarr and others",
+    "Defense-first identity built on rim protection; pace/ball-movement offense when it clicks",
+    "Front-office trust and stability through a deliberate rebuild; 3-3 start with veterans in 2026-27"
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Brian_Keefe",
+    "https://en.wikipedia.org/wiki/2025%E2%80%9326_Washington_Wizards_season",
+    "https://en.wikipedia.org/wiki/2024%E2%80%9325_Washington_Wizards_season",
+    "https://en.wikipedia.org/wiki/2026%E2%80%9327_Washington_Wizards_season",
+    "https://www.basketball-reference.com/teams/WAS/2027.html",
+    "https://www.nba.com/news/wizards-name-brian-keefe-head-coach",
+    "https://bleacherreport.com/articles/25416512-brian-keefes-future-wizards-hc-2026-27-nba-season-revealed-gm",
+    "https://www.foxsports.com/articles/nba/wizards-gm-says-he-expects-coach-brian-keefe-to-return-next-season",
+    "https://basketball.realgm.com/wiretap/285145/Wizards-Retain-Brian-Keefe-As-Head-Coach-For-2026-27-Season",
+    "https://www.si.com/nba/wizards/washington-wizards-news/washinton-wizards-will-dawkins-praises-coach-brian-keefe",
+    "https://roundtable.io/sports/nba/wizards/news/brian-keefe-sees-individual-improvement-in-wizards-losing-season",
+    "https://www.si.com/nba/wizards/onsi/washington-wizards-news/what-will-take-washington-wizards-fire-brian-keefe",
+    "https://www.si.com/nba/wizards/onsi/washington-wizards-news/how-much-blame-washington-wizards-coaching-staff-deserve",
+    "https://sports.yahoo.com/articles/pessimism-surrounding-wizards-head-coach-024543787.html",
+    "https://waitforthescreen.substack.com/p/is-brian-keefe-building-the-wizards",
+    "https://asaptext.com/asap_media/media/1140/1530/transcripts/162839.pdf",
+    "https://asaptext.com/asap_media/media/1140/1530/transcripts/161013.pdf",
+    "https://asaptext.com/asap_media/media/1140/1530/transcripts/161333.pdf",
+    "https://asaptext.com/asap_media/media/1140/1530/transcripts/162698.pdf",
+    "https://asaptext.com/asap_media/media/1140/1530/transcripts/162158.pdf",
+    "https://asaptext.com/asap_media/media/1140/1530/transcripts/163422.pdf",
+    "https://asaptext.com/asap_media/media/1140/1530/transcripts/161454.pdf",
+    "https://asaptext.com/asap_media/media/1140/1530/transcripts/152838.pdf",
+    "https://www.si.com/nba/wizards/washington-wizards-news/washington-wizards-brian-keefe-emphasizes-defensive-improvements",
+    "https://www.si.com/nba/wizards/onsi/washington-wizards-news/washington-wizards-brian-keefe-earning-trust-successful-stretch",
+    "https://roundtable.io/sports/nba/wizards/community/wizards-path-to-improvement-part-2-rotations",
+    "https://wizofawes.com/2-washington-wizards-brian-keefe-rotation-decisions-harder",
+    "https://www.si.com/nba/wizards/washington-wizards-news/washington-wizards-brian-keefe-experimenting-rotations",
+    "https://www.si.com/nba/wizards/onsi/washington-wizards-news/washington-wizards-major-mistake-young-core",
+    "https://www.si.com/nba/wizards/washington-wizards-news/could-wizards-add-third-rookie-kyshawn-george-starting-lineup",
+    "https://www.si.com/nba/wizards/onsi/washington-wizards-news/washington-wizards-send-aj-johnson-down-g-league",
+    "https://thehoya.com/sports/commentary-at-seasons-end-wizards-look-forward-with-hope/",
+    "https://www.si.com/nba/wizards/onsi/washington-wizards-news/what-washington-wizards-rotation-look-like-trae-young",
+    "https://lastwordonsports.com/basketball/?p=166415",
+    "https://www.si.com/nba/wizards/onsi/washington-wizards-news/washington-wizards-face-raptors-amidst-calls-brian-keefe-job",
+    "https://www.si.com/nba/wizards/onsi/washington-wizards-news/washington-wizards-have-important-late-game-decisions-make"
+  ],
+  "research_notes": "Search budget ran out before confirming Keefe's exact assistant-coaching timeline (Knicks/Nets/Lakers years are from memory), the 2024-25 record (18-64 is derived from the reported 43-160 total), 2026-27 roster moves (Trae Young and Deandre Ayton were referenced in headlines but not verified), and any challenge/foul-up-3/two-for-one/zone data. One Wikipedia mirror lists 2025-26 as 17-55, which conflicts with the widely reported 17-65; 17-65 is used. Several evidence items come from ASAP press-conference transcripts whose exact dates were not visible.",
+  "researched_at": "2026-11-02"
+}
