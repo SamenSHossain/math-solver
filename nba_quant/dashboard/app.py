@@ -41,6 +41,15 @@ def pct(x: float) -> str:
     return f"{100 * x:.1f}%"
 
 
+def gradient(styler, subset, cmap="RdYlGn", vmin=None, vmax=None):
+    """Apply a background gradient when matplotlib is available (it is optional)."""
+    try:
+        import matplotlib  # noqa: F401
+        return styler.background_gradient(subset=subset, cmap=cmap, vmin=vmin, vmax=vmax)
+    except ImportError:
+        return styler
+
+
 def hist_fig(h: dict, title: str, color: str, vline: float | None = None, line_label: str = "") -> go.Figure:
     edges = np.array(h["edges"]); counts = np.array(h["counts"], dtype=float)
     centers = (edges[:-1] + edges[1:]) / 2
@@ -80,8 +89,8 @@ if page == "Slate":
                      "Key absences": "; ".join(f"{l['team']} {l['player_name']}" for l in g["out_lines"][:3] if l["impact"] > 0.3),
                      "Questionable": "; ".join(f"{l['team']} {l['player_name']}" for l in g["switch_lines"])})
     df = pd.DataFrame(rows)
-    st.dataframe(df.style.format({"Win prob (home)": "{:.1%}", "XGB": "{:.1%}", "Monte Carlo": "{:.1%}", "OT %": "{:.1%}", "Spread (home)": "{:+.1f}"})
-                 .background_gradient(subset=["Win prob (home)"], cmap="RdYlGn", vmin=0.2, vmax=0.8), use_container_width=True, height=600)
+    st.dataframe(gradient(df.style.format({"Win prob (home)": "{:.1%}", "XGB": "{:.1%}", "Monte Carlo": "{:.1%}", "OT %": "{:.1%}", "Spread (home)": "{:+.1f}"}),
+                          ["Win prob (home)"], vmin=0.2, vmax=0.8), width="stretch", height=600)
     c1, c2, c3 = st.columns(3)
     c1.metric("Games", len(games))
     c2.metric("Avg total", f"{np.mean([g['pred_total'] for g in games]):.1f}")
@@ -103,8 +112,8 @@ elif page == "Game detail":
                f"ratings-only simulation: home wp {pct(g['sim_ratings_only']['home_wp'])}, margin {g['sim_ratings_only']['margin']:+.1f} · "
                f"market (ESPN, if posted): {g['market_home_exp_margin'] if g['market_home_exp_margin'] is not None else 'n/a'}")
     a, b = st.columns(2)
-    a.plotly_chart(hist_fig(g["margin_hist"], f"Home margin distribution ({g['home']} − {g['away']})", PALETTE["home"], 0, "tie"), use_container_width=True)
-    b.plotly_chart(hist_fig(g["total_hist"], "Total points distribution", PALETTE["away"], g["pred_total"], "mean"), use_container_width=True)
+    a.plotly_chart(hist_fig(g["margin_hist"], f"Home margin distribution ({g['home']} − {g['away']})", PALETTE["home"], 0, "tie"), width="stretch")
+    b.plotly_chart(hist_fig(g["total_hist"], "Total points distribution", PALETTE["away"], g["pred_total"], "mean"), width="stretch")
     st.subheader("Line probabilities")
     l1, l2 = st.columns(2)
     spread_in = l1.number_input(f"{g['home']} spread", value=float(g["pred_spread_home"]), step=0.5, format="%.1f")
@@ -125,14 +134,14 @@ elif page == "Game detail":
             columns={"label": "Scenario", "probability": "P(scenario)", "home_win_prob": f"{g['home']} wp", "mean_margin": "Margin", "mean_total": "Total",
                      "home_mean": f"{g['home']} pts", "away_mean": f"{g['away']} pts", "home_avail_adjust": f"{g['home']} adj/100", "away_avail_adjust": f"{g['away']} adj/100"})
         st.dataframe(sc_show.style.format({"P(scenario)": "{:.0%}", f"{g['home']} wp": "{:.1%}", "Margin": "{:+.1f}", "Total": "{:.1f}", f"{g['home']} pts": "{:.1f}",
-                                           f"{g['away']} pts": "{:.1f}", f"{g['home']} adj/100": "{:+.1f}", f"{g['away']} adj/100": "{:+.1f}"}), use_container_width=True)
+                                           f"{g['away']} pts": "{:.1f}", f"{g['home']} adj/100": "{:+.1f}", f"{g['away']} adj/100": "{:+.1f}"}), width="stretch")
     o1, o2 = st.columns(2)
     o1.markdown("**Listed Out / Doubtful (rotation players)**")
     out_df = pd.DataFrame(g["out_lines"])
-    o1.dataframe(out_df[["team", "player_name", "status", "typ_min", "value", "impact", "reason"]].round(2) if len(out_df) else pd.DataFrame({"note": ["none"]}), use_container_width=True)
+    o1.dataframe(out_df[["team", "player_name", "status", "typ_min", "value", "impact", "reason"]].round(2) if len(out_df) else pd.DataFrame({"note": ["none"]}), width="stretch")
     o2.markdown("**Questionable / Probable switches**")
     sw_df = pd.DataFrame(g["switch_lines"])
-    o2.dataframe(sw_df[["team", "player_name", "status", "typ_min", "value", "impact", "reason"]].round(2) if len(sw_df) else pd.DataFrame({"note": ["none"]}), use_container_width=True)
+    o2.dataframe(sw_df[["team", "player_name", "status", "typ_min", "value", "impact", "reason"]].round(2) if len(sw_df) else pd.DataFrame({"note": ["none"]}), width="stretch")
     st.caption(f"impact = (player value − replacement) × typical minutes/48, in points per 100 possessions; applied with k = {g['k_avail']:.2f} "
                f"(estimated on 2021-26 games). Centering shift applied to the simulation: margin {g['center_shift']['margin']:+.1f}, total {g['center_shift']['total']:+.1f}.")
 
@@ -143,7 +152,7 @@ elif page == "Game detail":
         fig.add_trace(go.Bar(name=f"{g['home']} · {g['home_coach']}", x=cats, y=[g["coaching"]["home"][c] for c in cats], marker_color=PALETTE["home"]))
         fig.add_trace(go.Bar(name=f"{g['away']} · {g['away_coach']}", x=cats, y=[g["coaching"]["away"][c] for c in cats], marker_color=PALETTE["away"]))
         fig.update_layout(barmode="group", height=320, yaxis_range=[0, 100], margin=dict(l=10, r=10, t=20, b=10), plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)")
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width="stretch")
     st.subheader("Pre-game inputs")
     st.json(g["features"], expanded=False)
 
@@ -200,7 +209,7 @@ elif page == "Kelly sizing":
                 columns={"label": "Bet", "prob": "Model prob", "american_odds": "Odds", "implied_prob": "Implied prob", "edge": "Edge (per $1)", "kelly_full": "Full Kelly",
                          "kelly_fractional": f"{fraction:.2f}× Kelly", "portfolio_pct": "Portfolio %", "stake_$": "Stake $"})
             st.dataframe(show.style.format({"Model prob": "{:.1%}", "Implied prob": "{:.1%}", "Edge (per $1)": "{:+.3f}", "Full Kelly": "{:.1%}", f"{fraction:.2f}× Kelly": "{:.2%}",
-                                            "Portfolio %": "{:.2%}", "Stake $": "${:,.0f}", "Odds": "{:+.0f}"}), use_container_width=True)
+                                            "Portfolio %": "{:.2%}", "Stake $": "${:,.0f}", "Odds": "{:+.0f}"}), width="stretch")
             st.caption(f"Total exposure {pct(port['portfolio_pct'].sum())} of bankroll · expected log growth per slate (scaled) {port.attrs.get('expected_log_growth_scaled', 0):.4f}")
     else:
         st.info("Enter odds above to size bets.")
@@ -211,8 +220,8 @@ elif page == "Coaching scores":
     coaches = load_parquet("coaches.parquet")
     cols = ["coach", "team", "head_coach_since", "games_in_data", "win_pct_in_data", "research_confidence", "overall_coaching_score", "strategy_index",
             "rotation_index", "star_load_index", "endgame_index", "offense_index", "defense_index"]
-    st.dataframe(coaches[cols].round(2).style.background_gradient(subset=["overall_coaching_score", "strategy_index", "rotation_index", "endgame_index"], cmap="RdYlGn", vmin=20, vmax=80),
-                 use_container_width=True, height=600)
+    st.dataframe(gradient(coaches[cols].round(2).style, ["overall_coaching_score", "strategy_index", "rotation_index", "endgame_index"], vmin=20, vmax=80),
+                 width="stretch", height=600)
     sel = st.selectbox("Coach detail", coaches["coach"].tolist())
     row = coaches.set_index("coach").loc[sel]
     dims = [c for c in coaches.columns if c.startswith("score__")]
@@ -223,7 +232,7 @@ elif page == "Coaching scores":
     fig.add_trace(go.Scatter(name="research", x=detail["dimension"], y=detail["research"], mode="markers", marker=dict(color=PALETTE["away"], size=9)))
     fig.add_trace(go.Scatter(name="data (pbp/box)", x=detail["dimension"], y=detail["data"], mode="markers", marker=dict(color=PALETTE["good"], size=9, symbol="diamond")))
     fig.update_layout(height=420, yaxis_range=[0, 100], xaxis_tickangle=-45, margin=dict(l=10, r=10, t=20, b=120), plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)")
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width="stretch")
     st.markdown(f"**Scheme tags** · defense: `{row['defense_scheme_tags']}` · offense: `{row['offense_scheme_tags']}`")
     st.markdown(f"**Strengths:** {row['key_strengths']}")
     st.markdown(f"**Criticisms:** {row['key_criticisms']}")
@@ -244,7 +253,7 @@ elif page == "Model diagnostics":
                          "accuracy": r["accuracy"], "market accuracy": r.get("market_accuracy"), "margin MAE": r["margin_mae"], "market margin MAE": r.get("market_margin_mae"),
                          "total MAE": r["total_mae"], "season-mean total MAE": r["total_mae_seasonmean_baseline"], "ATS vs market (edge ≥3)": r.get("ats_win_rate_edge3plus"),
                          "n edge ≥3": r.get("ats_n_edge3plus")})
-        st.dataframe(pd.DataFrame(rows).round(4), use_container_width=True)
+        st.dataframe(pd.DataFrame(rows).round(4), width="stretch")
         st.markdown("Calibration (predicted vs actual home win rate by probability bin):")
         cal_rows = []
         for s, r in wf.items():
@@ -257,7 +266,7 @@ elif page == "Model diagnostics":
             fig.add_trace(go.Scatter(x=d["pred"], y=d["actual"], mode="lines+markers", name=str(s)))
         fig.add_trace(go.Scatter(x=[0.1, 0.9], y=[0.1, 0.9], mode="lines", line=dict(dash="dash", color=PALETTE["neutral"]), name="perfect"))
         fig.update_layout(height=380, xaxis_title="predicted", yaxis_title="actual", plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)")
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width="stretch")
         st.markdown("Top features:")
         c1, c2, c3 = st.columns(3)
         for col, name in zip((c1, c2, c3), ("win", "margin", "total")):
@@ -271,8 +280,8 @@ else:
     man = json.loads((PARQUET_DIR / "MANIFEST.json").read_text()) if (PARQUET_DIR / "MANIFEST.json").exists() else {}
     if man:
         st.caption(f"built {man['built_at_utc'][:19]} UTC · seasons {man['seasons']}")
-        st.dataframe(pd.DataFrame([{"table": k, "rows": v["rows"], "columns": len(v["columns"]), "MB": round(v["bytes"] / 1e6, 2), "last game": v["max_game_date"]} for k, v in man["tables"].items()]), use_container_width=True)
+        st.dataframe(pd.DataFrame([{"table": k, "rows": v["rows"], "columns": len(v["columns"]), "MB": round(v["bytes"] / 1e6, 2), "last game": v["max_game_date"]} for k, v in man["tables"].items()]), width="stretch")
     t = st.selectbox("Preview table", ["games", "teams", "players", "lineups", "team_seasons", "injuries", "team_game_features", "player_values_current", "coaches"])
     df = load_parquet(f"{t}.parquet")
     st.write(df.shape)
-    st.dataframe(df.tail(200), use_container_width=True)
+    st.dataframe(df.tail(200), width="stretch")
