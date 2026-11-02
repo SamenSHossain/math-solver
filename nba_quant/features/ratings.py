@@ -152,14 +152,47 @@ def elo_current(games: pd.DataFrame) -> pd.DataFrame:
     return cur
 
 
-def build_all(write: bool = True) -> pd.DataFrame:
+def upcoming_team_rows(games: pd.DataFrame, teams: pd.DataFrame, through_date: str) -> pd.DataFrame:
+    """Pseudo team-game rows (stats NaN) for scheduled games up to `through_date`, so the shifted
+    EWMA / season-to-date features evaluate to each team's current pre-game state."""
+    up = games[(~games["completed"]) & (games["game_date"] <= through_date)]
+    if up.empty:
+        return teams.iloc[0:0]
+    rows = []
+    for r in up.itertuples(index=False):
+        for team, opp, home in ((r.home_team, r.away_team, True), (r.away_team, r.home_team, False)):
+            rows.append({"game_id": r.game_id, "espn_game_id": r.espn_game_id, "season": r.season, "season_type": r.season_type,
+                         "game_date": r.game_date, "team": team, "opponent": opp, "home": home})
+    pseudo = pd.DataFrame(rows)
+    pseudo = pseudo.reindex(columns=teams.columns)
+    both = pd.concat([teams, pseudo], ignore_index=True).sort_values(["team", "game_date", "game_id"])
+    # recompute schedule context for the pseudo rows
+    both["prev_game_date"] = both.groupby(["team", "season"])["game_date"].shift(1)
+    both["rest_days"] = (pd.to_datetime(both["game_date"]) - pd.to_datetime(both["prev_game_date"])).dt.days - 1
+    both["back_to_back"] = both["rest_days"].eq(0)
+    both["team_game_no"] = both.groupby(["team", "season"]).cumcount() + 1
+    d = pd.to_datetime(both["game_date"])
+    both["games_last_7d"] = 0
+    for (team, season), idx in both.groupby(["team", "season"]).groups.items():
+        dd = d.loc[idx]
+        vals = np.searchsorted(dd.values, dd.values, side="right") - np.searchsorted(dd.values, (dd - pd.Timedelta(days=7)).values, side="left")
+        both.loc[idx, "games_last_7d"] = vals - 1
+    return both.drop(columns=["prev_game_date"])
+
+
+def build_all(write: bool = True, through_date: str | None = None) -> pd.DataFrame:
     games = pd.read_parquet(PARQUET_DIR / "games.parquet")
     teams = pd.read_parquet(PARQUET_DIR / "teams.parquet")
+    if through_date:
+        teams = upcoming_team_rows(games, teams, through_date)
     feats = build_team_game_features(teams, games)
     elo, cur = compute_elo(games)
     home = elo[["game_id", "home_elo_pre"]].rename(columns={"home_elo_pre": "elo_pre"}).assign(home=True)
     away = elo[["game_id", "away_elo_pre"]].rename(columns={"away_elo_pre": "elo_pre"}).assign(home=False)
     feats = feats.merge(pd.concat([home, away]), on=["game_id", "home"], how="left")
+    # upcoming games: current Elo
+    cur_map = cur.set_index("team")["elo"]
+    feats["elo_pre"] = feats["elo_pre"].fillna(feats["team"].map(cur_map))
     if write:
         feats.to_parquet(PARQUET_DIR / "team_game_features.parquet", index=False, compression="zstd")
         cur.to_parquet(PARQUET_DIR / "elo_current.parquet", index=False)

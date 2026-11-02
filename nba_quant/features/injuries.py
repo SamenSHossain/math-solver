@@ -44,8 +44,51 @@ def typical_minutes(players: pd.DataFrame) -> pd.DataFrame:
     prev_map = prev.to_dict()
     fallback = pd.Series([prev_map.get((pid, s), np.nan) for pid, s in zip(p["player_id"], p["season"])], index=p.index)
     p["typ_min"] = p["typ_min"].fillna(fallback).fillna(0.0)
+    p["typ_min_post"] = grp["min"].transform(lambda s: s.ewm(halflife=MIN_HALF_LIFE, min_periods=1).mean())
+    p["typ_start_post"] = grp["starter"].transform(lambda s: s.astype(float).ewm(halflife=MIN_HALF_LIFE, min_periods=1).mean())
     p["n_prev_games"] = grp.cumcount()
     return p
+
+
+def latest_typical(typ: pd.DataFrame) -> pd.DataFrame:
+    """Each player's current (post latest game) typical minutes with his latest team."""
+    last = typ.sort_values(["game_date", "game_id"]).groupby("player_id").tail(1)
+    out = last[["player_id", "player_name", "team", "season", "typ_min_post", "typ_start_post", "game_date"]].rename(
+        columns={"typ_min_post": "typ_min", "typ_start_post": "typ_start", "game_date": "last_game_date"})
+    return out
+
+
+def load_overrides(path=None) -> pd.DataFrame:
+    """Manual injury overrides (data/injuries_override.csv): game_date, team, player_name, status, reason, source."""
+    from nba_quant.config import DATA_DIR
+    path = path or DATA_DIR / "injuries_override.csv"
+    if not path.exists():
+        return pd.DataFrame(columns=["game_date", "team", "player_name", "status", "reason", "source"])
+    o = pd.read_csv(path, dtype=str).fillna("")
+    o["game_date"] = pd.to_datetime(o["game_date"]).dt.date.astype(str)
+    o["status"] = o["status"].str.title()
+    return o
+
+
+def upcoming_report(games: pd.DataFrame, injuries: pd.DataFrame, through_date: str, overrides: pd.DataFrame | None = None) -> pd.DataFrame:
+    """Latest available report lines for scheduled games (any version, since tip-off has not happened),
+    with manual overrides layered on top (override wins; new names are added)."""
+    up = games[(~games["completed"]) & (games["game_date"] <= through_date)]
+    inj = injuries[injuries["game_id"].isin(up["game_id"]) & injuries["submitted"]]
+    last_version = inj.groupby(["game_id", "team"])["report_datetime"].max().rename("last_report")
+    inj = inj.merge(last_version, left_on=["game_id", "team"], right_index=True)
+    inj = inj[inj["report_datetime"] == inj["last_report"]][["game_id", "game_date", "team", "player_id", "player_name", "status", "reason", "reason_category", "last_report"]].copy()
+    inj["source"] = "official_report"
+    if overrides is not None and len(overrides):
+        o = overrides.merge(up[["game_id", "game_date", "home_team", "away_team"]], on="game_date", how="inner")
+        o = o[(o["team"] == o["home_team"]) | (o["team"] == o["away_team"])]
+        o = o[["game_id", "game_date", "team", "player_name", "status", "reason", "source"]].copy()
+        o["player_id"] = np.nan; o["reason_category"] = "override"; o["last_report"] = pd.NaT
+        key = ["game_id", "team"]
+        o["name_key"] = o["player_name"].map(norm_name); inj["name_key"] = inj["player_name"].map(norm_name)
+        inj = inj[~inj.set_index(key + ["name_key"]).index.isin(o.set_index(key + ["name_key"]).index)]
+        inj = pd.concat([inj.drop(columns=["name_key"]), o.drop(columns=["name_key"])], ignore_index=True)
+    return inj
 
 
 def pregame_report(games: pd.DataFrame, injuries: pd.DataFrame) -> pd.DataFrame:
@@ -82,6 +125,23 @@ def attach_players(report: pd.DataFrame, typ: pd.DataFrame, values: pd.DataFrame
         for c in ["typ_min", "typ_start", "season"]:
             m1.loc[miss, c] = fix[c].to_numpy()
         m1.loc[miss & m1["player_id"].isna(), "player_id"] = fix["player_id"].to_numpy()[m1.loc[miss, "player_id"].isna().to_numpy()]
+    # upcoming games (no box score yet): use each player's latest typical-minutes state with that team
+    miss = m1["typ_min"].isna()
+    if miss.any():
+        lt = latest_typical(typ)
+        lt["name_key"] = lt["player_name"].map(norm_name)
+        by_id = lt.dropna(subset=["player_id"]).drop_duplicates("player_id").set_index("player_id")
+        by_nm = lt.drop_duplicates(["team", "name_key"]).set_index(["team", "name_key"])
+        for i in m1.index[miss]:
+            pid = m1.at[i, "player_id"]
+            row = None
+            if pid == pid and pid in by_id.index and by_id.at[pid, "team"] == m1.at[i, "team"]:
+                row = by_id.loc[pid]
+            elif (m1.at[i, "team"], m1.at[i, "name_key"]) in by_nm.index:
+                row = by_nm.loc[(m1.at[i, "team"], m1.at[i, "name_key"])]
+                m1.at[i, "player_id"] = row["player_id"]
+            if row is not None:
+                m1.at[i, "typ_min"] = row["typ_min"]; m1.at[i, "typ_start"] = row["typ_start"]
     m1["season"] = m1["season"].fillna(m1["game_id"].map(games.set_index("game_id")["season"]))
     v = values.rename(columns={"asof_season": "season"})[["season", "player_id", "value", "value_off", "value_def"]]
     m1 = m1.merge(v, on=["season", "player_id"], how="left")
@@ -120,14 +180,22 @@ def actual_missing(typ: pd.DataFrame, values: pd.DataFrame) -> pd.DataFrame:
     return t.groupby(["game_id", "team"]).agg(actual_missing_val=("val_missing", "sum"), actual_missing_n=("player_id", "size")).reset_index()
 
 
-def build(write: bool = True):
+def build(write: bool = True, through_date: str | None = None):
     games = pd.read_parquet(PARQUET_DIR / "games.parquet")
     players = pd.read_parquet(PARQUET_DIR / "players.parquet")
     injuries = pd.read_parquet(PARQUET_DIR / "injuries.parquet")
     values = pd.read_parquet(PARQUET_DIR / "player_values.parquet")
     typ = typical_minutes(players)
     rep = pregame_report(games, injuries)
-    att = attach_players(rep, typ, values, games)
+    through = through_date or str(pd.Timestamp.today().date())
+    rep_up = upcoming_report(games, injuries, through, load_overrides())
+    # for upcoming games use the current (in-season) values; map them onto the current season label
+    cur = pd.read_parquet(PARQUET_DIR / "player_values_current.parquet")
+    cur["asof_season"] = int(games["season"].max())
+    vals = pd.concat([values[values["asof_season"] < int(games["season"].max())], cur[values.columns.intersection(cur.columns)]], ignore_index=True)
+    rep = rep[~rep["game_id"].isin(rep_up["game_id"])]   # upcoming games come only from the upcoming path
+    att = attach_players(pd.concat([rep, rep_up], ignore_index=True), typ, vals, games)
+    att = att.drop_duplicates(["game_id", "team", "name_key"])
     feats = availability_features(att)
     act = actual_missing(typ, values)
     # questionable -> played rate, by season (for scenario weighting)

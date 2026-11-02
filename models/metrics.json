@@ -1,0 +1,495 @@
+{
+  "trained_at_utc": "2026-11-02T22:23:00.201808+00:00",
+  "features": [
+    "diff_elo_pre",
+    "home_elo_pre",
+    "away_elo_pre",
+    "home_adj_off",
+    "home_adj_def",
+    "away_adj_off",
+    "away_adj_def",
+    "home_adj_pace",
+    "away_adj_pace",
+    "diff_adj_net",
+    "diff_s2d_adj_net",
+    "diff_l10_adj_net",
+    "diff_ewm_net",
+    "diff_s2d_win",
+    "diff_l10_margin",
+    "home_s2d_margin",
+    "away_s2d_margin",
+    "home_ewm_efg",
+    "away_ewm_efg",
+    "home_ewm_tov_pct",
+    "away_ewm_tov_pct",
+    "home_ewm_oreb_pct",
+    "away_ewm_oreb_pct",
+    "home_ewm_ftr",
+    "away_ewm_ftr",
+    "home_ewm_fg3a_rate",
+    "away_ewm_fg3a_rate",
+    "home_ewm_fg3_pct",
+    "away_ewm_fg3_pct",
+    "home_ewm_fg2_pct",
+    "away_ewm_fg2_pct",
+    "home_ewm_ft_pct",
+    "away_ewm_ft_pct",
+    "home_ewm_opp_efg",
+    "away_ewm_opp_efg",
+    "home_ewm_opp_tov_pct",
+    "away_ewm_opp_tov_pct",
+    "home_ewm_opp_fg3a_rate",
+    "away_ewm_opp_fg3a_rate",
+    "home_ewm_opp_ftr",
+    "away_ewm_opp_ftr",
+    "home_ewm_dreb_pct",
+    "away_ewm_dreb_pct",
+    "home_rest_days",
+    "away_rest_days",
+    "diff_rest_days",
+    "home_back_to_back",
+    "away_back_to_back",
+    "home_games_last_7d",
+    "away_games_last_7d",
+    "home_n_prior",
+    "away_n_prior",
+    "home_streak",
+    "away_streak",
+    "home_out_val",
+    "away_out_val",
+    "diff_out_val",
+    "home_q_val",
+    "away_q_val",
+    "diff_q_val",
+    "home_out_n",
+    "away_out_n",
+    "home_q_n",
+    "away_q_n",
+    "home_out_star",
+    "away_out_star",
+    "home_out_min",
+    "away_out_min",
+    "home_coach_overall",
+    "away_coach_overall",
+    "diff_coach_overall",
+    "home_coach_strategy",
+    "away_coach_strategy",
+    "home_coach_rotation",
+    "away_coach_rotation",
+    "home_coach_endgame",
+    "away_coach_endgame",
+    "diff_coach_endgame",
+    "home_coach_pace",
+    "away_coach_pace",
+    "home_coach_three",
+    "away_coach_three",
+    "home_coach_star_load",
+    "away_coach_star_load",
+    "playoffs",
+    "neutral_site",
+    "sum_adj_pace",
+    "sum_off",
+    "sum_def",
+    "sum_fg3a_rate",
+    "exp_total_naive",
+    "exp_margin_naive",
+    "lg_off_rtg",
+    "lg_pace"
+  ],
+  "n_train": 6697,
+  "seasons": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026,
+    2027
+  ],
+  "rounds": {
+    "win": 455,
+    "margin": 562,
+    "total": 317
+  },
+  "walk_forward": {
+    "2024": {
+      "n": 1319,
+      "logloss": 0.6202359795570374,
+      "brier": 0.21544791758060455,
+      "accuracy": 0.6618650492797574,
+      "auc": 0.7089765540537405,
+      "margin_mae": 11.178511013213328,
+      "margin_rmse": 14.303126048122575,
+      "total_mae": 14.662203044761212,
+      "total_rmse": 18.37082799899123,
+      "pick_accuracy_from_margin": 0.6565579984836998,
+      "elo_logloss": 0.625243642773477,
+      "elo_accuracy": 0.6413949962092494,
+      "market_n": 1319,
+      "market_logloss": 0.5847991130499045,
+      "market_accuracy": 0.689158453373768,
+      "market_margin_mae": 10.64158453373768,
+      "model_logloss_on_market_games": 0.6202359795570374,
+      "model_margin_mae_on_market_games": 11.178511013213328,
+      "ats_win_rate_all_games": 0.48538461538461536,
+      "ats_win_rate_edge3plus": 0.5009174311926605,
+      "ats_n_edge3plus": 545,
+      "total_mae_seasonmean_baseline": 16.38079023498055,
+      "calibration": {
+        "(0.0, 0.3]": {
+          "pred": 0.264,
+          "actual": 0.159,
+          "n": 82
+        },
+        "(0.3, 0.4]": {
+          "pred": 0.355,
+          "actual": 0.309,
+          "n": 188
+        },
+        "(0.4, 0.5]": {
+          "pred": 0.455,
+          "actual": 0.439,
+          "n": 189
+        },
+        "(0.5, 0.6]": {
+          "pred": 0.552,
+          "actual": 0.571,
+          "n": 266
+        },
+        "(0.6, 0.7]": {
+          "pred": 0.651,
+          "actual": 0.615,
+          "n": 296
+        },
+        "(0.7, 1.0]": {
+          "pred": 0.753,
+          "actual": 0.785,
+          "n": 298
+        }
+      },
+      "rounds": {
+        "win": 459,
+        "margin": 300,
+        "total": 354
+      },
+      "regular_season_only": {
+        "n": 1237,
+        "logloss": 0.6196072101593018,
+        "brier": 0.2151930332183838,
+        "accuracy": 0.6596604688763137,
+        "margin_mae": 11.114553881690911,
+        "total_mae": 14.698752672323414,
+        "elo_logloss": 0.6242467332439955,
+        "market_logloss": 0.582466801060781,
+        "market_margin_mae": 10.535974130962005
+      }
+    },
+    "2025": {
+      "n": 1321,
+      "logloss": 0.6131440997123718,
+      "brier": 0.2121400237083435,
+      "accuracy": 0.6714610143830432,
+      "auc": 0.7210390090589758,
+      "margin_mae": 11.130992096566604,
+      "margin_rmse": 14.235037569906927,
+      "total_mae": 14.593881773100398,
+      "total_rmse": 18.355785203705604,
+      "pick_accuracy_from_margin": 0.6669190007570023,
+      "elo_logloss": 0.6263415954369491,
+      "elo_accuracy": 0.6472369417108251,
+      "market_n": 1321,
+      "market_logloss": 0.5862056142480652,
+      "market_accuracy": 0.6911430734292203,
+      "market_margin_mae": 10.640234670704013,
+      "model_logloss_on_market_games": 0.6131440997123718,
+      "model_margin_mae_on_market_games": 11.130992096566604,
+      "ats_win_rate_all_games": 0.5149884704073789,
+      "ats_win_rate_edge3plus": 0.4923954372623574,
+      "ats_n_edge3plus": 526,
+      "total_mae_seasonmean_baseline": 15.861630758245797,
+      "calibration": {
+        "(0.0, 0.3]": {
+          "pred": 0.234,
+          "actual": 0.226,
+          "n": 155
+        },
+        "(0.3, 0.4]": {
+          "pred": 0.353,
+          "actual": 0.324,
+          "n": 145
+        },
+        "(0.4, 0.5]": {
+          "pred": 0.453,
+          "actual": 0.416,
+          "n": 185
+        },
+        "(0.5, 0.6]": {
+          "pred": 0.556,
+          "actual": 0.526,
+          "n": 196
+        },
+        "(0.6, 0.7]": {
+          "pred": 0.646,
+          "actual": 0.644,
+          "n": 278
+        },
+        "(0.7, 1.0]": {
+          "pred": 0.784,
+          "actual": 0.771,
+          "n": 362
+        }
+      },
+      "rounds": {
+        "win": 539,
+        "margin": 581,
+        "total": 325
+      },
+      "regular_season_only": {
+        "n": 1237,
+        "logloss": 0.6097115278244019,
+        "brier": 0.2105332762002945,
+        "accuracy": 0.6758286176232822,
+        "margin_mae": 11.03076392543847,
+        "total_mae": 14.59029606146107,
+        "elo_logloss": 0.6237693831087949,
+        "market_logloss": 0.5824445215109662,
+        "market_margin_mae": 10.533953112368634
+      }
+    },
+    "2026": {
+      "n": 1322,
+      "logloss": 0.5896254777908325,
+      "brier": 0.20177975296974182,
+      "accuracy": 0.6944024205748865,
+      "auc": 0.7474304435670727,
+      "margin_mae": 11.222963663584549,
+      "margin_rmse": 14.344781818160337,
+      "total_mae": 14.940052465303221,
+      "total_rmse": 18.843720334537732,
+      "pick_accuracy_from_margin": 0.6921331316187594,
+      "elo_logloss": 0.6115655187887609,
+      "elo_accuracy": 0.6777609682299546,
+      "market_n": 1321,
+      "market_logloss": 0.5762627693616803,
+      "market_accuracy": 0.6866010598031794,
+      "market_margin_mae": 10.949091597274792,
+      "model_logloss_on_market_games": 0.5895024538040161,
+      "model_margin_mae_on_market_games": 11.208466395264791,
+      "ats_win_rate_all_games": 0.4988540870893812,
+      "ats_win_rate_edge3plus": 0.5253164556962026,
+      "ats_n_edge3plus": 474,
+      "total_mae_seasonmean_baseline": 15.960768651541127,
+      "calibration": {
+        "(0.0, 0.3]": {
+          "pred": 0.235,
+          "actual": 0.136,
+          "n": 132
+        },
+        "(0.3, 0.4]": {
+          "pred": 0.351,
+          "actual": 0.325,
+          "n": 157
+        },
+        "(0.4, 0.5]": {
+          "pred": 0.454,
+          "actual": 0.411,
+          "n": 185
+        },
+        "(0.5, 0.6]": {
+          "pred": 0.551,
+          "actual": 0.56,
+          "n": 218
+        },
+        "(0.6, 0.7]": {
+          "pred": 0.651,
+          "actual": 0.659,
+          "n": 258
+        },
+        "(0.7, 1.0]": {
+          "pred": 0.795,
+          "actual": 0.798,
+          "n": 372
+        }
+      },
+      "rounds": {
+        "win": 403,
+        "margin": 625,
+        "total": 309
+      },
+      "regular_season_only": {
+        "n": 1237,
+        "logloss": 0.5876080989837646,
+        "brier": 0.200926274061203,
+        "accuracy": 0.692805173807599,
+        "margin_mae": 11.134600805698405,
+        "total_mae": 15.019514091571878,
+        "elo_logloss": 0.6083715492433368,
+        "market_logloss": 0.5708491940909161,
+        "market_margin_mae": 10.827669902912621
+      }
+    },
+    "2027": {
+      "n": 92,
+      "logloss": 0.6407615542411804,
+      "brier": 0.2261478155851364,
+      "accuracy": 0.6304347826086957,
+      "auc": 0.6875000000000001,
+      "margin_mae": 12.33993223115154,
+      "margin_rmse": 15.537326276436573,
+      "total_mae": 16.03719412762186,
+      "total_rmse": 20.015511673946264,
+      "pick_accuracy_from_margin": 0.5869565217391305,
+      "elo_logloss": 0.664504995672989,
+      "elo_accuracy": 0.5978260869565217,
+      "market_n": 92,
+      "market_logloss": 0.5661428694078521,
+      "market_accuracy": 0.6956521739130435,
+      "market_margin_mae": 11.16304347826087,
+      "model_logloss_on_market_games": 0.6407615542411804,
+      "model_margin_mae_on_market_games": 12.33993223115154,
+      "ats_win_rate_all_games": 0.42391304347826086,
+      "ats_win_rate_edge3plus": 0.4,
+      "ats_n_edge3plus": 35,
+      "total_mae_seasonmean_baseline": 16.145557655954633,
+      "calibration": {
+        "(0.0, 0.3]": {
+          "pred": 0.241,
+          "actual": 0.25,
+          "n": 12
+        },
+        "(0.3, 0.4]": {
+          "pred": 0.346,
+          "actual": 0.444,
+          "n": 9
+        },
+        "(0.4, 0.5]": {
+          "pred": 0.454,
+          "actual": 0.364,
+          "n": 11
+        },
+        "(0.5, 0.6]": {
+          "pred": 0.56,
+          "actual": 0.615,
+          "n": 13
+        },
+        "(0.6, 0.7]": {
+          "pred": 0.652,
+          "actual": 0.478,
+          "n": 23
+        },
+        "(0.7, 1.0]": {
+          "pred": 0.789,
+          "actual": 0.75,
+          "n": 24
+        }
+      },
+      "rounds": {
+        "win": 451,
+        "margin": 543,
+        "total": 207
+      },
+      "regular_season_only": {
+        "n": 92,
+        "logloss": 0.6407615542411804,
+        "brier": 0.2261478155851364,
+        "accuracy": 0.6304347826086957,
+        "margin_mae": 12.33993223115154,
+        "total_mae": 16.03719412762186,
+        "elo_logloss": 0.664504995672989,
+        "market_logloss": 0.5661428694078521,
+        "market_margin_mae": 11.16304347826087
+      }
+    }
+  },
+  "feature_importance_top25": {
+    "win": {
+      "diff_elo_pre": 0.08859337866306305,
+      "diff_s2d_win": 0.06951506435871124,
+      "diff_ewm_net": 0.061457499861717224,
+      "exp_margin_naive": 0.055868055671453476,
+      "diff_adj_net": 0.04450384899973869,
+      "diff_s2d_adj_net": 0.016701355576515198,
+      "home_elo_pre": 0.015586086548864841,
+      "home_out_n": 0.013316361233592033,
+      "diff_l10_margin": 0.013094490393996239,
+      "away_out_min": 0.012013536877930164,
+      "home_s2d_margin": 0.011913291178643703,
+      "diff_out_val": 0.01174866035580635,
+      "home_back_to_back": 0.01107956562191248,
+      "home_rest_days": 0.01074207853525877,
+      "home_out_star": 0.010255414992570877,
+      "away_out_star": 0.010204399935901165,
+      "away_out_n": 0.010045936331152916,
+      "diff_l10_adj_net": 0.009996544569730759,
+      "home_out_min": 0.0099508510902524,
+      "away_s2d_margin": 0.009928545914590359,
+      "away_coach_rotation": 0.00990124512463808,
+      "away_out_val": 0.009716619737446308,
+      "diff_rest_days": 0.009534037671983242,
+      "away_coach_star_load": 0.009459661319851875,
+      "away_coach_pace": 0.009354960173368454
+    },
+    "margin": {
+      "diff_elo_pre": 0.08818960934877396,
+      "diff_adj_net": 0.08657088130712509,
+      "exp_margin_naive": 0.06859039515256882,
+      "diff_s2d_win": 0.060973159968853,
+      "diff_ewm_net": 0.05644601583480835,
+      "diff_s2d_adj_net": 0.01955256797373295,
+      "home_elo_pre": 0.017066895961761475,
+      "home_out_n": 0.013834386132657528,
+      "diff_l10_margin": 0.012645640410482883,
+      "away_out_min": 0.012234951369464397,
+      "home_back_to_back": 0.011558649130165577,
+      "away_out_n": 0.011007403023540974,
+      "home_s2d_margin": 0.010655228979885578,
+      "home_out_star": 0.01060516107827425,
+      "diff_out_val": 0.01057871151715517,
+      "away_n_prior": 0.010545666329562664,
+      "home_out_val": 0.010162591002881527,
+      "away_s2d_margin": 0.010149689391255379,
+      "home_rest_days": 0.009948118589818478,
+      "away_coach_pace": 0.009885932318866253,
+      "home_coach_endgame": 0.009697395376861095,
+      "home_out_min": 0.009590765461325645,
+      "away_back_to_back": 0.009017319418489933,
+      "diff_rest_days": 0.008915510028600693,
+      "away_out_val": 0.008813560009002686
+    },
+    "total": {
+      "sum_adj_pace": 0.07639612257480621,
+      "exp_total_naive": 0.07385239005088806,
+      "away_adj_pace": 0.039460860192775726,
+      "home_adj_pace": 0.030607394874095917,
+      "sum_def": 0.026595745235681534,
+      "playoffs": 0.015055886469781399,
+      "home_adj_def": 0.014844865538179874,
+      "away_ewm_efg": 0.014359368942677975,
+      "sum_off": 0.014272728003561497,
+      "away_ewm_dreb_pct": 0.013662707060575485,
+      "away_n_prior": 0.013378270901739597,
+      "home_ewm_fg2_pct": 0.012949923053383827,
+      "away_ewm_fg2_pct": 0.01289744395762682,
+      "diff_s2d_adj_net": 0.012621973641216755,
+      "home_n_prior": 0.012544899247586727,
+      "home_ewm_opp_efg": 0.012394958175718784,
+      "home_coach_strategy": 0.012204117141664028,
+      "home_coach_pace": 0.011890469118952751,
+      "home_ewm_opp_tov_pct": 0.011799105443060398,
+      "away_games_last_7d": 0.011633929796516895,
+      "diff_rest_days": 0.01143831666558981,
+      "home_adj_off": 0.010949958115816116,
+      "diff_elo_pre": 0.010729172267019749,
+      "home_out_n": 0.01071416400372982,
+      "home_coach_endgame": 0.010367942973971367
+    }
+  },
+  "availability_calibration": {
+    "intercept_home_adv": 1.9794125320762817,
+    "per_elo_point": 0.03672242484805951,
+    "per_adj_net": 0.13846183404008033,
+    "margin_per_out_val": -1.1510414616637743,
+    "margin_per_q_val": 0.23434685426306678,
+    "n": 6681
+  },
+  "market_sd": 13.45
+}
